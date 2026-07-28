@@ -12,8 +12,8 @@ import AppKit
 #endif
 
 /// Reads an image from the shared workspace and performs on-device analysis.
-/// VisualGroundingKit provides structured visual facts; ImageIO and Vision retain
-/// the lightweight metadata and barcode paths.
+/// VisualGroundingKit provides structured visual facts via a unified Vision pipeline;
+/// no duplicate `VNImageRequestHandler` instances are created.
 public struct AnalyzeLocalImageTool: ClientTool {
     public let name = "analyze_local_image"
     public let description = """
@@ -21,10 +21,13 @@ public struct AnalyzeLocalImageTool: ClientTool {
 参数：
   - path（必填）：由 capture_photo 等工具返回的 workspace 相对路径
   - mode（可选）："auto"、"basic"、"ocr"、"barcode" 或 "grounding"，默认 "auto"
-  - include_debug（可选）：是否返回原始 top-N 分类、显著区域数量等诊断信息，默认 false
+  - profile（可选）："agent_compact"、"generation_grounding" 或 "debug"，默认 "agent_compact"
+  - include_debug（可选）：是否返回原始诊断信息，默认 false
 说明：
-  - auto：基础信息 + VisualGroundingKit + 条码
-  - grounding：主体、场景、构图、风格、OCR 和图片质量等结构化结果
+  - auto：基础信息 + 紧凑视觉理解（OCR、条码、分类、主体），推荐 Agent 调用
+  - grounding：完整 VisualGroundingKit 输出，包含 motion/preservation/prompt hints
+  - ocr / barcode：仅执行对应 Vision 请求
+  - basic：仅返回图片元数据
 """
 
     private let groundingService: any ImageUnderstandingService
@@ -42,6 +45,12 @@ public struct AnalyzeLocalImageTool: ClientTool {
                     "description": .string("分析模式：auto/basic/ocr/barcode/grounding，默认 auto"),
                     "enum": .array([.string("auto"), .string("basic"), .string("ocr"), .string("barcode"), .string("grounding")]),
                     "default": .string("auto")
+                ]),
+                "profile": .object([
+                    "type": .string("string"),
+                    "description": .string("分析剖面：agent_compact/generation_grounding/debug，默认 agent_compact"),
+                    "enum": .array([.string("agent_compact"), .string("generation_grounding"), .string("debug")]),
+                    "default": .string("agent_compact")
                 ]),
                 "include_debug": .object([
                     "type": .string("boolean"),
@@ -75,6 +84,18 @@ public struct AnalyzeLocalImageTool: ClientTool {
         guard let mode = AnalysisMode(rawValue: modeString) else {
             throw AnalyzeLocalImageError.invalidArguments("mode must be auto, basic, ocr, barcode, or grounding")
         }
+
+        let profile: AnalysisProfile
+        if case .string(let requestedProfile) = values["profile"] {
+            switch requestedProfile {
+            case "agent_compact": profile = .agentCompact
+            case "debug": profile = .debug
+            default: profile = .generationGrounding
+            }
+        } else {
+            profile = .agentCompact
+        }
+
         let includeDebug: Bool
         if case .bool(let requestedIncludeDebug) = values["include_debug"] {
             includeDebug = requestedIncludeDebug
@@ -93,33 +114,42 @@ public struct AnalyzeLocalImageTool: ClientTool {
         var texts: [RecognizedText] = []
         var barcodes: [RecognizedBarcode] = []
         var grounding: VisualGroundingPayload?
-        var warnings: [String] = []
+        var compactPayload: AgentCompactPayload?
+        let warnings: [String] = []
 
-        if mode.runsGrounding {
+        // --- Unified pipeline: all modes except basic go through one analysis path ---
+
+        if mode == .basic {
+            // Metadata only — no Vision work at all.
+        } else if mode == .ocr || mode == .barcode {
+            // Lightweight path: run only the requested Vision requests.
+            // Does NOT trigger the full grounding pipeline.
+            let visionResult = try Self.performLightweightVision(
+                imageURL: imageURL,
+                runOCR: mode == .ocr,
+                runBarcode: mode == .barcode
+            )
+            texts = visionResult.texts
+            barcodes = visionResult.barcodes
+        } else {
+            // auto / grounding: full VisualGroundingKit pipeline.
+            // OCR and barcodes come from the unified rawVision — no second handler.
             let groundingResult = try await performGrounding(
                 imageURL: imageURL,
+                profile: profile,
                 includeDebug: includeDebug
             )
             grounding = groundingResult.payload
             texts = groundingResult.texts
-        }
+            barcodes = groundingResult.barcodes
 
-        if mode.runsOCR || mode.runsBarcode {
-            do {
-                let visionResult = try Self.performVision(
-                    imageURL: imageURL,
-                    runOCR: mode.runsOCR,
-                    runBarcode: mode.runsBarcode
+            if profile == .agentCompact {
+                compactPayload = Self.buildAgentCompactPayload(
+                    from: groundingResult,
+                    texts: texts,
+                    barcodes: barcodes,
+                    metadata: metadata
                 )
-                if mode.runsOCR {
-                    texts = visionResult.texts
-                }
-                barcodes = visionResult.barcodes
-            } catch where mode == .auto {
-                // Grounding is the primary auto-mode result. Optional barcode
-                // detection should not discard it when Vision cannot initialize
-                // that request on the current device.
-                warnings.append("Barcode analysis unavailable: \(error.localizedDescription)")
             }
         }
 
@@ -133,21 +163,23 @@ public struct AnalyzeLocalImageTool: ClientTool {
             orientation: metadata.orientation,
             texts: texts,
             barcodes: barcodes,
-            grounding: grounding,
+            grounding: profile == .agentCompact ? nil : grounding,
+            compact: compactPayload,
             warnings: warnings,
             localOnly: true,
-            engine: mode.runsGrounding
-                ? "VisualGroundingKit + Apple Vision + ImageIO"
-                : "Apple Vision + ImageIO",
+            engine: engineLabel(mode: mode, profile: profile),
             elapsedMilliseconds: Int(Date().timeIntervalSince(startedAt) * 1_000)
         )
         return try ToolResultEncoder.executionResult(result)
     }
 
+    // MARK: - Grounding (unified pipeline)
+
     private func performGrounding(
         imageURL: URL,
+        profile: AnalysisProfile,
         includeDebug: Bool
-    ) async throws -> (payload: VisualGroundingPayload, texts: [RecognizedText]) {
+    ) async throws -> GroundingOutput {
         let image = try Self.loadVisualImage(from: imageURL)
         let asset = InputImageAsset(
             image: image,
@@ -155,15 +187,231 @@ public struct AnalyzeLocalImageTool: ClientTool {
             role: .mainSubject
         )
         let descriptor = try await groundingService.analyze(image: asset)
-        let payload = DefaultVisualGroundingMapper().map(
-            descriptor,
-            includeDebug: includeDebug
-        )
+
+        // Map with the requested profile
+        let mapper = DefaultVisualGroundingMapper()
+        let payload = mapper.map(descriptor, includeDebug: includeDebug || profile == .debug, profile: profile)
+
+        // Extract OCR texts from the descriptor (already produced by unified Vision pipeline)
         let texts = (descriptor.rawVision?.recognizedTexts ?? []).map {
-            RecognizedText(text: $0.text, confidence: $0.confidence ?? 0)
+            RecognizedText(
+                text: $0.text,
+                confidence: $0.confidence ?? 0,
+                boundingBox: $0.boundingBox
+            )
         }
-        return (payload, texts)
+
+        // Extract barcodes from rawVision (also from the unified pipeline)
+        let barcodes = (descriptor.rawVision?.barcodes ?? []).map {
+            RecognizedBarcode(
+                payload: $0.payload,
+                symbology: $0.symbology,
+                boundingBox: $0.boundingBox
+            )
+        }
+
+        return GroundingOutput(payload: payload, texts: texts, barcodes: barcodes, descriptor: descriptor)
     }
+
+    /// Build a compact agent payload from the grounding output.
+    private static func buildAgentCompactPayload(
+        from grounding: GroundingOutput,
+        texts: [RecognizedText],
+        barcodes: [RecognizedBarcode],
+        metadata: ImageMetadata
+    ) -> AgentCompactPayload {
+        let payload = grounding.payload
+        let descriptor = grounding.descriptor
+        let rawVision = descriptor.rawVision
+
+        // Summary
+        let summary = AnalysisSummary(
+            contentType: payload.contentType.primaryType.rawValue,
+            confidence: payload.contentType.confidence,
+            evidenceLevel: payload.contentType.confidence != nil
+                ? EvidenceLevel.observed.rawValue
+                : EvidenceLevel.inferred.rawValue
+        )
+
+        // Subjects (compact): merge payload subjects with raw detected objects.
+        // Person subjects from payload come first, then Core ML detected objects.
+        // Limit: up to 5 total in compact mode.
+        var agentSubjects: [AgentSubject] = payload.subjects.prefix(5).map { subj in
+            AgentSubject(
+                type: subj.type.rawValue,
+                coreLabel: subj.coreLabel,
+                canonicalLabel: subj.canonicalLabel,
+                confidence: subj.confidence,
+                boundingBox: subj.boundingBoxes.first.map(AgentBoundingBox.init(from:)),
+                count: subj.count > 1 ? subj.count : nil,
+                posture: subj.posture ?? subj.postureType,
+                evidenceLevel: subj.type == .unknown
+                    ? EvidenceLevel.uncertain.rawValue
+                    : EvidenceLevel.observed.rawValue
+            )
+        }
+
+        // Supplement with raw detected objects not already represented in payload subjects.
+        if let detected = rawVision?.detectedObjects, !detected.isEmpty {
+            let existingLabels = Set(payload.subjects.compactMap { $0.canonicalLabel }.map { $0.lowercased() })
+            for obj in detected.prefix(5) {
+                guard agentSubjects.count < 5 else { break }
+                if existingLabels.contains(obj.label.lowercased()) { continue }
+                agentSubjects.append(
+                    AgentSubject(
+                        type: "object",
+                        coreLabel: obj.label,
+                        canonicalLabel: obj.label,
+                        confidence: obj.confidence,
+                        boundingBox: AgentBoundingBox(
+                            x: obj.boundingBox.origin.x,
+                            y: obj.boundingBox.origin.y,
+                            width: obj.boundingBox.size.width,
+                            height: obj.boundingBox.size.height
+                        ),
+                        count: nil,
+                        posture: nil,
+                        evidenceLevel: EvidenceLevel.observed.rawValue
+                    )
+                )
+            }
+        }
+
+        let subjects = agentSubjects
+
+        // Scene (compact)
+        let scene: AgentScene?
+        if let s = payload.scene {
+            scene = AgentScene(
+                sceneType: s.sceneType ?? s.subSceneType,
+                environmentObjects: s.environmentObjects.prefix(10).map(\.name),
+                lighting: s.lighting,
+                evidenceLevel: EvidenceLevel.inferred.rawValue
+            )
+        } else {
+            scene = nil
+        }
+
+        // Text blocks (compact: keep bounding boxes, confidence, and reading order)
+        let textBlocks: [AgentTextBlock] = texts.enumerated().map { index, t in
+            AgentTextBlock(
+                text: t.text,
+                boundingBox: t.boundingBox.map {
+                    AgentBoundingBox(x: $0.origin.x, y: $0.origin.y, width: $0.size.width, height: $0.size.height)
+                },
+                confidence: t.confidence,
+                order: index
+            )
+        }
+
+        // Barcodes (compact)
+        let agentBarcodes: [AgentBarcode] = barcodes.map {
+            AgentBarcode(
+                payload: $0.payload,
+                symbology: $0.symbology,
+                boundingBox: $0.boundingBox.map {
+                    AgentBoundingBox(x: $0.origin.x, y: $0.origin.y, width: $0.size.width, height: $0.size.height)
+                }
+            )
+        }
+
+        // Evidence
+        let allClassifications = rawVision.map { raw in
+            raw.saliencyRegions.flatMap(\.classifications)
+            + raw.attentionSaliencyRegions.flatMap(\.classifications)
+            + raw.classifications
+        } ?? []
+        let evidence = ClassificationEvidence(
+            classifications: allClassifications
+                .sorted { $0.confidence > $1.confidence }
+                .prefix(5)
+                .map { ClassificationCandidatePayload(label: $0.identifier, confidence: $0.confidence, source: $0.source) },
+            saliencyRegionCount: (rawVision?.saliencyRegions.count ?? 0) + (rawVision?.attentionSaliencyRegions.count ?? 0)
+        )
+
+        // Quality
+        let quality: AgentQuality?
+        if let q = descriptor.quality {
+            quality = AgentQuality(isBlurry: q.isBlurry, exposure: q.exposure)
+        } else {
+            quality = nil
+        }
+
+        // Uncertainties
+        var uncertainties: [AgentUncertainty] = []
+        if payload.subjects.contains(where: { $0.type == .unknown }) {
+            let unknownLabels = allClassifications.prefix(3).map(\.identifier)
+            uncertainties.append(AgentUncertainty(
+                description: "Primary subject could not be confidently identified",
+                relatedLabels: unknownLabels,
+                reason: "No classification matched known object categories with sufficient confidence"
+            ))
+        }
+        if let scene = payload.scene, scene.sceneType == nil, scene.environmentObjects.isEmpty {
+            uncertainties.append(AgentUncertainty(
+                description: "Scene context is ambiguous",
+                relatedLabels: [],
+                reason: "No dominant scene or environment objects detected"
+            ))
+        }
+
+        return AgentCompactPayload(
+            summary: summary,
+            subjects: subjects,
+            scene: scene,
+            textBlocks: textBlocks,
+            barcodes: agentBarcodes,
+            evidence: evidence,
+            quality: quality,
+            uncertainties: uncertainties
+        )
+    }
+
+    // MARK: - Lightweight Vision (ocr / barcode only, no grounding)
+
+    private static func performLightweightVision(
+        imageURL: URL,
+        runOCR: Bool,
+        runBarcode: Bool
+    ) throws -> (texts: [RecognizedText], barcodes: [RecognizedBarcode]) {
+        var requests: [VNRequest] = []
+        let textRequest = VNRecognizeTextRequest()
+        let barcodeRequest = VNDetectBarcodesRequest()
+
+        if runOCR {
+            textRequest.recognitionLevel = .accurate
+            textRequest.usesLanguageCorrection = true
+            textRequest.automaticallyDetectsLanguage = true
+            textRequest.minimumTextHeight = 0.010
+            requests.append(textRequest)
+        }
+        if runBarcode {
+            requests.append(barcodeRequest)
+        }
+
+        let handler = VNImageRequestHandler(url: imageURL, options: [:])
+        try handler.perform(requests)
+
+        let texts = (textRequest.results ?? []).compactMap { observation -> RecognizedText? in
+            guard let candidate = observation.topCandidates(1).first else { return nil }
+            return RecognizedText(
+                text: candidate.string,
+                confidence: candidate.confidence,
+                boundingBox: observation.boundingBox
+            )
+        }
+        let barcodes = (barcodeRequest.results ?? []).compactMap { observation -> RecognizedBarcode? in
+            guard let payload = observation.payloadStringValue else { return nil }
+            return RecognizedBarcode(
+                payload: payload,
+                symbology: observation.symbology.rawValue,
+                boundingBox: observation.boundingBox
+            )
+        }
+        return (texts, barcodes)
+    }
+
+    // MARK: - Helpers
 
     private static func loadVisualImage(from url: URL) throws -> VisualImage {
         #if canImport(UIKit)
@@ -206,37 +454,31 @@ public struct AnalyzeLocalImageTool: ClientTool {
         )
     }
 
-    private static func performVision(
-        imageURL: URL,
-        runOCR: Bool,
-        runBarcode: Bool
-    ) throws -> (texts: [RecognizedText], barcodes: [RecognizedBarcode]) {
-        var requests: [VNRequest] = []
-        let textRequest = VNRecognizeTextRequest()
-        let barcodeRequest = VNDetectBarcodesRequest()
-
-        if runOCR {
-            textRequest.recognitionLevel = .accurate
-            textRequest.usesLanguageCorrection = true
-            requests.append(textRequest)
+    private func engineLabel(mode: AnalysisMode, profile: AnalysisProfile) -> String {
+        let profileLabel: String
+        switch profile {
+        case .agentCompact: profileLabel = "AgentCompact"
+        case .generationGrounding: profileLabel = "Grounding"
+        case .debug: profileLabel = "Debug"
         }
-        if runBarcode {
-            requests.append(barcodeRequest)
+        switch mode {
+        case .basic:
+            return "ImageIO"
+        case .ocr, .barcode:
+            return "Apple Vision"
+        case .auto, .grounding:
+            return "VisualGroundingKit (\(profileLabel)) + Apple Vision + ImageIO"
         }
-
-        let handler = VNImageRequestHandler(url: imageURL, options: [:])
-        try handler.perform(requests)
-
-        let texts = (textRequest.results ?? []).compactMap { observation -> RecognizedText? in
-            guard let candidate = observation.topCandidates(1).first else { return nil }
-            return RecognizedText(text: candidate.string, confidence: candidate.confidence)
-        }
-        let barcodes = (barcodeRequest.results ?? []).compactMap { observation -> RecognizedBarcode? in
-            guard let payload = observation.payloadStringValue else { return nil }
-            return RecognizedBarcode(payload: payload, symbology: observation.symbology.rawValue)
-        }
-        return (texts, barcodes)
     }
+}
+
+// MARK: - Supporting Types
+
+private struct GroundingOutput {
+    let payload: VisualGroundingPayload
+    let texts: [RecognizedText]
+    let barcodes: [RecognizedBarcode]
+    let descriptor: ImageDescriptor
 }
 
 private enum AnalysisMode: String {
@@ -245,10 +487,6 @@ private enum AnalysisMode: String {
     case ocr
     case barcode
     case grounding
-
-    var runsOCR: Bool { self == .ocr }
-    var runsBarcode: Bool { self == .auto || self == .barcode }
-    var runsGrounding: Bool { self == .auto || self == .grounding }
 }
 
 private struct ImageMetadata {
@@ -262,11 +500,59 @@ private struct ImageMetadata {
 private struct RecognizedText: Encodable {
     let text: String
     let confidence: Float
+    let boundingBox: CGRect?
+
+    init(text: String, confidence: Float, boundingBox: CGRect? = nil) {
+        self.text = text
+        self.confidence = confidence
+        self.boundingBox = boundingBox
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(text, forKey: .text)
+        try container.encode(confidence, forKey: .confidence)
+        if let bbox = boundingBox {
+            try container.encode(
+                ["x": bbox.origin.x, "y": bbox.origin.y, "width": bbox.size.width, "height": bbox.size.height],
+                forKey: .boundingBox
+            )
+        }
+    }
+
+    enum CodingKeys: String, CodingKey {
+        case text, confidence
+        case boundingBox = "bounding_box"
+    }
 }
 
 private struct RecognizedBarcode: Encodable {
     let payload: String
     let symbology: String
+    let boundingBox: CGRect?
+
+    init(payload: String, symbology: String, boundingBox: CGRect? = nil) {
+        self.payload = payload
+        self.symbology = symbology
+        self.boundingBox = boundingBox
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(payload, forKey: .payload)
+        try container.encode(symbology, forKey: .symbology)
+        if let bbox = boundingBox {
+            try container.encode(
+                ["x": bbox.origin.x, "y": bbox.origin.y, "width": bbox.size.width, "height": bbox.size.height],
+                forKey: .boundingBox
+            )
+        }
+    }
+
+    enum CodingKeys: String, CodingKey {
+        case payload, symbology
+        case boundingBox = "bounding_box"
+    }
 }
 
 private struct LocalImageAnalysisResult: Encodable {
@@ -280,6 +566,7 @@ private struct LocalImageAnalysisResult: Encodable {
     let texts: [RecognizedText]
     let barcodes: [RecognizedBarcode]
     let grounding: VisualGroundingPayload?
+    let compact: AgentCompactPayload?
     let warnings: [String]
     let localOnly: Bool
     let engine: String
@@ -289,7 +576,7 @@ private struct LocalImageAnalysisResult: Encodable {
         case success
         case relativePath = "relative_path"
         case mimeType = "mime_type"
-        case bytes, width, height, orientation, texts, barcodes, grounding, warnings
+        case bytes, width, height, orientation, texts, barcodes, grounding, compact, warnings
         case localOnly = "local_only"
         case engine
         case elapsedMilliseconds = "elapsed_ms"

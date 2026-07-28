@@ -19,7 +19,8 @@ let package = Package(
     targets: [
         .target(
             name: "VisualGroundingKit",
-            path: "Sources/VisualGroundingKit"
+            path: "Sources/VisualGroundingKit",
+            resources: [.process("Resources")]
         ),
         .testTarget(
             name: "VisualGroundingKitTests",

@@ -82,25 +82,137 @@ public final class VisionSubjectDetector: SubjectDetecting {
             from: combinedClassifications(from: rawVision)
         )
 
-        if let merged = mergeSubjects(
+        // Phase 1: merge face/body data with classification (existing path)
+        let mergedPersonSubject = mergeSubjects(
             faceObservations: rawVision.faces,
             bodyObservations: rawVision.humanBodies,
             classified: classifiedSubject,
             portraitAttributes: portraitAttributes
-        ) {
-            return [merged]
+        )
+
+        // Phase 2: produce object subjects from Core ML detection results
+        let detectedObjectSubjects = detectFromCoreML(from: rawVision.detectedObjects)
+
+        // Phase 3: merge all subjects
+        return mergeAllSubjects(
+            personSubject: mergedPersonSubject,
+            classificationSubject: classifiedSubject,
+            detectedObjects: detectedObjectSubjects
+        )
+    }
+
+    // MARK: - Core ML Detection to Subjects
+
+    /// Converts Core ML detection results into `DetectedSubject` objects.
+    ///
+    /// Objects that overlap heavily with an existing face/body bbox are
+    /// skipped (they're already covered by the person subject).
+    private func detectFromCoreML(
+        from detectedObjects: [RawDetectedObject]
+    ) -> [DetectedSubject] {
+        guard !detectedObjects.isEmpty else { return [] }
+
+        // Deduplicate: keep the highest-confidence detection per label.
+        var bestByLabel: [String: RawDetectedObject] = [:]
+        for obj in detectedObjects {
+            let key = obj.label.lowercased()
+            if let existing = bestByLabel[key], existing.confidence >= obj.confidence {
+                continue
+            }
+            bestByLabel[key] = obj
         }
 
-        return [
-            DetectedSubject(
-                type: .unknown,
-                confidence: 0.2,
-                attributes: SubjectAttributes(),
-                pose: nil,
-                boundingBox: nil,
-                segmentationHint: nil
-            )
-        ]
+        return bestByLabel.values
+            .sorted { $0.confidence > $1.confidence }
+            .prefix(8) // Reasonable upper bound per image
+            .map { obj in
+                // Map COCO label through our classification normalizer
+                let match = mapClassificationToSubject(identifier: obj.label)
+                let canonicalLabel = match?.canonicalLabel ?? normalizeUnmatchedLabel(obj.label)
+                let type = match?.type ?? .object
+
+                return DetectedSubject(
+                    type: type,
+                    confidence: obj.confidence,
+                    classificationLabel: canonicalLabel,
+                    classificationSource: "coreml_detector",
+                    classificationCandidates: [],
+                    attributes: SubjectAttributes(),
+                    pose: nil,
+                    boundingBox: obj.boundingBox,
+                    segmentationHint: nil
+                )
+            }
+    }
+
+    /// Merges person, classification, and detection-based subjects into a unified result.
+    private func mergeAllSubjects(
+        personSubject: DetectedSubject?,
+        classificationSubject: DetectedSubject?,
+        detectedObjects: [DetectedSubject]
+    ) -> [DetectedSubject] {
+        var subjects: [DetectedSubject] = []
+
+        // Person subject always comes first if present.
+        if let person = personSubject {
+            subjects.append(person)
+        }
+
+        // Filter out detected objects that overlap with the person bbox.
+        let personBox = personSubject?.boundingBox
+        var remainingObjects = detectedObjects
+
+        if let personBox {
+            remainingObjects = detectedObjects.filter { obj in
+                guard let objBox = obj.boundingBox else { return true }
+                let iou = computeIoU(personBox, objBox)
+                return iou < 0.3 // Keep only if not heavily overlapping with person
+            }
+        }
+
+        // Filter out "person" label duplicates when a person subject already exists.
+        if personSubject != nil {
+            remainingObjects = remainingObjects.filter { $0.type != .person }
+        }
+
+        subjects.append(contentsOf: remainingObjects)
+
+        // Fallback: if we only have a classification subject (no people, no detections).
+        if subjects.isEmpty, let classified = classificationSubject, classified.type != .unknown {
+            subjects.append(classified)
+        }
+
+        // Ultimate fallback: unknown.
+        if subjects.isEmpty {
+            if let classified = classificationSubject {
+                subjects.append(classified)
+            } else {
+                subjects.append(
+                    DetectedSubject(
+                        type: .unknown,
+                        confidence: 0.2,
+                        attributes: SubjectAttributes(),
+                        pose: nil,
+                        boundingBox: nil,
+                        segmentationHint: nil
+                    )
+                )
+            }
+        }
+
+        return subjects
+    }
+
+    /// Compute Intersection-over-Union between two normalized bounding boxes.
+    private func computeIoU(_ a: CGRect, _ b: CGRect) -> CGFloat {
+        let intersection = a.intersection(b)
+        guard !intersection.isNull else { return 0 }
+        let areaA = a.width * a.height
+        let areaB = b.width * b.height
+        let areaI = intersection.width * intersection.height
+        let unionArea = areaA + areaB - areaI
+        guard unionArea > 0 else { return 0 }
+        return areaI / unionArea
     }
 }
 
@@ -417,18 +529,32 @@ private extension VisionSubjectDetector {
             return nil
         }
 
+        // Phase 1: rank all observations by a unified scoring function
         let rankedMatches = observations.compactMap { observation -> RankedSubjectMatch? in
-            guard observation.confidence >= 0.03,
-                  let match = mapClassificationToSubject(identifier: observation.identifier) else {
-                return nil
+            guard observation.confidence >= 0.03 else { return nil }
+
+            let sourceBoost: Float = observation.source?.hasPrefix("saliency_") == true
+                || observation.source?.hasPrefix("objectness_") == true
+                || observation.source?.hasPrefix("attention_") == true
+                ? 1.25 : 1
+
+            // Try canonical mapping first
+            if let match = mapClassificationToSubject(identifier: observation.identifier) {
+                return RankedSubjectMatch(
+                    observation: observation,
+                    type: match.type,
+                    canonicalLabel: match.canonicalLabel,
+                    score: observation.confidence * match.subjectWeight * sourceBoost
+                )
             }
-            let sourceBoost: Float = observation.source?.hasPrefix("saliency_") == true ? 1.25 : 1
-            return RankedSubjectMatch(
-                observation: observation,
-                type: match.type,
-                canonicalLabel: match.canonicalLabel,
-                score: observation.confidence * match.subjectWeight * sourceBoost
-            )
+
+            // No mapping matched — don't discard.
+            // Best-effort heuristic: parse known subject patterns from the raw identifier.
+            if let fallback = classifyUnmatched(observation: observation, sourceBoost: sourceBoost) {
+                return fallback
+            }
+
+            return nil
         }
         .sorted { $0.score > $1.score }
 
@@ -438,6 +564,7 @@ private extension VisionSubjectDetector {
         )
 
         guard let selected = rankedMatches.first else {
+            // True unknown: every observation was too low-confidence or scene-level
             let best = observations[0]
             return DetectedSubject(
                 type: .unknown,
@@ -461,6 +588,84 @@ private extension VisionSubjectDetector {
             boundingBox: nil,
             segmentationHint: nil
         )
+    }
+
+    /// Fallback classification for labels not in the canonical mapping table.
+    ///
+    /// Returns a `RankedSubjectMatch` if:
+    /// - The label looks like a concrete object (not a scene, background, or abstract tag).
+    /// - Confidence is above the source-adjusted threshold.
+    ///
+    /// Otherwise returns nil, and the observation falls back to candidates only.
+    private func classifyUnmatched(
+        observation: RawClassificationObservation,
+        sourceBoost: Float
+    ) -> RankedSubjectMatch? {
+        let identifier = observation.identifier.lowercased()
+        let isFromROI = observation.source?.hasPrefix("objectness_") == true
+            || observation.source?.hasPrefix("attention_") == true
+            || observation.source?.hasPrefix("saliency_") == true
+            || observation.source == "center_crop"
+
+        // Higher bar for full-image labels; ROI labels are more specific.
+        let minConfidence: Float = isFromROI ? 0.12 : 0.18
+        guard observation.confidence >= minConfidence else { return nil }
+
+        // Reject scene / background / abstract labels that aren't concrete objects.
+        guard !isSceneLevelLabel(identifier) else { return nil }
+
+        // Best-effort type inference from label tokens.
+        let inferredType = inferSubjectTypeFromLabel(identifier)
+        let cleanLabel = normalizeUnmatchedLabel(identifier)
+
+        return RankedSubjectMatch(
+            observation: observation,
+            type: inferredType,
+            canonicalLabel: cleanLabel,
+            score: observation.confidence * 0.85 * sourceBoost
+        )
+    }
+
+    /// Labels that describe a scene, background, or medium rather than a discrete object.
+    private func isSceneLevelLabel(_ identifier: String) -> Bool {
+        let sceneKeywords: Set<String> = [
+            "indoor", "outdoor", "room", "bedroom", "living room", "kitchen",
+            "bathroom", "office", "classroom", "restaurant", "cafe", "store",
+            "street", "road", "highway", "park", "garden", "beach", "mountain",
+            "forest", "field", "desert", "sky", "water", "landscape", "city",
+            "building", "house", "wall", "floor", "ceiling", "window", "door",
+            "furniture", "shelf", "cabinet", "counter", "curtain", "carpet",
+            "screenshot", "webpage", "website", "document", "text", "menu",
+            "newspaper", "magazine", "book jacket", "poster", "comic", "diagram",
+            "chart", "map", "drawing", "painting", "art", "photo", "pattern",
+            "texture", "abstract", "graphic", "logo", "icon", "symbol"
+        ]
+        let tokens = Set(identifier.split(separator: " ").map(String.init))
+        return sceneKeywords.contains(identifier) || !tokens.intersection(sceneKeywords).isEmpty
+    }
+
+    /// Simple heuristic to guess subject type from label tokens.
+    private func inferSubjectTypeFromLabel(_ identifier: String) -> SubjectType {
+        let animalTokens: Set<String> = [
+            "cat", "kitten", "dog", "puppy", "bird", "fish", "horse",
+            "cow", "sheep", "pig", "rabbit", "hamster", "turtle", "snake",
+            "lizard", "frog", "bear", "deer", "squirrel", "fox", "wolf",
+            "lion", "tiger", "elephant", "giraffe", "monkey", "ape", "gorilla",
+            "whale", "dolphin", "shark", "eagle", "owl", "duck", "chicken"
+        ]
+        let personTokens: Set<String> = [
+            "person", "people", "human", "man", "woman", "child", "baby",
+            "boy", "girl", "adult", "teen", "elder", "face", "portrait"
+        ]
+
+        let tokens = tokenizeIdentifier(identifier)
+
+        if !tokens.intersection(personTokens).isEmpty { return .person }
+        if !tokens.intersection(animalTokens).isEmpty { return .animal }
+
+        // Default: assume object for unmatched labels.
+        // The system will adjust based on face/body detection later.
+        return .object
     }
 }
 
@@ -781,27 +986,81 @@ private extension VisionSubjectDetector {
 
     func mapClassificationToSubject(identifier: String) -> SubjectClassificationMatch? {
         let mappings: [(aliases: [String], type: SubjectType, label: String, weight: Float)] = [
-            (["coffee mug", "coffee cup", "tea cup", "teacup", "mug", "cup", "tumbler", "drinkware", "drinking glass", "glassware", "glass"], .object, "cup", 1.15),
-            (["water bottle", "bottle", "flask"], .object, "bottle", 1.05),
-            (["smartphone", "mobile phone", "cellular telephone", "phone"], .object, "phone", 1.05),
+            // --- drinkware ---
+            (["coffee mug", "coffee cup", "tea cup", "teacup", "mug", "cup", "tumbler", "drinkware", "drinking glass", "glassware", "glass", "wine glass", "beer glass", "goblet"], .object, "cup", 1.15),
+            (["water bottle", "bottle", "flask", "wine bottle", "beer bottle"], .object, "bottle", 1.05),
+            (["bowl", "dish", "plate"], .object, "dish", 0.95),
+
+            // --- electronics ---
+            (["smartphone", "mobile phone", "cellular telephone", "phone", "cellphone", "iphone"], .object, "phone", 1.05),
             (["laptop", "notebook computer"], .object, "laptop", 1.05),
-            (["desktop computer", "computer monitor", "monitor", "computer"], .object, "computer", 1.0),
-            (["keyboard"], .object, "keyboard", 1.0),
+            (["desktop computer", "computer monitor", "monitor", "computer", "display", "screen", "tv", "television", "television set"], .object, "computer", 1.0),
+            (["keyboard", "computer keyboard", "keypad"], .object, "keyboard", 1.0),
             (["computer mouse", "mouse"], .object, "mouse", 0.95),
+            (["remote control", "remote"], .object, "remote", 0.9),
+            (["headphones", "headset", "earphones", "earbuds"], .object, "headphones", 0.9),
+            (["camera", "digital camera", "video camera", "camcorder"], .object, "camera", 0.9),
+            (["speaker", "loudspeaker", "audio speaker"], .object, "speaker", 0.85),
+            (["watch", "wristwatch", "clock", "digital clock", "alarm clock"], .object, "clock", 0.85),
+
+            // --- furniture ---
+            (["chair", "stool", "sofa", "couch", "armchair", "bench", "seat"], .object, "chair", 0.45),
+            (["table", "desk", "coffee table", "dining table", "nightstand"], .object, "table", 0.35),
+            (["bed", "mattress"], .object, "bed", 0.4),
+            (["lamp", "table lamp", "floor lamp", "desk lamp", "light"], .object, "lamp", 0.35),
+
+            // --- stationery / office ---
             (["book", "notebook"], .object, "book", 1.0),
-            (["handbag", "backpack", "bag"], .object, "bag", 1.0),
-            (["shoe", "sneaker", "boot"], .object, "shoe", 1.0),
-            (["car", "automobile", "vehicle"], .object, "car", 0.95),
-            (["document", "screenshot"], .object, "document", 0.85),
-            (["chair", "stool", "sofa", "couch"], .object, "chair", 0.45),
-            (["table", "desk"], .object, "table", 0.35),
+            (["document", "paper", "envelope"], .object, "document", 0.85),
+            (["pen", "pencil", "marker"], .object, "pen", 0.7),
+            (["scissors"], .object, "scissors", 0.8),
+
+            // --- personal items ---
+            (["handbag", "backpack", "bag", "purse", "suitcase", "luggage", "briefcase"], .object, "bag", 1.0),
+            (["shoe", "sneaker", "boot", "footwear"], .object, "shoe", 1.0),
+            (["glasses", "sunglasses", "eyeglasses", "spectacles"], .object, "glasses", 0.9),
+            (["umbrella"], .object, "umbrella", 0.85),
+            (["hat", "cap", "helmet"], .object, "hat", 0.8),
+            (["clothing", "clothes", "apparel", "dress", "shirt", "jacket", "coat", "sweater", "t-shirt", "pants", "jeans", "skirt"], .object, "clothing", 0.7),
+
+            // --- kitchen / food ---
+            (["knife", "fork", "spoon", "cutlery", "chopsticks"], .object, "utensil", 0.8),
+            (["apple", "banana", "orange", "fruit"], .object, "fruit", 0.85),
+            (["pizza", "sandwich", "hamburger", "burger", "hot dog", "food", "meal", "cake", "bread", "pastry", "dessert", "cookie", "donut"], .object, "food", 0.75),
+            (["coffee", "tea", "beverage", "drink", "juice", "soda", "espresso", "latte", "cappuccino"], .object, "beverage", 0.55),
+
+            // --- sports / outdoors ---
+            (["ball", "sports ball", "soccer ball", "basketball", "baseball", "tennis ball", "football", "volleyball"], .object, "ball", 0.9),
+            (["bicycle", "bike", "motorcycle", "scooter"], .object, "bicycle", 0.85),
+            (["skateboard", "surfboard", "snowboard", "skis"], .object, "sports_equipment", 0.8),
+            (["racket", "tennis racket", "baseball bat", "golf club"], .object, "sports_equipment", 0.8),
+
+            // --- vehicles ---
+            (["car", "automobile", "vehicle", "truck", "bus", "van", "taxi", "suv"], .object, "car", 0.95),
+            (["airplane", "aeroplane", "plane", "aircraft", "jet"], .object, "airplane", 0.9),
+            (["boat", "ship", "sailboat", "vessel", "kayak", "canoe"], .object, "boat", 0.85),
+            (["train", "railway", "subway", "locomotive"], .object, "train", 0.85),
+
+            // --- plants ---
+            (["potted plant", "plant", "flower", "flowerpot", "vase", "bouquet"], .object, "plant", 0.7),
+
+            // --- instruments ---
+            (["guitar", "piano", "violin", "drum", "musical instrument", "saxophone", "trumpet", "flute"], .object, "instrument", 0.85),
+
+            // --- animals ---
             (["kitten", "feline", "cat"], .animal, "cat", 1.1),
             (["puppy", "canine", "dog"], .animal, "dog", 1.1),
             (["bird"], .animal, "bird", 1.0),
             (["horse"], .animal, "horse", 1.0),
             (["cow", "cattle"], .animal, "cow", 1.0),
             (["sheep"], .animal, "sheep", 1.0),
-            (["person", "people", "human", "portrait"], .person, "person", 0.9)
+            (["fish"], .animal, "fish", 0.9),
+            (["rabbit", "bunny"], .animal, "rabbit", 0.95),
+            (["bear"], .animal, "bear", 0.9),
+            (["butterfly", "insect"], .animal, "insect", 0.8),
+
+            // --- people ---
+            (["person", "people", "human", "portrait", "face"], .person, "person", 0.9),
         ]
 
         for mapping in mappings where matchesAny(identifier, aliases: mapping.aliases) {
@@ -832,6 +1091,31 @@ private extension VisionSubjectDetector {
             .replacingOccurrences(of: "-", with: " ")
             .split(whereSeparator: \.isWhitespace)
             .joined(separator: " ")
+    }
+
+    func tokenizeIdentifier(_ identifier: String) -> Set<String> {
+        Set(
+            identifier
+                .lowercased()
+                .replacingOccurrences(of: "_", with: " ")
+                .replacingOccurrences(of: "-", with: " ")
+                .split(separator: " ")
+                .map(String.init)
+        )
+    }
+
+    /// Normalize an unmatched Vision label into a concise, human-readable form.
+    func normalizeUnmatchedLabel(_ identifier: String) -> String {
+        let normalized = normalizedIdentifier(identifier)
+
+        // Remove common noise suffixes
+        let noiseSuffixes = [" scene", " background", " indoor", " outdoor", " close up", " close-up"]
+        var cleaned = normalized
+        for suffix in noiseSuffixes where cleaned.hasSuffix(suffix) {
+            cleaned = String(cleaned.dropLast(suffix.count))
+        }
+
+        return cleaned
     }
 
     func mapClassificationToSubjectType(identifier: String) -> SubjectType {

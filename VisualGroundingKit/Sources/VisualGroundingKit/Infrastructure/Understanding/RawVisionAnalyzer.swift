@@ -2,20 +2,18 @@
 //  RawVisionAnalyzer.swift
 //  VisualGroundingKit
 //
-//  Created by Codex on 2026/4/21.
+//  Protocol definition for raw Vision observation analysis.
+//  Implementation: VisionRawObservationAnalyzer.
 //
 
 import Foundation
 
 public protocol RawVisionAnalyzing: Sendable {
-    func analyze(in image: VisualImage) async throws -> RawVisionAnalysis
+    func analyze(in image: VisualImage, profile: AnalysisProfile) async throws -> RawVisionAnalysis
 }
 
-public final class MockRawVisionAnalyzer: RawVisionAnalyzing {
-    public init() {}
-
-    public func analyze(in image: VisualImage) async throws -> RawVisionAnalysis {
-        _ = image
-        return RawVisionAnalysis()
+public extension RawVisionAnalyzing {
+    func analyze(in image: VisualImage) async throws -> RawVisionAnalysis {
+        try await analyze(in: image, profile: .generationGrounding)
     }
 }

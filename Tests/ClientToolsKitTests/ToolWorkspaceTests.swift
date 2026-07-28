@@ -239,6 +239,7 @@ final class ToolWorkspaceTests: XCTestCase {
         let imageURL = root.appendingPathComponent("grounding.png")
         try makeGroundingTestPNG().write(to: imageURL)
 
+        // Auto mode with default profile (agentCompact): compact payload, grounding is nil.
         let response = try await AnalyzeLocalImageTool().execute(
             args: .object([
                 "path": .string("grounding.png"),
@@ -249,21 +250,21 @@ final class ToolWorkspaceTests: XCTestCase {
         let object = try XCTUnwrap(
             JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
         )
-        let grounding = try XCTUnwrap(object["grounding"] as? [String: Any])
-        let contentType = try XCTUnwrap(grounding["contentType"] as? [String: Any])
-
-        XCTAssertEqual(grounding["schemaVersion"] as? String, "visual_grounding.v1")
-        XCTAssertNotNil(contentType["primaryType"])
-        XCTAssertNil(grounding["debug"])
-        XCTAssertEqual(
-            object["engine"] as? String,
-            "VisualGroundingKit + Apple Vision + ImageIO"
+        // Default profile is agentCompact — grounding is nil, compact is present.
+        XCTAssertNil(object["grounding"])
+        let compact = try XCTUnwrap(object["compact"] as? [String: Any])
+        let summary = try XCTUnwrap(compact["summary"] as? [String: Any])
+        XCTAssertNotNil(summary["content_type"])
+        XCTAssertTrue(
+            (object["engine"] as? String)?.contains("VisualGroundingKit") == true
         )
 
+        // Generation grounding mode: full payload with debug.
         let debugResponse = try await AnalyzeLocalImageTool().execute(
             args: .object([
                 "path": .string("grounding.png"),
                 "mode": .string("grounding"),
+                "profile": .string("generation_grounding"),
                 "include_debug": .bool(true)
             ]),
             context: executionContext(workspaceRoot: root)
@@ -272,7 +273,13 @@ final class ToolWorkspaceTests: XCTestCase {
             JSONSerialization.jsonObject(with: Data(debugResponse.content.utf8)) as? [String: Any]
         )
         let debugGrounding = try XCTUnwrap(debugObject["grounding"] as? [String: Any])
+        XCTAssertEqual(debugGrounding["schemaVersion"] as? String, "visual_grounding.v1")
+        let contentType = try XCTUnwrap(debugGrounding["contentType"] as? [String: Any])
+        XCTAssertNotNil(contentType["primaryType"])
         XCTAssertNotNil(debugGrounding["debug"] as? [String: Any])
+        // Full grounding includes motion and preservation hints.
+        XCTAssertNotNil(debugGrounding["motionHints"])
+        XCTAssertNotNil(debugGrounding["preservationHints"])
     }
 
     private func executionContext(workspaceRoot: URL?) -> ClientToolExecutionContext {

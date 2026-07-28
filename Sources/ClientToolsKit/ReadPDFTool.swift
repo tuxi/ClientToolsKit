@@ -70,7 +70,7 @@ public struct ReadPDFTool: ClientTool {
         }
 
         let startPage = try integerArgument(values["start_page"], named: "start_page", defaultValue: 1)
-        let endPage = try integerArgument(values["end_page"], named: "end_page", defaultValue: pageCount)
+        let endPage = try integerArgument(values["end_page"], named: "end_page", defaultValue: max(1, min(pageCount, 2))) // 默认一次最多只能读2页
         let maxCharacters = try integerArgument(values["max_characters"], named: "max_characters", defaultValue: 20_000)
 
         guard startPage >= 1, endPage >= startPage, endPage <= pageCount else {

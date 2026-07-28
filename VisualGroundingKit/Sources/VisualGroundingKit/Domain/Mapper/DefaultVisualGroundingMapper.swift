@@ -24,34 +24,53 @@ public struct DefaultVisualGroundingMapper: VisualGroundingMapping {
     public init() {}
     
     public func map(_ descriptor: ImageDescriptor) -> VisualGroundingPayload {
-        map(descriptor, includeDebug: true)
+        map(descriptor, includeDebug: true, profile: .generationGrounding)
     }
 
     public func map(
         _ descriptor: ImageDescriptor,
         includeDebug: Bool
     ) -> VisualGroundingPayload {
+        map(descriptor, includeDebug: includeDebug, profile: .generationGrounding)
+    }
+
+    public func map(
+        _ descriptor: ImageDescriptor,
+        includeDebug: Bool,
+        profile: AnalysisProfile
+    ) -> VisualGroundingPayload {
+        let isCompact = profile == .agentCompact
         let textPayload = mapText(from: descriptor)
         let imageFacts = descriptor.imageFacts.map(mapImageFacts(_:))
         let contentType = mapContentType(from: descriptor, textPayload: textPayload)
         let subjects = mapSubjects(from: descriptor, contentType: contentType)
         let scene = descriptor.background.map(mapScene(_:))
-        let style = descriptor.style.map(mapStyle(_:))
-        let composition = descriptor.composition.map(mapComposition(_:))
-            ?? inferComposition(from: descriptor)
-        let motionHints = makeMotionHints(
-            descriptor: descriptor,
-            contentType: contentType,
-            subjects: subjects,
-            scene: scene,
-            textPayload: textPayload
-        )
-        let preservationHints = makePreservationHints(
-            descriptor: descriptor,
-            contentType: contentType,
-            textPayload: textPayload
-        )
-        let debug = includeDebug
+        let style: StylePayload? = isCompact ? nil : descriptor.style.map(mapStyle(_:))
+        let composition = isCompact ? nil : (descriptor.composition.map(mapComposition(_:))
+            ?? inferComposition(from: descriptor))
+        let motionHints: MotionHintsPayload?
+        let preservationHints: PreservationHintsPayload?
+        let promptHints: PromptHintsPayload?
+        if isCompact {
+            motionHints = nil
+            preservationHints = nil
+            promptHints = nil
+        } else {
+            motionHints = makeMotionHints(
+                descriptor: descriptor,
+                contentType: contentType,
+                subjects: subjects,
+                scene: scene,
+                textPayload: textPayload
+            )
+            preservationHints = makePreservationHints(
+                descriptor: descriptor,
+                contentType: contentType,
+                textPayload: textPayload
+            )
+            promptHints = descriptor.promptHints
+        }
+        let debug = (includeDebug || profile == .debug)
             ? makeDebugPayload(
                 descriptor: descriptor,
                 subjects: subjects,
@@ -61,8 +80,9 @@ public struct DefaultVisualGroundingMapper: VisualGroundingMapping {
                 textPayload: textPayload
             )
             : nil
-        
+
         return VisualGroundingPayload(
+            schemaVersion: "visual_grounding.v1",
             assetRole: descriptor.role.rawValue,
             contentType: contentType,
             subjects: subjects,
@@ -71,7 +91,7 @@ public struct DefaultVisualGroundingMapper: VisualGroundingMapping {
             composition: composition,
             text: textPayload,
             imageFacts: imageFacts,
-            promptHints: descriptor.promptHints,
+            promptHints: promptHints,
             motionHints: motionHints,
             preservationHints: preservationHints,
             debug: debug
@@ -1060,10 +1080,13 @@ private extension DefaultVisualGroundingMapper {
         from descriptor: ImageDescriptor
     ) -> [RawClassificationObservation] {
         guard let rawVision = descriptor.rawVision else { return [] }
-        let all = rawVision.saliencyRegions.flatMap(\.classifications) + rawVision.classifications
+        let all = rawVision.saliencyRegions.flatMap(\.classifications)
+            + rawVision.attentionSaliencyRegions.flatMap(\.classifications)
+            + rawVision.centerCropClassification
+            + rawVision.classifications
         return all.sorted {
-            let lhsBoost: Float = $0.source?.hasPrefix("saliency_") == true ? 1.15 : 1
-            let rhsBoost: Float = $1.source?.hasPrefix("saliency_") == true ? 1.15 : 1
+            let lhsBoost: Float = isROISource($0.source) ? 1.15 : 1
+            let rhsBoost: Float = isROISource($1.source) ? 1.15 : 1
             return $0.confidence * lhsBoost > $1.confidence * rhsBoost
         }
     }
@@ -1089,6 +1112,14 @@ private extension DefaultVisualGroundingMapper {
         }
         
         return result
+    }
+
+    func isROISource(_ source: String?) -> Bool {
+        guard let source else { return false }
+        return source.hasPrefix("saliency_")
+            || source.hasPrefix("objectness_")
+            || source.hasPrefix("attention_")
+            || source == "center_crop"
     }
 }
 

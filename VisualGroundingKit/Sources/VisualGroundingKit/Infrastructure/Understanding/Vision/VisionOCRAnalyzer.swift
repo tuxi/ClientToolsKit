@@ -51,7 +51,9 @@ public final class VisionOCRAnalyzer: OCRAnalyzing {
                 request.recognitionLevel = .accurate
                 request.usesLanguageCorrection = true
                 request.automaticallyDetectsLanguage = true
-                request.minimumTextHeight = 0.02
+                // Lower threshold for the standalone path — screenshots and docs are
+                // the most common use case when not going through the unified pipeline.
+                request.minimumTextHeight = 0.010
 
                 try performer.perform([request], on: image)
             } catch {

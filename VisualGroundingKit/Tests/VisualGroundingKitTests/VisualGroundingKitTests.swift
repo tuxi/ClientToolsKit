@@ -88,6 +88,12 @@ private actor StubRawVisionAnalyzer: RawVisionAnalyzing {
         _ = image
         return rawVision
     }
+
+    func analyze(in image: VisualImage, profile: AnalysisProfile) async throws -> RawVisionAnalysis {
+        _ = image
+        _ = profile
+        return rawVision
+    }
 }
 
 private actor StubPortraitAttributeAnalyzer: PortraitAttributeAnalyzing {
