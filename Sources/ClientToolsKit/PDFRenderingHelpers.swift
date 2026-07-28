@@ -154,22 +154,25 @@ public func renderAttributedStringToPDF(
     let framesetter = CTFramesetterCreateWithAttributedString(attributedString as CFAttributedString)
 
     #if canImport(UIKit)
-    // iOS: UIGraphicsPDFRenderer — writes to NSMutableData in memory, no temp-file issues.
+    // iOS: UIGraphicsPDFRenderer writes to NSMutableData in memory.
+    // Despite being a UIKit class, its CGContext uses standard PDF coordinates
+    // (origin bottom-left, Y up) — same as CGPDFContext.
     let renderer = UIGraphicsPDFRenderer(bounds: pageRect)
     let pdfData = renderer.pdfData { rendererContext in
         var currentLocation = 0
         let totalLength = attributedString.length
         var pageNumber = startingPageNumber
 
-        // UIGraphicsPDFRenderer begins the first page automatically.
         while currentLocation < totalLength {
             if pageNumber > startingPageNumber {
                 rendererContext.beginPage()
             }
 
             let ctx = rendererContext.cgContext
+            ctx.saveGState()
+            ctx.translateBy(x: 0, y: pageRect.height)
+            ctx.scaleBy(x: 1.0, y: -1.0)
 
-            // UIGraphicsPDFRenderer uses UIKit coordinate system (origin top-left).
             drawHeaderFlipped(
                 in: ctx,
                 title: headerTitle,
@@ -198,6 +201,7 @@ public func renderAttributedStringToPDF(
                 )
             }
 
+            ctx.restoreGState()
             currentLocation += visibleRange.length
             pageNumber += 1
 
@@ -208,6 +212,8 @@ public func renderAttributedStringToPDF(
 
     #else
     // macOS: CGPDFContext writes to a temp file.
+    // CGPDFContext origin is bottom-left; CoreText expects a flipped (top-left)
+    // coordinate system. Apply the flip so text draws right-side-up.
     let tempURL = FileManager.default.temporaryDirectory
         .appendingPathComponent(UUID().uuidString + ".pdf")
 
@@ -224,8 +230,19 @@ public func renderAttributedStringToPDF(
         var pageMediaBox = pageRect
         pdfContext.beginPage(mediaBox: &pageMediaBox)
 
-        // CGPDFContext origin is bottom-left — CoreText draws correctly here.
-        drawHeaderStandard(
+        // Flip CTM: UIKit-style coords (origin top-left, Y increases downward).
+        pdfContext.saveGState()
+        pdfContext.translateBy(x: 0, y: pageRect.height)
+        pdfContext.scaleBy(x: 1.0, y: -1.0)
+
+        // In flipped coords, y=topMargin places the text start near the top.
+        let textRectFlipped = CGRect(
+            x: leftMargin,
+            y: topMargin,
+            width: pageRect.width - leftMargin - rightMargin,
+            height: pageRect.height - topMargin - bottomMargin
+        )
+        drawHeaderFlipped(
             in: pdfContext,
             title: headerTitle,
             pageRect: pageRect,
@@ -233,13 +250,7 @@ public func renderAttributedStringToPDF(
             rightMargin: rightMargin
         )
 
-        let textRectStandard = CGRect(
-            x: leftMargin,
-            y: bottomMargin,
-            width: pageRect.width - leftMargin - rightMargin,
-            height: pageRect.height - topMargin - bottomMargin
-        )
-        let framePath = CGPath(rect: textRectStandard, transform: nil)
+        let framePath = CGPath(rect: textRectFlipped, transform: nil)
         let frame = CTFramesetterCreateFrame(
             framesetter,
             CFRange(location: currentLocation, length: 0),
@@ -250,7 +261,7 @@ public func renderAttributedStringToPDF(
         let visibleRange = CTFrameGetVisibleStringRange(frame)
 
         if showPageNumbers {
-            drawFooterStandard(
+            drawFooterFlipped(
                 in: pdfContext,
                 pageNumber: pageNumber,
                 pageRect: pageRect,
@@ -259,6 +270,7 @@ public func renderAttributedStringToPDF(
             )
         }
 
+        pdfContext.restoreGState()
         pdfContext.endPage()
 
         currentLocation += visibleRange.length
@@ -334,67 +346,6 @@ private func drawFooterFlipped(
     CTLineDraw(line, context)
 }
 
-// MARK: - Page Decorations (standard / bottom-left coords, for CGPDFContext)
-
-/// Header for standard PDF contexts (origin bottom-left, Y increases upward).
-private func drawHeaderStandard(
-    in context: CGContext,
-    title: String?,
-    pageRect: CGRect,
-    leftMargin: CGFloat,
-    rightMargin: CGFloat
-) {
-    let textY: CGFloat = pageRect.height - 36
-    let lineY: CGFloat = pageRect.height - 54
-
-    if let title = title {
-        let attributes: [NSAttributedString.Key: Any] = [
-            .font: headerFooterFont(ofSize: 9),
-            .foregroundColor: headerFooterColor()
-        ]
-        let attrString = NSAttributedString(string: title, attributes: attributes)
-        let line = CTLineCreateWithAttributedString(attrString as CFAttributedString)
-        context.textPosition = CGPoint(x: leftMargin, y: textY)
-        CTLineDraw(line, context)
-    }
-
-    context.setStrokeColor(separatorColor().cgColor)
-    context.setLineWidth(0.5)
-    context.move(to: CGPoint(x: leftMargin, y: lineY))
-    context.addLine(to: CGPoint(x: pageRect.width - rightMargin, y: lineY))
-    context.strokePath()
-}
-
-/// Footer for standard PDF contexts.
-private func drawFooterStandard(
-    in context: CGContext,
-    pageNumber: Int,
-    pageRect: CGRect,
-    leftMargin: CGFloat,
-    rightMargin: CGFloat
-) {
-    let textY: CGFloat = 36
-    let lineY: CGFloat = 54
-
-    context.setStrokeColor(separatorColor().cgColor)
-    context.setLineWidth(0.5)
-    context.move(to: CGPoint(x: leftMargin, y: lineY))
-    context.addLine(to: CGPoint(x: pageRect.width - rightMargin, y: lineY))
-    context.strokePath()
-
-    let attributes: [NSAttributedString.Key: Any] = [
-        .font: headerFooterFont(ofSize: 9),
-        .foregroundColor: headerFooterColor()
-    ]
-    let pageString = "— \(pageNumber) —"
-    let attrString = NSAttributedString(string: pageString, attributes: attributes)
-    let line = CTLineCreateWithAttributedString(attrString as CFAttributedString)
-
-    let lineWidth = CTLineGetTypographicBounds(line, nil, nil, nil)
-    let centerX = (pageRect.width - lineWidth) / 2
-    context.textPosition = CGPoint(x: centerX, y: textY)
-    CTLineDraw(line, context)
-}
 
 // MARK: - Platform Helpers
 
