@@ -10,29 +10,39 @@ let package = Package(
         .macOS(.v15)
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "ClientToolsKit",
             targets: ["ClientToolsKit"]
         ),
+        .library(
+            name: "VisualGroundingKit",
+            targets: ["VisualGroundingKit"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/tuxi/ClientToolProtocol", branch: "main"),
-        .package(path: "VisualGroundingKit"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "ClientToolsKit",
             dependencies: [
                 .product(name: "ClientToolProtocol", package: "ClientToolProtocol"),
-                .product(name: "VisualGroundingKit", package: "VisualGroundingKit"),
+                "VisualGroundingKit",
             ]
+        ),
+        .target(
+            name: "VisualGroundingKit",
+            path: "Sources/VisualGroundingKit",
+            resources: [.process("Resources")]
         ),
         .testTarget(
             name: "ClientToolsKitTests",
             dependencies: ["ClientToolsKit"]
+        ),
+        .testTarget(
+            name: "VisualGroundingKitTests",
+            dependencies: ["VisualGroundingKit"],
+            path: "Tests/VisualGroundingKitTests"
         ),
     ],
     swiftLanguageModes: [.v6]
