@@ -17,7 +17,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../ClientToolProtocol"),
+        .package(url: "https://github.com/tuxi/ClientToolProtocol", branch: "main"),
         .package(path: "VisualGroundingKit"),
     ],
     targets: [
