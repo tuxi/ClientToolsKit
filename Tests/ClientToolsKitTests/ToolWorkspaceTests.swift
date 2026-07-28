@@ -8,6 +8,7 @@ import AppKit
 #elseif canImport(UIKit)
 import UIKit
 #endif
+import PDFKit
 
 final class ToolWorkspaceTests: XCTestCase {
     func testWorkspaceResolvesRelativePaths() throws {
@@ -280,6 +281,370 @@ final class ToolWorkspaceTests: XCTestCase {
         // Full grounding includes motion and preservation hints.
         XCTAssertNotNil(debugGrounding["motionHints"])
         XCTAssertNotNil(debugGrounding["preservationHints"])
+    }
+
+
+    // MARK: - CreatePDFTool
+
+    func testCreatePDFFromMarkdownProducesValidDocument() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        let markdown = """
+        # 测试文档
+
+        这是一个从 **Markdown** 生成的 PDF 文档。
+
+        ## 功能列表
+
+        - 支持**粗体**和*斜体*
+        - 支持 `等宽代码`
+        - 支持多级标题
+
+        > 这是一个引用块。
+
+        自动分页和添加页码。
+        """
+
+        let response = try await CreatePDFTool().execute(
+            args: .object([
+                "content": .string(markdown),
+                "format": .string("markdown"),
+                "page_size": .string("a4"),
+                "title": .string("测试报告"),
+                "author": .string("Test Author")
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["success"] as? Bool, true)
+        XCTAssertEqual(object["format"] as? String, "markdown")
+        XCTAssertEqual(object["page_size"] as? String, "a4")
+
+        let pageCount = try XCTUnwrap(object["page_count"] as? Int)
+        XCTAssertGreaterThan(pageCount, 0)
+
+        let outputPath = try XCTUnwrap(object["relative_path"] as? String)
+        let outputURL = root.appendingPathComponent(outputPath)
+        XCTAssertTrue(FileManager.default.fileExists(atPath: outputURL.path))
+
+        // Verify it's a valid PDF with metadata
+        guard let pdfDoc = PDFDocument(url: outputURL) else {
+            XCTFail("Output is not a valid PDF")
+            return
+        }
+        XCTAssertEqual(pdfDoc.pageCount, pageCount)
+        let attributes = pdfDoc.documentAttributes ?? [:]
+        XCTAssertEqual(attributes[PDFDocumentAttribute.titleAttribute] as? String, "测试报告")
+        XCTAssertEqual(attributes[PDFDocumentAttribute.authorAttribute] as? String, "Test Author")
+
+    }
+
+    func testCreatePDFFromPlainText() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        let response = try await CreatePDFTool().execute(
+            args: .object([
+                "content": .string("Hello World\nThis is plain text."),
+                "format": .string("text"),
+                "page_size": .string("letter"),
+                "font_size": .integer(12)
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["success"] as? Bool, true)
+        XCTAssertEqual(object["format"] as? String, "text")
+        XCTAssertEqual(object["page_size"] as? String, "letter")
+        XCTAssertEqual(object["page_count"] as? Int, 1)
+
+        let outputPath = try XCTUnwrap(object["relative_path"] as? String)
+        XCTAssertTrue(FileManager.default.fileExists(atPath: root.appendingPathComponent(outputPath).path))
+    }
+
+    func testCreatePDFRejectsEmptyContent() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        do {
+            _ = try await CreatePDFTool().execute(
+                args: .object(["content": .string("   ")]),
+                context: executionContext(workspaceRoot: root)
+            )
+            XCTFail("Expected empty content error")
+        } catch let error as CreatePDFError {
+            guard case .emptyContent = error else {
+                return XCTFail("Unexpected error: \(error)")
+            }
+        }
+    }
+
+    func testCreatePDFMultiPageOutput() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        // Generate a long text that should span multiple pages
+        let longText = (1...200).map { "Line \($0): The quick brown fox jumps over the lazy dog. 这是一段中文测试文字。" }.joined(separator: "\n\n")
+
+        let response = try await CreatePDFTool().execute(
+            args: .object([
+                "content": .string(longText),
+                "format": .string("text"),
+                "page_size": .string("a4"),
+                "font_size": .integer(11)
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["success"] as? Bool, true)
+        let pageCount = try XCTUnwrap(object["page_count"] as? Int)
+        XCTAssertGreaterThan(pageCount, 1, "Long text should produce multiple pages")
+    }
+
+    // MARK: - MergePDFsTool
+
+    func testMergePDFsCombinesTwoDocuments() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        try makeTextPDF().write(to: root.appendingPathComponent("doc1.pdf"))
+        try makeTextPDF().write(to: root.appendingPathComponent("doc2.pdf"))
+
+        let response = try await MergePDFsTool().execute(
+            args: .object([
+                "paths": .array([.string("doc1.pdf"), .string("doc2.pdf")])
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["success"] as? Bool, true)
+        XCTAssertEqual(object["input_count"] as? Int, 2)
+        XCTAssertEqual(object["total_source_pages"] as? Int, 2)
+        XCTAssertEqual(object["merged_pages"] as? Int, 2)
+
+        let outputPath = try XCTUnwrap(object["relative_path"] as? String)
+        let outputURL = root.appendingPathComponent(outputPath)
+        XCTAssertTrue(FileManager.default.fileExists(atPath: outputURL.path))
+
+        guard let mergedDoc = PDFDocument(url: outputURL) else {
+            XCTFail("Merged output is not a valid PDF")
+            return
+        }
+        XCTAssertEqual(mergedDoc.pageCount, 2)
+    }
+
+    func testMergePDFsRejectsEmptyInput() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        do {
+            _ = try await MergePDFsTool().execute(
+                args: .object(["paths": .array([])]),
+                context: executionContext(workspaceRoot: root)
+            )
+            XCTFail("Expected insufficient input error")
+        } catch let error as MergePDFsError {
+            guard case .insufficientInputs = error else {
+                return XCTFail("Unexpected error: \(error)")
+            }
+        }
+    }
+
+    func testMergePDFsRejectsMissingFile() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        do {
+            _ = try await MergePDFsTool().execute(
+                args: .object(["paths": .array([.string("nonexistent.pdf")])]),
+                context: executionContext(workspaceRoot: root)
+            )
+            XCTFail("Expected file not found error")
+        } catch let error as MergePDFsError {
+            guard case .fileNotFound = error else {
+                return XCTFail("Unexpected error: \(error)")
+            }
+        }
+    }
+
+    // MARK: - SplitPDFTool
+
+    func testSplitPDFExtractsSinglePage() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        try makePDFWithPageCount(3).write(to: root.appendingPathComponent("source.pdf"))
+
+        let response = try await SplitPDFTool().execute(
+            args: .object([
+                "path": .string("source.pdf"),
+                "pages": .string("2")
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["success"] as? Bool, true)
+        XCTAssertEqual(object["extracted_page_count"] as? Int, 1)
+        XCTAssertEqual(object["extracted_pages"] as? [Int], [2])
+        XCTAssertEqual(object["source_page_count"] as? Int, 3)
+
+        let outputPath = try XCTUnwrap(object["relative_path"] as? String)
+        let outputURL = root.appendingPathComponent(outputPath)
+        guard let splitDoc = PDFDocument(url: outputURL) else {
+            XCTFail("Split output is not a valid PDF")
+            return
+        }
+        XCTAssertEqual(splitDoc.pageCount, 1)
+    }
+
+    func testSplitPDFExtractsRange() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        try makePDFWithPageCount(5).write(to: root.appendingPathComponent("source.pdf"))
+
+        let response = try await SplitPDFTool().execute(
+            args: .object([
+                "path": .string("source.pdf"),
+                "pages": .string("2-4")
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["extracted_page_count"] as? Int, 3)
+        XCTAssertEqual(object["extracted_pages"] as? [Int], [2, 3, 4])
+    }
+
+    func testSplitPDFExtractsMixedRange() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        try makePDFWithPageCount(10).write(to: root.appendingPathComponent("source.pdf"))
+
+        let response = try await SplitPDFTool().execute(
+            args: .object([
+                "path": .string("source.pdf"),
+                "pages": .string("1,3-5,8,10")
+            ]),
+            context: executionContext(workspaceRoot: root)
+        )
+
+        let object = try XCTUnwrap(
+            JSONSerialization.jsonObject(with: Data(response.content.utf8)) as? [String: Any]
+        )
+        XCTAssertEqual(object["extracted_page_count"] as? Int, 6)
+        XCTAssertEqual(object["extracted_pages"] as? [Int], [1, 3, 4, 5, 8, 10])
+    }
+
+    func testSplitPDFRejectsOutOfBoundsPage() async throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+
+        try makeTextPDF().write(to: root.appendingPathComponent("source.pdf"))
+
+        do {
+            _ = try await SplitPDFTool().execute(
+                args: .object([
+                    "path": .string("source.pdf"),
+                    "pages": .string("5")
+                ]),
+                context: executionContext(workspaceRoot: root)
+            )
+            XCTFail("Expected out-of-bounds error")
+        } catch let error as PageRangeParseError {
+            guard case .pageOutOfBounds = error else {
+                return XCTFail("Unexpected parse error: \(error)")
+            }
+        }
+    }
+
+    // MARK: - Page Range Parser
+
+    func testParsePageRangeHandlesAllFormats() throws {
+        XCTAssertEqual(try parsePageRange("1", pageCount: 10), [1])
+        XCTAssertEqual(try parsePageRange("1-5", pageCount: 10), [1, 2, 3, 4, 5])
+        XCTAssertEqual(try parsePageRange("1,3,5", pageCount: 10), [1, 3, 5])
+        XCTAssertEqual(try parsePageRange("1-3,5,7-9", pageCount: 10), [1, 2, 3, 5, 7, 8, 9])
+        XCTAssertEqual(try parsePageRange("  1 , 3-5 , 8  ", pageCount: 10), [1, 3, 4, 5, 8])
+        // Deduplicates
+        XCTAssertEqual(try parsePageRange("1-5,3-7", pageCount: 10), [1, 2, 3, 4, 5, 6, 7])
+    }
+
+    func testParsePageRangeRejectsInvalidInput() {
+        XCTAssertThrowsError(try parsePageRange("", pageCount: 10))
+        XCTAssertThrowsError(try parsePageRange("abc", pageCount: 10))
+        XCTAssertThrowsError(try parsePageRange("5-3", pageCount: 10)) // reversed range
+        XCTAssertThrowsError(try parsePageRange("1-100", pageCount: 10)) // out of bounds
+    }
+
+    // MARK: - Helpers
+
+    /// Creates a multi-page text PDF with the given number of pages.
+    private func makePDFWithPageCount(_ count: Int) -> Data {
+        guard count > 0 else { return makeTextPDF() }
+
+        var objects: [String] = []
+        // Object 1: Catalog
+        objects.append("<< /Type /Catalog /Pages 2 0 R >>")
+        // Object 2: Pages — Kids references all page objects (odd-numbered after font)
+        let kids = (1...count).map { "\(3 + $0 * 2) 0 R" }.joined(separator: " ")
+        objects.append("<< /Type /Pages /Kids [\(kids)] /Count \(count) >>")
+        // Object 3: Font shared by all pages
+        let fontObjNumber = 3
+        objects.append("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>")
+        // Content stream then page object for each page
+        for i in 1...count {
+            let contentObjNumber = 2 + i * 2  // 4, 6, 8, ...
+            let text = "Page \(i)"
+            let content = "BT /F1 24 Tf 72 720 Td (\(text)) Tj ET"
+            let contentLength = content.utf8.count
+            objects.append("<< /Length \(contentLength) >>\nstream\n\(content)\nendstream")
+            objects.append("<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 \(fontObjNumber) 0 R >> >> /Contents \(contentObjNumber) 0 R >>")
+        }
+
+        var pdf = "%PDF-1.4\n"
+        var offsets = [0]
+        for (index, object) in objects.enumerated() {
+            offsets.append(pdf.utf8.count)
+            pdf += "\(index + 1) 0 obj\n\(object)\nendobj\n"
+        }
+        let xrefOffset = pdf.utf8.count
+        pdf += "xref\n0 \(objects.count + 1)\n0000000000 65535 f \n"
+        for offset in offsets.dropFirst() {
+            pdf += String(format: "%010d 00000 n \n", offset)
+        }
+        pdf += "trailer\n<< /Size \(objects.count + 1) /Root 1 0 R >>\nstartxref\n\(xrefOffset)\n%%EOF\n"
+        return Data(pdf.utf8)
     }
 
     private func executionContext(workspaceRoot: URL?) -> ClientToolExecutionContext {
