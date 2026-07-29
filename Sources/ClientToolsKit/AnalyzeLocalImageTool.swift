@@ -382,7 +382,14 @@ public struct AnalyzeLocalImageTool: ClientTool {
             textRequest.recognitionLevel = .accurate
             textRequest.usesLanguageCorrection = true
             textRequest.automaticallyDetectsLanguage = true
-            textRequest.minimumTextHeight = 0.010
+            // Dynamic minimum text height: adapts to image pixel dimensions.
+            if let dims = Self.imageDimensions(from: imageURL) {
+                let longEdge = max(dims.width, dims.height)
+                let dynamicRatio = min(0.02, max(0.001, 14.0 / max(CGFloat(longEdge), 1)))
+                textRequest.minimumTextHeight = Float(dynamicRatio)
+            } else {
+                textRequest.minimumTextHeight = 0.010
+            }
             requests.append(textRequest)
         }
         if runBarcode {
@@ -412,6 +419,18 @@ public struct AnalyzeLocalImageTool: ClientTool {
     }
 
     // MARK: - Helpers
+
+    /// Reads image pixel dimensions from a file URL without decoding the full image.
+    private static func imageDimensions(from url: URL) -> (width: Int, height: Int)? {
+        guard let source = CGImageSourceCreateWithURL(url as CFURL, nil),
+              let properties = CGImageSourceCopyPropertiesAtIndex(source, 0, nil) as? [String: Any] else {
+            return nil
+        }
+        let width = (properties[kCGImagePropertyPixelWidth as String] as? NSNumber)?.intValue
+        let height = (properties[kCGImagePropertyPixelHeight as String] as? NSNumber)?.intValue
+        guard let width, let height else { return nil }
+        return (width, height)
+    }
 
     private static func loadVisualImage(from url: URL) throws -> VisualImage {
         #if canImport(UIKit)

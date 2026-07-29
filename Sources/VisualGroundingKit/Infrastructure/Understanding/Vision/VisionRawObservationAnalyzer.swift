@@ -34,7 +34,7 @@ public final class VisionRawObservationAnalyzer: RawVisionAnalyzing {
 
         let faceRequest = VNDetectFaceRectanglesRequest()
         let bodyRequest = VNDetectHumanBodyPoseRequest()
-        let textRequest = makeTextRequest(profile: profile)
+        let textRequest = makeTextRequest(profile: profile, imageSize: image.size)
         let classifyRequest = VNClassifyImageRequest()
         let objectnessSaliencyRequest = VNGenerateObjectnessBasedSaliencyImageRequest()
         let attentionSaliencyRequest = VNGenerateAttentionBasedSaliencyImageRequest()
@@ -405,20 +405,32 @@ private extension VisionRawObservationAnalyzer {
 
 private extension VisionRawObservationAnalyzer {
 
-    func makeTextRequest(profile: AnalysisProfile) -> VNRecognizeTextRequest {
+    func makeTextRequest(
+        profile: AnalysisProfile,
+        imageSize: CGSize
+    ) -> VNRecognizeTextRequest {
         let request = VNRecognizeTextRequest()
         request.recognitionLevel = .accurate
         request.usesLanguageCorrection = true
         request.automaticallyDetectsLanguage = true
 
-        // Adaptive minimum text height
+        // Dynamic minimum text height: adapts to image pixel dimensions so
+        // text that is ~14 px tall is detectable on very large images
+        // (e.g. scanned newspapers at 8192 px) while keeping noise low
+        // on normal-sized photos.
+        let longEdge = max(imageSize.width, imageSize.height)
+        let baseAbsoluteHeight: CGFloat = 14  // ~14 px = roughly 10 pt text
+        let dynamicRatio = baseAbsoluteHeight / max(longEdge, 1)
+        // Clamp: no lower than 0.001 (1 in 1000 px), no higher than 0.02.
+        let ratio = min(0.02, max(0.001, dynamicRatio))
+
         switch profile {
         case .agentCompact:
-            // Lower threshold to catch small text in screenshots
-            request.minimumTextHeight = 0.008
+            // Agent path uses dynamic ratio for screenshots and documents.
+            request.minimumTextHeight = Float(ratio)
         case .generationGrounding, .debug:
-            // Higher threshold for generation scenarios (mostly photos)
-            request.minimumTextHeight = 0.015
+            // Generation path also benefits from dynamic sizing for photos.
+            request.minimumTextHeight = Float(max(ratio, 0.012))
         }
 
         return request

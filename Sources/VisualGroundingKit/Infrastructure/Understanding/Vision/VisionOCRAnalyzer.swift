@@ -51,9 +51,10 @@ public final class VisionOCRAnalyzer: OCRAnalyzing {
                 request.recognitionLevel = .accurate
                 request.usesLanguageCorrection = true
                 request.automaticallyDetectsLanguage = true
-                // Lower threshold for the standalone path — screenshots and docs are
-                // the most common use case when not going through the unified pipeline.
-                request.minimumTextHeight = 0.010
+                // Dynamic minimum text height: adapts to image pixel dimensions.
+                let longEdge = max(image.size.width, image.size.height)
+                let dynamicRatio = min(0.02, max(0.001, 14.0 / max(longEdge, 1)))
+                request.minimumTextHeight = Float(dynamicRatio)
 
                 try performer.perform([request], on: image)
             } catch {
