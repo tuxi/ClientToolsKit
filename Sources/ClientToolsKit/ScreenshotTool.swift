@@ -7,9 +7,9 @@
 //  iOS 不支持此工具（ScreenCaptureKit 仅在 macOS 上可用）。
 //
 
+import Foundation
 #if os(macOS)
 
-import Foundation
 import ScreenCaptureKit
 import AppKit
 import ClientToolProtocol
@@ -138,7 +138,10 @@ public struct ScreenshotTool: ClientTool {
     }
 }
 
-private struct ScreenshotResult: Encodable {
+#endif
+
+
+public struct ScreenshotResult: Encodable {
     let success: Bool
     let relativePath: String
     let absolutePath: String
@@ -162,16 +165,26 @@ public enum ScreenshotError: LocalizedError {
     case noDisplayFound
     case permissionDenied
     case writeFailed
+    case timeout
 
     public var errorDescription: String? {
         switch self {
         case .noDisplayFound:
-            return "未找到可截图的显示器。"
+            #if os(iOS)
+            return "未找到可捕获的窗口。"
+            #else
+            return "未找到可截图的窗口/显示器。"
+            #endif
         case .permissionDenied:
+            #if os(iOS)
+            return "屏幕捕获权限被拒绝。system_screen模式需要用户下拉控制中心，长按录屏按钮选中本App后开启录制。普通App无法静默截取系统全屏。"
+            #else
             return "截图权限被拒绝。请打开 系统设置 → 隐私与安全性 → 屏幕录制，允许本应用访问屏幕后重试。"
+            #endif
         case .writeFailed:
             return "截图文件写入失败，请检查磁盘空间和路径权限。"
+        case .timeout:
+            return "屏幕捕获超时。请确认已在控制中心开启录屏。"
         }
     }
 }
-#endif
