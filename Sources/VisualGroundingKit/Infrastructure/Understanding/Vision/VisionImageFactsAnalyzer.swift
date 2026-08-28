@@ -23,6 +23,12 @@ public final class VisionImageFactsAnalyzer: ImageFactsAnalyzing {
         image: VisualImage,
         rawVision: RawVisionAnalysis
     ) async throws -> ImageFactsDescriptor {
+        // NSImage 在 macOS 15 SDK 中不是 Sendable，同一引用被传入多个并发子任务时
+        // 会触发 "Sending 'image' risks causing data races"（macOS 26 SDK 中 NSImage
+        // 已标记为 Sendable，无此报错）。三个下游方法均只读图片（转 CGImage 取像素/
+        // 读 size），符合"构造后不可变"约定，故用 nonisolated(unsafe) 关闭该检查，
+        // 行为约定与 InputImageAsset 一致。
+        nonisolated(unsafe) let image = image
         async let brightness = qualityMeasurer.brightness(of: image)
         async let sharpness = qualityMeasurer.sharpness(of: image)
         async let overlay = overlayPartitionAnalyzer.partition(image: image, rawVision: rawVision)
