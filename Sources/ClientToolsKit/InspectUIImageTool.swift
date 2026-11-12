@@ -436,7 +436,7 @@ public struct InspectUIImageTool: ClientTool {
                 kind: rectangle.kind,
                 bbox: rectangle.bbox,
                 confidence: rectangle.confidence,
-                evidence: rectangle.kind == .separator ? .inferred : .observed
+                evidence: .inferred
             ))
         }
         return elements

@@ -51,27 +51,35 @@ struct AppleUIVisionEvidenceProvider: UIEvidenceVisionProviding {
         var output = UIVisionObservations()
         let handler = VNImageRequestHandler(cgImage: image, options: [:])
 
+        let longEdge = CGFloat(max(image.width, image.height))
+        let minimumTextHeight = Float(min(0.02, max(0.001, 14.0 / max(longEdge, 1))))
+
         let textRequest = VNRecognizeTextRequest()
         textRequest.recognitionLevel = .accurate
         textRequest.usesLanguageCorrection = true
         textRequest.automaticallyDetectsLanguage = true
-        let longEdge = CGFloat(max(image.width, image.height))
-        textRequest.minimumTextHeight = Float(min(0.02, max(0.001, 14.0 / max(longEdge, 1))))
+        textRequest.minimumTextHeight = minimumTextHeight
 
         do {
             try handler.perform([textRequest])
-            output.textBlocks = (textRequest.results ?? []).compactMap { observation in
-                guard let candidate = observation.topCandidates(1).first else { return nil }
-                let text = candidate.string.trimmingCharacters(in: .whitespacesAndNewlines)
-                guard !text.isEmpty else { return nil }
-                return UIVisionText(
-                    text: text,
-                    boundingBox: observation.boundingBox,
-                    confidence: candidate.confidence
-                )
-            }
+            output.textBlocks = Self.mapTextResults(textRequest)
         } catch {
-            output.warnings.append("Vision text recognition failed: \(error.localizedDescription)")
+            // The accurate model can fail to load its execution provider on some
+            // hosts. Fall back to the fast recognizer instead of losing all text.
+            let fastRequest = VNRecognizeTextRequest()
+            fastRequest.recognitionLevel = .fast
+            fastRequest.usesLanguageCorrection = true
+            fastRequest.automaticallyDetectsLanguage = true
+            fastRequest.minimumTextHeight = minimumTextHeight
+            do {
+                try handler.perform([fastRequest])
+                output.textBlocks = Self.mapTextResults(fastRequest)
+                output.warnings.append(
+                    "Accurate text recognition failed (\(error.localizedDescription)); used fast recognition instead."
+                )
+            } catch {
+                output.warnings.append("Vision text recognition failed: \(error.localizedDescription)")
+            }
         }
 
         let rectangleRequest = VNDetectRectanglesRequest()
@@ -104,4 +112,19 @@ struct AppleUIVisionEvidenceProvider: UIEvidenceVisionProviding {
         )
         #endif
     }
+
+    #if canImport(Vision)
+    private static func mapTextResults(_ request: VNRecognizeTextRequest) -> [UIVisionText] {
+        (request.results ?? []).compactMap { observation in
+            guard let candidate = observation.topCandidates(1).first else { return nil }
+            let text = candidate.string.trimmingCharacters(in: .whitespacesAndNewlines)
+            guard !text.isEmpty else { return nil }
+            return UIVisionText(
+                text: text,
+                boundingBox: observation.boundingBox,
+                confidence: candidate.confidence
+            )
+        }
+    }
+    #endif
 }

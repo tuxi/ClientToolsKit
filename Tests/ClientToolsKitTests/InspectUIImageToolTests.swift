@@ -284,7 +284,11 @@ final class InspectUIImageToolTests: XCTestCase {
         let result = try await execute(tool: tool, args: .object(["path": .string("ui.png")]))
 
         let document = try decodeDocument(result)
-        XCTAssertEqual(document.elements.filter { $0.kind == .container }.count, 4)
+        let containers = document.elements.filter { $0.kind == .container }
+        XCTAssertEqual(containers.count, 4)
+        XCTAssertTrue(containers.allSatisfy { $0.evidence == .inferred })
+        let textElements = document.elements.filter { $0.kind == .text }
+        XCTAssertTrue(textElements.allSatisfy { $0.evidence == .observed })
         let grid = try XCTUnwrap(document.repeatedGroups.first { $0.axis == .grid })
         XCTAssertEqual(grid.memberIDs.count, 4)
         XCTAssertEqual(grid.evidence, .inferred)
