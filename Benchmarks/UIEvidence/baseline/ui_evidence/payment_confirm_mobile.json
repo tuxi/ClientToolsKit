@@ -1,0 +1,543 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_2f2a976aee122e4f",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 0.12,
+        "width" : 1,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_0a0dee93886a7644",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.68,
+        "width" : 0.92,
+        "x" : 0.04,
+        "y" : 0.12
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_be96b8ae9c2d3f1f",
+      "purpose" : "controls",
+      "source_bbox" : {
+        "height" : 0.2,
+        "width" : 0.92,
+        "x" : 0.04,
+        "y" : 0.74
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.021459,
+        "width" : 0.088372,
+        "x" : 0.037209,
+        "y" : 0.017167
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "Back"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021459,
+        "width" : 0.274419,
+        "x" : 0.409302,
+        "y" : 0.021459
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Confirm payment"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015021,
+        "width" : 0.293023,
+        "x" : 0.353488,
+        "y" : 0.107296
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "CLOUDBASE TEAM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.04696,
+        "width" : 0.386605,
+        "x" : 0.30644,
+        "y" : 0.136129
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "$1,413.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019653,
+        "width" : 0.447295,
+        "x" : 0.278729,
+        "y" : 0.184183
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Annual billing • Renews Oct 12, 2027"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017167,
+        "width" : 0.218605,
+        "x" : 0.065116,
+        "y" : 0.276824
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Payment method"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017649,
+        "width" : 0.158382,
+        "x" : 0.776623,
+        "y" : 0.276583
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Visa - 4242"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015899,
+        "width" : 0.153881,
+        "x" : 0.069571,
+        "y" : 0.32145
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Billing email"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017167,
+        "width" : 0.27907,
+        "x" : 0.655814,
+        "y" : 0.321888
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "alex@cloudbase.dev"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017939,
+        "width" : 0.191017,
+        "x" : 0.064957,
+        "y" : 0.366567
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "Billing address"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017167,
+        "width" : 0.204651,
+        "x" : 0.730233,
+        "y" : 0.366953
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "88 King Street"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016238,
+        "width" : 0.154026,
+        "x" : 0.069499,
+        "y" : 0.411409
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Promo code"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017167,
+        "width" : 0.060465,
+        "x" : 0.544186,
+        "y" : 0.412017
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Add"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019313,
+        "width" : 0.87907,
+        "x" : 0.04186,
+        "y" : 0.463519
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Your card will be charged today. You can cancel or change seats at any"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015021,
+        "width" : 0.074419,
+        "x" : 0.04186,
+        "y" : 0.482833
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "time."
+    },
+    {
+      "bbox" : {
+        "height" : 0.015021,
+        "width" : 0.218605,
+        "x" : 0.390698,
+        "y" : 0.540773
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Pay $1,413.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019313,
+        "width" : 0.55814,
+        "x" : 0,
+        "y" : 0.596567
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Secured by Cloudbase Payments"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020298,
+        "width" : 0.089769,
+        "x" : 0.030942,
+        "y" : 0.019271
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.158792,
+        "width" : 0.928246,
+        "x" : 0.034893,
+        "y" : 0.078964
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017572,
+        "width" : 0.197738,
+        "x" : 0.345623,
+        "y" : 0.105772
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017567,
+        "width" : 0.174852,
+        "x" : 0.271191,
+        "y" : 0.184009
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017108,
+        "width" : 0.189772,
+        "x" : 0.457971,
+        "y" : 0.183745
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018171,
+        "width" : 0.070876,
+        "x" : 0.656017,
+        "y" : 0.182579
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.193104,
+        "width" : 0.951788,
+        "x" : 0.023297,
+        "y" : 0.25484
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018331,
+        "width" : 0.228634,
+        "x" : 0.057622,
+        "y" : 0.275886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018899,
+        "width" : 0.080054,
+        "x" : 0.765663,
+        "y" : 0.274114
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018855,
+        "width" : 0.083365,
+        "x" : 0.848138,
+        "y" : 0.274576
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017639,
+        "width" : 0.165225,
+        "x" : 0.061447,
+        "y" : 0.320416
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017787,
+        "width" : 0.192656,
+        "x" : 0.063515,
+        "y" : 0.365429
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018332,
+        "width" : 0.200657,
+        "x" : 0.732696,
+        "y" : 0.364814
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017429,
+        "width" : 0.159604,
+        "x" : 0.063625,
+        "y" : 0.41094
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.047015,
+        "width" : 0.973703,
+        "x" : 0.016607,
+        "y" : 0.523619
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024009,
+        "width" : 0.223906,
+        "x" : 0.385101,
+        "y" : 0.53367
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020609,
+        "width" : 0.17365,
+        "x" : 0.015661,
+        "y" : 0.59623
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020727,
+        "width" : 0.214515,
+        "x" : 0.196719,
+        "y" : 0.594983
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020341,
+        "width" : 0.172375,
+        "x" : 0.387074,
+        "y" : 0.59564
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 36,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.150823,
+        "width" : 0.218764,
+        "x" : 0.064957,
+        "y" : 0.276824
+      },
+      "confidence" : 0.8871434360243288,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_6",
+        "el_text_8",
+        "el_text_10",
+        "el_text_12"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_419fe8e5a64bcfb5",
+    "height" : 932,
+    "mime_type" : "image/png",
+    "sha256" : "419fe8e5a64bcfb5cd0885463d288e09b7a8d0cb26277cb6f2a5d973e58bc131",
+    "source_kind" : "web_screenshot",
+    "width" : 430
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 4 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_6",
+        "el_text_8",
+        "el_text_10",
+        "el_text_12"
+      ]
+    }
+  ]
+}

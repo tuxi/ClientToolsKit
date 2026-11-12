@@ -1,0 +1,794 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "dashboard_ops_dark",
+  "category": "dashboard",
+  "tags": [
+    "desktop",
+    "png",
+    "dark",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/dashboard_ops_dark.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Operations",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Operations · Live",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.292882,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "System health",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.292882,
+        "height": 0.036667
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Service availability and incident status across production regions.",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.178889,
+        "width": 0.292882,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Create incident",
+      "bbox": {
+        "x": 0.893142,
+        "y": 0.111111,
+        "width": 0.087413,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Core services",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.247778,
+        "width": 0.084711,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "All regions",
+      "bbox": {
+        "x": 0.586545,
+        "y": 0.247778,
+        "width": 0.053863,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Gateway",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.292222,
+        "width": 0.046821,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.315556,
+        "width": 0.328592,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Operational",
+      "bbox": {
+        "x": 0.537619,
+        "y": 0.297778,
+        "width": 0.057921,
+        "height": 0.025556
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "99.99%",
+      "bbox": {
+        "x": 0.606651,
+        "y": 0.301667,
+        "width": 0.033757,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Evidence API",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.356667,
+        "width": 0.070095,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.38,
+        "width": 0.329395,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Operational",
+      "bbox": {
+        "x": 0.538422,
+        "y": 0.362222,
+        "width": 0.057921,
+        "height": 0.025556
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "99.97%",
+      "bbox": {
+        "x": 0.607454,
+        "y": 0.366111,
+        "width": 0.032954,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Media processing",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.421111,
+        "width": 0.094922,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.444444,
+        "width": 0.336372,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Degraded",
+      "bbox": {
+        "x": 0.545399,
+        "y": 0.426667,
+        "width": 0.050391,
+        "height": 0.025556
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "99.82%",
+      "bbox": {
+        "x": 0.606901,
+        "y": 0.430556,
+        "width": 0.033507,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Notification fanout",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.485556,
+        "width": 0.100684,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.508889,
+        "width": 0.328765,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Operational",
+      "bbox": {
+        "x": 0.537793,
+        "y": 0.491111,
+        "width": 0.057921,
+        "height": 0.025556
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "99.95%",
+      "bbox": {
+        "x": 0.606825,
+        "y": 0.495,
+        "width": 0.033583,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Traffic by region",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.268576,
+        "width": 0.285286,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "US West",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.313819,
+        "width": 0.059722,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "38%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.313819,
+        "width": 0.023611,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "US East",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.348264,
+        "width": 0.059722,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "27%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.348264,
+        "width": 0.023611,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Europe",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.382708,
+        "width": 0.059722,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "21%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.382708,
+        "width": 0.023611,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Asia Pacific",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.417153,
+        "width": 0.059722,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "14%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.417153,
+        "width": 0.023611,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Recent incidents",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.620799,
+        "width": 0.768056,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "Incident",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.666042,
+        "width": 0.37053,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Severity",
+      "bbox": {
+        "x": 0.568446,
+        "y": 0.666042,
+        "width": 0.128483,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Status",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.666042,
+        "width": 0.134071,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Duration",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.666042,
+        "width": 0.134972,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Media queue backlog in eu-central",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.706597,
+        "width": 0.37053,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "SEV-2",
+      "bbox": {
+        "x": 0.574002,
+        "y": 0.721597,
+        "width": 0.036404,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "Monitoring",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.706597,
+        "width": 0.134071,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "42m",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.706597,
+        "width": 0.134972,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "Delayed notification delivery",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.759931,
+        "width": 0.37053,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "SEV-3",
+      "bbox": {
+        "x": 0.574002,
+        "y": 0.774931,
+        "width": 0.036599,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "Resolved",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.759931,
+        "width": 0.134071,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "1h 18m",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.759931,
+        "width": 0.134972,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "Elevated API latency",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.813264,
+        "width": 0.37053,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "SEV-3",
+      "bbox": {
+        "x": 0.574002,
+        "y": 0.828264,
+        "width": 0.036599,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "Resolved",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.813264,
+        "width": 0.134071,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_63",
+      "text": "26m",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.813264,
+        "width": 0.134972,
+        "height": 0.053333
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_panel",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.471658,
+        "height": 0.334444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_0",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.277778,
+        "width": 0.442491,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_1",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.342222,
+        "width": 0.442491,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_2",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.406667,
+        "width": 0.442491,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_3",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.471111,
+        "width": 0.442491,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "regions",
+      "bbox": {
+        "x": 0.666102,
+        "y": 0.224444,
+        "width": 0.314453,
+        "height": 0.334444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "incidents",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.576667,
+        "width": 0.797222,
+        "height": 0.313819
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "service_rows",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.277778,
+        "width": 0.442491,
+        "height": 0.257777
+      }
+    }
+  ]
+}

@@ -35,6 +35,18 @@ let package = Package(
             path: "Sources/VisualGroundingKit",
             resources: [.process("Resources")]
         ),
+        .target(
+            name: "UIEvidenceBenchmarkCore",
+            dependencies: [
+                .product(name: "ClientToolProtocol", package: "ClientToolProtocol"),
+            ],
+            path: "Benchmarks/UIEvidence/RunnerCore"
+        ),
+        .executableTarget(
+            name: "UIEvidenceBenchmarkRunner",
+            dependencies: ["UIEvidenceBenchmarkCore"],
+            path: "Benchmarks/UIEvidence/Runner"
+        ),
         .testTarget(
             name: "ClientToolsKitTests",
             dependencies: ["ClientToolsKit"]

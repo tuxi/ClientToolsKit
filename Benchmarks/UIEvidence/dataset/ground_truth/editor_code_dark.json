@@ -1,0 +1,642 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "editor_code_dark",
+  "category": "editor",
+  "tags": [
+    "desktop",
+    "png",
+    "dark",
+    "small_text"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/editor_code_dark.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Code",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Explorer",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.13,
+        "width": 0.122917,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "EVIDENCE",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.163333,
+        "width": 0.122917,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "InspectSource.swift",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.183333,
+        "width": 0.122917,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "EvidenceModel.swift",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.213333,
+        "width": 0.122917,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "CropValidator.swift",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.243333,
+        "width": 0.122917,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Runner.swift",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.273333,
+        "width": 0.122917,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "TESTS",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.316667,
+        "width": 0.122917,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "InspectSourceTests.swift",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.336667,
+        "width": 0.122917,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "FixtureTests.swift",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.366667,
+        "width": 0.122917,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "InspectSource.swift",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.13,
+        "width": 0.078451,
+        "height": 0.045556
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "EvidenceModel.swift",
+      "bbox": {
+        "x": 0.422201,
+        "y": 0.13,
+        "width": 0.07526,
+        "height": 0.045556
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Runner.swift",
+      "bbox": {
+        "x": 0.51135,
+        "y": 0.13,
+        "width": 0.045193,
+        "height": 0.045556
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "12",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.196667,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "func inspect(source: Image) async throws -> Evidence {",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.196667,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "13",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.223333,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "let decoded = try decode(source)",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.223333,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "14",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.25,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "guard decoded.width > 0 else {",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.25,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "15",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.276667,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "throw EvidenceError.emptySource",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.276667,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "16",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.303333,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "}",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.303333,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "17",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.33,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "let text = try await ocr(decoded)",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.33,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "18",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.356667,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "let boxes = try detectRectangles(decoded)",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.356667,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "19",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.383333,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "return Evidence(text: text, boxes: boxes)",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.383333,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "20",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.41,
+        "width": 0.030556,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "}",
+      "bbox": {
+        "x": 0.360417,
+        "y": 0.41,
+        "width": 0.445833,
+        "height": 0.026667
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "PROBLEMS",
+      "bbox": {
+        "x": 0.340972,
+        "y": 0.905556,
+        "width": 0.042231,
+        "height": 0.012222
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "0 errors",
+      "bbox": {
+        "x": 0.392925,
+        "y": 0.903333,
+        "width": 0.028819,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "2 warnings",
+      "bbox": {
+        "x": 0.432856,
+        "y": 0.903333,
+        "width": 0.03967,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "warning: Source image has low contrast near the bottom edge.",
+      "bbox": {
+        "x": 0.340972,
+        "y": 0.93,
+        "width": 0.454167,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Inspector",
+      "bbox": {
+        "x": 0.818056,
+        "y": 0.13,
+        "width": 0.150694,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Target",
+      "bbox": {
+        "x": 0.818056,
+        "y": 0.163333,
+        "width": 0.150694,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Configuration",
+      "bbox": {
+        "x": 0.818056,
+        "y": 0.232222,
+        "width": 0.150694,
+        "height": 0.053333
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "Swift 6.1 · macOS 15",
+      "bbox": {
+        "x": 0.818056,
+        "y": 0.307778,
+        "width": 0.150694,
+        "height": 0.03
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "file_tree",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.112222,
+        "width": 0.145833,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "code_panel",
+      "bbox": {
+        "x": 0.329861,
+        "y": 0.112222,
+        "width": 0.476389,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "code_inspector",
+      "bbox": {
+        "x": 0.80625,
+        "y": 0.112222,
+        "width": 0.173611,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": []
+}

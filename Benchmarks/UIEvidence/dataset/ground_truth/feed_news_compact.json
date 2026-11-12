@@ -1,0 +1,554 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "feed_news_compact",
+  "category": "feed",
+  "tags": [
+    "desktop",
+    "png",
+    "small_text",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/feed_news_compact.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Morning briefing",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.241471,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "What matters today",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.241471,
+        "height": 0.037778
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Curated reporting from 24 newsrooms, updated at 08:30.",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.18,
+        "width": 0.241471,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "For you",
+      "bbox": {
+        "x": 0.821387,
+        "y": 0.162222,
+        "width": 0.047483,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "World",
+      "bbox": {
+        "x": 0.870953,
+        "y": 0.162222,
+        "width": 0.041005,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Technology",
+      "bbox": {
+        "x": 0.914041,
+        "y": 0.162222,
+        "width": 0.064431,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Analysis",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.471111,
+        "width": 0.043012,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "The next phase of the AI platform race is about distribution",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.494444,
+        "width": 0.409852,
+        "height": 0.064444
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Enterprise buyers are consolidating vendors, and the advantage is shifting from raw model quality to deployment reach.",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.573333,
+        "width": 0.409852,
+        "height": 0.043333
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "By Jordan Lee · 8 min read",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.633333,
+        "width": 0.114453,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Markets",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.237778,
+        "width": 0.041439,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Chipmakers lead a cautious rebound after overnight losses",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.257778,
+        "width": 0.272081,
+        "height": 0.018767
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Global desks remain focused on supply guidance and demand visibility into next quarter.",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.282101,
+        "width": 0.272081,
+        "height": 0.034201
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "6 min read",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.328524,
+        "width": 0.035569,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Cities",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.38408,
+        "width": 0.028895,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "A transit network rebuild inches toward its first passenger milestone",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.40408,
+        "width": 0.272081,
+        "height": 0.037535
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Engineers completed overnight tests on the eastern corridor earlier this week.",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.44717,
+        "width": 0.272081,
+        "height": 0.034201
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "4 min read",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.493594,
+        "width": 0.035612,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Science",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.549149,
+        "width": 0.037826,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Researchers map how urban trees change peak summer temperatures",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.569149,
+        "width": 0.272081,
+        "height": 0.037535
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Street-level sensors recorded differences of up to 3.2 degrees across neighborhoods.",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.61224,
+        "width": 0.272081,
+        "height": 0.034201
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "7 min read",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.658663,
+        "width": 0.035102,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Culture",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.714219,
+        "width": 0.039551,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Independent cinemas test a shared membership model",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.734219,
+        "width": 0.272081,
+        "height": 0.018767
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Eight venues will offer cross-city access in a six-month pilot starting Friday.",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.758542,
+        "width": 0.272081,
+        "height": 0.034201
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "3 min read",
+      "bbox": {
+        "x": 0.700825,
+        "y": 0.804965,
+        "width": 0.035493,
+        "height": 0.013333
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "lead_story",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.22,
+        "width": 0.411241,
+        "height": 0.611632
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "story_0",
+      "bbox": {
+        "x": 0.608464,
+        "y": 0.22,
+        "width": 0.372081,
+        "height": 0.135191
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "story_1",
+      "bbox": {
+        "x": 0.608464,
+        "y": 0.366302,
+        "width": 0.372081,
+        "height": 0.153958
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "story_2",
+      "bbox": {
+        "x": 0.608464,
+        "y": 0.531372,
+        "width": 0.372081,
+        "height": 0.153958
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "story_3",
+      "bbox": {
+        "x": 0.608464,
+        "y": 0.696441,
+        "width": 0.372081,
+        "height": 0.135191
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "news_stories",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.608464,
+        "y": 0.22,
+        "width": 0.372081,
+        "height": 0.611632
+      }
+    }
+  ]
+}

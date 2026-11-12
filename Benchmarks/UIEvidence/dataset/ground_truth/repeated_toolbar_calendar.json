@@ -1,0 +1,874 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "repeated_toolbar_calendar",
+  "category": "repeated_toolbar",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_toolbar",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/repeated_toolbar_calendar.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Calendar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Product calendar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.142253,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "November 2026",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.142253,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Day",
+      "bbox": {
+        "x": 0.481565,
+        "y": 0.133889,
+        "width": 0.01276,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Week",
+      "bbox": {
+        "x": 0.524186,
+        "y": 0.133889,
+        "width": 0.018414,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Month",
+      "bbox": {
+        "x": 0.572461,
+        "y": 0.133889,
+        "width": 0.021246,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Agenda",
+      "bbox": {
+        "x": 0.623568,
+        "y": 0.133889,
+        "width": 0.025315,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Timeline",
+      "bbox": {
+        "x": 0.678743,
+        "y": 0.133889,
+        "width": 0.028212,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Board",
+      "bbox": {
+        "x": 0.736816,
+        "y": 0.133889,
+        "width": 0.019716,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "New event",
+      "bbox": {
+        "x": 0.896539,
+        "y": 0.119444,
+        "width": 0.084017,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Mon",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.188889,
+        "width": 0.113683,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Tue",
+      "bbox": {
+        "x": 0.297711,
+        "y": 0.188889,
+        "width": 0.113694,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Wed",
+      "bbox": {
+        "x": 0.411404,
+        "y": 0.188889,
+        "width": 0.113694,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Thu",
+      "bbox": {
+        "x": 0.525098,
+        "y": 0.188889,
+        "width": 0.113683,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Fri",
+      "bbox": {
+        "x": 0.63878,
+        "y": 0.188889,
+        "width": 0.113694,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Sat",
+      "bbox": {
+        "x": 0.752474,
+        "y": 0.188889,
+        "width": 0.113694,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Sun",
+      "bbox": {
+        "x": 0.866168,
+        "y": 0.188889,
+        "width": 0.113683,
+        "height": 0.035556
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "27",
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.234444,
+        "width": 0.009049,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "28",
+      "bbox": {
+        "x": 0.303266,
+        "y": 0.234444,
+        "width": 0.009581,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "29",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.234444,
+        "width": 0.00957,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "30",
+      "bbox": {
+        "x": 0.530653,
+        "y": 0.234444,
+        "width": 0.009701,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "1",
+      "bbox": {
+        "x": 0.644336,
+        "y": 0.234444,
+        "width": 0.003592,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "2",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.234444,
+        "width": 0.004655,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "3",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.234444,
+        "width": 0.004839,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.257778,
+        "width": 0.101877,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "4",
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.383333,
+        "width": 0.00497,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "5",
+      "bbox": {
+        "x": 0.303266,
+        "y": 0.383333,
+        "width": 0.004774,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "6",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.383333,
+        "width": 0.004915,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.406667,
+        "width": 0.101888,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "7",
+      "bbox": {
+        "x": 0.530653,
+        "y": 0.383333,
+        "width": 0.004395,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "8",
+      "bbox": {
+        "x": 0.644336,
+        "y": 0.383333,
+        "width": 0.004926,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "9",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.383333,
+        "width": 0.004915,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.406667,
+        "width": 0.101888,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "10",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.383333,
+        "width": 0.008453,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "11",
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.532222,
+        "width": 0.007183,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "12",
+      "bbox": {
+        "x": 0.303266,
+        "y": 0.532222,
+        "width": 0.015278,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.303266,
+        "y": 0.565556,
+        "width": 0.101888,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "13",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.532222,
+        "width": 0.008431,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "14",
+      "bbox": {
+        "x": 0.530653,
+        "y": 0.532222,
+        "width": 0.00855,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "15",
+      "bbox": {
+        "x": 0.644336,
+        "y": 0.532222,
+        "width": 0.008355,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.644336,
+        "y": 0.555556,
+        "width": 0.101888,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "16",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.532222,
+        "width": 0.008507,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "17",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.532222,
+        "width": 0.007986,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "18",
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.681111,
+        "width": 0.008518,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.704444,
+        "width": 0.101877,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "19",
+      "bbox": {
+        "x": 0.303266,
+        "y": 0.681111,
+        "width": 0.008507,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "20",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.681111,
+        "width": 0.009516,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "21",
+      "bbox": {
+        "x": 0.530653,
+        "y": 0.681111,
+        "width": 0.008247,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_63",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.530653,
+        "y": 0.704444,
+        "width": 0.101877,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_64",
+      "text": "22",
+      "bbox": {
+        "x": 0.644336,
+        "y": 0.681111,
+        "width": 0.00931,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_65",
+      "text": "23",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.681111,
+        "width": 0.009494,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_66",
+      "text": "24",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.681111,
+        "width": 0.009505,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_67",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.704444,
+        "width": 0.101877,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_68",
+      "text": "25",
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.83,
+        "width": 0.009429,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_69",
+      "text": "26",
+      "bbox": {
+        "x": 0.303266,
+        "y": 0.83,
+        "width": 0.00957,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_70",
+      "text": "27",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.83,
+        "width": 0.009049,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_71",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.41696,
+        "y": 0.853333,
+        "width": 0.101888,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_72",
+      "text": "28",
+      "bbox": {
+        "x": 0.530653,
+        "y": 0.83,
+        "width": 0.009581,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_73",
+      "text": "29",
+      "bbox": {
+        "x": 0.644336,
+        "y": 0.83,
+        "width": 0.00957,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_74",
+      "text": "30",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.83,
+        "width": 0.009701,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_75",
+      "text": "Standup",
+      "bbox": {
+        "x": 0.75803,
+        "y": 0.853333,
+        "width": 0.101888,
+        "height": 0.021111
+      }
+    },
+    {
+      "id": "text_76",
+      "text": "1",
+      "bbox": {
+        "x": 0.871723,
+        "y": 0.83,
+        "width": 0.003592,
+        "height": 0.014444
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "calendar_toolbar",
+      "bbox": {
+        "x": 0.456565,
+        "y": 0.118333,
+        "width": 0.308995,
+        "height": 0.044444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "calendar_grid",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.187778,
+        "width": 0.797222,
+        "height": 0.791111
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "calendar_views",
+      "axis": "horizontal",
+      "member_count": 6,
+      "bbox": {
+        "x": 0.459342,
+        "y": 0.122778,
+        "width": 0.30344,
+        "height": 0.035556
+      }
+    }
+  ]
+}

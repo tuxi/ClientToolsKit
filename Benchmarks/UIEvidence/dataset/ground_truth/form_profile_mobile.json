@@ -1,0 +1,211 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "form_profile_mobile",
+  "category": "form",
+  "tags": [
+    "mobile",
+    "png",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "image": "images/form_profile_mobile.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.12
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.12,
+        "width": 0.92,
+        "height": 0.68
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.74,
+        "width": 0.92,
+        "height": 0.2
+      },
+      "purpose": "controls"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "Cancel",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.019313,
+        "width": 0.118205,
+        "height": 0.01824
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Edit profile",
+      "bbox": {
+        "x": 0.429324,
+        "y": 0.01985,
+        "width": 0.164535,
+        "height": 0.017167
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Save",
+      "bbox": {
+        "x": 0.872384,
+        "y": 0.019313,
+        "width": 0.095058,
+        "height": 0.01824
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "AM",
+      "bbox": {
+        "x": 0.411628,
+        "y": 0.087983,
+        "width": 0.176744,
+        "height": 0.081545
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Change photo",
+      "bbox": {
+        "x": 0.400218,
+        "y": 0.180258,
+        "width": 0.199528,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "First name",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.207082,
+        "width": 0.916279,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Last name",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.285408,
+        "width": 0.916279,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "Email",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.363734,
+        "width": 0.916279,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "Role",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.44206,
+        "width": 0.916279,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Bio",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.522532,
+        "width": 0.916279,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Designing calmer tools for complex teams.",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.546137,
+        "width": 0.916279,
+        "height": 0.055794
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Show profile in search",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.647532,
+        "width": 0.290443,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Allow direct messages",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.702253,
+        "width": 0.294549,
+        "height": 0.016094
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Deactivate account",
+      "bbox": {
+        "x": 0.051163,
+        "y": 0.76073,
+        "width": 0.897674,
+        "height": 0.016094
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "profile_form",
+      "bbox": {
+        "x": 0,
+        "y": 0.196352,
+        "width": 1,
+        "height": 0.43133
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "profile_preferences",
+      "bbox": {
+        "x": 0,
+        "y": 0.627682,
+        "width": 1,
+        "height": 0.054721
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": []
+}

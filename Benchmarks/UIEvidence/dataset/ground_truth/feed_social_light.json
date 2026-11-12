@@ -1,0 +1,824 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "feed_social_light",
+  "category": "feed",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_group",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/feed_social_light.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Home",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "MC",
+      "bbox": {
+        "x": 0.233333,
+        "y": 0.131111,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.132222,
+        "width": 0.049284,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Design Systems",
+      "bbox": {
+        "x": 0.322201,
+        "y": 0.131111,
+        "width": 0.063281,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "2m",
+      "bbox": {
+        "x": 0.391037,
+        "y": 0.131111,
+        "width": 0.01594,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Shipping a quieter navigation system today. The biggest win was removing options, not adding them.",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.162222,
+        "width": 0.440972,
+        "height": 0.022378
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Design Systems notes",
+      "bbox": {
+        "x": 0.275694,
+        "y": 0.26349,
+        "width": 0.092871,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Like · 128",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.306823,
+        "width": 0.034603,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Comment",
+      "bbox": {
+        "x": 0.316547,
+        "y": 0.306823,
+        "width": 0.035189,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Share",
+      "bbox": {
+        "x": 0.366319,
+        "y": 0.306823,
+        "width": 0.020964,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "JB",
+      "bbox": {
+        "x": 0.233333,
+        "y": 0.395712,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Jon Bell",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.396823,
+        "width": 0.035493,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Research",
+      "bbox": {
+        "x": 0.308409,
+        "y": 0.395712,
+        "width": 0.040734,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "18m",
+      "bbox": {
+        "x": 0.354698,
+        "y": 0.395712,
+        "width": 0.021267,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Five observations from testing onboarding with first-time admins in Manila and Berlin.",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.426823,
+        "width": 0.440972,
+        "height": 0.022378
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Research notes",
+      "bbox": {
+        "x": 0.275694,
+        "y": 0.52809,
+        "width": 0.06467,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Like · 64",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.571424,
+        "width": 0.031304,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Comment",
+      "bbox": {
+        "x": 0.313249,
+        "y": 0.571424,
+        "width": 0.035189,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Share",
+      "bbox": {
+        "x": 0.363021,
+        "y": 0.571424,
+        "width": 0.020964,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "PR",
+      "bbox": {
+        "x": 0.233333,
+        "y": 0.660313,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Priya Raman",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.661424,
+        "width": 0.055892,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Engineering",
+      "bbox": {
+        "x": 0.328809,
+        "y": 0.660313,
+        "width": 0.049392,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "41m",
+      "bbox": {
+        "x": 0.383757,
+        "y": 0.660313,
+        "width": 0.021213,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "The new evidence viewer is live in staging. Crop integrity checks now run before every render.",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.691424,
+        "width": 0.440972,
+        "height": 0.022378
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Engineering notes",
+      "bbox": {
+        "x": 0.275694,
+        "y": 0.792691,
+        "width": 0.075738,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Like · 93",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.836024,
+        "width": 0.031174,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Comment",
+      "bbox": {
+        "x": 0.313118,
+        "y": 0.836024,
+        "width": 0.035189,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Share",
+      "bbox": {
+        "x": 0.362891,
+        "y": 0.836024,
+        "width": 0.020964,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "TP",
+      "bbox": {
+        "x": 0.233333,
+        "y": 0.924913,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Theo Park",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.926024,
+        "width": 0.045139,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Product",
+      "bbox": {
+        "x": 0.318056,
+        "y": 0.924913,
+        "width": 0.036144,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "1h",
+      "bbox": {
+        "x": 0.359755,
+        "y": 0.924913,
+        "width": 0.011263,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Weekly metrics are in: activation is up 7.4%, and time to first value is down to 6m 12s.",
+      "bbox": {
+        "x": 0.267361,
+        "y": 0.956024,
+        "width": 0.440972,
+        "height": 0.022378
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "People to follow",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.132222,
+        "width": 0.181944,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "LS",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.166667,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Lina Soto",
+      "bbox": {
+        "x": 0.779167,
+        "y": 0.171667,
+        "width": 0.106825,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Staff designer",
+      "bbox": {
+        "x": 0.779167,
+        "y": 0.188333,
+        "width": 0.106825,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Follow",
+      "bbox": {
+        "x": 0.892242,
+        "y": 0.172778,
+        "width": 0.037619,
+        "height": 0.027778
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "RK",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.221111,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "Ravi Kumar",
+      "bbox": {
+        "x": 0.779167,
+        "y": 0.226111,
+        "width": 0.106825,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "Data science",
+      "bbox": {
+        "x": 0.779167,
+        "y": 0.242778,
+        "width": 0.106825,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "Follow",
+      "bbox": {
+        "x": 0.892242,
+        "y": 0.227222,
+        "width": 0.037619,
+        "height": 0.027778
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "NW",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.275556,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "Noah Williams",
+      "bbox": {
+        "x": 0.779167,
+        "y": 0.280556,
+        "width": 0.106825,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "Frontend platform",
+      "bbox": {
+        "x": 0.779167,
+        "y": 0.297222,
+        "width": 0.106825,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "Follow",
+      "bbox": {
+        "x": 0.892242,
+        "y": 0.281667,
+        "width": 0.037619,
+        "height": 0.027778
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "Trending in design",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.387778,
+        "width": 0.181944,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "#EvidenceFirst",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.422222,
+        "width": 0.181944,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_63",
+      "text": "2.4k posts",
+      "bbox": {
+        "x": 0.817546,
+        "y": 0.424444,
+        "width": 0.034993,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_64",
+      "text": "#QuietInterfaces",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.453333,
+        "width": 0.181944,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_65",
+      "text": "1.8k posts",
+      "bbox": {
+        "x": 0.825901,
+        "y": 0.455556,
+        "width": 0.033887,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_66",
+      "text": "#Accessibility",
+      "bbox": {
+        "x": 0.747917,
+        "y": 0.484444,
+        "width": 0.181944,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_67",
+      "text": "1.2k posts",
+      "bbox": {
+        "x": 0.813943,
+        "y": 0.486667,
+        "width": 0.033746,
+        "height": 0.013333
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "post_0",
+      "bbox": {
+        "x": 0.220833,
+        "y": 0.111111,
+        "width": 0.5,
+        "height": 0.249045
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "post_1",
+      "bbox": {
+        "x": 0.220833,
+        "y": 0.375712,
+        "width": 0.5,
+        "height": 0.249045
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "post_2",
+      "bbox": {
+        "x": 0.220833,
+        "y": 0.640313,
+        "width": 0.5,
+        "height": 0.249045
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "post_3",
+      "bbox": {
+        "x": 0.220833,
+        "y": 0.904913,
+        "width": 0.5,
+        "height": 0.249045
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "suggested_people",
+      "bbox": {
+        "x": 0.734722,
+        "y": 0.111111,
+        "width": 0.208333,
+        "height": 0.24
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "trending",
+      "bbox": {
+        "x": 0.734722,
+        "y": 0.366667,
+        "width": 0.208333,
+        "height": 0.17
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "feed_posts",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.220833,
+        "y": 0.111111,
+        "width": 0.5,
+        "height": 1.042847
+      }
+    }
+  ]
+}

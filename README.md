@@ -44,3 +44,8 @@ ClientToolPresentationCoordinator to the active scene.
 extract_archive rejects encrypted ZIPs, ZIP64, symbolic links, unsafe paths,
 duplicate paths, unsupported compression methods, excessive entry counts, and
 excessive expanded size.
+
+## UI evidence benchmark
+
+See `Benchmarks/UIEvidence/README.md` for the independent
+`inspect_ui_image` quality benchmark, immutable dataset, and baseline reports.

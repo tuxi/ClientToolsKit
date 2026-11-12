@@ -1,0 +1,422 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "search_command_dark",
+  "category": "search",
+  "tags": [
+    "desktop",
+    "png",
+    "dark",
+    "overlay"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/search_command_dark.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Command",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Type a command or search…",
+      "bbox": {
+        "x": 0.316667,
+        "y": 0.323333,
+        "width": 0.129123,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "esc",
+      "bbox": {
+        "x": 0.681803,
+        "y": 0.322778,
+        "width": 0.020974,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "QUICK ACTIONS",
+      "bbox": {
+        "x": 0.285417,
+        "y": 0.362778,
+        "width": 0.429167,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Open settings",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.406111,
+        "width": 0.073774,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "⌘ ,",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.409444,
+        "width": 0.012522,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Search evidence",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.450556,
+        "width": 0.083811,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "⌘ K",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.453889,
+        "width": 0.012522,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "New project",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.495,
+        "width": 0.066146,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "⌘ N",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.498333,
+        "width": 0.012522,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Invite teammate",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.539444,
+        "width": 0.081478,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "⌘ I",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.542778,
+        "width": 0.012522,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "View benchmark report",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.583889,
+        "width": 0.110286,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "⌘ B",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.587222,
+        "width": 0.012522,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Toggle inspector",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.628333,
+        "width": 0.084451,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "⌘ ⇧ I",
+      "bbox": {
+        "x": 0.681217,
+        "y": 0.631667,
+        "width": 0.020866,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "↑↓ Navigate",
+      "bbox": {
+        "x": 0.296528,
+        "y": 0.672778,
+        "width": 0.038759,
+        "height": 0.012222
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "↵ Select",
+      "bbox": {
+        "x": 0.346398,
+        "y": 0.672778,
+        "width": 0.027355,
+        "height": 0.012222
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "esc Close",
+      "bbox": {
+        "x": 0.384863,
+        "y": 0.672778,
+        "width": 0.029731,
+        "height": 0.012222
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "command_palette",
+      "bbox": {
+        "x": 0.284722,
+        "y": 0.302778,
+        "width": 0.430556,
+        "height": 0.394444
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": []
+}

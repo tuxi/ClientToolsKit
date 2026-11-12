@@ -1,0 +1,825 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_91c762250c6b2d8b",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_76430d071e62abd4",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_d897ea9a84bac5ee",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021901,
+        "width" : 0.068428,
+        "x" : 0.043548,
+        "y" : 0.036724
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022653,
+        "width" : 0.110777,
+        "x" : 0.655349,
+        "y" : 0.032334
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.098837,
+        "x" : 0.181686,
+        "y" : 0.039535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Evaluation terms"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01654,
+        "width" : 0.040738,
+        "x" : 0.867712,
+        "y" : 0.034753
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016047,
+        "width" : 0.038071,
+        "x" : 0.934453,
+        "y" : 0.033837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.031977,
+        "x" : 0.036337,
+        "y" : 0.111628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.039244,
+        "x" : 0.193314,
+        "y" : 0.12093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Contents"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.167151,
+        "x" : 0.393895,
+        "y" : 0.151111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "EVALUATION TERMS • VERSION 2.4"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.085756,
+        "x" : 0.200581,
+        "y" : 0.16
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "Scope and acceptance"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.068314,
+        "x" : 0.200581,
+        "y" : 0.190698
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Evaluation license"
+    },
+    {
+      "bbox" : {
+        "height" : 0.031589,
+        "width" : 0.335927,
+        "x" : 0.395262,
+        "y" : 0.192567
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Cloudbase evaluation workspace terms"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.042151,
+        "x" : 0.031977,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016217,
+        "width" : 0.052592,
+        "x" : 0.200489,
+        "y" : 0.217729
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Data handling"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.046512,
+        "x" : 0.200581,
+        "y" : 0.248837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Restrictions"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02449,
+        "width" : 0.060358,
+        "x" : 0.01851,
+        "y" : 0.264654
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "-* Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014503,
+        "width" : 0.04077,
+        "x" : 0.200545,
+        "y" : 0.278795
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Disclaimer"
+    },
+    {
+      "bbox" : {
+        "height" : 0.007183,
+        "width" : 0.037791,
+        "x" : 0.401163,
+        "y" : 0.288372
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Inis docume"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.155523,
+        "x" : 0.585756,
+        "y" : 0.285556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "cise OCR under realistic dense-reading conditions."
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.075581,
+        "x" : 0.200581,
+        "y" : 0.308889
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Limitation of liability"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019147,
+        "width" : 0.133721,
+        "x" : 0.395349,
+        "y" : 0.336667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "1. Scope and acceptance"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.540698,
+        "x" : 0.395349,
+        "y" : 0.367442
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "These terms govern access to the Cloudbase evaluation workspace and any related documentation, sample data, or benchmark artifacts made available to the customer."
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.390988,
+        "x" : 0.393895,
+        "y" : 0.383333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "By accessing the workspace, the customer accepts these terms on behalf of the organization identified in the order form."
+    },
+    {
+      "bbox" : {
+        "height" : 0.021133,
+        "width" : 0.110718,
+        "x" : 0.395202,
+        "y" : 0.425651
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "2. Evaluation license"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.530523,
+        "x" : 0.393895,
+        "y" : 0.457778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "Cloudbase grants a limited, non-exclusive, non-transferable license to use the evaluation workspace solely for internal testing, quality assessment, and procurement"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01447,
+        "width" : 0.443314,
+        "x" : 0.393895,
+        "y" : 0.474419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "review during the evaluation period. The customer may not redistribute, sublicense, or use the workspace to provide a competing service."
+    },
+    {
+      "bbox" : {
+        "height" : 0.021107,
+        "width" : 0.089046,
+        "x" : 0.395155,
+        "y" : 0.51865
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "3. Data handling"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014496,
+        "width" : 0.520349,
+        "x" : 0.393895,
+        "y" : 0.548837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Customer content remains the property of the customer. Cloudbase processes customer content only to provide the evaluation workspace, maintain security, and"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.52907,
+        "x" : 0.393895,
+        "y" : 0.565116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "diagnose failures. Benchmark images and ground-truth annotations supplied by the customer must not contain sensitive personal information unless a separate data"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.111919,
+        "x" : 0.393895,
+        "y" : 0.585556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "processing addendum is in effect."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.079942,
+        "x" : 0.395349,
+        "y" : 0.63
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "4. Restrictions"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.53343,
+        "x" : 0.395349,
+        "y" : 0.66
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "The customer may not reverse engineer the service, bypass usage limits, conduct load testing without written approval, or attempt to access another customer's data."
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.405523,
+        "x" : 0.395349,
+        "y" : 0.676667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "Outputs generated during evaluation are provided for internal review and may not be represented as production commitments."
+    },
+    {
+      "bbox" : {
+        "height" : 0.019256,
+        "width" : 0.071286,
+        "x" : 0.395316,
+        "y" : 0.720605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "5. Disclaimer"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.536337,
+        "x" : 0.395349,
+        "y" : 0.751111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "The evaluation workspace is provided as is. Cloudbase disclaims all warranties, whether express, implied, or statutory, including merchantability, fitness for a particular"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016081,
+        "width" : 0.329993,
+        "x" : 0.393864,
+        "y" : 0.767682
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "purpose, and non-infringement. The customer assumes all risks associated with use of the workspace."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.075581,
+        "x" : 0.021802,
+        "y" : 0.862791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.056686,
+        "x" : 0.043605,
+        "y" : 0.94186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016572,
+        "width" : 0.052738,
+        "x" : 0.041925,
+        "y" : 0.955517
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.044992,
+        "width" : 0.136568,
+        "x" : 0.174035,
+        "y" : 0.018585
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035137,
+        "width" : 0.060769,
+        "x" : 0.009579,
+        "y" : 0.10402
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033697,
+        "width" : 0.058546,
+        "x" : 0.181203,
+        "y" : 0.111811
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.707874,
+        "width" : 0.605935,
+        "x" : 0.362773,
+        "y" : 0.114222
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03022,
+        "width" : 0.108624,
+        "x" : 0.385273,
+        "y" : 0.14358
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.031774,
+        "width" : 0.061427,
+        "x" : 0.498393,
+        "y" : 0.141911
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.046031,
+        "width" : 0.134401,
+        "x" : 0.013426,
+        "y" : 0.252061
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.045008,
+        "width" : 0.220223,
+        "x" : 0.70821,
+        "y" : 0.544369
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029682,
+        "width" : 0.079079,
+        "x" : 0.390546,
+        "y" : 0.712938
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 57,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.202403,
+        "width" : 0.093023,
+        "x" : 0.193314,
+        "y" : 0.12093
+      },
+      "confidence" : 0.8594327906940155,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_8",
+        "el_text_10",
+        "el_text_12",
+        "el_text_15",
+        "el_text_16",
+        "el_text_18",
+        "el_text_21"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_b887276a24e4a801",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "b887276a24e4a801757f8c11fc68fb3e5885ffc06e3aa39b7073ede0c0b8d5a3",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 7 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_8",
+        "el_text_10",
+        "el_text_12",
+        "el_text_15",
+        "el_text_16",
+        "el_text_18",
+        "el_text_21"
+      ]
+    }
+  ]
+}

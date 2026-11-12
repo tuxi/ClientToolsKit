@@ -1,0 +1,438 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_15b9af27ba203025",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 0.12,
+        "width" : 1,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_dcbf0f1401a34402",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.68,
+        "width" : 0.92,
+        "x" : 0.04,
+        "y" : 0.12
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_1f85003ba937144d",
+      "purpose" : "controls",
+      "source_bbox" : {
+        "height" : 0.2,
+        "width" : 0.92,
+        "x" : 0.04,
+        "y" : 0.74
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.039708,
+        "width" : 0.298325,
+        "x" : 0.348512,
+        "y" : 0.117485
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "$89.00"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019313,
+        "width" : 0.55814,
+        "x" : 0.046512,
+        "y" : 0.598712
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Choose a payment method"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.144186,
+        "x" : 0.139535,
+        "y" : 0.656652
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Apple Pay"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014259,
+        "width" : 0.182537,
+        "x" : 0.13894,
+        "y" : 0.673506
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Fast and secure"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015021,
+        "width" : 0.27907,
+        "x" : 0.139535,
+        "y" : 0.729614
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Credit or debit card"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015067,
+        "width" : 0.228924,
+        "x" : 0.138931,
+        "y" : 0.748736
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Visa ending in 4242"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.102326,
+        "x" : 0.139535,
+        "y" : 0.806867
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "PayPal"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.334884,
+        "x" : 0.134884,
+        "y" : 0.824034
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Pay with your PayPal balance"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015021,
+        "width" : 0.139535,
+        "x" : 0.432558,
+        "y" : 0.88412
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "Continue"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017167,
+        "width" : 0.734884,
+        "x" : 0.04186,
+        "y" : 0.939914
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "You can change this later in Billing settings."
+    },
+    {
+      "bbox" : {
+        "height" : 0.022259,
+        "width" : 0.112992,
+        "x" : 0.032735,
+        "y" : 0.016414
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022835,
+        "width" : 0.176078,
+        "x" : 0.465083,
+        "y" : 0.017318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.15722,
+        "width" : 0.967805,
+        "x" : 0.015352,
+        "y" : 0.074277
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.119124,
+        "width" : 0.885138,
+        "x" : 0.056602,
+        "y" : 0.090694
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022569,
+        "width" : 0.199966,
+        "x" : 0.336471,
+        "y" : 0.163994
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02314,
+        "width" : 0.131082,
+        "x" : 0.538767,
+        "y" : 0.162985
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023124,
+        "width" : 0.102109,
+        "x" : 0.050553,
+        "y" : 0.527928
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011605,
+        "width" : 0.103876,
+        "x" : 0.449033,
+        "y" : 0.568404
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019246,
+        "width" : 0.027613,
+        "x" : 0.207048,
+        "y" : 0.599473
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021934,
+        "width" : 0.36721,
+        "x" : 0.240474,
+        "y" : 0.597579
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.064082,
+        "width" : 0.918065,
+        "x" : 0.039615,
+        "y" : 0.635578
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016666,
+        "width" : 0.164711,
+        "x" : 0.126929,
+        "y" : 0.653825
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.062268,
+        "width" : 0.921735,
+        "x" : 0.038196,
+        "y" : 0.713147
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019334,
+        "width" : 0.04999,
+        "x" : 0.062127,
+        "y" : 0.733374
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016589,
+        "width" : 0.294467,
+        "x" : 0.123362,
+        "y" : 0.7293
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014485,
+        "width" : 0.236881,
+        "x" : 0.126897,
+        "y" : 0.749244
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.061862,
+        "width" : 0.919661,
+        "x" : 0.040578,
+        "y" : 0.788436
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015761,
+        "width" : 0.113405,
+        "x" : 0.129207,
+        "y" : 0.804004
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.047005,
+        "width" : 0.877531,
+        "x" : 0.063101,
+        "y" : 0.868251
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01959,
+        "width" : 0.160936,
+        "x" : 0.618282,
+        "y" : 0.939957
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 30,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_74e70a1e60fe51e6",
+    "height" : 932,
+    "mime_type" : "image/png",
+    "sha256" : "74e70a1e60fe51e61bdfa201d158d349715d5636ab698f83ec281e44bb0c427a",
+    "source_kind" : "web_screenshot",
+    "width" : 430
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+
+  ]
+}

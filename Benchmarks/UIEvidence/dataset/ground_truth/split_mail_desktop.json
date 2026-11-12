@@ -1,0 +1,745 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "split_mail_desktop",
+  "category": "split_view",
+  "tags": [
+    "desktop",
+    "png",
+    "split",
+    "repeated_group",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/split_mail_desktop.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Mail",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Compose",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.127778,
+        "width": 0.097917,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Inbox",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.19,
+        "width": 0.097917,
+        "height": 0.037778
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "7",
+      "bbox": {
+        "x": 0.281445,
+        "y": 0.201667,
+        "width": 0.004666,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Starred",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.227778,
+        "width": 0.097917,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Sent",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.26,
+        "width": 0.097917,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Drafts",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.292222,
+        "width": 0.097917,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "3",
+      "bbox": {
+        "x": 0.280946,
+        "y": 0.301111,
+        "width": 0.005165,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Archive",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.324444,
+        "width": 0.097917,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Inbox",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.136667,
+        "width": 0.029677,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.195556,
+        "width": 0.042513,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "09:42",
+      "bbox": {
+        "x": 0.495736,
+        "y": 0.195556,
+        "width": 0.018153,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Crop review notes",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.215556,
+        "width": 0.202083,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "The updated bounds look correct on both mobile and desktop.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.235556,
+        "width": 0.202083,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Jon Bell",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.276667,
+        "width": 0.030751,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "08:16",
+      "bbox": {
+        "x": 0.496636,
+        "y": 0.276667,
+        "width": 0.017253,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Benchmark dataset",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.296667,
+        "width": 0.202083,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "I reviewed the coverage matrix. The low-contrast cases are useful.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.316667,
+        "width": 0.202083,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Priya Raman",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.357778,
+        "width": 0.048275,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Yesterday",
+      "bbox": {
+        "x": 0.483811,
+        "y": 0.357778,
+        "width": 0.030078,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Runner v1.8",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.377778,
+        "width": 0.202083,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "All integrity checks are green in the latest build.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.397778,
+        "width": 0.202083,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Theo Park",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.438889,
+        "width": 0.038997,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Yesterday",
+      "bbox": {
+        "x": 0.483811,
+        "y": 0.438889,
+        "width": 0.030078,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Weekly planning",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.458889,
+        "width": 0.202083,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Sharing the agenda before tomorrow's review.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.478889,
+        "width": 0.202083,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Lina Soto",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.52,
+        "width": 0.036165,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Mon",
+      "bbox": {
+        "x": 0.500738,
+        "y": 0.52,
+        "width": 0.013151,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Accessibility audit",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.54,
+        "width": 0.202083,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Two labels still need a contrast pass.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.56,
+        "width": 0.202083,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Noah Williams",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.601111,
+        "width": 0.055046,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "Sun",
+      "bbox": {
+        "x": 0.502257,
+        "y": 0.601111,
+        "width": 0.011632,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "API contract",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.621111,
+        "width": 0.202083,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "Freezing v1 now, no schema changes after Friday.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.641111,
+        "width": 0.202083,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Archive",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.136667,
+        "width": 0.038965,
+        "height": 0.037778
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Delete",
+      "bbox": {
+        "x": 0.582715,
+        "y": 0.136667,
+        "width": 0.035558,
+        "height": 0.037778
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Reply",
+      "bbox": {
+        "x": 0.622439,
+        "y": 0.136667,
+        "width": 0.032465,
+        "height": 0.037778
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Product / Evidence review",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.188889,
+        "width": 0.425,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "Crop review notes",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.214444,
+        "width": 0.425,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "MC",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.267778,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.571528,
+        "y": 0.267778,
+        "width": 0.059288,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "to Alex Morgan · 09:42",
+      "bbox": {
+        "x": 0.571528,
+        "y": 0.291111,
+        "width": 0.076497,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "The updated bounds look correct on both mobile and desktop. I checked the navigation crop, the repeated list area, and the narrow content column.",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.338889,
+        "width": 0.425,
+        "height": 0.043993
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "One edge case remains: very small text inside the sticky toolbar can produce a box that overlaps two visual regions. Please keep that in the failure report rather than adjusting the detector before the baseline is frozen.",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.396215,
+        "width": 0.425,
+        "height": 0.06599
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "Measure first. Diagnose after the immutable run is complete.",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.482205,
+        "width": 0.425,
+        "height": 0.038889
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "Thanks, Maya",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.541094,
+        "width": 0.425,
+        "height": 0.043993
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "Reply to Maya...",
+      "bbox": {
+        "x": 0.547222,
+        "y": 0.62342,
+        "width": 0.057997,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "Send",
+      "bbox": {
+        "x": 0.914865,
+        "y": 0.610642,
+        "width": 0.042079,
+        "height": 0.04
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mail_folders",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.112222,
+        "width": 0.118056,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "message_list",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.112222,
+        "width": 0.222222,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mail_reader",
+      "bbox": {
+        "x": 0.524306,
+        "y": 0.112222,
+        "width": 0.455556,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "mail_rows",
+      "axis": "vertical",
+      "member_count": 6,
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.181111,
+        "width": 0.221528,
+        "height": 0.486667
+      }
+    }
+  ]
+}

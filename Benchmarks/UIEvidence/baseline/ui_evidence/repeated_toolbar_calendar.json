@@ -1,0 +1,1519 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_6e8400c299d5e8f1",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_675223fa10b5c6f5",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_84d9c9a1dee20b51",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.010174,
+        "x" : 0.021802,
+        "y" : 0.039535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "C"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021354,
+        "width" : 0.066912,
+        "x" : 0.043579,
+        "y" : 0.036997
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02269,
+        "width" : 0.112206,
+        "x" : 0.65392,
+        "y" : 0.032297
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017575,
+        "width" : 0.040893,
+        "x" : 0.867635,
+        "y" : 0.034236
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.934593,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019215,
+        "width" : 0.055312,
+        "x" : 0.181647,
+        "y" : 0.041556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Calendar"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.02907,
+        "x" : 0.039244,
+        "y" : 0.111628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01447,
+        "width" : 0.100291,
+        "x" : 0.18314,
+        "y" : 0.111111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "PRODUCT CALENDAR"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.02907,
+        "x" : 0.46657,
+        "y" : 0.132222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "* Day"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.03343,
+        "x" : 0.510174,
+        "y" : 0.132222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "* Week"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.036337,
+        "x" : 0.559593,
+        "y" : 0.132222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "- Month"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018941,
+        "width" : 0.042151,
+        "x" : 0.609012,
+        "y" : 0.132222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "- Agenda"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017658,
+        "width" : 0.045245,
+        "x" : 0.664151,
+        "y" : 0.131869
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "* Timeline"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.034884,
+        "x" : 0.723837,
+        "y" : 0.134444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "~ Board |"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.065407,
+        "x" : 0.90843,
+        "y" : 0.134444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "+ New event"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025917,
+        "width" : 0.142442,
+        "x" : 0.18314,
+        "y" : 0.14186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "November 2026"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.020349,
+        "x" : 0.19186,
+        "y" : 0.2
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "MON"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.018895,
+        "x" : 0.305233,
+        "y" : 0.202326
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "TUE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.020349,
+        "x" : 0.418605,
+        "y" : 0.2
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "WED"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.018895,
+        "x" : 0.531977,
+        "y" : 0.202326
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "THU"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.015988,
+        "x" : 0.645349,
+        "y" : 0.2
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "FRI"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.017442,
+        "x" : 0.760174,
+        "y" : 0.2
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "SAT"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.018895,
+        "x" : 0.873547,
+        "y" : 0.202326
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "SUN"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.036337,
+        "x" : 0.037791,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.010174,
+        "x" : 0.188953,
+        "y" : 0.234884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "27"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.302326,
+        "y" : 0.237209
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "28"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.415698,
+        "y" : 0.237209
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "29"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.530523,
+        "y" : 0.237209
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "30"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021215,
+        "width" : 0.06016,
+        "x" : 0.01861,
+        "y" : 0.267379
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "-* Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.006977,
+        "width" : 0.026163,
+        "x" : 0.873547,
+        "y" : 0.265116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "Standup."
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.007267,
+        "x" : 0.302326,
+        "y" : 0.383721
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "5"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.87064,
+        "y" : 0.386047
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "10"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.027616,
+        "x" : 0.760174,
+        "y" : 0.411628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.010174,
+        "x" : 0.188953,
+        "y" : 0.534884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "11"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.415698,
+        "y" : 0.534884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "13"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.52907,
+        "y" : 0.534884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "14"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.010174,
+        "x" : 0.643895,
+        "y" : 0.534884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "15"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.757267,
+        "y" : 0.534884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "16"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.010174,
+        "x" : 0.87064,
+        "y" : 0.532558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "17"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012427,
+        "width" : 0.030812,
+        "x" : 0.645199,
+        "y" : 0.561365
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.027616,
+        "x" : 0.305233,
+        "y" : 0.572093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_43",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.1875,
+        "y" : 0.683721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_44",
+      "kind" : "text",
+      "text" : "18"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.010174,
+        "x" : 0.302326,
+        "y" : 0.683721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_45",
+      "kind" : "text",
+      "text" : "19"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.013081,
+        "x" : 0.415698,
+        "y" : 0.683721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_46",
+      "kind" : "text",
+      "text" : "20"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.52907,
+        "y" : 0.683721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_47",
+      "kind" : "text",
+      "text" : "21"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.013081,
+        "x" : 0.642442,
+        "y" : 0.681395
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_48",
+      "kind" : "text",
+      "text" : "22"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.757267,
+        "y" : 0.683721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_49",
+      "kind" : "text",
+      "text" : "23"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.013081,
+        "x" : 0.87064,
+        "y" : 0.683721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_50",
+      "kind" : "text",
+      "text" : "24"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015094,
+        "width" : 0.029794,
+        "x" : 0.190045,
+        "y" : 0.708732
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_51",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.009302,
+        "width" : 0.02907,
+        "x" : 0.531977,
+        "y" : 0.711628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_52",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.027616,
+        "x" : 0.873547,
+        "y" : 0.709302
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_53",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.188953,
+        "y" : 0.832558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_54",
+      "kind" : "text",
+      "text" : "25"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.013081,
+        "x" : 0.302326,
+        "y" : 0.832558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_55",
+      "kind" : "text",
+      "text" : "26"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.415698,
+        "y" : 0.832558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_56",
+      "kind" : "text",
+      "text" : "27"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.013081,
+        "x" : 0.52907,
+        "y" : 0.832558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_57",
+      "kind" : "text",
+      "text" : "28"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.643895,
+        "y" : 0.832558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_58",
+      "kind" : "text",
+      "text" : "29"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.757267,
+        "y" : 0.832558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_59",
+      "kind" : "text",
+      "text" : "30"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.0625,
+        "x" : 0.034884,
+        "y" : 0.865116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_60",
+      "kind" : "text",
+      "text" : "Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.027616,
+        "x" : 0.418605,
+        "y" : 0.860465
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_61",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.009302,
+        "width" : 0.027616,
+        "x" : 0.760174,
+        "y" : 0.860465
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_62",
+      "kind" : "text",
+      "text" : "Standup"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.056686,
+        "x" : 0.043605,
+        "y" : 0.94186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_63",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.014535,
+        "x" : 0.017442,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_64",
+      "kind" : "text",
+      "text" : "AMI"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.052326,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_65",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032475,
+        "width" : 0.138555,
+        "x" : 0.008274,
+        "y" : 0.099313
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.059057,
+        "width" : 0.09332,
+        "x" : 0.892517,
+        "y" : 0.112052
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.031196,
+        "width" : 0.076156,
+        "x" : 0.901086,
+        "y" : 0.127248
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035036,
+        "width" : 0.055789,
+        "x" : 0.010175,
+        "y" : 0.155896
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033475,
+        "width" : 0.042137,
+        "x" : 0.034991,
+        "y" : 0.208059
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029392,
+        "width" : 0.08806,
+        "x" : 0.310165,
+        "y" : 0.247148
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086118,
+        "width" : 0.100689,
+        "x" : 0.190503,
+        "y" : 0.27654
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.089243,
+        "width" : 0.212762,
+        "x" : 0.417638,
+        "y" : 0.273894
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.08624,
+        "width" : 0.101349,
+        "x" : 0.644387,
+        "y" : 0.276436
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.074953,
+        "width" : 0.017122,
+        "x" : 0.515495,
+        "y" : 0.284361
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.082169,
+        "width" : 0.100196,
+        "x" : 0.759777,
+        "y" : 0.280452
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.074851,
+        "width" : 0.098084,
+        "x" : 0.87444,
+        "y" : 0.288272
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.125977,
+        "width" : 0.099313,
+        "x" : 0.304564,
+        "y" : 0.385748
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040308,
+        "width" : 0.104403,
+        "x" : 0.528154,
+        "y" : 0.384819
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.04626,
+        "width" : 0.107129,
+        "x" : 0.412276,
+        "y" : 0.396776
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086386,
+        "width" : 0.101435,
+        "x" : 0.189373,
+        "y" : 0.42479
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.087737,
+        "width" : 0.116449,
+        "x" : 0.643739,
+        "y" : 0.424844
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.082111,
+        "width" : 0.115205,
+        "x" : 0.744804,
+        "y" : 0.429065
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.070939,
+        "width" : 0.097759,
+        "x" : 0.417771,
+        "y" : 0.440785
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.128855,
+        "width" : 0.103225,
+        "x" : 0.642902,
+        "y" : 0.534639
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.108976,
+        "width" : 0.101813,
+        "x" : 0.304623,
+        "y" : 0.554762
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.088258,
+        "width" : 0.097502,
+        "x" : 0.417992,
+        "y" : 0.575503
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.088083,
+        "width" : 0.100708,
+        "x" : 0.530153,
+        "y" : 0.575415
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.08835,
+        "width" : 0.100759,
+        "x" : 0.759213,
+        "y" : 0.575415
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_28",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022733,
+        "width" : 0.018625,
+        "x" : 0.412203,
+        "y" : 0.678124
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_29",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.050863,
+        "width" : 0.098301,
+        "x" : 0.195448,
+        "y" : 0.687152
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_30",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.039141,
+        "width" : 0.090622,
+        "x" : 0.310274,
+        "y" : 0.687117
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_31",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.103985,
+        "width" : 0.101906,
+        "x" : 0.188823,
+        "y" : 0.708362
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_32",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.105859,
+        "width" : 0.100042,
+        "x" : 0.30307,
+        "y" : 0.706483
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_33",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086592,
+        "width" : 0.100369,
+        "x" : 0.644836,
+        "y" : 0.725722
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_34",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.087044,
+        "width" : 0.212716,
+        "x" : 0.759746,
+        "y" : 0.725561
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_35",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.077024,
+        "width" : 0.100257,
+        "x" : 0.530153,
+        "y" : 0.737219
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_36",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.070391,
+        "width" : 0.014659,
+        "x" : 0.859972,
+        "y" : 0.73408
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_37",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.060866,
+        "width" : 0.109709,
+        "x" : 0.412086,
+        "y" : 0.826678
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_38",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.128724,
+        "width" : 0.102638,
+        "x" : 0.301264,
+        "y" : 0.832211
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_39",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024729,
+        "width" : 0.01916,
+        "x" : 0.639184,
+        "y" : 0.828548
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_40",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.109515,
+        "width" : 0.103351,
+        "x" : 0.757912,
+        "y" : 0.851451
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_41",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_42",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086118,
+        "width" : 0.100689,
+        "x" : 0.190503,
+        "y" : 0.874861
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_43",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086582,
+        "width" : 0.098052,
+        "x" : 0.417443,
+        "y" : 0.874861
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_44",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086699,
+        "width" : 0.100899,
+        "x" : 0.64439,
+        "y" : 0.874268
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_45",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.086298,
+        "width" : 0.098906,
+        "x" : 0.874041,
+        "y" : 0.874729
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_46",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_47",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_48",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 113,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.019294,
+        "width" : 0.292151,
+        "x" : 0.46657,
+        "y" : 0.131869
+      },
+      "confidence" : 0.9299911031974105,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_10",
+        "el_text_11",
+        "el_text_12",
+        "el_text_13",
+        "el_text_14",
+        "el_text_15"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_6e263790856a6a09",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "6e263790856a6a099e8ed1ff95653fe781a1dfeb969d6c6dc2625a66db585cdc",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 6 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_10",
+        "el_text_11",
+        "el_text_12",
+        "el_text_13",
+        "el_text_14",
+        "el_text_15"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,993 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_9cdac64e02756525",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_4e24964481025fc4",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_2c6ebc3cd3d0cf0f",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.015633,
+        "width" : 0.114826,
+        "x" : 0.164244,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023256,
+        "width" : 0.011628,
+        "x" : 0.018895,
+        "y" : 0.036176
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "c"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019677,
+        "width" : 0.059739,
+        "x" : 0.040625,
+        "y" : 0.037965
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018889,
+        "width" : 0.100291,
+        "x" : 0.690407,
+        "y" : 0.033333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018013,
+        "width" : 0.049719,
+        "x" : 0.867569,
+        "y" : 0.034297
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "4 Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015762,
+        "width" : 0.034884,
+        "x" : 0.940407,
+        "y" : 0.033333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018088,
+        "width" : 0.034884,
+        "x" : 0.164244,
+        "y" : 0.041344
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Teams"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018961,
+        "width" : 0.042267,
+        "x" : 0.018837,
+        "y" : 0.110675
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "A Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028915,
+        "width" : 0.123547,
+        "x" : 0.300872,
+        "y" : 0.118863
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "Teams and roles"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020336,
+        "width" : 0.0658,
+        "x" : 0.704734,
+        "y" : 0.123702
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "+ Create team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016443,
+        "width" : 0.045464,
+        "x" : 0.174219,
+        "y" : 0.131233
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "Workspace"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026842,
+        "width" : 0.062629,
+        "x" : 0.800808,
+        "y" : 0.13645
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Role policy"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015711,
+        "width" : 0.231105,
+        "x" : 0.300872,
+        "y" : 0.16
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Organize people and control access to projects and data."
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.024709,
+        "x" : 0.03343,
+        "y" : 0.165375
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015776,
+        "width" : 0.037826,
+        "x" : 0.183122,
+        "y" : 0.17299
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Overview"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015659,
+        "width" : 0.143895,
+        "x" : 0.800872,
+        "y" : 0.175556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Admins can manage billing and security."
+    },
+    {
+      "bbox" : {
+        "height" : 0.01584,
+        "width" : 0.168605,
+        "x" : 0.800872,
+        "y" : 0.196382
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Members can create projects and invite guests."
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.02907,
+        "x" : 0.181686,
+        "y" : 0.211886
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Teams"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019246,
+        "width" : 0.035068,
+        "x" : 0.342931,
+        "y" : 0.211307
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Design"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015504,
+        "width" : 0.031977,
+        "x" : 0.034884,
+        "y" : 0.217054
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.010336,
+        "width" : 0.013081,
+        "x" : 0.318314,
+        "y" : 0.224806
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "DE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.024709,
+        "x" : 0.710756,
+        "y" : 0.224806
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "Admin"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013359,
+        "width" : 0.037791,
+        "x" : 0.800872,
+        "y" : 0.229974
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Default role"
+    },
+    {
+      "bbox" : {
+        "height" : 0.008191,
+        "width" : 0.036337,
+        "x" : 0.343023,
+        "y" : 0.235142
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "18 members"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015504,
+        "width" : 0.023256,
+        "x" : 0.18314,
+        "y" : 0.248062
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "Roles"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.026163,
+        "x" : 0.809593,
+        "y" : 0.260982
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "Member"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017847,
+        "width" : 0.036762,
+        "x" : 0.034598,
+        "y" : 0.268362
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.049419,
+        "x" : 0.181686,
+        "y" : 0.286822
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Permissions"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021206,
+        "width" : 0.061103,
+        "x" : 0.341542,
+        "y" : 0.283971
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Engineering"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.013081,
+        "x" : 0.318314,
+        "y" : 0.294574
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "EN"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015642,
+        "width" : 0.031998,
+        "x" : 0.703478,
+        "y" : 0.294504
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "Member"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013385,
+        "width" : 0.042151,
+        "x" : 0.34157,
+        "y" : 0.304444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "42 members"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.043605,
+        "x" : 0.800872,
+        "y" : 0.299742
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "Guest access"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015504,
+        "width" : 0.017442,
+        "x" : 0.18314,
+        "y" : 0.322997
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "SSO"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013158,
+        "width" : 0.034911,
+        "x" : 0.808126,
+        "y" : 0.330631
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Restricted"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016704,
+        "width" : 0.046633,
+        "x" : 0.342962,
+        "y" : 0.355989
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Research"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018311,
+        "width" : 0.057104,
+        "x" : 0.182892,
+        "y" : 0.361377
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "Directory sync"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.013081,
+        "x" : 0.318314,
+        "y" : 0.366925
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "RE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015642,
+        "width" : 0.031998,
+        "x" : 0.703478,
+        "y" : 0.366856
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "Member"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01292,
+        "width" : 0.039244,
+        "x" : 0.343023,
+        "y" : 0.377261
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "12 members"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015659,
+        "width" : 0.094477,
+        "x" : 0.838663,
+        "y" : 0.397778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "View permission matrix"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01846,
+        "width" : 0.05713,
+        "x" : 0.341287,
+        "y" : 0.427132
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Operations"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035445,
+        "width" : 0.060234,
+        "x" : 0.318534,
+        "y" : 0.436655
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_43",
+      "kind" : "text",
+      "text" : "OP 9 members"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015642,
+        "width" : 0.031998,
+        "x" : 0.703478,
+        "y" : 0.439207
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_44",
+      "kind" : "text",
+      "text" : "Member"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018088,
+        "width" : 0.069767,
+        "x" : 0.018895,
+        "y" : 0.863049
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_45",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015504,
+        "width" : 0.053779,
+        "x" : 0.037791,
+        "y" : 0.940568
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_46",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013437,
+        "width" : 0.046512,
+        "x" : 0.037791,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_47",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.058896,
+        "width" : 0.028818,
+        "x" : 0.006577,
+        "y" : 0.017996
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.051354,
+        "width" : 0.250098,
+        "x" : 0.671132,
+        "y" : 0.018095
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041839,
+        "width" : 0.05257,
+        "x" : 0.930633,
+        "y" : 0.0222
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034289,
+        "width" : 0.062788,
+        "x" : 0.039576,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02161,
+        "width" : 0.087274,
+        "x" : 0.704297,
+        "y" : 0.032388
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019784,
+        "width" : 0.035753,
+        "x" : 0.881367,
+        "y" : 0.033969
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034362,
+        "width" : 0.054083,
+        "x" : 0.009226,
+        "y" : 0.104823
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.369481,
+        "width" : 0.12118,
+        "x" : 0.165251,
+        "y" : 0.112535
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033369,
+        "width" : 0.133282,
+        "x" : 0.298635,
+        "y" : 0.113842
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.04392,
+        "width" : 0.085954,
+        "x" : 0.691692,
+        "y" : 0.112139
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.332766,
+        "width" : 0.189765,
+        "x" : 0.789769,
+        "y" : 0.113778
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028905,
+        "width" : 0.04533,
+        "x" : 0.174176,
+        "y" : 0.162737
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.053801,
+        "width" : 0.184405,
+        "x" : 0.797883,
+        "y" : 0.165362
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.056621,
+        "width" : 0.108772,
+        "x" : 0.170602,
+        "y" : 0.190288
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.302302,
+        "width" : 0.479669,
+        "x" : 0.298852,
+        "y" : 0.185482
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.045986,
+        "width" : 0.120952,
+        "x" : 0.012081,
+        "y" : 0.252106
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033682,
+        "width" : 0.068778,
+        "x" : 0.1726,
+        "y" : 0.352742
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029329,
+        "width" : 0.054775,
+        "x" : 0.339127,
+        "y" : 0.350623
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021182,
+        "width" : 0.031228,
+        "x" : 0.700919,
+        "y" : 0.366355
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.058677,
+        "width" : 0.174028,
+        "x" : 0.797093,
+        "y" : 0.374405
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041795,
+        "width" : 0.027293,
+        "x" : 0.107483,
+        "y" : 0.851331
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033222,
+        "width" : 0.055691,
+        "x" : 0.032583,
+        "y" : 0.858005
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.024292,
+        "x" : 0.008687,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026448,
+        "width" : 0.086664,
+        "x" : 0.005679,
+        "y" : 0.934123
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 71,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.113815,
+        "width" : 0.043605,
+        "x" : 0.800872,
+        "y" : 0.229974
+      },
+      "confidence" : 0.8663463366612011,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_23",
+        "el_text_26",
+        "el_text_33",
+        "el_text_35"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_a7d1e26d9c9658aa",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "a7d1e26d9c9658aabeb26d3de8527253746bea4103af5f802e9fe591f0b27ffe",
+    "source_kind" : "web_screenshot",
+    "width" : 1600
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 4 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_23",
+        "el_text_26",
+        "el_text_33",
+        "el_text_35"
+      ]
+    }
+  ]
+}

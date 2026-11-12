@@ -1,0 +1,1638 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_fb3bd53385f1b42f",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_3175d82fce9ec1e1",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_75c3fcbcb3df8e12",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021385,
+        "width" : 0.068368,
+        "x" : 0.043578,
+        "y" : 0.036982
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022653,
+        "width" : 0.110777,
+        "x" : 0.655349,
+        "y" : 0.032334
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017575,
+        "width" : 0.040893,
+        "x" : 0.867635,
+        "y" : 0.034236
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.934593,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.055233,
+        "x" : 0.181686,
+        "y" : 0.04186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Analytics"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.030523,
+        "x" : 0.037791,
+        "y" : 0.111628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01447,
+        "width" : 0.069767,
+        "x" : 0.181686,
+        "y" : 0.111111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "LAST 30 DAYS"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.013081,
+        "x" : 0.888081,
+        "y" : 0.123256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "7d"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.018895,
+        "x" : 0.917151,
+        "y" : 0.123256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "30d"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.018895,
+        "x" : 0.953488,
+        "y" : 0.123256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "90d"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030642,
+        "width" : 0.148611,
+        "x" : 0.182969,
+        "y" : 0.139563
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Product overview"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.311047,
+        "x" : 0.18314,
+        "y" : 0.183333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Acquisition, engagement, and expansion across the team workspace."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.036337,
+        "x" : 0.037791,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01833,
+        "width" : 0.107787,
+        "x" : 0.194645,
+        "y" : 0.246341
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Monthly recurring revenue"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016822,
+        "width" : 0.079942,
+        "x" : 0.398256,
+        "y" : 0.246512
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Weekly active users"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.020349,
+        "x" : 0.597384,
+        "y" : 0.246512
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "NPS"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014496,
+        "width" : 0.0625,
+        "x" : 0.800872,
+        "y" : 0.248837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Open incidents"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02128,
+        "width" : 0.060124,
+        "x" : 0.018629,
+        "y" : 0.267339
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "-* Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029957,
+        "width" : 0.070243,
+        "x" : 0.195934,
+        "y" : 0.276755
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "$248.6k"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035329,
+        "width" : 0.058243,
+        "x" : 0.39675,
+        "y" : 0.276522
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "18,420"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025581,
+        "width" : 0.024709,
+        "x" : 0.598837,
+        "y" : 0.276744
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "54"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023256,
+        "width" : 0.011628,
+        "x" : 0.800872,
+        "y" : 0.281395
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "2"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.072674,
+        "x" : 0.196221,
+        "y" : 0.318605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "+12.4% vs previous"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.069767,
+        "x" : 0.396802,
+        "y" : 0.318605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "+8.9% vs previous"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.037791,
+        "x" : 0.598837,
+        "y" : 0.318605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "+6 points"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.084302,
+        "x" : 0.800872,
+        "y" : 0.318605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Both under monitoring"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023437,
+        "width" : 0.126453,
+        "x" : 0.196221,
+        "y" : 0.397674
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Weekly active users"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.018895,
+        "x" : 0.645349,
+        "y" : 0.4
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "Live"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021395,
+        "width" : 0.093023,
+        "x" : 0.707849,
+        "y" : 0.418605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "Health metrics"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.212209,
+        "x" : 0.197674,
+        "y" : 0.425556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "Unique users who completed a meaningful action."
+    },
+    {
+      "bbox" : {
+        "height" : 0.01702,
+        "width" : 0.035016,
+        "x" : 0.712143,
+        "y" : 0.471722
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "METRIC"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018798,
+        "width" : 0.043637,
+        "x" : 0.812484,
+        "y" : 0.471996
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "CURRENT"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018722,
+        "width" : 0.037813,
+        "x" : 0.895338,
+        "y" : 0.472035
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "CHANGE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.043605,
+        "x" : 0.712209,
+        "y" : 0.513953
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Activation"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.031977,
+        "x" : 0.8125,
+        "y" : 0.513953
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "72.4%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.026163,
+        "x" : 0.895349,
+        "y" : 0.513953
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "+7.1%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.042151,
+        "x" : 0.712209,
+        "y" : 0.560465
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "Retention"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021472,
+        "width" : 0.032114,
+        "x" : 0.813885,
+        "y" : 0.560194
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "64.8%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021395,
+        "width" : 0.02907,
+        "x" : 0.895349,
+        "y" : 0.56
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "+2.3%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.043605,
+        "x" : 0.713663,
+        "y" : 0.609302
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Expansion"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022102,
+        "width" : 0.03371,
+        "x" : 0.813814,
+        "y" : 0.606391
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_43",
+      "kind" : "text",
+      "text" : "$48.2k"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02124,
+        "width" : 0.031977,
+        "x" : 0.895349,
+        "y" : 0.606667
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_44",
+      "kind" : "text",
+      "text" : "+11.6%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.021802,
+        "x" : 0.209302,
+        "y" : 0.639535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_45",
+      "kind" : "text",
+      "text" : "Oct 12"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.021802,
+        "x" : 0.31686,
+        "y" : 0.639535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_46",
+      "kind" : "text",
+      "text" : "Oct 19"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.020349,
+        "x" : 0.638081,
+        "y" : 0.639535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_47",
+      "kind" : "text",
+      "text" : "Nov 9"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021111,
+        "width" : 0.055233,
+        "x" : 0.712209,
+        "y" : 0.653333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_48",
+      "kind" : "text",
+      "text" : "Support load"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.026163,
+        "x" : 0.8125,
+        "y" : 0.653488
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_49",
+      "kind" : "text",
+      "text" : "3.1%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.027616,
+        "x" : 0.895349,
+        "y" : 0.653488
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_50",
+      "kind" : "text",
+      "text" : "-0.8%"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.075581,
+        "x" : 0.021802,
+        "y" : 0.862791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_51",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.05814,
+        "x" : 0.042151,
+        "y" : 0.94186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_52",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_53",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.050872,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_54",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.048629,
+        "width" : 0.136019,
+        "x" : 0.172433,
+        "y" : 0.018008
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032475,
+        "width" : 0.138555,
+        "x" : 0.008274,
+        "y" : 0.099313
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.06037,
+        "width" : 0.118322,
+        "x" : 0.873766,
+        "y" : 0.100159
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027334,
+        "width" : 0.026207,
+        "x" : 0.949763,
+        "y" : 0.117935
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035036,
+        "width" : 0.055789,
+        "x" : 0.010175,
+        "y" : 0.155896
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033475,
+        "width" : 0.042137,
+        "x" : 0.034991,
+        "y" : 0.208059
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.140859,
+        "width" : 0.399304,
+        "x" : 0.383061,
+        "y" : 0.217694
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.141024,
+        "width" : 0.198915,
+        "x" : 0.786883,
+        "y" : 0.217627
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.127382,
+        "width" : 0.191288,
+        "x" : 0.182872,
+        "y" : 0.225995
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.115239,
+        "width" : 0.18145,
+        "x" : 0.388298,
+        "y" : 0.232315
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.111674,
+        "width" : 0.181355,
+        "x" : 0.591085,
+        "y" : 0.23468
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.114667,
+        "width" : 0.194707,
+        "x" : 0.777695,
+        "y" : 0.232871
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02383,
+        "width" : 0.06913,
+        "x" : 0.798172,
+        "y" : 0.244214
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032969,
+        "width" : 0.073639,
+        "x" : 0.19266,
+        "y" : 0.275567
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.031554,
+        "width" : 0.063766,
+        "x" : 0.394507,
+        "y" : 0.276393
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034715,
+        "width" : 0.032807,
+        "x" : 0.594373,
+        "y" : 0.274824
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.332853,
+        "width" : 0.496976,
+        "x" : 0.184754,
+        "y" : 0.373855
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.334611,
+        "width" : 0.281932,
+        "x" : 0.695781,
+        "y" : 0.374166
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028964,
+        "width" : 0.135769,
+        "x" : 0.190742,
+        "y" : 0.392023
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033137,
+        "width" : 0.106412,
+        "x" : 0.703614,
+        "y" : 0.411711
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027591,
+        "width" : 0.043764,
+        "x" : 0.706805,
+        "y" : 0.4666
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026254,
+        "width" : 0.047346,
+        "x" : 0.890142,
+        "y" : 0.466689
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025556,
+        "width" : 0.036647,
+        "x" : 0.925936,
+        "y" : 0.509084
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.118423,
+        "width" : 0.029536,
+        "x" : 0.626536,
+        "y" : 0.514096
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_28",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.096256,
+        "width" : 0.029232,
+        "x" : 0.43868,
+        "y" : 0.534587
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_29",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.09441,
+        "width" : 0.020135,
+        "x" : 0.593638,
+        "y" : 0.529962
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_30",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.08954,
+        "width" : 0.019692,
+        "x" : 0.517843,
+        "y" : 0.5353
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_31",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.087926,
+        "width" : 0.019755,
+        "x" : 0.554496,
+        "y" : 0.535992
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_32",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023604,
+        "width" : 0.052307,
+        "x" : 0.756531,
+        "y" : 0.534639
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_33",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.093555,
+        "width" : 0.153218,
+        "x" : 0.204143,
+        "y" : 0.544823
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_34",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.071702,
+        "width" : 0.021836,
+        "x" : 0.402834,
+        "y" : 0.553444
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_35",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.075319,
+        "width" : 0.021742,
+        "x" : 0.478341,
+        "y" : 0.549816
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_36",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.069196,
+        "width" : 0.020433,
+        "x" : 0.329748,
+        "y" : 0.557414
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_37",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.06468,
+        "width" : 0.021323,
+        "x" : 0.365575,
+        "y" : 0.562911
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_38",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023852,
+        "width" : 0.052335,
+        "x" : 0.705431,
+        "y" : 0.55967
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_39",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02667,
+        "width" : 0.038659,
+        "x" : 0.890338,
+        "y" : 0.557741
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_40",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.04921,
+        "width" : 0.019823,
+        "x" : 0.214821,
+        "y" : 0.57565
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_41",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.05323,
+        "width" : 0.023156,
+        "x" : 0.290633,
+        "y" : 0.573229
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_42",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023534,
+        "width" : 0.050034,
+        "x" : 0.759163,
+        "y" : 0.581566
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_43",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023623,
+        "width" : 0.04235,
+        "x" : 0.852643,
+        "y" : 0.581566
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_44",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022764,
+        "width" : 0.052032,
+        "x" : 0.705714,
+        "y" : 0.607505
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_45",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02614,
+        "width" : 0.044995,
+        "x" : 0.808816,
+        "y" : 0.603617
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_46",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023464,
+        "width" : 0.034378,
+        "x" : 0.928204,
+        "y" : 0.628493
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_47",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022173,
+        "width" : 0.06635,
+        "x" : 0.705671,
+        "y" : 0.654291
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_48",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026494,
+        "width" : 0.051289,
+        "x" : 0.842917,
+        "y" : 0.650984
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_49",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_50",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_51",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_52",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 106,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.084302,
+        "x" : 0.888081,
+        "y" : 0.123256
+      },
+      "confidence" : 0.8705918354538773,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_9",
+        "el_text_10",
+        "el_text_11"
+      ]
+    },
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.044512,
+        "width" : 0.436364,
+        "x" : 0.018629,
+        "y" : 0.267339
+      },
+      "confidence" : 0.8382289259056844,
+      "evidence" : "inferred",
+      "id" : "rg_2",
+      "member_ids" : [
+        "el_text_20",
+        "el_text_21",
+        "el_text_22"
+      ]
+    },
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.019072,
+        "width" : 0.221008,
+        "x" : 0.712143,
+        "y" : 0.471722
+      },
+      "confidence" : 0.83748581166467,
+      "evidence" : "inferred",
+      "id" : "rg_3",
+      "member_ids" : [
+        "el_text_33",
+        "el_text_34",
+        "el_text_35"
+      ]
+    },
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.202722,
+        "width" : 0.055299,
+        "x" : 0.712143,
+        "y" : 0.471722
+      },
+      "confidence" : 0.9125101848425616,
+      "evidence" : "inferred",
+      "id" : "rg_4",
+      "member_ids" : [
+        "el_text_33",
+        "el_text_36",
+        "el_text_39",
+        "el_text_42",
+        "el_text_48"
+      ]
+    },
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.202422,
+        "width" : 0.043637,
+        "x" : 0.812484,
+        "y" : 0.471996
+      },
+      "confidence" : 0.9195652332597414,
+      "evidence" : "inferred",
+      "id" : "rg_5",
+      "member_ids" : [
+        "el_text_34",
+        "el_text_37",
+        "el_text_40",
+        "el_text_43",
+        "el_text_49"
+      ]
+    },
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.202383,
+        "width" : 0.037813,
+        "x" : 0.895338,
+        "y" : 0.472035
+      },
+      "confidence" : 0.9107764367019061,
+      "evidence" : "inferred",
+      "id" : "rg_6",
+      "member_ids" : [
+        "el_text_35",
+        "el_text_38",
+        "el_text_41",
+        "el_text_44",
+        "el_text_50"
+      ]
+    },
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.209303,
+        "x" : 0.712209,
+        "y" : 0.513953
+      },
+      "confidence" : 0.8416654327256508,
+      "evidence" : "inferred",
+      "id" : "rg_7",
+      "member_ids" : [
+        "el_text_36",
+        "el_text_37",
+        "el_text_38"
+      ]
+    },
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.021666,
+        "width" : 0.21221,
+        "x" : 0.712209,
+        "y" : 0.56
+      },
+      "confidence" : 0.8584081577034564,
+      "evidence" : "inferred",
+      "id" : "rg_8",
+      "member_ids" : [
+        "el_text_39",
+        "el_text_40",
+        "el_text_41"
+      ]
+    },
+    {
+      "axis" : "horizontal",
+      "bbox" : {
+        "height" : 0.022102,
+        "width" : 0.213663,
+        "x" : 0.713663,
+        "y" : 0.606391
+      },
+      "confidence" : 0.8491046610845168,
+      "evidence" : "inferred",
+      "id" : "rg_9",
+      "member_ids" : [
+        "el_text_42",
+        "el_text_43",
+        "el_text_44"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_2d90a73bbebd1cf4",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "2d90a73bbebd1cf460e73695a564162fdf107b21ed8449ba41769e7fbeaa06cf",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_9",
+        "el_text_10",
+        "el_text_11"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_20",
+        "el_text_21",
+        "el_text_22"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_33",
+        "el_text_34",
+        "el_text_35"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 5 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_33",
+        "el_text_36",
+        "el_text_39",
+        "el_text_42",
+        "el_text_48"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 5 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_34",
+        "el_text_37",
+        "el_text_40",
+        "el_text_43",
+        "el_text_49"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 5 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_35",
+        "el_text_38",
+        "el_text_41",
+        "el_text_44",
+        "el_text_50"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_36",
+        "el_text_37",
+        "el_text_38"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_39",
+        "el_text_40",
+        "el_text_41"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the horizontal axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_42",
+        "el_text_43",
+        "el_text_44"
+      ]
+    }
+  ]
+}

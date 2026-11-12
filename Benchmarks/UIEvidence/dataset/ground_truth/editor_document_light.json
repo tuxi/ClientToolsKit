@@ -1,0 +1,603 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "editor_document_light",
+  "category": "editor",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_toolbar"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/editor_document_light.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Documents",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Undo",
+      "bbox": {
+        "x": 0.210417,
+        "y": 0.133333,
+        "width": 0.017871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Redo",
+      "bbox": {
+        "x": 0.255371,
+        "y": 0.133333,
+        "width": 0.017101,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Heading",
+      "bbox": {
+        "x": 0.299555,
+        "y": 0.133333,
+        "width": 0.027789,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Bold",
+      "bbox": {
+        "x": 0.354427,
+        "y": 0.133333,
+        "width": 0.015017,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Link",
+      "bbox": {
+        "x": 0.396528,
+        "y": 0.133333,
+        "width": 0.013813,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Comment",
+      "bbox": {
+        "x": 0.437424,
+        "y": 0.133333,
+        "width": 0.032281,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "More",
+      "bbox": {
+        "x": 0.496788,
+        "y": 0.133333,
+        "width": 0.017014,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Saved just now",
+      "bbox": {
+        "x": 0.919586,
+        "y": 0.132778,
+        "width": 0.05472,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Outline",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.201111,
+        "width": 0.080556,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Overview",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.231111,
+        "width": 0.080556,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Customer problem",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.261111,
+        "width": 0.080556,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Evidence collected",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.291111,
+        "width": 0.080556,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Proposed workflow",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.321111,
+        "width": 0.080556,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Launch checklist",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.365556,
+        "width": 0.080556,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Appendix",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.395556,
+        "width": 0.080556,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Product brief · Draft 4",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.23,
+        "width": 0.444444,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Evidence-first interface review",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.253333,
+        "width": 0.444444,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "A review of how teams inspect, compare, and decide from visual evidence without asking a model to invent structure.",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.313333,
+        "width": 0.444444,
+        "height": 0.058646
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Customer problem",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.400868,
+        "width": 0.444444,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Product teams can capture screenshots faster than they can agree on what the screenshot proves. Reviews drift into subjective descriptions, and the evidence trail is lost between design, engineering, and research.",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.44283,
+        "width": 0.444444,
+        "height": 0.071458
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Measure the observable facts first. Keep every inference editable and visibly uncertain.",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.534288,
+        "width": 0.444444,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Evidence collected",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.603177,
+        "width": 0.444444,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "28 representative interface states",
+      "bbox": {
+        "x": 0.363194,
+        "y": 0.645399,
+        "width": 0.416667,
+        "height": 0.023819
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Manual OCR and geometry labels",
+      "bbox": {
+        "x": 0.363194,
+        "y": 0.669219,
+        "width": 0.416667,
+        "height": 0.023819
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Source and crop integrity checks",
+      "bbox": {
+        "x": 0.363194,
+        "y": 0.693038,
+        "width": 0.416667,
+        "height": 0.023819
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Comments · 3",
+      "bbox": {
+        "x": 0.839583,
+        "y": 0.201111,
+        "width": 0.129167,
+        "height": 0.016667
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "MC",
+      "bbox": {
+        "x": 0.839583,
+        "y": 0.245556,
+        "width": 0.019444,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Keep the integrity section before latency.",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.245556,
+        "width": 0.104167,
+        "height": 0.053125
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Maya",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.245556,
+        "width": 0.104167,
+        "height": 0.017708
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "JB",
+      "bbox": {
+        "x": 0.839583,
+        "y": 0.326458,
+        "width": 0.019444,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "Are these crop bounds normalized?",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.326458,
+        "width": 0.104167,
+        "height": 0.053125
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Jon",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.326458,
+        "width": 0.104167,
+        "height": 0.017708
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "editor_toolbar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.797222,
+        "height": 0.057778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "document_outline",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.182222,
+        "width": 0.104167,
+        "height": 0.817778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "document_sheet",
+      "bbox": {
+        "x": 0.297222,
+        "y": 0.182222,
+        "width": 0.520833,
+        "height": 0.817778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "comments_panel",
+      "bbox": {
+        "x": 0.827778,
+        "y": 0.182222,
+        "width": 0.152778,
+        "height": 0.817778
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "editor_tools",
+      "axis": "horizontal",
+      "member_count": 7,
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.122222,
+        "width": 0.32908,
+        "height": 0.035556
+      }
+    }
+  ]
+}

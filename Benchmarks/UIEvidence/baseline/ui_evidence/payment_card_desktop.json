@@ -1,0 +1,972 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_91c762250c6b2d8b",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_a27d37e07bffab95",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_2044e1ffe64cd3b8",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.010174,
+        "x" : 0.021802,
+        "y" : 0.039535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "C"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021719,
+        "width" : 0.066955,
+        "x" : 0.043557,
+        "y" : 0.036815
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02269,
+        "width" : 0.112206,
+        "x" : 0.65392,
+        "y" : 0.032297
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017621,
+        "width" : 0.042346,
+        "x" : 0.866182,
+        "y" : 0.034213
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.934593,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020412,
+        "width" : 0.03835,
+        "x" : 0.181389,
+        "y" : 0.041506
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Billing"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021054,
+        "width" : 0.031707,
+        "x" : 0.03718,
+        "y" : 0.110866
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.056686,
+        "x" : 0.210756,
+        "y" : 0.14186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "FINAL STEP"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027329,
+        "width" : 0.085953,
+        "x" : 0.738274,
+        "y" : 0.164242
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "You're paying"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03258,
+        "width" : 0.155773,
+        "x" : 0.21061,
+        "y" : 0.171904
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Payment method"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.034884,
+        "x" : 0.039244,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.045637,
+        "width" : 0.110688,
+        "x" : 0.739714,
+        "y" : 0.213228
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "$1,413.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.21657,
+        "x" : 0.210756,
+        "y" : 0.218605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Select how you would like to pay for the Team plan."
+    },
+    {
+      "bbox" : {
+        "height" : 0.018787,
+        "width" : 0.04073,
+        "x" : 0.037775,
+        "y" : 0.269676
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.103198,
+        "x" : 0.739826,
+        "y" : 0.267442
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Team plan, billed annually"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.084302,
+        "x" : 0.241279,
+        "y" : 0.276667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Visa ending in 4242"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.049419,
+        "x" : 0.239826,
+        "y" : 0.295349
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Expires 09/29"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014298,
+        "width" : 0.036388,
+        "x" : 0.738347,
+        "y" : 0.311456
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "Subtotal"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014162,
+        "width" : 0.045083,
+        "x" : 0.908418,
+        "y" : 0.311524
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "$1,308.00"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.098837,
+        "x" : 0.241279,
+        "y" : 0.353333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "Business bank account"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.017442,
+        "x" : 0.738372,
+        "y" : 0.355814
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Tax"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014399,
+        "width" : 0.036403,
+        "x" : 0.917118,
+        "y" : 0.355591
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "$105.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.087209,
+        "x" : 0.239826,
+        "y" : 0.374419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "ACH • 4-6 business days"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018581,
+        "width" : 0.160039,
+        "x" : 0.749916,
+        "y" : 0.423095
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "Encrypted payment • 3-D Secure ready"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.031977,
+        "x" : 0.241279,
+        "y" : 0.432558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Invoice"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.103198,
+        "x" : 0.239826,
+        "y" : 0.451111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Net 30 for approved accounts"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.042151,
+        "x" : 0.223837,
+        "y" : 0.52093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02093,
+        "width" : 0.014535,
+        "x" : 0.662791,
+        "y" : 0.52093
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "日"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.034884,
+        "x" : 0.223837,
+        "y" : 0.578889
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "••••"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023333,
+        "width" : 0.072674,
+        "x" : 0.300872,
+        "y" : 0.576667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "•••• 4242"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.061047,
+        "x" : 0.222384,
+        "y" : 0.616279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "ALEX MORGAN"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.027616,
+        "x" : 0.648256,
+        "y" : 0.616279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "09/29"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019096,
+        "width" : 0.065407,
+        "x" : 0.417151,
+        "y" : 0.685556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Pay $1,413.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021111,
+        "width" : 0.204942,
+        "x" : 0.209302,
+        "y" : 0.727778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "By paying, you agree to the Subscription Terms."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.075581,
+        "x" : 0.021802,
+        "y" : 0.862791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015262,
+        "width" : 0.058335,
+        "x" : 0.042071,
+        "y" : 0.940291
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015897,
+        "width" : 0.051274,
+        "x" : 0.041937,
+        "y" : 0.955517
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.723906,
+        "width" : 0.813642,
+        "x" : 0.168574,
+        "y" : 0.088739
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035137,
+        "width" : 0.060769,
+        "x" : 0.009579,
+        "y" : 0.10402
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.668747,
+        "width" : 0.509865,
+        "x" : 0.194531,
+        "y" : 0.115203
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.670573,
+        "width" : 0.244618,
+        "x" : 0.723137,
+        "y" : 0.11417
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024989,
+        "width" : 0.065053,
+        "x" : 0.203666,
+        "y" : 0.135026
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.031615,
+        "width" : 0.093824,
+        "x" : 0.735122,
+        "y" : 0.162826
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035668,
+        "width" : 0.169031,
+        "x" : 0.205831,
+        "y" : 0.169141
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.042041,
+        "width" : 0.117164,
+        "x" : 0.733685,
+        "y" : 0.211424
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.087322,
+        "width" : 0.489775,
+        "x" : 0.204449,
+        "y" : 0.243981
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.046031,
+        "width" : 0.134401,
+        "x" : 0.013426,
+        "y" : 0.252061
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027296,
+        "width" : 0.10743,
+        "x" : 0.735441,
+        "y" : 0.264295
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029385,
+        "width" : 0.048872,
+        "x" : 0.733444,
+        "y" : 0.302379
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023464,
+        "width" : 0.146586,
+        "x" : 0.762248,
+        "y" : 0.350841
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025894,
+        "width" : 0.051745,
+        "x" : 0.908729,
+        "y" : 0.349507
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.062691,
+        "width" : 0.223548,
+        "x" : 0.732421,
+        "y" : 0.401608
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022014,
+        "width" : 0.040174,
+        "x" : 0.236377,
+        "y" : 0.428544
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.14541,
+        "width" : 0.477511,
+        "x" : 0.210794,
+        "y" : 0.50327
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02979,
+        "width" : 0.02547,
+        "x" : 0.654633,
+        "y" : 0.516134
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.068094,
+        "width" : 0.061983,
+        "x" : 0.485935,
+        "y" : 0.562776
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029585,
+        "width" : 0.036099,
+        "x" : 0.339215,
+        "y" : 0.571992
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022754,
+        "width" : 0.027171,
+        "x" : 0.266298,
+        "y" : 0.577656
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026517,
+        "width" : 0.027529,
+        "x" : 0.305388,
+        "y" : 0.575766
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019828,
+        "width" : 0.062431,
+        "x" : 0.221208,
+        "y" : 0.613887
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_28",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_29",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_30",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 70,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.119479,
+        "width" : 0.112128,
+        "x" : 0.738274,
+        "y" : 0.164242
+      },
+      "confidence" : 0.7036526513992064,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_11",
+        "el_text_14",
+        "el_text_17"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_758920292595d178",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "758920292595d1785f824e3b3fe8b02e0effa8e6d73416d8ad3cd7d1016e9a0b",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_11",
+        "el_text_14",
+        "el_text_17"
+      ]
+    }
+  ]
+}

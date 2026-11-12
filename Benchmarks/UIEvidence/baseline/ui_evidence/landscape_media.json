@@ -1,0 +1,833 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_6e8400c299d5e8f1",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_6d106a42dae10597",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_ffbb96c1d6d7c331",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.010174,
+        "x" : 0.021802,
+        "y" : 0.039535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "C"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021808,
+        "width" : 0.068417,
+        "x" : 0.043553,
+        "y" : 0.03677
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022589,
+        "width" : 0.110772,
+        "x" : 0.655352,
+        "y" : 0.032374
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021153,
+        "width" : 0.037839,
+        "x" : 0.181662,
+        "y" : 0.039423
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Media"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016758,
+        "width" : 0.055287,
+        "x" : 0.853171,
+        "y" : 0.034644
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "4 Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014564,
+        "width" : 0.037877,
+        "x" : 0.93455,
+        "y" : 0.034578
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.031977,
+        "x" : 0.036337,
+        "y" : 0.111628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023411,
+        "width" : 0.197674,
+        "x" : 0.181686,
+        "y" : 0.123256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "Atlas field recordings 14 clips • 2.6 GB"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016524,
+        "width" : 0.037832,
+        "x" : 0.396782,
+        "y" : 0.125459
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "Y Sort"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.071221,
+        "x" : 0.901163,
+        "y" : 0.125556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "Export selected"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.061047,
+        "x" : 0.851744,
+        "y" : 0.206667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Morning market"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.021802,
+        "x" : 0.949128,
+        "y" : 0.206977
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "00:42"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016934,
+        "width" : 0.052833,
+        "x" : 0.021471,
+        "y" : 0.215739
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Q Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024437,
+        "width" : 0.060351,
+        "x" : 0.018513,
+        "y" : 0.26468
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "-* Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01447,
+        "width" : 0.059593,
+        "x" : 0.851744,
+        "y" : 0.274419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Street interview"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.020349,
+        "x" : 0.950581,
+        "y" : 0.274419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "01:18"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016591,
+        "width" : 0.049859,
+        "x" : 0.851504,
+        "y" : 0.341463
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Transit b-roll"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.020349,
+        "x" : 0.949128,
+        "y" : 0.34186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "00:57"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01447,
+        "width" : 0.049419,
+        "x" : 0.851744,
+        "y" : 0.411111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Closing wide"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.020349,
+        "x" : 0.950581,
+        "y" : 0.409302
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "01:04"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.008721,
+        "x" : 0.476744,
+        "y" : 0.527907
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "▶"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.075581,
+        "x" : 0.021802,
+        "y" : 0.862791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.023256,
+        "x" : 0.19186,
+        "y" : 0.897674
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "00:42"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.020349,
+        "x" : 0.747093,
+        "y" : 0.897674
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "01:18"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021508,
+        "width" : 0.126743,
+        "x" : 0.194608,
+        "y" : 0.923922
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Morning market - wide"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017344,
+        "width" : 0.057214,
+        "x" : 0.043326,
+        "y" : 0.939628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.027616,
+        "x" : 0.331395,
+        "y" : 0.939535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Review"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.030523,
+        "x" : 0.376453,
+        "y" : 0.939535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "Approve"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.084302,
+        "x" : 0.193314,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "4K • ProRes 422 • 24 fps"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.050872,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032475,
+        "width" : 0.138555,
+        "x" : 0.008274,
+        "y" : 0.099313
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041585,
+        "width" : 0.090699,
+        "x" : 0.892321,
+        "y" : 0.112149
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033379,
+        "width" : 0.135281,
+        "x" : 0.178414,
+        "y" : 0.118471
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027299,
+        "width" : 0.066254,
+        "x" : 0.314878,
+        "y" : 0.120941
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035036,
+        "width" : 0.055789,
+        "x" : 0.010175,
+        "y" : 0.155896
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.824014,
+        "width" : 0.603521,
+        "x" : 0.175876,
+        "y" : 0.160377
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.828398,
+        "width" : 0.200409,
+        "x" : 0.784259,
+        "y" : 0.156265
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.697077,
+        "width" : 0.571657,
+        "x" : 0.193001,
+        "y" : 0.187555
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.051564,
+        "width" : 0.049012,
+        "x" : 0.798303,
+        "y" : 0.189203
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033475,
+        "width" : 0.042137,
+        "x" : 0.034991,
+        "y" : 0.208059
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.202308,
+        "width" : 0.056934,
+        "x" : 0.793852,
+        "y" : 0.252094
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.036539,
+        "width" : 0.039607,
+        "x" : 0.803626,
+        "y" : 0.264687
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029626,
+        "width" : 0.059361,
+        "x" : 0.857318,
+        "y" : 0.26656
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.036356,
+        "width" : 0.042821,
+        "x" : 0.801585,
+        "y" : 0.331079
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.038937,
+        "width" : 0.04294,
+        "x" : 0.801763,
+        "y" : 0.397559
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030978,
+        "width" : 0.050494,
+        "x" : 0.8502,
+        "y" : 0.402306
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.531854,
+        "width" : 0.178373,
+        "x" : 0.794008,
+        "y" : 0.436874
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.050018,
+        "width" : 0.025139,
+        "x" : 0.466358,
+        "y" : 0.511964
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.061454,
+        "width" : 0.037005,
+        "x" : 0.241078,
+        "y" : 0.685001
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033017,
+        "width" : 0.028151,
+        "x" : 0.72604,
+        "y" : 0.691388
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035195,
+        "width" : 0.021988,
+        "x" : 0.662081,
+        "y" : 0.706705
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_28",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 61,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_726757e9972b9ab4",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "726757e9972b9ab43f24a16ec34eecd1fe5271af7d8c9dc8ab11743ebdda3d70",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+
+  ]
+}

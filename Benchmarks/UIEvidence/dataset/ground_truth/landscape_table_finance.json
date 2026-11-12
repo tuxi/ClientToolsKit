@@ -1,0 +1,814 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "landscape_table_finance",
+  "category": "landscape",
+  "tags": [
+    "desktop",
+    "png",
+    "landscape",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "image": "images/landscape_table_finance.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.015,
+        "y": 0.028889,
+        "width": 0.01875,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.040625,
+        "y": 0.033889,
+        "width": 0.058037,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.108333,
+        "width": 0.023906,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.160556,
+        "width": 0.02001,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.212778,
+        "width": 0.030078,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.265,
+        "width": 0.033359,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.860556,
+        "width": 0.051035,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.117051,
+        "y": 0.860556,
+        "width": 0.012949,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.01,
+        "y": 0.933333,
+        "width": 0.0225,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.03875,
+        "y": 0.937778,
+        "width": 0.050322,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.03875,
+        "y": 0.955556,
+        "width": 0.050322,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.021667,
+        "width": 0.112354,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Revenue",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.037222,
+        "width": 0.112354,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.85748,
+        "y": 0.019444,
+        "width": 0.067393,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.931123,
+        "y": 0.019444,
+        "width": 0.051377,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Finance · November",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.111111,
+        "width": 0.261426,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Account revenue",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.134444,
+        "width": 0.261426,
+        "height": 0.036667
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Expanded landscape table with sticky headers and dense values.",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.178889,
+        "width": 0.261426,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "All accounts",
+      "bbox": {
+        "x": 0.819971,
+        "y": 0.114444,
+        "width": 0.060928,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Enterprise",
+      "bbox": {
+        "x": 0.882773,
+        "y": 0.114444,
+        "width": 0.05376,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Growth",
+      "bbox": {
+        "x": 0.938408,
+        "y": 0.114444,
+        "width": 0.042217,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Export",
+      "bbox": {
+        "x": 0.838906,
+        "y": 0.243333,
+        "width": 0.043926,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Add account",
+      "bbox": {
+        "x": 0.887832,
+        "y": 0.243333,
+        "width": 0.084043,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Account",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.296667,
+        "width": 0.267871,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Seats",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.296667,
+        "width": 0.108408,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "MRR",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.296667,
+        "width": 0.16918,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Growth",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.296667,
+        "width": 0.138242,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Trend",
+      "bbox": {
+        "x": 0.859326,
+        "y": 0.296667,
+        "width": 0.112549,
+        "height": 0.040556
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Northstar Studio",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.354444,
+        "width": 0.067598,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Enterprise",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.375556,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "184",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.337222,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "$248,600",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.337222,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "12.4%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.337222,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Aster Labs",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.423333,
+        "width": 0.043301,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Growth",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.444444,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "92",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.406111,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "$84,200",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.406111,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "8.1%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.406111,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Harbor Health",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.492222,
+        "width": 0.056963,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Enterprise",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.513333,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "216",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.475,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "$312,900",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.475,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "15.8%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.475,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Kite & Co.",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.561111,
+        "width": 0.039834,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Starter",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.582222,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "24",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.543889,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "$8,640",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.543889,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "3.2%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.543889,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Mina Okafor",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.63,
+        "width": 0.048818,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Growth",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.651111,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "38",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.612778,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "$41,500",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.612778,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "6.7%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.612778,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "Ravi Kumar",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.698889,
+        "width": 0.045479,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "Starter",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.72,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "18",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.681667,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "$6,480",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.681667,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "2.9%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.681667,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "Cloudline",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.767778,
+        "width": 0.038135,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "Enterprise",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.788889,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "142",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.750556,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "$198,200",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.750556,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_63",
+      "text": "10.1%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.750556,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_64",
+      "text": "Quartz Works",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.836667,
+        "width": 0.055,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_65",
+      "text": "Growth",
+      "bbox": {
+        "x": 0.183125,
+        "y": 0.857778,
+        "width": 0.252871,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_66",
+      "text": "67",
+      "bbox": {
+        "x": 0.443496,
+        "y": 0.819444,
+        "width": 0.108408,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_67",
+      "text": "$72,800",
+      "bbox": {
+        "x": 0.551904,
+        "y": 0.819444,
+        "width": 0.16918,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_68",
+      "text": "7.4%",
+      "bbox": {
+        "x": 0.721084,
+        "y": 0.819444,
+        "width": 0.138242,
+        "height": 0.068889
+      }
+    },
+    {
+      "id": "text_69",
+      "text": "1–8 of 284",
+      "bbox": {
+        "x": 0.850654,
+        "y": 0.912222,
+        "width": 0.035381,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_70",
+      "text": "Previous",
+      "bbox": {
+        "x": 0.893535,
+        "y": 0.904444,
+        "width": 0.040674,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_71",
+      "text": "Next",
+      "bbox": {
+        "x": 0.941709,
+        "y": 0.904444,
+        "width": 0.027666,
+        "height": 0.03
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.1475,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.1475,
+        "y": 0,
+        "width": 0.8525,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.680605,
+        "y": 0.019444,
+        "width": 0.170625,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "revenue_table",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.224444,
+        "width": 0.8175,
+        "height": 0.744444
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "revenue_rows",
+      "axis": "vertical",
+      "member_count": 8,
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.337222,
+        "width": 0.79625,
+        "height": 0.551111
+      }
+    }
+  ]
+}

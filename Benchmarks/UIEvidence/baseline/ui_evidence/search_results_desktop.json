@@ -1,0 +1,901 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_37a7ffd7dd6c9d56",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_55f0c37fe583c289",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_766e5e69cad0f88f",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021719,
+        "width" : 0.066955,
+        "x" : 0.043557,
+        "y" : 0.036815
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02179,
+        "width" : 0.112197,
+        "x" : 0.653929,
+        "y" : 0.032297
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017621,
+        "width" : 0.042346,
+        "x" : 0.866182,
+        "y" : 0.034213
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.934593,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01653,
+        "width" : 0.040737,
+        "x" : 0.18312,
+        "y" : 0.041735
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Search"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017428,
+        "width" : 0.030065,
+        "x" : 0.038701,
+        "y" : 0.111049
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.011628,
+        "x" : 0.241279,
+        "y" : 0.162791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "a"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016983,
+        "width" : 0.048056,
+        "x" : 0.260129,
+        "y" : 0.162439
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "evidence"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.045058,
+        "x" : 0.869186,
+        "y" : 0.162791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "V Filters"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.034884,
+        "x" : 0.039244,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.043605,
+        "x" : 0.255814,
+        "y" : 0.24186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Documents"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.081395,
+        "x" : 0.309593,
+        "y" : 0.24186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "People Messages"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.023256,
+        "x" : 0.395349,
+        "y" : 0.24186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020908,
+        "width" : 0.060158,
+        "x" : 0.018587,
+        "y" : 0.267529
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "-*- Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.12936,
+        "x" : 0.218023,
+        "y" : 0.313953
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "About 1,240 results • 0.18 seconds"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024249,
+        "width" : 0.072796,
+        "x" : 0.777556,
+        "y" : 0.366945
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Search tips"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019018,
+        "width" : 0.161337,
+        "x" : 0.264535,
+        "y" : 0.372093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "docs.cloudbase.dev / handbook"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018992,
+        "width" : 0.139535,
+        "x" : 0.264535,
+        "y" : 0.397674
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "Design evidence guidelines"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.110465,
+        "x" : 0.77907,
+        "y" : 0.406667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Use quotes for exact phrases."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.296512,
+        "x" : 0.264535,
+        "y" : 0.423256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "How teams collect, label, and review visual evidence for product decisions."
+    },
+    {
+      "bbox" : {
+        "height" : 0.014496,
+        "width" : 0.123547,
+        "x" : 0.777616,
+        "y" : 0.436667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Add from:alex to filter by author."
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.071221,
+        "x" : 0.263081,
+        "y" : 0.453333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "Updated 2 days ago"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.149709,
+        "x" : 0.777616,
+        "y" : 0.467442
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "Add after: 2026-10-01 for recent items."
+    },
+    {
+      "bbox" : {
+        "height" : 0.021974,
+        "width" : 0.128192,
+        "x" : 0.264367,
+        "y" : 0.505063
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "docs.cloudbase.dev / api"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.119186,
+        "x" : 0.264535,
+        "y" : 0.532222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Evidence API reference"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.300872,
+        "x" : 0.264535,
+        "y" : 0.557778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Endpoints for source validation, OCR blocks, container geometry, and crops."
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.071221,
+        "x" : 0.263081,
+        "y" : 0.588372
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Updated 1 week ago"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.113372,
+        "x" : 0.264535,
+        "y" : 0.644186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "cloudbase.dev / media"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019121,
+        "width" : 0.140988,
+        "x" : 0.264535,
+        "y" : 0.669767
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "Q4 design review recording"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.25436,
+        "x" : 0.264535,
+        "y" : 0.695349
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "A 42-minute review of the evidence viewer and benchmark plan."
+    },
+    {
+      "bbox" : {
+        "height" : 0.011654,
+        "width" : 0.046512,
+        "x" : 0.264535,
+        "y" : 0.725556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "Oct 28, 2026"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018889,
+        "width" : 0.142442,
+        "x" : 0.264535,
+        "y" : 0.778889
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "cloudbase.dev / engineering"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.122093,
+        "x" : 0.264535,
+        "y" : 0.806667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Crop integrity checklist"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018323,
+        "width" : 0.273358,
+        "x" : 0.26448,
+        "y" : 0.830181
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Pixel bounds, source ancestry, decode checks, and failure escalation."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.075581,
+        "x" : 0.021802,
+        "y" : 0.862791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015007,
+        "width" : 0.04808,
+        "x" : 0.263024,
+        "y" : 0.859938
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "Sep 16, 2026"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017344,
+        "width" : 0.057214,
+        "x" : 0.043326,
+        "y" : 0.939628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.050872,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.043031,
+        "width" : 0.133386,
+        "x" : 0.176392,
+        "y" : 0.018585
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035137,
+        "width" : 0.060769,
+        "x" : 0.009579,
+        "y" : 0.10402
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.18233,
+        "width" : 0.729298,
+        "x" : 0.217845,
+        "y" : 0.112331
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033475,
+        "width" : 0.042137,
+        "x" : 0.034991,
+        "y" : 0.208059
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.069873,
+        "width" : 0.02418,
+        "x" : 0.223526,
+        "y" : 0.209288
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022586,
+        "width" : 0.040915,
+        "x" : 0.346562,
+        "y" : 0.234401
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.556077,
+        "width" : 0.532869,
+        "x" : 0.217493,
+        "y" : 0.344554
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.554023,
+        "width" : 0.180491,
+        "x" : 0.766232,
+        "y" : 0.344363
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.061567,
+        "width" : 0.033117,
+        "x" : 0.227447,
+        "y" : 0.360204
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.048652,
+        "width" : 0.168315,
+        "x" : 0.261735,
+        "y" : 0.366605
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023139,
+        "width" : 0.128299,
+        "x" : 0.77648,
+        "y" : 0.433618
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.052725,
+        "width" : 0.168942,
+        "x" : 0.228093,
+        "y" : 0.502229
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.029633,
+        "width" : 0.175771,
+        "x" : 0.389792,
+        "y" : 0.552395
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024028,
+        "width" : 0.076678,
+        "x" : 0.26047,
+        "y" : 0.585785
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.052321,
+        "width" : 0.18516,
+        "x" : 0.227557,
+        "y" : 0.774877
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022769,
+        "width" : 0.056344,
+        "x" : 0.256408,
+        "y" : 0.85999
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "kind" : "container"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "kind" : "container"
+    }
+  ],
+  "limits" : {
+    "element_count" : 64,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "1"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.084218,
+        "width" : 0.123607,
+        "x" : 0.777556,
+        "y" : 0.366945
+      },
+      "confidence" : 0.7932848413640281,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_18",
+        "el_text_21",
+        "el_text_23"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_35cb5a4c9a47f286",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "35cb5a4c9a47f28614efadc1ebd18f13e0a81e6caede60a8c495de3906296a11",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 3 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_18",
+        "el_text_21",
+        "el_text_23"
+      ]
+    }
+  ]
+}

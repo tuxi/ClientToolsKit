@@ -1,0 +1,464 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v1",
+  "id": "landscape_media",
+  "category": "landscape",
+  "tags": [
+    "desktop",
+    "png",
+    "landscape",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/landscape_media.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026563,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022233,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037066,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388,
+        "height": 0.018889
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914,
+        "height": 0.017778
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Media",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Atlas field recordings",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.120556,
+        "width": 0.127072,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "14 clips · 2.6 GB",
+      "bbox": {
+        "x": 0.318739,
+        "y": 0.125,
+        "width": 0.058898,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Sort",
+      "bbox": {
+        "x": 0.38597,
+        "y": 0.111111,
+        "width": 0.056489,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Export selected",
+      "bbox": {
+        "x": 0.89133,
+        "y": 0.112222,
+        "width": 0.089225,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "▶",
+      "bbox": {
+        "x": 0.461111,
+        "y": 0.504444,
+        "width": 0.0375,
+        "height": 0.06
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "00:42",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.896667,
+        "width": 0.019878,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "01:18",
+      "bbox": {
+        "x": 0.748242,
+        "y": 0.896667,
+        "width": 0.01773,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Morning market — wide",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.923333,
+        "width": 0.126128,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "4K · ProRes 422 · 24 fps",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.946667,
+        "width": 0.126128,
+        "height": 0.013333
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Review",
+      "bbox": {
+        "x": 0.325434,
+        "y": 0.927778,
+        "width": 0.038932,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Approve",
+      "bbox": {
+        "x": 0.369922,
+        "y": 0.927778,
+        "width": 0.04311,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Morning market",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.205556,
+        "width": 0.091612,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "00:42",
+      "bbox": {
+        "x": 0.95064,
+        "y": 0.206667,
+        "width": 0.01811,
+        "height": 0.012222
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Street interview",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.273333,
+        "width": 0.093555,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "01:18",
+      "bbox": {
+        "x": 0.952582,
+        "y": 0.274444,
+        "width": 0.016168,
+        "height": 0.012222
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Transit b-roll",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.341111,
+        "width": 0.091884,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "00:57",
+      "bbox": {
+        "x": 0.950911,
+        "y": 0.342222,
+        "width": 0.017839,
+        "height": 0.012222
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Closing wide",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.408889,
+        "width": 0.092491,
+        "height": 0.014444
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "01:04",
+      "bbox": {
+        "x": 0.951519,
+        "y": 0.41,
+        "width": 0.017231,
+        "height": 0.012222
+      }
+    }
+  ],
+  "containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "media_toolbar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.797222,
+        "height": 0.042222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "media_preview",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.168889,
+        "width": 0.593056,
+        "height": 0.811111
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clip_list",
+      "bbox": {
+        "x": 0.786111,
+        "y": 0.168889,
+        "width": 0.194444,
+        "height": 0.811111
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "clip_rows",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.205556,
+        "width": 0.093555,
+        "height": 0.217777
+      }
+    }
+  ]
+}
