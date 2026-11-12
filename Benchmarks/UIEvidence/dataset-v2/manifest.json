@@ -1,0 +1,1484 @@
+{
+  "schema_version": "ui_evidence_benchmark_dataset.v2",
+  "name": "P1-C UI Evidence Quality Benchmark \u2014 calibrated GT",
+  "dataset_version": "2.0.0",
+  "created_at": "2026-11-12",
+  "immutable": true,
+  "source_dataset_sha256": "5433ce68c8560c86b07360ef7b74d5a33ddbdf4f012b1df5af7a6a2b937461e5",
+  "image_count": 30,
+  "dataset_sha256": "17d5d4a9897c6d92e994613be9d1381f2db9e51d26741d09e3f0780f7e3a954d",
+  "images": [
+    {
+      "id": "settings_general_light",
+      "image": "images/settings_general_light.png",
+      "ground_truth": "ground_truth/settings_general_light.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "d9171fa1b4029405a34bfa50869e11ebfce4901220c89bc7239082ebfe6e10e7",
+      "ground_truth_sha256": "7fedb77a15917f7b5d76dffe1f570065459d3772d57d8819e5524ad02c0da2a5",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "settings_privacy_dark",
+      "image": "images/settings_privacy_dark.jpg",
+      "ground_truth": "ground_truth/settings_privacy_dark.json",
+      "mime_type": "image/jpeg",
+      "source_kind": "web_screenshot",
+      "source_sha256": "d6250494f9721ca8f238e56ca4cc5f8bd6a644ec81c468e80eb73b41e6e99306",
+      "ground_truth_sha256": "2751149e44d0b56d69d58a3add59e5cbd1f9b83ac4a655e3bc8344de8d1c64d1",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "feed_social_light",
+      "image": "images/feed_social_light.png",
+      "ground_truth": "ground_truth/feed_social_light.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "564c1b7657204b87df7876696f5972a6c15b1e1d6571f43128d73532587d22e3",
+      "ground_truth_sha256": "d137b5cbf10d893b48f41d4bb90199bee733dbc724cd61214e8cf8d8ada5e5ef",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "feed_news_compact",
+      "image": "images/feed_news_compact.png",
+      "ground_truth": "ground_truth/feed_news_compact.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "50befdd18b2bdb9f217aec15cc9853378abc0d875bb14c7609514b5d89a7e21e",
+      "ground_truth_sha256": "ec55f927117109656cc3b3808cbbbca0fac727b1d209f241e553bd125bcf9d10",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "editor_document_light",
+      "image": "images/editor_document_light.png",
+      "ground_truth": "ground_truth/editor_document_light.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "885e3620193e2e6ef62553ec390c0bdbda7d31dcb20747f8a3cacb96fbdc583e",
+      "ground_truth_sha256": "2107d3204a941fbf592459eecc0cc2aeac79199ab0d655f950360443d3988d6b",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "editor_code_dark",
+      "image": "images/editor_code_dark.png",
+      "ground_truth": "ground_truth/editor_code_dark.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "da32886e3e4293bf2168dab06963910b208a4089a92e598bc534e21c3392f5d0",
+      "ground_truth_sha256": "40e27194b7a5eb16100f16d162c692297b0f5992ce1f5c6cdeffcda5b3febb4a",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "form_checkout_desktop",
+      "image": "images/form_checkout_desktop.png",
+      "ground_truth": "ground_truth/form_checkout_desktop.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "a94e50c16510bb2ad16345181ef7c2370fb79da50afd996fbcf6a431416d8a16",
+      "ground_truth_sha256": "804331d72f7018b9c2cb01590f314eaf3e035c6c8c0e19fd75414b1995bc93a7",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "form_profile_mobile",
+      "image": "images/form_profile_mobile.png",
+      "ground_truth": "ground_truth/form_profile_mobile.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "fbdae5fc572e8511a91f2d9dae4d916a8daa75161225674b894cc2db2ec397e9",
+      "ground_truth_sha256": "6140adccf80af4628987a6a271813a1c5608e651a77f38a9e787fe0f3c419bfd",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.12
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.12,
+            "width": 0.92,
+            "height": 0.68
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.74,
+            "width": 0.92,
+            "height": 0.2
+          },
+          "purpose": "controls"
+        }
+      ]
+    },
+    {
+      "id": "payment_card_desktop",
+      "image": "images/payment_card_desktop.png",
+      "ground_truth": "ground_truth/payment_card_desktop.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "758920292595d1785f824e3b3fe8b02e0effa8e6d73416d8ad3cd7d1016e9a0b",
+      "ground_truth_sha256": "731e5e182350609a4393a1302e05bdf8ba16ab90fd57e94509c884622a53f8ea",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "payment_confirm_mobile",
+      "image": "images/payment_confirm_mobile.png",
+      "ground_truth": "ground_truth/payment_confirm_mobile.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "419fe8e5a64bcfb5cd0885463d288e09b7a8d0cb26277cb6f2a5d973e58bc131",
+      "ground_truth_sha256": "57c0cd7ebc63996a7fc7a14264bc51ccdbe3c3a647d4497006f4e0a48c623d32",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.12
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.12,
+            "width": 0.92,
+            "height": 0.68
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.74,
+            "width": 0.92,
+            "height": 0.2
+          },
+          "purpose": "controls"
+        }
+      ]
+    },
+    {
+      "id": "dashboard_analytics_light",
+      "image": "images/dashboard_analytics_light.png",
+      "ground_truth": "ground_truth/dashboard_analytics_light.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "2d90a73bbebd1cf460e73695a564162fdf107b21ed8449ba41769e7fbeaa06cf",
+      "ground_truth_sha256": "488702534488a50fb6ae28c17fef62d3808d347122068377eb1adf5d2d637fe4",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "dashboard_ops_dark",
+      "image": "images/dashboard_ops_dark.png",
+      "ground_truth": "ground_truth/dashboard_ops_dark.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "95f56f48e687ad06c32357be6bae5974f19381f22b9c7d85f10f5f347b28b2f8",
+      "ground_truth_sha256": "cab2d975d0bf589eb12e24e8d57fc09f6f2f6f1a48c050b411e6f064d44d4b04",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "sheet_delete_modal",
+      "image": "images/sheet_delete_modal.png",
+      "ground_truth": "ground_truth/sheet_delete_modal.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "0394ce9709da7c8ae79100c5b70ea91186dec2749e763c2b6d8d4d1879d06291",
+      "ground_truth_sha256": "6e7266faad7719216c4b3e1322a61512c41012e5be73035667c80ed34a0d61ad",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "sheet_filters_mobile",
+      "image": "images/sheet_filters_mobile.png",
+      "ground_truth": "ground_truth/sheet_filters_mobile.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "791cf17c34ff15450c49cd6b223f799f648432d96681756e49a7dd10274f59b4",
+      "ground_truth_sha256": "6c8852d02d74a3f1b6b2d7f55e9d6d5f75d860a7c1357339203cb85aded85e4e",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.12
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.12,
+            "width": 0.92,
+            "height": 0.68
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.74,
+            "width": 0.92,
+            "height": 0.2
+          },
+          "purpose": "controls"
+        }
+      ]
+    },
+    {
+      "id": "list_orders_desktop",
+      "image": "images/list_orders_desktop.png",
+      "ground_truth": "ground_truth/list_orders_desktop.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "815a6d9dd8b9a4b3365f2a747a2f057abab41ea752a6a0386f9025fa0f6ba660",
+      "ground_truth_sha256": "14234ef08cc8042ca22110d67854916027bbee49f47a05e9f5bcba4e9d9e6bce",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "list_notifications_mobile",
+      "image": "images/list_notifications_mobile.png",
+      "ground_truth": "ground_truth/list_notifications_mobile.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "e0b8121eb91a4175fe3913c9ac5c0d3405b445b7a28b53b567f44255a0e2dad8",
+      "ground_truth_sha256": "bf63318440963104150bf2f956e92c494a8301d88b6ca33a0ea64e498e3f63a9",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.12
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.12,
+            "width": 0.92,
+            "height": 0.68
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.74,
+            "width": 0.92,
+            "height": 0.2
+          },
+          "purpose": "controls"
+        }
+      ]
+    },
+    {
+      "id": "search_results_desktop",
+      "image": "images/search_results_desktop.png",
+      "ground_truth": "ground_truth/search_results_desktop.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "35cb5a4c9a47f28614efadc1ebd18f13e0a81e6caede60a8c495de3906296a11",
+      "ground_truth_sha256": "0e63036fd447c27501301e57621a6a49da231b4cf4e8d138a114c3b42faa068d",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "search_empty_desktop",
+      "image": "images/search_empty_desktop.png",
+      "ground_truth": "ground_truth/search_empty_desktop.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "9ef46d67e5eae74dc817123e6039130c03865bfa0d815044ca22d0cfeeade8ad",
+      "ground_truth_sha256": "96b2ad2fa51ecf7674b169c10e0f3aaa326637b2846abc8777dc6580f95a2470",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "split_mail_desktop",
+      "image": "images/split_mail_desktop.png",
+      "ground_truth": "ground_truth/split_mail_desktop.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "3e6862c3b10014df436218728a56ba208b4179a7e5773f45559ad963c233bc84",
+      "ground_truth_sha256": "890ed635cd74efc76d3205f94948b7df904efdbf4dfca007ed83a28d8d536ff2",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "split_settings_wide",
+      "image": "images/split_settings_wide.png",
+      "ground_truth": "ground_truth/split_settings_wide.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "a7d1e26d9c9658aabeb26d3de8527253746bea4103af5f802e9fe591f0b27ffe",
+      "ground_truth_sha256": "96d283c8e8853baaa6a04ac63646749060a99586d7b403949bf176c0ad18c8b1",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "landscape_media",
+      "image": "images/landscape_media.png",
+      "ground_truth": "ground_truth/landscape_media.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "726757e9972b9ab43f24a16ec34eecd1fe5271af7d8c9dc8ab11743ebdda3d70",
+      "ground_truth_sha256": "672bfa767dbe2512d8e84e6c07bcef5a7eb364b4996b734d5969db4a5e11339b",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "landscape_table_finance",
+      "image": "images/landscape_table_finance.png",
+      "ground_truth": "ground_truth/landscape_table_finance.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "06cdb079d6878d34df907b32de0ef93f9b1e20d730a5b4f77616be77ce65b0a7",
+      "ground_truth_sha256": "0e5bd4262836657f6b973f3ca08f738800c870fbf8e5dc23d5cb9d6a60d99c8d",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "small_text_legal",
+      "image": "images/small_text_legal.png",
+      "ground_truth": "ground_truth/small_text_legal.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "b887276a24e4a801757f8c11fc68fb3e5885ffc06e3aa39b7073ede0c0b8d5a3",
+      "ground_truth_sha256": "c47cac816d4092204fe3820a9e5979c93368b47905538b1ec3d08dfd2897df31",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "low_contrast_form",
+      "image": "images/low_contrast_form.png",
+      "ground_truth": "ground_truth/low_contrast_form.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "321be9ea060600d853f6e12f631f4d2553bf060fe0777a48c0793e02467d9ef4",
+      "ground_truth_sha256": "f5e71aff55a19fe57bacf5dfd26cebbbf052ed0ee26b1d064a9addd48a3b747b",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "repeated_toolbar_calendar",
+      "image": "images/repeated_toolbar_calendar.png",
+      "ground_truth": "ground_truth/repeated_toolbar_calendar.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "6e263790856a6a099e8ed1ff95653fe781a1dfeb969d6c6dc2625a66db585cdc",
+      "ground_truth_sha256": "40b7c67cdecdc3411b4a147071383f71e02cc4e69c2b28a428b623e1758181e5",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "scroll_feed_mobile",
+      "image": "images/scroll_feed_mobile.png",
+      "ground_truth": "ground_truth/scroll_feed_mobile.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "e28c83eb636407739657f42a2c188fc223c7a3645023f93a1084930c2d8d258f",
+      "ground_truth_sha256": "66320c42fbc05ee2d305cef54eeb85a1d462e5181621aea350dc622af0411967",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.12
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.12,
+            "width": 0.92,
+            "height": 0.68
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.74,
+            "width": 0.92,
+            "height": 0.2
+          },
+          "purpose": "controls"
+        }
+      ]
+    },
+    {
+      "id": "jpeg_feed_photo",
+      "image": "images/jpeg_feed_photo.jpg",
+      "ground_truth": "ground_truth/jpeg_feed_photo.json",
+      "mime_type": "image/jpeg",
+      "source_kind": "web_screenshot",
+      "source_sha256": "a70de3089dc2c2efe53ed67e2039bac42727970305a9169cf75c224215017b64",
+      "ground_truth_sha256": "0768d6b96712388e81c83b76e0396340ad75abbe6c55a4d841e0218e32b14a8b",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "jpeg_table_finance",
+      "image": "images/jpeg_table_finance.jpg",
+      "ground_truth": "ground_truth/jpeg_table_finance.json",
+      "mime_type": "image/jpeg",
+      "source_kind": "web_screenshot",
+      "source_sha256": "3fc4bf33bcd35d5b195a227943c603218893377f68ededacf3c31290f58fb8aa",
+      "ground_truth_sha256": "bc16b14b5acaad817ded22ea32647e55851b9f430572c313d1053f0647fe8ee0",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    },
+    {
+      "id": "modal_payment_mobile",
+      "image": "images/modal_payment_mobile.png",
+      "ground_truth": "ground_truth/modal_payment_mobile.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "74e70a1e60fe51e61bdfa201d158d349715d5636ab698f83ec281e44bb0c427a",
+      "ground_truth_sha256": "db788ff1f451b80dee9bb5ecb8976127967546e4d792da460cece42ef1495e48",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 0.12
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.12,
+            "width": 0.92,
+            "height": 0.68
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.04,
+            "y": 0.74,
+            "width": 0.92,
+            "height": 0.2
+          },
+          "purpose": "controls"
+        }
+      ]
+    },
+    {
+      "id": "search_command_dark",
+      "image": "images/search_command_dark.png",
+      "ground_truth": "ground_truth/search_command_dark.json",
+      "mime_type": "image/png",
+      "source_kind": "web_screenshot",
+      "source_sha256": "d6ae92ca361f2cfbc8926b5b4ca844e530756dd9d1467d847c9a208279590070",
+      "ground_truth_sha256": "8aa64b887f91ee8eed2f7710bed28ae44b096d6c81872277f0f68394d4953c45",
+      "crops": [
+        {
+          "bbox": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.18,
+            "height": 1.0
+          },
+          "purpose": "navigation"
+        },
+        {
+          "bbox": {
+            "x": 0.18,
+            "y": 0.07,
+            "width": 0.62,
+            "height": 0.85
+          },
+          "purpose": "content"
+        },
+        {
+          "bbox": {
+            "x": 0.62,
+            "y": 0.07,
+            "width": 0.38,
+            "height": 0.42
+          },
+          "purpose": "detail"
+        }
+      ]
+    }
+  ],
+  "occlusion_corrections": {
+    "settings_general_light": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "settings_privacy_dark": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "feed_social_light": {
+      "applied": true,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 1,
+      "semantic_containers_removed_outside_viewport": 1,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "feed_news_compact": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "editor_document_light": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "editor_code_dark": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "form_checkout_desktop": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "form_profile_mobile": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "payment_card_desktop": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "payment_confirm_mobile": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "dashboard_analytics_light": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "dashboard_ops_dark": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "sheet_delete_modal": {
+      "applied": true,
+      "active_overlay_container_id": "delete_modal",
+      "text_removed": 20,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 20,
+      "semantic_containers_removed": 3,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 3,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "sheet_filters_mobile": {
+      "applied": true,
+      "active_overlay_container_id": "filter_sheet",
+      "text_removed": 4,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 4,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "list_orders_desktop": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "list_notifications_mobile": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "search_results_desktop": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "search_empty_desktop": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "split_mail_desktop": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "split_settings_wide": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "landscape_media": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "landscape_table_finance": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "small_text_legal": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "low_contrast_form": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "repeated_toolbar_calendar": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "scroll_feed_mobile": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "jpeg_feed_photo": {
+      "applied": true,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 1,
+      "semantic_containers_removed_outside_viewport": 1,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "jpeg_table_finance": {
+      "applied": false,
+      "active_overlay_container_id": null,
+      "text_removed": 0,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 0,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "modal_payment_mobile": {
+      "applied": true,
+      "active_overlay_container_id": "payment_sheet",
+      "text_removed": 4,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 4,
+      "semantic_containers_removed": 0,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 0,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    },
+    "search_command_dark": {
+      "applied": true,
+      "active_overlay_container_id": "command_palette",
+      "text_removed": 15,
+      "text_removed_outside_viewport": 0,
+      "text_removed_under_overlay": 15,
+      "semantic_containers_removed": 3,
+      "semantic_containers_removed_outside_viewport": 0,
+      "semantic_containers_removed_under_overlay": 3,
+      "policy": "at_least_half_visible_and_active_overlay_center_inside"
+    }
+  }
+}

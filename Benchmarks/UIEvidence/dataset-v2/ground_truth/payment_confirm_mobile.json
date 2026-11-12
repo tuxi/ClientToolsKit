@@ -1,0 +1,295 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "payment_confirm_mobile",
+  "category": "payment",
+  "tags": [
+    "mobile",
+    "png"
+  ],
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "image": "images/payment_confirm_mobile.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.12
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.12,
+        "width": 0.92,
+        "height": 0.68
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.74,
+        "width": 0.92,
+        "height": 0.2
+      },
+      "purpose": "controls"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "Back",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.019313,
+        "width": 0.092442,
+        "height": 0.018240000000000003
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Confirm payment",
+      "bbox": {
+        "x": 0.415952,
+        "y": 0.01985,
+        "width": 0.260574,
+        "height": 0.017167
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Cloudbase Team",
+      "bbox": {
+        "x": 0.097674,
+        "y": 0.107296,
+        "width": 0.804651,
+        "height": 0.013948000000000002
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "$1,413.84",
+      "bbox": {
+        "x": 0.097674,
+        "y": 0.129828,
+        "width": 0.804651,
+        "height": 0.04291800000000001
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Annual billing · Renews Oct 12, 2027",
+      "bbox": {
+        "x": 0.097674,
+        "y": 0.184549,
+        "width": 0.804651,
+        "height": 0.013947999999999988
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Payment method",
+      "bbox": {
+        "x": 0.072093,
+        "y": 0.275751,
+        "width": 0.20570499999999997,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Visa · 4242",
+      "bbox": {
+        "x": 0.780923,
+        "y": 0.275751,
+        "width": 0.146984,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "Billing email",
+      "bbox": {
+        "x": 0.072093,
+        "y": 0.320815,
+        "width": 0.145858,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "alex@cloudbase.dev",
+      "bbox": {
+        "x": 0.661701,
+        "y": 0.320815,
+        "width": 0.26620600000000005,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Billing address",
+      "bbox": {
+        "x": 0.072093,
+        "y": 0.36588,
+        "width": 0.17841599999999996,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "88 King Street",
+      "bbox": {
+        "x": 0.739099,
+        "y": 0.36588,
+        "width": 0.18880799999999998,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Promo code",
+      "bbox": {
+        "x": 0.072093,
+        "y": 0.410944,
+        "width": 0.146584,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Add",
+      "bbox": {
+        "x": 0.535174,
+        "y": 0.410944,
+        "width": 0.076272,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Your card will be charged today. You can cancel or change seats at any time.",
+      "bbox": {
+        "x": 0.051163,
+        "y": 0.462446,
+        "width": 0.897674,
+        "height": 0.035407999999999995
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "Pay $1,413.84",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.527897,
+        "width": 0.925581,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Secured by Cloudbase Payments",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.594421,
+        "width": 1.0,
+        "height": 0.019313000000000025
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "payment_summary",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.079399,
+        "width": 0.925581,
+        "height": 0.158798
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "payment_details",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.259657,
+        "width": 0.925581,
+        "height": 0.18347599999999997
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "header.mobile-head",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.05794
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "div.mobile-card",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.079399,
+        "width": 0.925581,
+        "height": 0.158798
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "div.mobile-list",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.259657,
+        "width": 0.925581,
+        "height": 0.183476
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "div.notice",
+      "bbox": {
+        "x": 0.051163,
+        "y": 0.462446,
+        "width": 0.897674,
+        "height": 0.035408
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.527897,
+        "width": 0.925581,
+        "height": 0.038627
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

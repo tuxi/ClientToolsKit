@@ -1,0 +1,291 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "modal_payment_mobile",
+  "category": "sheet_modal",
+  "tags": [
+    "mobile",
+    "png",
+    "overlay"
+  ],
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "image": "images/modal_payment_mobile.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.12
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.12,
+        "width": 0.92,
+        "height": 0.68
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.74,
+        "width": 0.92,
+        "height": 0.2
+      },
+      "purpose": "controls"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_5",
+      "text": "Choose a payment method",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.594421,
+        "width": 0.916279,
+        "height": 0.023604999999999987
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Apple Pay",
+      "bbox": {
+        "x": 0.139535,
+        "y": 0.653433,
+        "width": 0.139753,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Fast and secure",
+      "bbox": {
+        "x": 0.139535,
+        "y": 0.672747,
+        "width": 0.17758,
+        "height": 0.012875999999999999
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "Credit or debit card",
+      "bbox": {
+        "x": 0.139535,
+        "y": 0.728541,
+        "width": 0.273474,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "Visa ending in 4242",
+      "bbox": {
+        "x": 0.139535,
+        "y": 0.747854,
+        "width": 0.273474,
+        "height": 0.012875999999999999
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "PayPal",
+      "bbox": {
+        "x": 0.139535,
+        "y": 0.803648,
+        "width": 0.09393199999999999,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Pay with your PayPal balance",
+      "bbox": {
+        "x": 0.139535,
+        "y": 0.822961,
+        "width": 0.3254,
+        "height": 0.012875999999999999
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Continue",
+      "bbox": {
+        "x": 0.07907,
+        "y": 0.871245,
+        "width": 0.84186,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "You can change this later in Billing settings.",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.937768,
+        "width": 0.916279,
+        "height": 0.019313000000000025
+      }
+    }
+  ],
+  "excluded_text": [
+    {
+      "id": "text_1",
+      "text": "Cancel",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.019313,
+        "width": 0.118205,
+        "height": 0.018240000000000003
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_2",
+      "text": "Checkout",
+      "bbox": {
+        "x": 0.487391,
+        "y": 0.01985,
+        "width": 0.143459,
+        "height": 0.017167
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_3",
+      "text": "$89.00",
+      "bbox": {
+        "x": 0.097674,
+        "y": 0.112661,
+        "width": 0.804651,
+        "height": 0.042918
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_4",
+      "text": "Cloudbase Pro · Monthly",
+      "bbox": {
+        "x": 0.097674,
+        "y": 0.167382,
+        "width": 0.804651,
+        "height": 0.013947999999999988
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    }
+  ],
+  "semantic_containers": [
+    {
+      "id": "payment_sheet",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.561159,
+        "width": 1.0,
+        "height": 0.43884100000000004
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "apple_pay",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.635193,
+        "width": 0.916279,
+        "height": 0.06545100000000004
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "card_pay",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.7103,
+        "width": 0.916279,
+        "height": 0.06545100000000004
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "paypal",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.785408,
+        "width": 0.916279,
+        "height": 0.06545100000000004
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "section.sheet.payment-sheet",
+      "bbox": {
+        "x": 0,
+        "y": 0.561159,
+        "width": 1,
+        "height": 0.438841
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "div.payment-method.selected",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.635193,
+        "width": 0.916279,
+        "height": 0.065451
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "div.payment-method",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.7103,
+        "width": 0.916279,
+        "height": 0.065451
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "div.payment-method",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.785408,
+        "width": 0.916279,
+        "height": 0.065451
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.07907,
+        "y": 0.871245,
+        "width": 0.84186,
+        "height": 0.038627
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": true,
+    "active_overlay_container_id": "payment_sheet",
+    "text_removed": 4,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 4,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

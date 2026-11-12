@@ -1,0 +1,893 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "settings_general_light",
+  "category": "settings",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_toolbar",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/settings_general_light.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "General",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.117778,
+        "width": 0.041818999999999995,
+        "height": 0.01999999999999999
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Workspace preferences",
+      "bbox": {
+        "x": 0.236263,
+        "y": 0.117778,
+        "width": 0.11929299999999998,
+        "height": 0.01999999999999999
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Filter",
+      "bbox": {
+        "x": 0.366667,
+        "y": 0.106667,
+        "width": 0.06051400000000001,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Save changes",
+      "bbox": {
+        "x": 0.881858,
+        "y": 0.106667,
+        "width": 0.09869799999999995,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "General",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.196667,
+        "width": 0.13194400000000003,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Members",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.234444,
+        "width": 0.13194400000000003,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Billing",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.272222,
+        "width": 0.13194400000000003,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Integrations",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.31,
+        "width": 0.13194400000000003,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Security",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.347778,
+        "width": 0.13194400000000003,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Advanced",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.385556,
+        "width": 0.13194400000000003,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Workspace settings",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.213333,
+        "width": 0.20303800000000005,
+        "height": 0.024443999999999994
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Manage defaults for everyone in this workspace.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.243333,
+        "width": 0.20303800000000005,
+        "height": 0.017777999999999988
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Synced",
+      "bbox": {
+        "x": 0.923242,
+        "y": 0.213333,
+        "width": 0.04134099999999996,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Workspace name",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.281667,
+        "width": 0.08683799999999997,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Shown in shared links and invitations.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.306111,
+        "width": 0.14673400000000003,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Cloudbase Design",
+      "bbox": {
+        "x": 0.85574,
+        "y": 0.281111,
+        "width": 0.10884300000000002,
+        "height": 0.04222199999999998
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Language",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.362778,
+        "width": 0.04969600000000002,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Applies to menus, alerts, and exports.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.387222,
+        "width": 0.148362,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "English (United States)",
+      "bbox": {
+        "x": 0.836751,
+        "y": 0.362222,
+        "width": 0.12783199999999995,
+        "height": 0.04222199999999998
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Time zone",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.443889,
+        "width": 0.052093999999999974,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Used for activity history and schedules.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.468333,
+        "width": 0.15545799999999999,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Asia/Shanghai (GMT+8)",
+      "bbox": {
+        "x": 0.834223,
+        "y": 0.443333,
+        "width": 0.13036000000000003,
+        "height": 0.04222199999999998
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Start week on",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.525,
+        "width": 0.06921699999999997,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Calendar and report grouping preference.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.549444,
+        "width": 0.16331399999999996,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Monday",
+      "bbox": {
+        "x": 0.895931,
+        "y": 0.524444,
+        "width": 0.06865200000000005,
+        "height": 0.04222199999999998
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Compact mode",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.606111,
+        "width": 0.07738699999999998,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Reduce spacing across dense tables.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.630556,
+        "width": 0.145768,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Off",
+      "bbox": {
+        "x": 0.914616,
+        "y": 0.605556,
+        "width": 0.049966999999999984,
+        "height": 0.04222199999999998
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Automatic updates",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.687222,
+        "width": 0.09479199999999999,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Install stable releases automatically.",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.711667,
+        "width": 0.141135,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "On",
+      "bbox": {
+        "x": 0.915788,
+        "y": 0.686667,
+        "width": 0.04879599999999995,
+        "height": 0.04222199999999998
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "settings_toolbar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.106667,
+        "width": 0.797222,
+        "height": 0.061110999999999985
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "settings_nav",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.187778,
+        "width": 0.13194400000000003,
+        "height": 0.585556
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "settings_panel",
+      "bbox": {
+        "x": 0.327778,
+        "y": 0.187778,
+        "width": 0.652778,
+        "height": 0.585556
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "setting_0",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.261111,
+        "width": 0.620833,
+        "height": 0.08111099999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "setting_1",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.342222,
+        "width": 0.620833,
+        "height": 0.08111099999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "setting_2",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.423333,
+        "width": 0.620833,
+        "height": 0.08111099999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "setting_3",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.504444,
+        "width": 0.620833,
+        "height": 0.08111100000000004
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "setting_4",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.585556,
+        "width": 0.620833,
+        "height": 0.08111100000000004
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "setting_5",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.666667,
+        "width": 0.620833,
+        "height": 0.08111100000000004
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "div.toolbar-strip",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.106667,
+        "width": 0.797222,
+        "height": 0.061111
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.366667,
+        "y": 0.106667,
+        "width": 0.060514,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.881858,
+        "y": 0.106667,
+        "width": 0.098698,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "aside.settings-nav",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.187778,
+        "width": 0.131944,
+        "height": 0.585556
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.card.settings-card",
+      "bbox": {
+        "x": 0.327778,
+        "y": 0.187778,
+        "width": 0.652778,
+        "height": 0.585556
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.setting-row",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.261111,
+        "width": 0.620833,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "div.setting-row",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.342222,
+        "width": 0.620833,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "div.setting-row",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.423333,
+        "width": 0.620833,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "div.setting-row",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.504444,
+        "width": 0.620833,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_15",
+      "source": "div.setting-row",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.585556,
+        "width": 0.620833,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_16",
+      "source": "div.setting-row",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.666667,
+        "width": 0.620833,
+        "height": 0.081111
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "setting_rows",
+      "axis": "vertical",
+      "member_count": 6,
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.281667,
+        "width": 0.09479199999999999,
+        "height": 0.425555
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Workspace name",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.34375,
+            "y": 0.281667,
+            "width": 0.086838,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Language",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.34375,
+            "y": 0.362778,
+            "width": 0.049696,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "Time zone",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.34375,
+            "y": 0.443889,
+            "width": 0.052094,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "Start week on",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.34375,
+            "y": 0.525,
+            "width": 0.069217,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "Compact mode",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.34375,
+            "y": 0.606111,
+            "width": 0.077387,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_6",
+          "text": "Automatic updates",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.34375,
+            "y": 0.687222,
+            "width": 0.094792,
+            "height": 0.02
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

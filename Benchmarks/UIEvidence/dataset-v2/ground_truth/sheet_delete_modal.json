@@ -1,0 +1,431 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "sheet_delete_modal",
+  "category": "sheet_modal",
+  "tags": [
+    "desktop",
+    "png",
+    "overlay"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/sheet_delete_modal.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_21",
+      "text": "Delete Atlas migration?",
+      "bbox": {
+        "x": 0.358333,
+        "y": 0.418333,
+        "width": 0.28333300000000006,
+        "height": 0.026666999999999996
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "This action cannot be undone. 14 files, 3 integrations, and all activity history will be permanently removed.",
+      "bbox": {
+        "x": 0.358333,
+        "y": 0.459444,
+        "width": 0.28333300000000006,
+        "height": 0.04333300000000001
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Type to confirm",
+      "bbox": {
+        "x": 0.358333,
+        "y": 0.522778,
+        "width": 0.28333300000000006,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "ATLAS MIGRATION",
+      "bbox": {
+        "x": 0.380881,
+        "y": 0.522778,
+        "width": 0.08157599999999998,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Cancel",
+      "bbox": {
+        "x": 0.503451,
+        "y": 0.608333,
+        "width": 0.04989100000000002,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Delete project",
+      "bbox": {
+        "x": 0.559592,
+        "y": 0.608333,
+        "width": 0.08207500000000001,
+        "height": 0.040000000000000036
+      }
+    }
+  ],
+  "excluded_text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_13",
+      "text": "Projects",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_16",
+      "text": "Project settings",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.13212900000000002,
+        "height": 0.03666699999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_17",
+      "text": "Manage the Atlas migration workspace.",
+      "bbox": {
+        "x": 0.804232,
+        "y": 0.111111,
+        "width": 0.17632400000000004,
+        "height": 0.018889000000000003
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_18",
+      "text": "Danger zone",
+      "bbox": {
+        "x": 0.204861,
+        "y": 0.237465,
+        "width": 0.498611,
+        "height": 0.024443999999999994
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_19",
+      "text": "Deleting a project permanently removes its files, history, and integrations.",
+      "bbox": {
+        "x": 0.204861,
+        "y": 0.282708,
+        "width": 0.498611,
+        "height": 0.020000000000000018
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_20",
+      "text": "Delete project",
+      "bbox": {
+        "x": 0.204861,
+        "y": 0.320486,
+        "width": 0.08207499999999998,
+        "height": 0.03999999999999998
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    }
+  ],
+  "semantic_containers": [
+    {
+      "id": "delete_modal",
+      "bbox": {
+        "x": 0.340278,
+        "y": 0.322778,
+        "width": 0.319444,
+        "height": 0.354444
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred",
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred",
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred",
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    }
+  ],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "div.modal",
+      "bbox": {
+        "x": 0.340278,
+        "y": 0.322778,
+        "width": 0.319444,
+        "height": 0.354444
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "input",
+      "bbox": {
+        "x": 0.358333,
+        "y": 0.547222,
+        "width": 0.283333,
+        "height": 0.041111
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.503451,
+        "y": 0.608333,
+        "width": 0.049891,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.danger",
+      "bbox": {
+        "x": 0.559592,
+        "y": 0.608333,
+        "width": 0.082075,
+        "height": 0.04
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": true,
+    "active_overlay_container_id": "delete_modal",
+    "text_removed": 20,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 20,
+    "semantic_containers_removed": 3,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 3,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "landscape_media",
+  "category": "landscape",
+  "tags": [
+    "desktop",
+    "png",
+    "landscape",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/landscape_media.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Media",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Atlas field recordings",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.120556,
+        "width": 0.127072,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "14 clips · 2.6 GB",
+      "bbox": {
+        "x": 0.318739,
+        "y": 0.125,
+        "width": 0.058898000000000006,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Sort",
+      "bbox": {
+        "x": 0.38597,
+        "y": 0.111111,
+        "width": 0.05648900000000001,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Export selected",
+      "bbox": {
+        "x": 0.89133,
+        "y": 0.112222,
+        "width": 0.089225,
+        "height": 0.039999999999999994
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "▶",
+      "bbox": {
+        "x": 0.461111,
+        "y": 0.504444,
+        "width": 0.03749999999999998,
+        "height": 0.05999999999999994
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "00:42",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.896667,
+        "width": 0.019878000000000007,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "01:18",
+      "bbox": {
+        "x": 0.748242,
+        "y": 0.896667,
+        "width": 0.017730000000000024,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Morning market — wide",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.923333,
+        "width": 0.126128,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "4K · ProRes 422 · 24 fps",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.946667,
+        "width": 0.126128,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Review",
+      "bbox": {
+        "x": 0.325434,
+        "y": 0.927778,
+        "width": 0.03893200000000002,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Approve",
+      "bbox": {
+        "x": 0.369922,
+        "y": 0.927778,
+        "width": 0.04310999999999998,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Morning market",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.205556,
+        "width": 0.09161200000000003,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "00:42",
+      "bbox": {
+        "x": 0.95064,
+        "y": 0.206667,
+        "width": 0.01810999999999996,
+        "height": 0.01222200000000001
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Street interview",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.273333,
+        "width": 0.09355500000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "01:18",
+      "bbox": {
+        "x": 0.952582,
+        "y": 0.274444,
+        "width": 0.01616799999999996,
+        "height": 0.01222200000000001
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Transit b-roll",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.341111,
+        "width": 0.09188399999999997,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "00:57",
+      "bbox": {
+        "x": 0.950911,
+        "y": 0.342222,
+        "width": 0.01783900000000005,
+        "height": 0.01222200000000001
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Closing wide",
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.408889,
+        "width": 0.09249099999999999,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "01:04",
+      "bbox": {
+        "x": 0.951519,
+        "y": 0.41,
+        "width": 0.017230999999999996,
+        "height": 0.01222200000000001
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "media_toolbar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.797222,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "media_preview",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.168889,
+        "width": 0.593056,
+        "height": 0.8111109999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clip_list",
+      "bbox": {
+        "x": 0.786111,
+        "y": 0.168889,
+        "width": 0.19444400000000006,
+        "height": 0.8111109999999999
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.38597,
+        "y": 0.111111,
+        "width": 0.056489,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.89133,
+        "y": 0.112222,
+        "width": 0.089225,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.media-main",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.168889,
+        "width": 0.593056,
+        "height": 0.811111
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.preview-frame",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.185556,
+        "width": 0.572222,
+        "height": 0.697778
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "aside.clip-list",
+      "bbox": {
+        "x": 0.786111,
+        "y": 0.168889,
+        "width": 0.194444,
+        "height": 0.811111
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.clip.active",
+      "bbox": {
+        "x": 0.792361,
+        "y": 0.178889,
+        "width": 0.181944,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "i.thumb.one",
+      "bbox": {
+        "x": 0.797917,
+        "y": 0.187778,
+        "width": 0.048611,
+        "height": 0.05
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "div.clip",
+      "bbox": {
+        "x": 0.792361,
+        "y": 0.246667,
+        "width": 0.181944,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "i.thumb.two",
+      "bbox": {
+        "x": 0.797917,
+        "y": 0.255556,
+        "width": 0.048611,
+        "height": 0.05
+      }
+    },
+    {
+      "id": "rect_15",
+      "source": "div.clip",
+      "bbox": {
+        "x": 0.792361,
+        "y": 0.314444,
+        "width": 0.181944,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_16",
+      "source": "i.thumb.three",
+      "bbox": {
+        "x": 0.797917,
+        "y": 0.323333,
+        "width": 0.048611,
+        "height": 0.05
+      }
+    },
+    {
+      "id": "rect_17",
+      "source": "div.clip",
+      "bbox": {
+        "x": 0.792361,
+        "y": 0.382222,
+        "width": 0.181944,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_18",
+      "source": "i.thumb.four",
+      "bbox": {
+        "x": 0.797917,
+        "y": 0.391111,
+        "width": 0.048611,
+        "height": 0.05
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "clip_rows",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.852778,
+        "y": 0.205556,
+        "width": 0.09355500000000005,
+        "height": 0.21777699999999997
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Morning market",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.852778,
+            "y": 0.205556,
+            "width": 0.091612,
+            "height": 0.014444
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Street interview",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.852778,
+            "y": 0.273333,
+            "width": 0.093555,
+            "height": 0.014444
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "Transit b-roll",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.852778,
+            "y": 0.341111,
+            "width": 0.091884,
+            "height": 0.014444
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "Closing wide",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.852778,
+            "y": 0.408889,
+            "width": 0.092491,
+            "height": 0.014444
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

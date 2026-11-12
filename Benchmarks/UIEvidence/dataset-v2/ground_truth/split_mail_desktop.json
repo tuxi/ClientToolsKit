@@ -1,0 +1,1014 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "split_mail_desktop",
+  "category": "split_view",
+  "tags": [
+    "desktop",
+    "png",
+    "split",
+    "repeated_group",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/split_mail_desktop.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Mail",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Compose",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.127778,
+        "width": 0.097917,
+        "height": 0.044443999999999984
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Inbox",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.19,
+        "width": 0.097917,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "7",
+      "bbox": {
+        "x": 0.281445,
+        "y": 0.201667,
+        "width": 0.0046660000000000035,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Starred",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.227778,
+        "width": 0.097917,
+        "height": 0.032222
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Sent",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.26,
+        "width": 0.097917,
+        "height": 0.03222199999999997
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Drafts",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.292222,
+        "width": 0.097917,
+        "height": 0.03222199999999997
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "3",
+      "bbox": {
+        "x": 0.280946,
+        "y": 0.301111,
+        "width": 0.005164999999999975,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Archive",
+      "bbox": {
+        "x": 0.19375,
+        "y": 0.324444,
+        "width": 0.097917,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Inbox",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.136667,
+        "width": 0.02967700000000001,
+        "height": 0.01999999999999999
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.195556,
+        "width": 0.04251300000000002,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "09:42",
+      "bbox": {
+        "x": 0.495736,
+        "y": 0.195556,
+        "width": 0.01815300000000003,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Crop review notes",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.215556,
+        "width": 0.202083,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "The updated bounds look correct on both mobile and desktop.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.235556,
+        "width": 0.202083,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Jon Bell",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.276667,
+        "width": 0.030750999999999973,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "08:16",
+      "bbox": {
+        "x": 0.496636,
+        "y": 0.276667,
+        "width": 0.01725300000000002,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Benchmark dataset",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.296667,
+        "width": 0.202083,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "I reviewed the coverage matrix. The low-contrast cases are useful.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.316667,
+        "width": 0.202083,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Priya Raman",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.357778,
+        "width": 0.04827500000000001,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Yesterday",
+      "bbox": {
+        "x": 0.483811,
+        "y": 0.357778,
+        "width": 0.03007800000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Runner v1.8",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.377778,
+        "width": 0.202083,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "All integrity checks are green in the latest build.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.397778,
+        "width": 0.202083,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Theo Park",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.438889,
+        "width": 0.038997000000000004,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Yesterday",
+      "bbox": {
+        "x": 0.483811,
+        "y": 0.438889,
+        "width": 0.03007800000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Weekly planning",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.458889,
+        "width": 0.202083,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Sharing the agenda before tomorrow's review.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.478889,
+        "width": 0.202083,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Lina Soto",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.52,
+        "width": 0.036165,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Mon",
+      "bbox": {
+        "x": 0.500738,
+        "y": 0.52,
+        "width": 0.013151000000000024,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Accessibility audit",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.54,
+        "width": 0.202083,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Two labels still need a contrast pass.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.56,
+        "width": 0.202083,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Noah Williams",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.601111,
+        "width": 0.055045999999999984,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "Sun",
+      "bbox": {
+        "x": 0.502257,
+        "y": 0.601111,
+        "width": 0.011631999999999976,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "API contract",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.621111,
+        "width": 0.202083,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "Freezing v1 now, no schema changes after Friday.",
+      "bbox": {
+        "x": 0.311806,
+        "y": 0.641111,
+        "width": 0.202083,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Archive",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.136667,
+        "width": 0.03896500000000003,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Delete",
+      "bbox": {
+        "x": 0.582715,
+        "y": 0.136667,
+        "width": 0.03555799999999998,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Reply",
+      "bbox": {
+        "x": 0.622439,
+        "y": 0.136667,
+        "width": 0.032464999999999966,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Product / Evidence review",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.188889,
+        "width": 0.42499999999999993,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "Crop review notes",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.214444,
+        "width": 0.42499999999999993,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "MC",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.267778,
+        "width": 0.025000000000000022,
+        "height": 0.03999999999999998
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.571528,
+        "y": 0.267778,
+        "width": 0.05928800000000001,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "to Alex Morgan · 09:42",
+      "bbox": {
+        "x": 0.571528,
+        "y": 0.291111,
+        "width": 0.07649700000000004,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "The updated bounds look correct on both mobile and desktop. I checked the navigation crop, the repeated list area, and the narrow content column.",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.338889,
+        "width": 0.42499999999999993,
+        "height": 0.043993000000000004
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "One edge case remains: very small text inside the sticky toolbar can produce a box that overlaps two visual regions. Please keep that in the failure report rather than adjusting the detector before the baseline is frozen.",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.396215,
+        "width": 0.42499999999999993,
+        "height": 0.06599
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "Measure first. Diagnose after the immutable run is complete.",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.482205,
+        "width": 0.42499999999999993,
+        "height": 0.03888899999999995
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "Thanks, Maya",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.541094,
+        "width": 0.42499999999999993,
+        "height": 0.04399299999999995
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "Reply to Maya...",
+      "bbox": {
+        "x": 0.547222,
+        "y": 0.62342,
+        "width": 0.057996999999999965,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "Send",
+      "bbox": {
+        "x": 0.914865,
+        "y": 0.610642,
+        "width": 0.04207899999999998,
+        "height": 0.040000000000000036
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mail_folders",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.112222,
+        "width": 0.11805600000000002,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "message_list",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.112222,
+        "width": 0.22222200000000003,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mail_reader",
+      "bbox": {
+        "x": 0.524306,
+        "y": 0.112222,
+        "width": 0.45555599999999996,
+        "height": 0.857778
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "div.mail-app",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.797222,
+        "height": 0.86
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "aside.mail-folders",
+      "bbox": {
+        "x": 0.184028,
+        "y": 0.112222,
+        "width": 0.118056,
+        "height": 0.857778
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "section.mail-list",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.112222,
+        "width": 0.222222,
+        "height": 0.857778
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.39375,
+        "y": 0.127778,
+        "width": 0.120139,
+        "height": 0.037778
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.mail-row.active",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.181111,
+        "width": 0.221528,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.mail-row",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.262222,
+        "width": 0.221528,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "div.mail-row",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.343333,
+        "width": 0.221528,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "div.mail-row",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.424444,
+        "width": 0.221528,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "div.mail-row",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.505556,
+        "width": 0.221528,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_15",
+      "source": "div.mail-row",
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.586667,
+        "width": 0.221528,
+        "height": 0.081111
+      }
+    },
+    {
+      "id": "rect_16",
+      "source": "article.mail-reader",
+      "bbox": {
+        "x": 0.524306,
+        "y": 0.112222,
+        "width": 0.455556,
+        "height": 0.857778
+      }
+    },
+    {
+      "id": "rect_17",
+      "source": "div.reply-box",
+      "bbox": {
+        "x": 0.539583,
+        "y": 0.59842,
+        "width": 0.425,
+        "height": 0.064444
+      }
+    },
+    {
+      "id": "rect_18",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.914865,
+        "y": 0.610642,
+        "width": 0.042079,
+        "height": 0.04
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "mail_rows",
+      "axis": "vertical",
+      "member_count": 6,
+      "bbox": {
+        "x": 0.302083,
+        "y": 0.181111,
+        "width": 0.22152800000000006,
+        "height": 0.48666699999999996
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Maya Chen09:42Crop review notesThe updated bounds look correct on both mobile and desktop.",
+          "tag": "div",
+          "class": "mail-row active",
+          "bbox": {
+            "x": 0.302083,
+            "y": 0.181111,
+            "width": 0.221528,
+            "height": 0.081111
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Jon Bell08:16Benchmark datasetI reviewed the coverage matrix. The low-contrast cases are useful.",
+          "tag": "div",
+          "class": "mail-row",
+          "bbox": {
+            "x": 0.302083,
+            "y": 0.262222,
+            "width": 0.221528,
+            "height": 0.081111
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "Priya RamanYesterdayRunner v1.8All integrity checks are green in the latest build.",
+          "tag": "div",
+          "class": "mail-row",
+          "bbox": {
+            "x": 0.302083,
+            "y": 0.343333,
+            "width": 0.221528,
+            "height": 0.081111
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "Theo ParkYesterdayWeekly planningSharing the agenda before tomorrow's review.",
+          "tag": "div",
+          "class": "mail-row",
+          "bbox": {
+            "x": 0.302083,
+            "y": 0.424444,
+            "width": 0.221528,
+            "height": 0.081111
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "Lina SotoMonAccessibility auditTwo labels still need a contrast pass.",
+          "tag": "div",
+          "class": "mail-row",
+          "bbox": {
+            "x": 0.302083,
+            "y": 0.505556,
+            "width": 0.221528,
+            "height": 0.081111
+          }
+        },
+        {
+          "id": "member_6",
+          "text": "Noah WilliamsSunAPI contractFreezing v1 now, no schema changes after Friday.",
+          "tag": "div",
+          "class": "mail-row",
+          "bbox": {
+            "x": 0.302083,
+            "y": 0.586667,
+            "width": 0.221528,
+            "height": 0.081111
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schema": "ui_evidence_benchmark_calibration.v1.1",
+  "source_baseline": "baseline",
+  "v1_dataset_sha256": "5433ce68c8560c86b07360ef7b74d5a33ddbdf4f012b1df5af7a6a2b937461e5",
+  "v2_dataset_sha256": "17d5d4a9897c6d92e994613be9d1381f2db9e51d26741d09e3f0780f7e3a954d",
+  "baseline_evidence_unchanged": true,
+  "baseline_fingerprint_sha256": "4d4a3db32e755932a1fcad540178c7761d18327dc8e2abe9510e13f958d33da8",
+  "baseline_file_count": 165,
+  "detector_modified": false,
+  "source_snapshot_unchanged": true,
+  "iou_threshold": 0.5,
+  "audit_ids": [
+    "sheet_delete_modal",
+    "sheet_filters_mobile",
+    "modal_payment_mobile",
+    "search_command_dark",
+    "feed_news_compact",
+    "small_text_legal",
+    "split_mail_desktop",
+    "settings_general_light",
+    "dashboard_analytics_light",
+    "list_orders_desktop",
+    "payment_confirm_mobile",
+    "landscape_table_finance"
+  ],
+  "aggregate": {
+    "image_count": 30,
+    "v1_text_gt": 1283,
+    "v2_text_gt": 1240,
+    "excluded_text_gt": 43,
+    "text_pred": 1201,
+    "v1_strict_content_precision": 0.8276436303080766,
+    "v1_strict_content_recall": 0.774746687451286,
+    "v1_strict_content_f1": 0.8003220611916265,
+    "v2_strict_content_precision": 0.8268109908409659,
+    "v2_strict_content_recall": 0.8008064516129032,
+    "v2_strict_content_f1": 0.8136009832036052,
+    "v1_strict_bbox_iou50": 0.4336016096579477,
+    "v1_strict_bbox_recall_iou50": 0.33593141075604055,
+    "v2_strict_bbox_iou50": 0.4340382678751259,
+    "v2_strict_bbox_recall_iou50": 0.34758064516129034,
+    "lines_gt": 864,
+    "multi_leaf_lines_gt": 260,
+    "leaf_many_to_one_recall": 0.8685483870967742,
+    "covered_leaves_many_to_one": 1077,
+    "block_content_precision": 0.6561199000832639,
+    "blocks_with_leaf_content": 788,
+    "multi_leaf_blocks": 16,
+    "multi_leaf_leaves_covered": 35,
+    "lines_fully_covered": 719,
+    "line_full_coverage_recall": 0.8321759259259259,
+    "single_block_full_lines": 411,
+    "single_block_full_line_recall": 0.4756944444444444,
+    "multi_leaf_block_bbox_hits": 10,
+    "multi_leaf_block_bbox_iou50": 0.625,
+    "strict_leaf_misses_covered_by_block": 84,
+    "semantic_containers_gt": 187,
+    "vision_rectangles_gt": 398,
+    "container_predictions": 911,
+    "semantic_container_precision": 0.07025246981339188,
+    "semantic_container_recall": 0.3422459893048128,
+    "semantic_container_f1": 0.11657559198542805,
+    "vision_rectangle_precision": 0.19538968166849616,
+    "vision_rectangle_recall": 0.4472361809045226,
+    "vision_rectangle_f1": 0.2719633307868602,
+    "groups_gt": 18,
+    "groups_pred": 33,
+    "groups_tp": 1,
+    "repeated_group_precision": 0.030303030303030304,
+    "repeated_group_recall": 0.05555555555555555,
+    "repeated_group_f1": 0.0392156862745098,
+    "crop_requests": 90,
+    "crop_integrity": 90,
+    "crop_integrity_rate": 1.0,
+    "crop_content_utility": 88,
+    "crop_content_utility_rate": 0.9777777777777777,
+    "blank_fixed_crop_requests": 2,
+    "orphan_crop_files": 7,
+    "nondeterministic_crop_images": 3,
+    "hard_failure_count": 0
+  },
+  "overlay_occlusion": [
+    {
+      "id": "sheet_delete_modal",
+      "v1_text_gt": 26,
+      "v2_text_gt": 6,
+      "excluded_text": 20,
+      "excluded_detected": 1,
+      "excluded_missed": 19,
+      "v1_strict_recall": 0.11538461538461539,
+      "v2_strict_recall": 0.5,
+      "v1_strict_f1": 0.18181818181818182,
+      "v2_strict_f1": 0.4615384615384615
+    },
+    {
+      "id": "sheet_filters_mobile",
+      "v1_text_gt": 23,
+      "v2_text_gt": 19,
+      "excluded_text": 4,
+      "excluded_detected": 0,
+      "excluded_missed": 4,
+      "v1_strict_recall": 0.8260869565217391,
+      "v2_strict_recall": 1.0,
+      "v1_strict_f1": 0.9047619047619047,
+      "v2_strict_f1": 1.0
+    },
+    {
+      "id": "modal_payment_mobile",
+      "v1_text_gt": 13,
+      "v2_text_gt": 9,
+      "excluded_text": 4,
+      "excluded_detected": 1,
+      "excluded_missed": 3,
+      "v1_strict_recall": 0.7692307692307693,
+      "v2_strict_recall": 1.0,
+      "v1_strict_f1": 0.8695652173913044,
+      "v2_strict_f1": 0.9473684210526316
+    },
+    {
+      "id": "search_command_dark",
+      "v1_text_gt": 33,
+      "v2_text_gt": 18,
+      "excluded_text": 15,
+      "excluded_detected": 0,
+      "excluded_missed": 15,
+      "v1_strict_recall": 0.12121212121212122,
+      "v2_strict_recall": 0.2222222222222222,
+      "v1_strict_f1": 0.186046511627907,
+      "v2_strict_f1": 0.2857142857142857
+    }
+  ],
+  "group_definition_counts": {
+    "text_geometry": 7,
+    "visual_item": 11
+  },
+  "group_definition_matched": {
+    "text_geometry": 1
+  },
+  "group_width_ratio_exceeded_1_8": [
+    "setting_rows",
+    "notification_rows"
+  ],
+  "group_lead_edge_exceeded_0_02": [
+    "weekly_bars"
+  ],
+  "blank_fixed_crops": [
+    {
+      "image_id": "payment_confirm_mobile",
+      "asset_id": "asset_crop_2_be96b8ae9c2d3f1f",
+      "workspace_path": "ui-evidence/419fe8e5a64bcfb5/crop-2-be96b8ae9c2d-controls.png",
+      "classification": "fixed_request_targets_blank_region",
+      "tool_failure": false
+    },
+    {
+      "image_id": "list_notifications_mobile",
+      "asset_id": "asset_crop_2_be96b8ae9c2d3f1f",
+      "workspace_path": "ui-evidence/e0b8121eb91a4175/crop-2-be96b8ae9c2d-controls.png",
+      "classification": "fixed_request_targets_blank_region",
+      "tool_failure": false
+    }
+  ],
+  "hard_failures": []
+}

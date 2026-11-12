@@ -1,0 +1,608 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "small_text_legal",
+  "category": "small_text",
+  "tags": [
+    "desktop",
+    "png",
+    "small_text",
+    "low_contrast",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/small_text_legal.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Evaluation terms",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Contents",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.12,
+        "width": 0.15277799999999997,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Scope and acceptance",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.15,
+        "width": 0.15277799999999997,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Evaluation license",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.18,
+        "width": 0.15277799999999997,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Data handling",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.21,
+        "width": 0.15277799999999997,
+        "height": 0.03
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Restrictions",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.24,
+        "width": 0.15277799999999997,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Disclaimer",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.27,
+        "width": 0.15277799999999997,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Limitation of liability",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.3,
+        "width": 0.15277799999999997,
+        "height": 0.02999999999999997
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Evaluation terms · Version 2.4",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.15,
+        "width": 0.541667,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Cloudbase evaluation workspace terms",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.185278,
+        "width": 0.541667,
+        "height": 0.036667000000000005
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Last updated November 1, 2026 · Effective immediately for new evaluations",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.242778,
+        "width": 0.541667,
+        "height": 0.01222200000000001
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "This document contains intentionally small body text to exercise OCR under realistic dense-reading conditions.",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.272778,
+        "width": 0.541667,
+        "height": 0.034443999999999975
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "1. Scope and acceptance",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.333889,
+        "width": 0.541667,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "These terms govern access to the Cloudbase evaluation workspace and any related documentation, sample data, or benchmark artifacts made available to the customer. By accessing the workspace, the customer accepts these terms on behalf of the organization identified in the order form.",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.362778,
+        "width": 0.541667,
+        "height": 0.03628500000000001
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "2. Evaluation license",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.425729,
+        "width": 0.541667,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Cloudbase grants a limited, non-exclusive, non-transferable license to use the evaluation workspace solely for internal testing, quality assessment, and procurement review during the evaluation period. The customer may not redistribute, sublicense, or use the workspace to provide a competing service.",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.454618,
+        "width": 0.541667,
+        "height": 0.03628500000000001
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "3. Data handling",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.517569,
+        "width": 0.541667,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Customer content remains the property of the customer. Cloudbase processes customer content only to provide the evaluation workspace, maintain security, and diagnose failures. Benchmark images and ground-truth annotations supplied by the customer must not contain sensitive personal information unless a separate data processing addendum is in effect.",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.546458,
+        "width": 0.541667,
+        "height": 0.054427
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "4. Restrictions",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.627552,
+        "width": 0.541667,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "The customer may not reverse engineer the service, bypass usage limits, conduct load testing without written approval, or attempt to access another customer’s data. Outputs generated during evaluation are provided for internal review and may not be represented as production commitments.",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.656441,
+        "width": 0.541667,
+        "height": 0.03628500000000001
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "5. Disclaimer",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.719392,
+        "width": 0.541667,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "The evaluation workspace is provided as is. Cloudbase disclaims all warranties, whether express, implied, or statutory, including merchantability, fitness for a particular purpose, and non-infringement. The customer assumes all risks associated with use of the workspace.",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.748281,
+        "width": 0.541667,
+        "height": 0.03628500000000001
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "legal_toc",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.111111,
+        "width": 0.15277799999999997,
+        "height": 0.712344
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "legal_document",
+      "bbox": {
+        "x": 0.361111,
+        "y": 0.111111,
+        "width": 0.6097220000000001,
+        "height": 0.712344
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clause_0",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.333889,
+        "width": 0.541667,
+        "height": 0.06517400000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clause_1",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.425729,
+        "width": 0.541667,
+        "height": 0.06517400000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clause_2",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.517569,
+        "width": 0.541667,
+        "height": 0.08331599999999995
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clause_3",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.627552,
+        "width": 0.541667,
+        "height": 0.06517399999999995
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "clause_4",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.719392,
+        "width": 0.541667,
+        "height": 0.06517399999999995
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "aside.legal-toc",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.111111,
+        "width": 0.152778,
+        "height": 0.712344
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "article.legal-doc",
+      "bbox": {
+        "x": 0.361111,
+        "y": 0.111111,
+        "width": 0.609722,
+        "height": 0.712344
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.legal-note",
+      "bbox": {
+        "x": 0.395139,
+        "y": 0.272778,
+        "width": 0.541667,
+        "height": 0.034444
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

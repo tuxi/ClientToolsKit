@@ -1,0 +1,9 @@
+finding,classification,evidence,detector_action_now
+blurred_or_occluded_underlay_text,benchmark_measurement_problem,43 labels removed; overlay strict recall 0.3789 -> 0.6731,none
+dom_leaf_vs_vision_line_block,representation_and_measurement_problem,many-to-one recall 0.8685; strict leaf recall 0.8008; strict misses covered by block 84,none
+raw_vision_rectangle_vs_semantic_container,definition_mismatch,vision-rectangle F1 0.2720; semantic-container F1 0.1166,none
+repeated_group_width_and_member_definition,mixed_measurement_and_algorithm,group F1 0.0392; visual-item groups 11 matched 0; width>1.8 2,none
+blank_fixed_crop_request,benchmark_request_quality_not_tool_failure,2 blank requests; crop integrity 1.0000; content utility 0.9778,none
+repeated_call_crop_artifacts,real_tool_runtime_issue,7 unreferenced crop files across 3 images; referenced crop integrity remains 1.0000,defer_to_next_round
+text_bbox_geometry,real_algorithm_quality_signal,strict bbox IoU@0.5 0.4340; bbox recall 0.3476,defer_to_next_round
+vision_rectangle_geometry,real_algorithm_quality_signal,"vision-rectangle precision 0.1954, recall 0.4472",defer_to_next_round

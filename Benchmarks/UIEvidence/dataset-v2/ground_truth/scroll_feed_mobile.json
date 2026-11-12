@@ -1,0 +1,487 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "scroll_feed_mobile",
+  "category": "scroll_region",
+  "tags": [
+    "mobile",
+    "png",
+    "scroll_region",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "image": "images/scroll_feed_mobile.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.12
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.12,
+        "width": 0.92,
+        "height": 0.68
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.74,
+        "width": 0.92,
+        "height": 0.2
+      },
+      "purpose": "controls"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.01985,
+        "width": 0.159956,
+        "height": 0.017167
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Your story",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062231999999999996
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Maya",
+      "bbox": {
+        "x": 0.2,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062231999999999996
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Jon",
+      "bbox": {
+        "x": 0.362791,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062231999999999996
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Theo",
+      "bbox": {
+        "x": 0.525581,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062231999999999996
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "MA",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.171674,
+        "width": 0.08372100000000002,
+        "height": 0.038626999999999995
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.160465,
+        "y": 0.176502,
+        "width": 0.165044,
+        "height": 0.017166999999999988
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "2m",
+      "bbox": {
+        "x": 0.160465,
+        "y": 0.19367,
+        "width": 0.165044,
+        "height": 0.011803000000000008
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "The quiet navigation experiment is holding up across all three accessibility profiles.",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.222103,
+        "width": 0.883721,
+        "height": 0.03420099999999998
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "♡ 128",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.43978,
+        "width": 0.091642,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Comment 14",
+      "bbox": {
+        "x": 0.191642,
+        "y": 0.43978,
+        "width": 0.156432,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Share",
+      "bbox": {
+        "x": 0.389935,
+        "y": 0.43978,
+        "width": 0.08670099999999997,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "TH",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.492355,
+        "width": 0.08372100000000002,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Theo Park",
+      "bbox": {
+        "x": 0.160465,
+        "y": 0.497183,
+        "width": 0.15116300000000002,
+        "height": 0.017166999999999988
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "18m",
+      "bbox": {
+        "x": 0.160465,
+        "y": 0.514351,
+        "width": 0.15116300000000002,
+        "height": 0.011803000000000008
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "A small behind-the-scenes look at this week's design review.",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.542784,
+        "width": 0.883721,
+        "height": 0.017100000000000004
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "♡ 128",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.743361,
+        "width": 0.091642,
+        "height": 0.01394799999999996
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Comment 14",
+      "bbox": {
+        "x": 0.191642,
+        "y": 0.743361,
+        "width": 0.156432,
+        "height": 0.01394799999999996
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Share",
+      "bbox": {
+        "x": 0.389935,
+        "y": 0.743361,
+        "width": 0.08670099999999997,
+        "height": 0.01394799999999996
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "RA",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.795936,
+        "width": 0.08372100000000002,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Ravi Kumar",
+      "bbox": {
+        "x": 0.160465,
+        "y": 0.800764,
+        "width": 0.169222,
+        "height": 0.017167000000000043
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "42m",
+      "bbox": {
+        "x": 0.160465,
+        "y": 0.817932,
+        "width": 0.169222,
+        "height": 0.011803000000000008
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Three charts, one question: where do evidence reviews lose the most time?",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.846365,
+        "width": 0.883721,
+        "height": 0.03420100000000004
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Home",
+      "bbox": {
+        "x": 0.468496,
+        "y": 0.943133,
+        "width": 0.06300899999999998,
+        "height": 0.011803000000000008
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.461882,
+        "y": 0.962446,
+        "width": 0.07623499999999994,
+        "height": 0.011803000000000008
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Create",
+      "bbox": {
+        "x": 0.466025,
+        "y": 0.98176,
+        "width": 0.06791400000000003,
+        "height": 0.011803000000000008
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "feed_scroll_region",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.146996,
+        "width": 1.0,
+        "height": 0.806867
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mobile_post_0",
+      "bbox": {
+        "x": 0.027907,
+        "y": 0.157725,
+        "width": 0.944186,
+        "height": 0.309952
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mobile_post_1",
+      "bbox": {
+        "x": 0.027907,
+        "y": 0.478407,
+        "width": 0.944186,
+        "height": 0.292851
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mobile_post_2",
+      "bbox": {
+        "x": 0.027907,
+        "y": 0.781988,
+        "width": 0.944186,
+        "height": 0.21801199999999998
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "header.mobile-head",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.05794
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "span.story",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062232
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "span.story",
+      "bbox": {
+        "x": 0.2,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062232
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "span.story",
+      "bbox": {
+        "x": 0.362791,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062232
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "span.story",
+      "bbox": {
+        "x": 0.525581,
+        "y": 0.070815,
+        "width": 0.134884,
+        "height": 0.062232
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "article.mobile-post",
+      "bbox": {
+        "x": 0.027907,
+        "y": 0.157725,
+        "width": 0.944186,
+        "height": 0.309952
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.mobile-photo.photo-0",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.268106,
+        "width": 0.883721,
+        "height": 0.160944
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "article.mobile-post",
+      "bbox": {
+        "x": 0.027907,
+        "y": 0.478407,
+        "width": 0.944186,
+        "height": 0.292851
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.mobile-photo.photo-1",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.571687,
+        "width": 0.883721,
+        "height": 0.160944
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "article.mobile-post",
+      "bbox": {
+        "x": 0.027907,
+        "y": 0.781988,
+        "width": 0.944186,
+        "height": 0.218012
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.mobile-photo.photo-2",
+      "bbox": {
+        "x": 0.05814,
+        "y": 0.892369,
+        "width": 0.883721,
+        "height": 0.107631
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "nav.tabbar",
+      "bbox": {
+        "x": 0,
+        "y": 0.94206,
+        "width": 1,
+        "height": 0.05794
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

@@ -1,0 +1,994 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "dashboard_analytics_light",
+  "category": "dashboard",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/dashboard_analytics_light.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Analytics",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Last 30 days",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.309223,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Product overview",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.309223,
+        "height": 0.036667000000000005
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Acquisition, engagement, and expansion across the team workspace.",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.178889,
+        "width": 0.309223,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "7d",
+      "bbox": {
+        "x": 0.881076,
+        "y": 0.114444,
+        "width": 0.026769000000000043,
+        "height": 0.032222000000000015
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "30d",
+      "bbox": {
+        "x": 0.909928,
+        "y": 0.114444,
+        "width": 0.03315999999999997,
+        "height": 0.032222000000000015
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "90d",
+      "bbox": {
+        "x": 0.945171,
+        "y": 0.114444,
+        "width": 0.033301000000000025,
+        "height": 0.032222000000000015
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Monthly recurring revenue",
+      "bbox": {
+        "x": 0.196528,
+        "y": 0.245556,
+        "width": 0.165625,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "$248.6k",
+      "bbox": {
+        "x": 0.196528,
+        "y": 0.273333,
+        "width": 0.165625,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "+12.4% vs previous",
+      "bbox": {
+        "x": 0.196528,
+        "y": 0.316667,
+        "width": 0.165625,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Weekly active users",
+      "bbox": {
+        "x": 0.398264,
+        "y": 0.245556,
+        "width": 0.16562499999999997,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "18,420",
+      "bbox": {
+        "x": 0.398264,
+        "y": 0.273333,
+        "width": 0.16562499999999997,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "+8.9% vs previous",
+      "bbox": {
+        "x": 0.398264,
+        "y": 0.316667,
+        "width": 0.16562499999999997,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "NPS",
+      "bbox": {
+        "x": 0.6,
+        "y": 0.245556,
+        "width": 0.16562500000000002,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "54",
+      "bbox": {
+        "x": 0.6,
+        "y": 0.273333,
+        "width": 0.16562500000000002,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "+6 points",
+      "bbox": {
+        "x": 0.6,
+        "y": 0.316667,
+        "width": 0.16562500000000002,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Open incidents",
+      "bbox": {
+        "x": 0.801736,
+        "y": 0.245556,
+        "width": 0.16562500000000002,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "2",
+      "bbox": {
+        "x": 0.801736,
+        "y": 0.273333,
+        "width": 0.16562500000000002,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Both under monitoring",
+      "bbox": {
+        "x": 0.801736,
+        "y": 0.316667,
+        "width": 0.16562500000000002,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Weekly active users",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.393333,
+        "width": 0.20977599999999996,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Unique users who completed a meaningful action.",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.423333,
+        "width": 0.20977599999999996,
+        "height": 0.017778000000000016
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Live",
+      "bbox": {
+        "x": 0.640701,
+        "y": 0.393333,
+        "width": 0.028298999999999963,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Oct 12",
+      "bbox": {
+        "x": 0.210417,
+        "y": 0.638889,
+        "width": 0.019780999999999993,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Oct 19",
+      "bbox": {
+        "x": 0.317654,
+        "y": 0.638889,
+        "width": 0.019986999999999977,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Oct 26",
+      "bbox": {
+        "x": 0.425098,
+        "y": 0.638889,
+        "width": 0.020865999999999996,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Nov 2",
+      "bbox": {
+        "x": 0.53342,
+        "y": 0.638889,
+        "width": 0.017708000000000057,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Nov 9",
+      "bbox": {
+        "x": 0.638585,
+        "y": 0.638889,
+        "width": 0.017913999999999985,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Health metrics",
+      "bbox": {
+        "x": 0.709277,
+        "y": 0.414132,
+        "width": 0.256695,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Metric",
+      "bbox": {
+        "x": 0.709277,
+        "y": 0.459375,
+        "width": 0.10085699999999997,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Current",
+      "bbox": {
+        "x": 0.810135,
+        "y": 0.459375,
+        "width": 0.08145599999999997,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Change",
+      "bbox": {
+        "x": 0.891591,
+        "y": 0.459375,
+        "width": 0.07438199999999995,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "Activation",
+      "bbox": {
+        "x": 0.709277,
+        "y": 0.499931,
+        "width": 0.10085699999999997,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "72.4%",
+      "bbox": {
+        "x": 0.81569,
+        "y": 0.514931,
+        "width": 0.027474,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "+7.1%",
+      "bbox": {
+        "x": 0.891591,
+        "y": 0.499931,
+        "width": 0.07438199999999995,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Retention",
+      "bbox": {
+        "x": 0.709277,
+        "y": 0.546597,
+        "width": 0.10085699999999997,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "64.8%",
+      "bbox": {
+        "x": 0.81569,
+        "y": 0.561597,
+        "width": 0.028244000000000047,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "+2.3%",
+      "bbox": {
+        "x": 0.891591,
+        "y": 0.546597,
+        "width": 0.07438199999999995,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Expansion",
+      "bbox": {
+        "x": 0.709277,
+        "y": 0.593264,
+        "width": 0.10085699999999997,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "$48.2k",
+      "bbox": {
+        "x": 0.81569,
+        "y": 0.608264,
+        "width": 0.029970000000000052,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "+11.6%",
+      "bbox": {
+        "x": 0.891591,
+        "y": 0.593264,
+        "width": 0.07438199999999995,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "Support load",
+      "bbox": {
+        "x": 0.709277,
+        "y": 0.639931,
+        "width": 0.10085699999999997,
+        "height": 0.046667000000000014
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "3.1%",
+      "bbox": {
+        "x": 0.81569,
+        "y": 0.654931,
+        "width": 0.020638000000000045,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "-0.8%",
+      "bbox": {
+        "x": 0.891591,
+        "y": 0.639931,
+        "width": 0.07438199999999995,
+        "height": 0.046667000000000014
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "mrr",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.192014,
+        "height": 0.12777800000000003
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "users",
+      "bbox": {
+        "x": 0.385069,
+        "y": 0.224444,
+        "width": 0.19201400000000002,
+        "height": 0.12777800000000003
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "nps",
+      "bbox": {
+        "x": 0.586806,
+        "y": 0.224444,
+        "width": 0.19201400000000002,
+        "height": 0.12777800000000003
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "growth_chart",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.37,
+        "width": 0.50025,
+        "height": 0.34048599999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "metric_table",
+      "bbox": {
+        "x": 0.694694,
+        "y": 0.37,
+        "width": 0.28586199999999995,
+        "height": 0.34048599999999996
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "div.segmented",
+      "bbox": {
+        "x": 0.878993,
+        "y": 0.111111,
+        "width": 0.101563,
+        "height": 0.038889
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.192014,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.385069,
+        "y": 0.224444,
+        "width": 0.192014,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.586806,
+        "y": 0.224444,
+        "width": 0.192014,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.788542,
+        "y": 0.224444,
+        "width": 0.192014,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "section.card.chart-card",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.37,
+        "width": 0.50025,
+        "height": 0.340486
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "section.card.table-card",
+      "bbox": {
+        "x": 0.694694,
+        "y": 0.37,
+        "width": 0.285862,
+        "height": 0.340486
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "weekly_bars",
+      "axis": "horizontal",
+      "member_count": 12,
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.515556,
+        "width": 0.443305,
+        "height": 0.11333300000000002
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.211806,
+            "y": 0.571111,
+            "width": 0.029297,
+            "height": 0.057778
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.249436,
+            "y": 0.56,
+            "width": 0.029308,
+            "height": 0.068889
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.287077,
+            "y": 0.564444,
+            "width": 0.029297,
+            "height": 0.064444
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.324707,
+            "y": 0.551111,
+            "width": 0.029308,
+            "height": 0.077778
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.362348,
+            "y": 0.557778,
+            "width": 0.029297,
+            "height": 0.071111
+          }
+        },
+        {
+          "id": "member_6",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.399978,
+            "y": 0.544444,
+            "width": 0.029308,
+            "height": 0.084444
+          }
+        },
+        {
+          "id": "member_7",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.437619,
+            "y": 0.535556,
+            "width": 0.029297,
+            "height": 0.093333
+          }
+        },
+        {
+          "id": "member_8",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.47525,
+            "y": 0.54,
+            "width": 0.029308,
+            "height": 0.088889
+          }
+        },
+        {
+          "id": "member_9",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.512891,
+            "y": 0.526667,
+            "width": 0.029297,
+            "height": 0.102222
+          }
+        },
+        {
+          "id": "member_10",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.550521,
+            "y": 0.531111,
+            "width": 0.029308,
+            "height": 0.097778
+          }
+        },
+        {
+          "id": "member_11",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.588162,
+            "y": 0.522222,
+            "width": 0.029308,
+            "height": 0.106667
+          }
+        },
+        {
+          "id": "member_12",
+          "text": "",
+          "tag": "i",
+          "class": "",
+          "bbox": {
+            "x": 0.625803,
+            "y": 0.515556,
+            "width": 0.029308,
+            "height": 0.113333
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

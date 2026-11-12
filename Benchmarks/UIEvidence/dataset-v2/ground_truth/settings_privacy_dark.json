@@ -1,0 +1,891 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "settings_privacy_dark",
+  "category": "settings",
+  "tags": [
+    "desktop",
+    "jpeg",
+    "dark",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/settings_privacy_dark.jpg",
+  "mime_type": "image/jpeg",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Privacy & access",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Security center",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.2612300000000001,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Privacy & access",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.2612300000000001,
+        "height": 0.036667000000000005
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Review active sessions, authentication, and audit controls.",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.178889,
+        "width": 0.2612300000000001,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Review recommendations",
+      "bbox": {
+        "x": 0.847016,
+        "y": 0.111111,
+        "width": 0.13353899999999996,
+        "height": 0.039999999999999994
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Risk score",
+      "bbox": {
+        "x": 0.196528,
+        "y": 0.245556,
+        "width": 0.23286699999999996,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Low",
+      "bbox": {
+        "x": 0.196528,
+        "y": 0.273333,
+        "width": 0.23286699999999996,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "12 checks passed",
+      "bbox": {
+        "x": 0.196528,
+        "y": 0.316667,
+        "width": 0.23286699999999996,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Active sessions",
+      "bbox": {
+        "x": 0.465506,
+        "y": 0.245556,
+        "width": 0.23286699999999994,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "3",
+      "bbox": {
+        "x": 0.465506,
+        "y": 0.273333,
+        "width": 0.23286699999999994,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "1 mobile, 2 desktop",
+      "bbox": {
+        "x": 0.465506,
+        "y": 0.316667,
+        "width": 0.23286699999999994,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Audit events",
+      "bbox": {
+        "x": 0.734484,
+        "y": 0.245556,
+        "width": 0.23287800000000003,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "1,284",
+      "bbox": {
+        "x": 0.734484,
+        "y": 0.273333,
+        "width": 0.23287800000000003,
+        "height": 0.03222200000000003
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Last 30 days",
+      "bbox": {
+        "x": 0.734484,
+        "y": 0.316667,
+        "width": 0.23287800000000003,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Two-factor authentication",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.397222,
+        "width": 0.130056,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Required for admins",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.421667,
+        "width": 0.693056,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Session timeout",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.476111,
+        "width": 0.08050099999999999,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "30 minutes",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.500556,
+        "width": 0.693056,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Download audit log",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.555,
+        "width": 0.096549,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Last export 2 days ago",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.579444,
+        "width": 0.693056,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Device approvals",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.633889,
+        "width": 0.08596999999999999,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "3 active devices",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.658333,
+        "width": 0.693056,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Location history",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.712778,
+        "width": 0.08031699999999997,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Retention: 90 days",
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.737222,
+        "width": 0.693056,
+        "height": 0.016666999999999987
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "risk_metric",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.25925600000000004,
+        "height": 0.12777800000000003
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "session_metric",
+      "bbox": {
+        "x": 0.452311,
+        "y": 0.224444,
+        "width": 0.25925600000000004,
+        "height": 0.12777800000000003
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "audit_metric",
+      "bbox": {
+        "x": 0.721289,
+        "y": 0.224444,
+        "width": 0.259266,
+        "height": 0.12777800000000003
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "security_panel",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.37,
+        "width": 0.797222,
+        "height": 0.411111
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "security_0",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.378889,
+        "width": 0.765278,
+        "height": 0.07888899999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "security_1",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.457778,
+        "width": 0.765278,
+        "height": 0.07888899999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "security_2",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.536667,
+        "width": 0.765278,
+        "height": 0.07888899999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "security_3",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.615556,
+        "width": 0.765278,
+        "height": 0.07888899999999999
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "security_4",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.694444,
+        "width": 0.765278,
+        "height": 0.07777800000000001
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.847016,
+        "y": 0.111111,
+        "width": 0.133539,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.259256,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.452311,
+        "y": 0.224444,
+        "width": 0.259256,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.metric",
+      "bbox": {
+        "x": 0.721289,
+        "y": 0.224444,
+        "width": 0.259266,
+        "height": 0.127778
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.card.security-card",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.37,
+        "width": 0.797222,
+        "height": 0.411111
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.security-row",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.378889,
+        "width": 0.765278,
+        "height": 0.078889
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "div.security-icon",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.396667,
+        "width": 0.026389,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "b.switch.on",
+      "bbox": {
+        "x": 0.938194,
+        "y": 0.405556,
+        "width": 0.026389,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "div.security-row",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.457778,
+        "width": 0.765278,
+        "height": 0.078889
+      }
+    },
+    {
+      "id": "rect_15",
+      "source": "div.security-icon",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.475556,
+        "width": 0.026389,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_16",
+      "source": "b.switch",
+      "bbox": {
+        "x": 0.938194,
+        "y": 0.484444,
+        "width": 0.026389,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "rect_17",
+      "source": "div.security-row",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.536667,
+        "width": 0.765278,
+        "height": 0.078889
+      }
+    },
+    {
+      "id": "rect_18",
+      "source": "div.security-icon",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.554444,
+        "width": 0.026389,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_19",
+      "source": "b.switch",
+      "bbox": {
+        "x": 0.938194,
+        "y": 0.563333,
+        "width": 0.026389,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "rect_20",
+      "source": "div.security-row",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.615556,
+        "width": 0.765278,
+        "height": 0.078889
+      }
+    },
+    {
+      "id": "rect_21",
+      "source": "div.security-icon",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.633333,
+        "width": 0.026389,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_22",
+      "source": "b.switch",
+      "bbox": {
+        "x": 0.938194,
+        "y": 0.642222,
+        "width": 0.026389,
+        "height": 0.024444
+      }
+    },
+    {
+      "id": "rect_23",
+      "source": "div.security-row",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.694444,
+        "width": 0.765278,
+        "height": 0.077778
+      }
+    },
+    {
+      "id": "rect_24",
+      "source": "div.security-icon",
+      "bbox": {
+        "x": 0.199306,
+        "y": 0.712222,
+        "width": 0.026389,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_25",
+      "source": "b.switch.on",
+      "bbox": {
+        "x": 0.938194,
+        "y": 0.721111,
+        "width": 0.026389,
+        "height": 0.024444
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "security_rows",
+      "axis": "vertical",
+      "member_count": 5,
+      "bbox": {
+        "x": 0.235417,
+        "y": 0.397222,
+        "width": 0.130056,
+        "height": 0.335556
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Two-factor authentication",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.235417,
+            "y": 0.397222,
+            "width": 0.130056,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Session timeout",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.235417,
+            "y": 0.476111,
+            "width": 0.080501,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "Download audit log",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.235417,
+            "y": 0.555,
+            "width": 0.096549,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "Device approvals",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.235417,
+            "y": 0.633889,
+            "width": 0.08597,
+            "height": 0.02
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "Location history",
+          "tag": "span",
+          "class": "gt-row-label",
+          "bbox": {
+            "x": 0.235417,
+            "y": 0.712778,
+            "width": 0.080317,
+            "height": 0.02
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

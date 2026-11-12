@@ -1,0 +1,923 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "list_orders_desktop",
+  "category": "list",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_group",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/list_orders_desktop.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Orders",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Commerce",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.25426400000000005,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Orders",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.25426400000000005,
+        "height": 0.036667000000000005
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Review recent purchases, refunds, and fulfillment status.",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.178889,
+        "width": 0.25426400000000005,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Filter",
+      "bbox": {
+        "x": 0.836578,
+        "y": 0.111111,
+        "width": 0.06051399999999996,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "New order",
+      "bbox": {
+        "x": 0.897092,
+        "y": 0.111111,
+        "width": 0.08346399999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "6 of 1,284 orders",
+      "bbox": {
+        "x": 0.882737,
+        "y": 0.254444,
+        "width": 0.086013,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Order",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.296667,
+        "width": 0.152094,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Customer",
+      "bbox": {
+        "x": 0.347233,
+        "y": 0.296667,
+        "width": 0.20894099999999993,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Status",
+      "bbox": {
+        "x": 0.556174,
+        "y": 0.296667,
+        "width": 0.18310499999999996,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Amount",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.296667,
+        "width": 0.14181900000000003,
+        "height": 0.04055599999999998
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "#10482",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.352222,
+        "width": 0.03243299999999999,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Nov 12, 2026",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.372222,
+        "width": 0.140983,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Northstar Studio",
+      "bbox": {
+        "x": 0.352789,
+        "y": 0.360556,
+        "width": 0.06506099999999998,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Paid",
+      "bbox": {
+        "x": 0.56173,
+        "y": 0.356111,
+        "width": 0.029362,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "$1,413.84",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.337222,
+        "width": 0.14181900000000003,
+        "height": 0.06333299999999997
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "#10481",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.415556,
+        "width": 0.031337000000000004,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Nov 12, 2026",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.435556,
+        "width": 0.140983,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Kite & Co.",
+      "bbox": {
+        "x": 0.352789,
+        "y": 0.423889,
+        "width": 0.039181999999999995,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Processing",
+      "bbox": {
+        "x": 0.56173,
+        "y": 0.419444,
+        "width": 0.05564199999999997,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "$288.00",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.400556,
+        "width": 0.14181900000000003,
+        "height": 0.06333299999999997
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "#10480",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.478889,
+        "width": 0.03273699999999999,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Nov 11, 2026",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.498889,
+        "width": 0.140983,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Ravi Kumar",
+      "bbox": {
+        "x": 0.352789,
+        "y": 0.487222,
+        "width": 0.04389100000000001,
+        "height": 0.016667000000000043
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Paid",
+      "bbox": {
+        "x": 0.56173,
+        "y": 0.482778,
+        "width": 0.029362,
+        "height": 0.025555999999999968
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "$49.00",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.463889,
+        "width": 0.14181900000000003,
+        "height": 0.06333299999999997
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "#10479",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.542222,
+        "width": 0.031944,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Nov 11, 2026",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.562222,
+        "width": 0.140983,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Aster Labs",
+      "bbox": {
+        "x": 0.352789,
+        "y": 0.550556,
+        "width": 0.04191600000000001,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Refunded",
+      "bbox": {
+        "x": 0.56173,
+        "y": 0.546111,
+        "width": 0.04988099999999995,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "$612.00",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.527222,
+        "width": 0.14181900000000003,
+        "height": 0.06333299999999997
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "#10478",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.605556,
+        "width": 0.03201000000000001,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Nov 10, 2026",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.625556,
+        "width": 0.140983,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "Mina Okafor",
+      "bbox": {
+        "x": 0.352789,
+        "y": 0.613889,
+        "width": 0.047514999999999974,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Paid",
+      "bbox": {
+        "x": 0.56173,
+        "y": 0.609444,
+        "width": 0.029362,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "$89.00",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.590556,
+        "width": 0.14181900000000003,
+        "height": 0.06333299999999997
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "#10477",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.668889,
+        "width": 0.031532000000000004,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Nov 10, 2026",
+      "bbox": {
+        "x": 0.200694,
+        "y": 0.688889,
+        "width": 0.140983,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "Harbor Health",
+      "bbox": {
+        "x": 0.352789,
+        "y": 0.677222,
+        "width": 0.05509999999999998,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "Paid",
+      "bbox": {
+        "x": 0.56173,
+        "y": 0.672778,
+        "width": 0.029362,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "$2,304.00",
+      "bbox": {
+        "x": 0.73928,
+        "y": 0.653889,
+        "width": 0.14181900000000003,
+        "height": 0.06333299999999997
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "Previous",
+      "bbox": {
+        "x": 0.824512,
+        "y": 0.733333,
+        "width": 0.04519300000000004,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "Page 1 of 214",
+      "bbox": {
+        "x": 0.878038,
+        "y": 0.741111,
+        "width": 0.04886100000000004,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "Next",
+      "bbox": {
+        "x": 0.935232,
+        "y": 0.733333,
+        "width": 0.03073999999999999,
+        "height": 0.030000000000000027
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "orders_table",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.797222,
+        "height": 0.573333
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "order_0",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.337222,
+        "width": 0.773611,
+        "height": 0.06333299999999997
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "order_1",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.400556,
+        "width": 0.773611,
+        "height": 0.06333299999999997
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "order_2",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.463889,
+        "width": 0.773611,
+        "height": 0.06333299999999997
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "order_3",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.527222,
+        "width": 0.773611,
+        "height": 0.06333299999999997
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "order_4",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.590556,
+        "width": 0.773611,
+        "height": 0.06333299999999997
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "order_5",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.653889,
+        "width": 0.773611,
+        "height": 0.06333299999999997
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.836578,
+        "y": 0.111111,
+        "width": 0.060514,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.897092,
+        "y": 0.111111,
+        "width": 0.083464,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.card.table-shell",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.797222,
+        "height": 0.573333
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.243333,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "order_rows",
+      "axis": "vertical",
+      "member_count": 6,
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.337222,
+        "width": 0.773611,
+        "height": 0.38
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "#10482Nov 12, 2026Northstar StudioPaid$1,413.84",
+          "tag": "tr",
+          "class": "",
+          "bbox": {
+            "x": 0.195139,
+            "y": 0.337222,
+            "width": 0.773611,
+            "height": 0.063333
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "#10481Nov 12, 2026Kite & Co.Processing$288.00",
+          "tag": "tr",
+          "class": "",
+          "bbox": {
+            "x": 0.195139,
+            "y": 0.400556,
+            "width": 0.773611,
+            "height": 0.063333
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "#10480Nov 11, 2026Ravi KumarPaid$49.00",
+          "tag": "tr",
+          "class": "",
+          "bbox": {
+            "x": 0.195139,
+            "y": 0.463889,
+            "width": 0.773611,
+            "height": 0.063333
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "#10479Nov 11, 2026Aster LabsRefunded$612.00",
+          "tag": "tr",
+          "class": "",
+          "bbox": {
+            "x": 0.195139,
+            "y": 0.527222,
+            "width": 0.773611,
+            "height": 0.063333
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "#10478Nov 10, 2026Mina OkaforPaid$89.00",
+          "tag": "tr",
+          "class": "",
+          "bbox": {
+            "x": 0.195139,
+            "y": 0.590556,
+            "width": 0.773611,
+            "height": 0.063333
+          }
+        },
+        {
+          "id": "member_6",
+          "text": "#10477Nov 10, 2026Harbor HealthPaid$2,304.00",
+          "tag": "tr",
+          "class": "",
+          "bbox": {
+            "x": 0.195139,
+            "y": 0.653889,
+            "width": 0.773611,
+            "height": 0.063333
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

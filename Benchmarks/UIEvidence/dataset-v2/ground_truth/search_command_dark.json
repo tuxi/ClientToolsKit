@@ -1,0 +1,557 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "search_command_dark",
+  "category": "search",
+  "tags": [
+    "desktop",
+    "png",
+    "dark",
+    "overlay"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/search_command_dark.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_16",
+      "text": "Type a command or search…",
+      "bbox": {
+        "x": 0.316667,
+        "y": 0.323333,
+        "width": 0.129123,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "esc",
+      "bbox": {
+        "x": 0.681803,
+        "y": 0.322778,
+        "width": 0.020974000000000048,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "QUICK ACTIONS",
+      "bbox": {
+        "x": 0.285417,
+        "y": 0.362778,
+        "width": 0.429167,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Open settings",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.406111,
+        "width": 0.073774,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "⌘ ,",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.409444,
+        "width": 0.012522000000000033,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Search evidence",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.450556,
+        "width": 0.08381099999999997,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "⌘ K",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.453889,
+        "width": 0.012522000000000033,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "New project",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.495,
+        "width": 0.06614599999999998,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "⌘ N",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.498333,
+        "width": 0.012522000000000033,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Invite teammate",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.539444,
+        "width": 0.081478,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "⌘ I",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.542778,
+        "width": 0.012522000000000033,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "View benchmark report",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.583889,
+        "width": 0.110286,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "⌘ B",
+      "bbox": {
+        "x": 0.689562,
+        "y": 0.587222,
+        "width": 0.012522000000000033,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Toggle inspector",
+      "bbox": {
+        "x": 0.297917,
+        "y": 0.628333,
+        "width": 0.084451,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "⌘ ⇧ I",
+      "bbox": {
+        "x": 0.681217,
+        "y": 0.631667,
+        "width": 0.02086600000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "↑↓ Navigate",
+      "bbox": {
+        "x": 0.296528,
+        "y": 0.672778,
+        "width": 0.03875899999999999,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "↵ Select",
+      "bbox": {
+        "x": 0.346398,
+        "y": 0.672778,
+        "width": 0.027355000000000018,
+        "height": 0.012221999999999955
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "esc Close",
+      "bbox": {
+        "x": 0.384863,
+        "y": 0.672778,
+        "width": 0.029731000000000007,
+        "height": 0.012221999999999955
+      }
+    }
+  ],
+  "excluded_text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_13",
+      "text": "Command",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    }
+  ],
+  "semantic_containers": [
+    {
+      "id": "command_palette",
+      "bbox": {
+        "x": 0.284722,
+        "y": 0.302778,
+        "width": 0.430556,
+        "height": 0.394444
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred",
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred",
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred",
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    }
+  ],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "div.command-palette",
+      "bbox": {
+        "x": 0.284722,
+        "y": 0.302778,
+        "width": 0.430556,
+        "height": 0.394444
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "div.command-input",
+      "bbox": {
+        "x": 0.285417,
+        "y": 0.303889,
+        "width": 0.429167,
+        "height": 0.058889
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "kbd",
+      "bbox": {
+        "x": 0.681803,
+        "y": 0.322778,
+        "width": 0.020974,
+        "height": 0.02
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "div.command-row.selected",
+      "bbox": {
+        "x": 0.288194,
+        "y": 0.393889,
+        "width": 0.423611,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "div.command-row",
+      "bbox": {
+        "x": 0.288194,
+        "y": 0.438333,
+        "width": 0.423611,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "div.command-row",
+      "bbox": {
+        "x": 0.288194,
+        "y": 0.482778,
+        "width": 0.423611,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.command-row",
+      "bbox": {
+        "x": 0.288194,
+        "y": 0.527222,
+        "width": 0.423611,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.command-row",
+      "bbox": {
+        "x": 0.288194,
+        "y": 0.571667,
+        "width": 0.423611,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.command-row",
+      "bbox": {
+        "x": 0.288194,
+        "y": 0.616111,
+        "width": 0.423611,
+        "height": 0.044444
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.command-footer",
+      "bbox": {
+        "x": 0.285417,
+        "y": 0.660556,
+        "width": 0.429167,
+        "height": 0.035556
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": true,
+    "active_overlay_container_id": "command_palette",
+    "text_removed": 15,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 15,
+    "semantic_containers_removed": 3,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 3,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

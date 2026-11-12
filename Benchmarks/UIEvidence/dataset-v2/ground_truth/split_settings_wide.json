@@ -1,0 +1,829 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "split_settings_wide",
+  "category": "split_view",
+  "tags": [
+    "desktop",
+    "png",
+    "split",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "image": "images/split_settings_wide.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.015,
+        "y": 0.028889,
+        "width": 0.018750000000000003,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.040625,
+        "y": 0.033889,
+        "width": 0.058037,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.108333,
+        "width": 0.023906000000000004,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.160556,
+        "width": 0.02001,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.212778,
+        "width": 0.030078,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.265,
+        "width": 0.03335899999999999,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.035625,
+        "y": 0.860556,
+        "width": 0.05103499999999999,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.117051,
+        "y": 0.860556,
+        "width": 0.012949000000000002,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.01,
+        "y": 0.933333,
+        "width": 0.0225,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.03875,
+        "y": 0.937778,
+        "width": 0.050322,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.03875,
+        "y": 0.955556,
+        "width": 0.050322,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.021667,
+        "width": 0.11235399999999998,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Teams",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.037222,
+        "width": 0.11235399999999998,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.85748,
+        "y": 0.019444,
+        "width": 0.06739300000000004,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.931123,
+        "y": 0.019444,
+        "width": 0.051377000000000006,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Workspace",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.13,
+        "width": 0.10374999999999998,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Overview",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.16,
+        "width": 0.10374999999999998,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Teams",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.197778,
+        "width": 0.10374999999999998,
+        "height": 0.037778000000000006
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Roles",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.235556,
+        "width": 0.10374999999999998,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Permissions",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.273333,
+        "width": 0.10374999999999998,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "SSO",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.311111,
+        "width": 0.10374999999999998,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Directory sync",
+      "bbox": {
+        "x": 0.175625,
+        "y": 0.348889,
+        "width": 0.10374999999999998,
+        "height": 0.03777799999999998
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Teams and roles",
+      "bbox": {
+        "x": 0.30125,
+        "y": 0.111111,
+        "width": 0.23032200000000003,
+        "height": 0.03666699999999999
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Organize people and control access to projects and data.",
+      "bbox": {
+        "x": 0.30125,
+        "y": 0.155556,
+        "width": 0.23032200000000003,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Create team",
+      "bbox": {
+        "x": 0.694805,
+        "y": 0.111111,
+        "width": 0.08269499999999996,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "DE",
+      "bbox": {
+        "x": 0.313125,
+        "y": 0.208889,
+        "width": 0.02250000000000002,
+        "height": 0.04000000000000001
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Design",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.208889,
+        "width": 0.033584,
+        "height": 0.01999999999999999
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "18 members",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.232222,
+        "width": 0.355283,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Admin",
+      "bbox": {
+        "x": 0.705908,
+        "y": 0.217222,
+        "width": 0.033467000000000025,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "EN",
+      "bbox": {
+        "x": 0.313125,
+        "y": 0.281111,
+        "width": 0.02250000000000002,
+        "height": 0.03999999999999998
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Engineering",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.281111,
+        "width": 0.05791999999999997,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "42 members",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.304444,
+        "width": 0.348877,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Member",
+      "bbox": {
+        "x": 0.699502,
+        "y": 0.289444,
+        "width": 0.03987300000000005,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "RE",
+      "bbox": {
+        "x": 0.313125,
+        "y": 0.353333,
+        "width": 0.02250000000000002,
+        "height": 0.03999999999999998
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Research",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.353333,
+        "width": 0.045225000000000015,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "12 members",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.376667,
+        "width": 0.348877,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Member",
+      "bbox": {
+        "x": 0.699502,
+        "y": 0.361667,
+        "width": 0.03987300000000005,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "OP",
+      "bbox": {
+        "x": 0.313125,
+        "y": 0.425556,
+        "width": 0.02250000000000002,
+        "height": 0.03999999999999998
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Operations",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.425556,
+        "width": 0.05368200000000001,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "9 members",
+      "bbox": {
+        "x": 0.343125,
+        "y": 0.448889,
+        "width": 0.348877,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Member",
+      "bbox": {
+        "x": 0.699502,
+        "y": 0.433889,
+        "width": 0.03987300000000005,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "Role policy",
+      "bbox": {
+        "x": 0.801875,
+        "y": 0.134444,
+        "width": 0.16749999999999998,
+        "height": 0.024443999999999994
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Admins can manage billing and security. Members can create projects and invite guests.",
+      "bbox": {
+        "x": 0.801875,
+        "y": 0.172222,
+        "width": 0.16749999999999998,
+        "height": 0.04000000000000001
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Default role",
+      "bbox": {
+        "x": 0.801875,
+        "y": 0.227778,
+        "width": 0.16749999999999998,
+        "height": 0.05555600000000002
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Guest access",
+      "bbox": {
+        "x": 0.801875,
+        "y": 0.298889,
+        "width": 0.16749999999999998,
+        "height": 0.055555999999999994
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "View permission matrix",
+      "bbox": {
+        "x": 0.801875,
+        "y": 0.383333,
+        "width": 0.16749999999999998,
+        "height": 0.03999999999999998
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.1475,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.1475,
+        "y": 0.0,
+        "width": 0.8525,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.680605,
+        "y": 0.019444,
+        "width": 0.17062500000000003,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "settings_nav",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.111111,
+        "width": 0.12500000000000003,
+        "height": 0.372222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "teams_panel",
+      "bbox": {
+        "x": 0.30125,
+        "y": 0.111111,
+        "width": 0.47625000000000006,
+        "height": 0.372222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "team_0",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.193333,
+        "width": 0.475,
+        "height": 0.07222199999999998
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "team_1",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.265556,
+        "width": 0.475,
+        "height": 0.07222200000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "team_2",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.337778,
+        "width": 0.475,
+        "height": 0.07222200000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "team_3",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.41,
+        "width": 0.475,
+        "height": 0.07222200000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "policy_panel",
+      "bbox": {
+        "x": 0.78875,
+        "y": 0.111111,
+        "width": 0.19374999999999998,
+        "height": 0.335556
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.1475,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.1475,
+        "y": 0,
+        "width": 0.8525,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.680605,
+        "y": 0.019444,
+        "width": 0.170625,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.85748,
+        "y": 0.019444,
+        "width": 0.067393,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.931123,
+        "y": 0.019444,
+        "width": 0.051377,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "aside.settings-nav.tall",
+      "bbox": {
+        "x": 0.165,
+        "y": 0.111111,
+        "width": 0.125,
+        "height": 0.372222
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.694805,
+        "y": 0.111111,
+        "width": 0.082695,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.card",
+      "bbox": {
+        "x": 0.30125,
+        "y": 0.192222,
+        "width": 0.47625,
+        "height": 0.291111
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.team-row",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.193333,
+        "width": 0.475,
+        "height": 0.072222
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.team-row",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.265556,
+        "width": 0.475,
+        "height": 0.072222
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.team-row",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.337778,
+        "width": 0.475,
+        "height": 0.072222
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "div.team-row",
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.41,
+        "width": 0.475,
+        "height": 0.072222
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "aside.policy-panel.card",
+      "bbox": {
+        "x": 0.78875,
+        "y": 0.111111,
+        "width": 0.19375,
+        "height": 0.335556
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.801875,
+        "y": 0.383333,
+        "width": 0.1675,
+        "height": 0.04
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "team_rows",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.301875,
+        "y": 0.193333,
+        "width": 0.475,
+        "height": 0.28888900000000006
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "DEDesign18 membersAdmin",
+          "tag": "div",
+          "class": "team-row",
+          "bbox": {
+            "x": 0.301875,
+            "y": 0.193333,
+            "width": 0.475,
+            "height": 0.072222
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "ENEngineering42 membersMember",
+          "tag": "div",
+          "class": "team-row",
+          "bbox": {
+            "x": 0.301875,
+            "y": 0.265556,
+            "width": 0.475,
+            "height": 0.072222
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "REResearch12 membersMember",
+          "tag": "div",
+          "class": "team-row",
+          "bbox": {
+            "x": 0.301875,
+            "y": 0.337778,
+            "width": 0.475,
+            "height": 0.072222
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "OPOperations9 membersMember",
+          "tag": "div",
+          "class": "team-row",
+          "bbox": {
+            "x": 0.301875,
+            "y": 0.41,
+            "width": 0.475,
+            "height": 0.072222
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

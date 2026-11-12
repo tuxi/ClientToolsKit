@@ -124,3 +124,16 @@ The first immutable run is under `baseline/`:
 - `run_metadata.json` — raw execution record;
 - `evaluation.json` — machine-readable scored output;
 - `environment.json` — host/runtime and source snapshot hashes.
+
+## Calibration v1.1
+
+The v1 baseline and `dataset/` are immutable. The audit layer lives separately:
+
+- `dataset-v2/` — byte-identical v1 images plus corrected overlay-occlusion GT,
+  independent visual-rectangle GT, and repeated-group member metadata.
+- `audit-v1.1/` — strict leaf, many-to-one line/block, bbox geometry,
+  vision-rectangle, semantic-container, repeated-group, and crop-integrity
+  reports.
+- `audit-v1.1/overlays/` — 12 reviewed GT/prediction overlays.
+- `generator/build_dataset_v2.py` and `evaluate_v11.py` — reproducible audit
+  pipeline. Neither script invokes or changes the detector.

@@ -1,0 +1,794 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "editor_document_light",
+  "category": "editor",
+  "tags": [
+    "desktop",
+    "png",
+    "repeated_toolbar"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/editor_document_light.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Documents",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Undo",
+      "bbox": {
+        "x": 0.210417,
+        "y": 0.133333,
+        "width": 0.017870999999999998,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Redo",
+      "bbox": {
+        "x": 0.255371,
+        "y": 0.133333,
+        "width": 0.017100999999999977,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Heading",
+      "bbox": {
+        "x": 0.299555,
+        "y": 0.133333,
+        "width": 0.027789000000000008,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Bold",
+      "bbox": {
+        "x": 0.354427,
+        "y": 0.133333,
+        "width": 0.015017000000000003,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Link",
+      "bbox": {
+        "x": 0.396528,
+        "y": 0.133333,
+        "width": 0.01381300000000002,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Comment",
+      "bbox": {
+        "x": 0.437424,
+        "y": 0.133333,
+        "width": 0.032281000000000004,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "More",
+      "bbox": {
+        "x": 0.496788,
+        "y": 0.133333,
+        "width": 0.017013999999999974,
+        "height": 0.013333000000000012
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Saved just now",
+      "bbox": {
+        "x": 0.919586,
+        "y": 0.132778,
+        "width": 0.05471999999999999,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Outline",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.201111,
+        "width": 0.08055600000000002,
+        "height": 0.016667000000000015
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Overview",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.231111,
+        "width": 0.08055600000000002,
+        "height": 0.02999999999999997
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Customer problem",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.261111,
+        "width": 0.08055600000000002,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "Evidence collected",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.291111,
+        "width": 0.08055600000000002,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Proposed workflow",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.321111,
+        "width": 0.08055600000000002,
+        "height": 0.044443999999999984
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Launch checklist",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.365556,
+        "width": 0.08055600000000002,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Appendix",
+      "bbox": {
+        "x": 0.195139,
+        "y": 0.395556,
+        "width": 0.08055600000000002,
+        "height": 0.030000000000000027
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "Product brief · Draft 4",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.23,
+        "width": 0.444444,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Evidence-first interface review",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.253333,
+        "width": 0.444444,
+        "height": 0.04222199999999998
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "A review of how teams inspect, compare, and decide from visual evidence without asking a model to invent structure.",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.313333,
+        "width": 0.444444,
+        "height": 0.058645999999999976
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Customer problem",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.400868,
+        "width": 0.444444,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "Product teams can capture screenshots faster than they can agree on what the screenshot proves. Reviews drift into subjective descriptions, and the evidence trail is lost between design, engineering, and research.",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.44283,
+        "width": 0.444444,
+        "height": 0.07145799999999997
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Measure the observable facts first. Keep every inference editable and visibly uncertain.",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.534288,
+        "width": 0.444444,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "Evidence collected",
+      "bbox": {
+        "x": 0.335417,
+        "y": 0.603177,
+        "width": 0.444444,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "28 representative interface states",
+      "bbox": {
+        "x": 0.363194,
+        "y": 0.645399,
+        "width": 0.416667,
+        "height": 0.023819000000000035
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "Manual OCR and geometry labels",
+      "bbox": {
+        "x": 0.363194,
+        "y": 0.669219,
+        "width": 0.416667,
+        "height": 0.023819000000000035
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "Source and crop integrity checks",
+      "bbox": {
+        "x": 0.363194,
+        "y": 0.693038,
+        "width": 0.416667,
+        "height": 0.023819000000000035
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "Comments · 3",
+      "bbox": {
+        "x": 0.839583,
+        "y": 0.201111,
+        "width": 0.12916700000000003,
+        "height": 0.016667000000000015
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "MC",
+      "bbox": {
+        "x": 0.839583,
+        "y": 0.245556,
+        "width": 0.019444000000000017,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Keep the integrity section before latency.",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.245556,
+        "width": 0.10416700000000001,
+        "height": 0.05312499999999998
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "Maya",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.245556,
+        "width": 0.10416700000000001,
+        "height": 0.017708
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "JB",
+      "bbox": {
+        "x": 0.839583,
+        "y": 0.326458,
+        "width": 0.019444000000000017,
+        "height": 0.031111
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "Are these crop bounds normalized?",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.326458,
+        "width": 0.10416700000000001,
+        "height": 0.05312499999999998
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Jon",
+      "bbox": {
+        "x": 0.864583,
+        "y": 0.326458,
+        "width": 0.10416700000000001,
+        "height": 0.017708
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "editor_toolbar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.797222,
+        "height": 0.05777800000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "document_outline",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.182222,
+        "width": 0.10416699999999998,
+        "height": 0.817778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "document_sheet",
+      "bbox": {
+        "x": 0.297222,
+        "y": 0.182222,
+        "width": 0.520833,
+        "height": 0.817778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "comments_panel",
+      "bbox": {
+        "x": 0.827778,
+        "y": 0.182222,
+        "width": 0.15277799999999997,
+        "height": 0.817778
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "div.editor-toolbar",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.797222,
+        "height": 0.057778
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "aside.outline",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.182222,
+        "width": 0.104167,
+        "height": 0.817778
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "article.paper",
+      "bbox": {
+        "x": 0.297222,
+        "y": 0.182222,
+        "width": 0.520833,
+        "height": 0.817778
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "aside.comments",
+      "bbox": {
+        "x": 0.827778,
+        "y": 0.182222,
+        "width": 0.152778,
+        "height": 0.817778
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "editor_tools",
+      "axis": "horizontal",
+      "member_count": 7,
+      "bbox": {
+        "x": 0.189583,
+        "y": 0.122222,
+        "width": 0.32908,
+        "height": 0.035556000000000004
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Undo",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.189583,
+            "y": 0.122222,
+            "width": 0.043566,
+            "height": 0.035556
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Redo",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.234538,
+            "y": 0.122222,
+            "width": 0.042795,
+            "height": 0.035556
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "Heading",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.278722,
+            "y": 0.122222,
+            "width": 0.053483,
+            "height": 0.035556
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "Bold",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.333594,
+            "y": 0.122222,
+            "width": 0.040712,
+            "height": 0.035556
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "Link",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.375694,
+            "y": 0.122222,
+            "width": 0.039507,
+            "height": 0.035556
+          }
+        },
+        {
+          "id": "member_6",
+          "text": "Comment",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.416591,
+            "y": 0.122222,
+            "width": 0.057975,
+            "height": 0.035556
+          }
+        },
+        {
+          "id": "member_7",
+          "text": "More",
+          "tag": "button",
+          "class": "",
+          "bbox": {
+            "x": 0.475955,
+            "y": 0.122222,
+            "width": 0.042708,
+            "height": 0.035556
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

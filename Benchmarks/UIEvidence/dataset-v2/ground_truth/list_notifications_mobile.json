@@ -1,0 +1,593 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "list_notifications_mobile",
+  "category": "list",
+  "tags": [
+    "mobile",
+    "png",
+    "repeated_group",
+    "scroll_region"
+  ],
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "image": "images/list_notifications_mobile.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.12
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.12,
+        "width": 0.92,
+        "height": 0.68
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.74,
+        "width": 0.92,
+        "height": 0.2
+      },
+      "purpose": "controls"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "Home",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.019313,
+        "width": 0.10534199999999999,
+        "height": 0.018240000000000003
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.351381,
+        "y": 0.01985,
+        "width": 0.19342300000000007,
+        "height": 0.017167
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Mark all read",
+      "bbox": {
+        "x": 0.758285,
+        "y": 0.019313,
+        "width": 0.20915700000000004,
+        "height": 0.018240000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "All",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.074034,
+        "width": 0.092078,
+        "height": 0.031116000000000005
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Mentions",
+      "bbox": {
+        "x": 0.143241,
+        "y": 0.074034,
+        "width": 0.18408399999999997,
+        "height": 0.031116000000000005
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "System",
+      "bbox": {
+        "x": 0.334302,
+        "y": 0.074034,
+        "width": 0.159557,
+        "height": 0.031116000000000005
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Maya mentioned you",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.140558,
+        "width": 0.288844,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "Can you review the crop integrity section?",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.160944,
+        "width": 0.749746,
+        "height": 0.013947999999999988
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "2m",
+      "bbox": {
+        "x": 0.924164,
+        "y": 0.137339,
+        "width": 0.031649999999999956,
+        "height": 0.037554000000000004
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Build completed",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.211373,
+        "width": 0.22761600000000004,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Runner v1.8 passed 184 tests.",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.23176,
+        "width": 0.738917,
+        "height": 0.013947999999999988
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "18m",
+      "bbox": {
+        "x": 0.913336,
+        "y": 0.208155,
+        "width": 0.042478000000000016,
+        "height": 0.037554000000000004
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Payment received",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.282189,
+        "width": 0.250363,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Northstar Studio paid invoice #10482.",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.302575,
+        "width": 0.758576,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "1h",
+      "bbox": {
+        "x": 0.932994,
+        "y": 0.27897,
+        "width": 0.02281999999999995,
+        "height": 0.037553999999999976
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Access request",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.353004,
+        "width": 0.215916,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Theo Park requested editor access.",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.373391,
+        "width": 0.75516,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "3h",
+      "bbox": {
+        "x": 0.929578,
+        "y": 0.349785,
+        "width": 0.02623500000000001,
+        "height": 0.037553999999999976
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Weekly report ready",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.42382,
+        "width": 0.283975,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Product overview · Nov 5–11.",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.444206,
+        "width": 0.754906,
+        "height": 0.013948000000000016
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "8h",
+      "bbox": {
+        "x": 0.929324,
+        "y": 0.420601,
+        "width": 0.026490000000000014,
+        "height": 0.037553999999999976
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "New comment",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.494635,
+        "width": 0.200291,
+        "height": 0.016093999999999997
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Jon replied in Evidence-first review.",
+      "bbox": {
+        "x": 0.148837,
+        "y": 0.515021,
+        "width": 0.758031,
+        "height": 0.01394799999999996
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "1d",
+      "bbox": {
+        "x": 0.932449,
+        "y": 0.491416,
+        "width": 0.02336499999999997,
+        "height": 0.03755400000000003
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "notification_0",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.121245,
+        "width": 0.934884,
+        "height": 0.070815
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "notification_1",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.19206,
+        "width": 0.934884,
+        "height": 0.07081500000000002
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "notification_2",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.262876,
+        "width": 0.934884,
+        "height": 0.07081500000000002
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "notification_3",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.333691,
+        "width": 0.934884,
+        "height": 0.07081500000000002
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "notification_4",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.404506,
+        "width": 0.934884,
+        "height": 0.07081500000000002
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "notification_5",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.475322,
+        "width": 0.934884,
+        "height": 0.07081499999999996
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "header.mobile-head",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.05794
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "div.segmented.mobile-tabs",
+      "bbox": {
+        "x": 0.037209,
+        "y": 0.070815,
+        "width": 0.925581,
+        "height": 0.037554
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "div.notification.unread",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.121245,
+        "width": 0.934884,
+        "height": 0.070815
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "span.notification-icon",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.137339,
+        "width": 0.07907,
+        "height": 0.036481
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "div.notification.unread",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.19206,
+        "width": 0.934884,
+        "height": 0.070815
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "span.notification-icon",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.208155,
+        "width": 0.07907,
+        "height": 0.036481
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.notification.unread",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.262876,
+        "width": 0.934884,
+        "height": 0.070815
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "span.notification-icon",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.27897,
+        "width": 0.07907,
+        "height": 0.036481
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.notification",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.333691,
+        "width": 0.934884,
+        "height": 0.070815
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "span.notification-icon",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.349785,
+        "width": 0.07907,
+        "height": 0.036481
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.notification",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.404506,
+        "width": 0.934884,
+        "height": 0.070815
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "span.notification-icon",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.420601,
+        "width": 0.07907,
+        "height": 0.036481
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "div.notification",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.475322,
+        "width": 0.934884,
+        "height": 0.070815
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "span.notification-icon",
+      "bbox": {
+        "x": 0.044186,
+        "y": 0.491416,
+        "width": 0.07907,
+        "height": 0.036481
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "notification_rows",
+      "axis": "vertical",
+      "member_count": 6,
+      "bbox": {
+        "x": 0.913336,
+        "y": 0.137339,
+        "width": 0.042478000000000016,
+        "height": 0.39163099999999995
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "2m",
+          "tag": "span",
+          "class": "gt-row-label muted",
+          "bbox": {
+            "x": 0.924164,
+            "y": 0.137339,
+            "width": 0.03165,
+            "height": 0.037554
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "18m",
+          "tag": "span",
+          "class": "gt-row-label muted",
+          "bbox": {
+            "x": 0.913336,
+            "y": 0.208155,
+            "width": 0.042478,
+            "height": 0.037554
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "1h",
+          "tag": "span",
+          "class": "gt-row-label muted",
+          "bbox": {
+            "x": 0.932994,
+            "y": 0.27897,
+            "width": 0.02282,
+            "height": 0.037554
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "3h",
+          "tag": "span",
+          "class": "gt-row-label muted",
+          "bbox": {
+            "x": 0.929578,
+            "y": 0.349785,
+            "width": 0.026235,
+            "height": 0.037554
+          }
+        },
+        {
+          "id": "member_5",
+          "text": "8h",
+          "tag": "span",
+          "class": "gt-row-label muted",
+          "bbox": {
+            "x": 0.929324,
+            "y": 0.420601,
+            "width": 0.02649,
+            "height": 0.037554
+          }
+        },
+        {
+          "id": "member_6",
+          "text": "1d",
+          "tag": "span",
+          "class": "gt-row-label muted",
+          "bbox": {
+            "x": 0.932449,
+            "y": 0.491416,
+            "width": 0.023365,
+            "height": 0.037554
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

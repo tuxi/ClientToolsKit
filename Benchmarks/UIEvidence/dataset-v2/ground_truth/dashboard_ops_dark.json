@@ -1,0 +1,989 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "dashboard_ops_dark",
+  "category": "dashboard",
+  "tags": [
+    "desktop",
+    "png",
+    "dark",
+    "repeated_group"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/dashboard_ops_dark.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Operations",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Operations · Live",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.111111,
+        "width": 0.292882,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "System health",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.134444,
+        "width": 0.292882,
+        "height": 0.036667000000000005
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Service availability and incident status across production regions.",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.178889,
+        "width": 0.292882,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Create incident",
+      "bbox": {
+        "x": 0.893142,
+        "y": 0.111111,
+        "width": 0.08741299999999996,
+        "height": 0.039999999999999994
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Core services",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.247778,
+        "width": 0.08471099999999998,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "All regions",
+      "bbox": {
+        "x": 0.586545,
+        "y": 0.247778,
+        "width": 0.053862999999999994,
+        "height": 0.023332999999999993
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Gateway",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.292222,
+        "width": 0.046821,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.315556,
+        "width": 0.328592,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Operational",
+      "bbox": {
+        "x": 0.537619,
+        "y": 0.297778,
+        "width": 0.057921,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "99.99%",
+      "bbox": {
+        "x": 0.606651,
+        "y": 0.301667,
+        "width": 0.03375700000000004,
+        "height": 0.017778000000000016
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "Evidence API",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.356667,
+        "width": 0.07009500000000002,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.38,
+        "width": 0.329395,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "Operational",
+      "bbox": {
+        "x": 0.538422,
+        "y": 0.362222,
+        "width": 0.057921,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "99.97%",
+      "bbox": {
+        "x": 0.607454,
+        "y": 0.366111,
+        "width": 0.03295400000000004,
+        "height": 0.017778000000000016
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "Media processing",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.421111,
+        "width": 0.094922,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.444444,
+        "width": 0.336372,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "Degraded",
+      "bbox": {
+        "x": 0.545399,
+        "y": 0.426667,
+        "width": 0.050390999999999964,
+        "height": 0.025556000000000023
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "99.82%",
+      "bbox": {
+        "x": 0.606901,
+        "y": 0.430556,
+        "width": 0.033506999999999953,
+        "height": 0.017778000000000016
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Notification fanout",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.485556,
+        "width": 0.100684,
+        "height": 0.020000000000000018
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "p95 latency 182 ms",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.508889,
+        "width": 0.328765,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Operational",
+      "bbox": {
+        "x": 0.537793,
+        "y": 0.491111,
+        "width": 0.057921,
+        "height": 0.025555999999999968
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "99.95%",
+      "bbox": {
+        "x": 0.606825,
+        "y": 0.495,
+        "width": 0.03358300000000003,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Traffic by region",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.268576,
+        "width": 0.28528600000000004,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_39",
+      "text": "US West",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.313819,
+        "width": 0.05972199999999994,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_40",
+      "text": "38%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.313819,
+        "width": 0.02361100000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_41",
+      "text": "US East",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.348264,
+        "width": 0.05972199999999994,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_42",
+      "text": "27%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.348264,
+        "width": 0.02361100000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_43",
+      "text": "Europe",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.382708,
+        "width": 0.05972199999999994,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_44",
+      "text": "21%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.382708,
+        "width": 0.02361100000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_45",
+      "text": "Asia Pacific",
+      "bbox": {
+        "x": 0.680686,
+        "y": 0.417153,
+        "width": 0.05972199999999994,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_46",
+      "text": "14%",
+      "bbox": {
+        "x": 0.747352,
+        "y": 0.417153,
+        "width": 0.02361100000000005,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_47",
+      "text": "Recent incidents",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.620799,
+        "width": 0.768056,
+        "height": 0.02444400000000002
+      }
+    },
+    {
+      "id": "text_48",
+      "text": "Incident",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.666042,
+        "width": 0.37053,
+        "height": 0.040556000000000036
+      }
+    },
+    {
+      "id": "text_49",
+      "text": "Severity",
+      "bbox": {
+        "x": 0.568446,
+        "y": 0.666042,
+        "width": 0.128483,
+        "height": 0.040556000000000036
+      }
+    },
+    {
+      "id": "text_50",
+      "text": "Status",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.666042,
+        "width": 0.13407099999999994,
+        "height": 0.040556000000000036
+      }
+    },
+    {
+      "id": "text_51",
+      "text": "Duration",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.666042,
+        "width": 0.13497199999999998,
+        "height": 0.040556000000000036
+      }
+    },
+    {
+      "id": "text_52",
+      "text": "Media queue backlog in eu-central",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.706597,
+        "width": 0.37053,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_53",
+      "text": "SEV-2",
+      "bbox": {
+        "x": 0.574002,
+        "y": 0.721597,
+        "width": 0.03640399999999999,
+        "height": 0.023333000000000048
+      }
+    },
+    {
+      "id": "text_54",
+      "text": "Monitoring",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.706597,
+        "width": 0.13407099999999994,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_55",
+      "text": "42m",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.706597,
+        "width": 0.13497199999999998,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_56",
+      "text": "Delayed notification delivery",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.759931,
+        "width": 0.37053,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_57",
+      "text": "SEV-3",
+      "bbox": {
+        "x": 0.574002,
+        "y": 0.774931,
+        "width": 0.03659900000000005,
+        "height": 0.023333000000000048
+      }
+    },
+    {
+      "id": "text_58",
+      "text": "Resolved",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.759931,
+        "width": 0.13407099999999994,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_59",
+      "text": "1h 18m",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.759931,
+        "width": 0.13497199999999998,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_60",
+      "text": "Elevated API latency",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.813264,
+        "width": 0.37053,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_61",
+      "text": "SEV-3",
+      "bbox": {
+        "x": 0.574002,
+        "y": 0.828264,
+        "width": 0.03659900000000005,
+        "height": 0.023333000000000048
+      }
+    },
+    {
+      "id": "text_62",
+      "text": "Resolved",
+      "bbox": {
+        "x": 0.696929,
+        "y": 0.813264,
+        "width": 0.13407099999999994,
+        "height": 0.053332999999999964
+      }
+    },
+    {
+      "id": "text_63",
+      "text": "26m",
+      "bbox": {
+        "x": 0.831,
+        "y": 0.813264,
+        "width": 0.13497199999999998,
+        "height": 0.053332999999999964
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_panel",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.471658,
+        "height": 0.3344440000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_0",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.277778,
+        "width": 0.4424910000000001,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_1",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.342222,
+        "width": 0.4424910000000001,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_2",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.406667,
+        "width": 0.4424910000000001,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "service_3",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.471111,
+        "width": 0.4424910000000001,
+        "height": 0.064444
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "regions",
+      "bbox": {
+        "x": 0.666102,
+        "y": 0.224444,
+        "width": 0.314453,
+        "height": 0.3344440000000001
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "incidents",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.576667,
+        "width": 0.797222,
+        "height": 0.31381900000000007
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.893142,
+        "y": 0.111111,
+        "width": 0.087413,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "section.card.service-panel",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.224444,
+        "width": 0.471658,
+        "height": 0.334444
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.service",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.277778,
+        "width": 0.442491,
+        "height": 0.064444
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.service",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.342222,
+        "width": 0.442491,
+        "height": 0.064444
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.service",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.406667,
+        "width": 0.442491,
+        "height": 0.064444
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "div.service",
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.471111,
+        "width": 0.442491,
+        "height": 0.064444
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "section.card.region-panel",
+      "bbox": {
+        "x": 0.666102,
+        "y": 0.224444,
+        "width": 0.314453,
+        "height": 0.334444
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "section.card.incident-card",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.576667,
+        "width": 0.797222,
+        "height": 0.313819
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "service_rows",
+      "axis": "vertical",
+      "member_count": 4,
+      "bbox": {
+        "x": 0.197917,
+        "y": 0.277778,
+        "width": 0.4424910000000001,
+        "height": 0.257777
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Gatewayp95 latency 182 msOperational99.99%",
+          "tag": "div",
+          "class": "service",
+          "bbox": {
+            "x": 0.197917,
+            "y": 0.277778,
+            "width": 0.442491,
+            "height": 0.064444
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Evidence APIp95 latency 182 msOperational99.97%",
+          "tag": "div",
+          "class": "service",
+          "bbox": {
+            "x": 0.197917,
+            "y": 0.342222,
+            "width": 0.442491,
+            "height": 0.064444
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "Media processingp95 latency 182 msDegraded99.82%",
+          "tag": "div",
+          "class": "service",
+          "bbox": {
+            "x": 0.197917,
+            "y": 0.406667,
+            "width": 0.442491,
+            "height": 0.064444
+          }
+        },
+        {
+          "id": "member_4",
+          "text": "Notification fanoutp95 latency 182 msOperational99.95%",
+          "tag": "div",
+          "class": "service",
+          "bbox": {
+            "x": 0.197917,
+            "y": 0.471111,
+            "width": 0.442491,
+            "height": 0.064444
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

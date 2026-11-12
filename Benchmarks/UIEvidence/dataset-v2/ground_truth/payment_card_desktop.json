@@ -1,0 +1,705 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "payment_card_desktop",
+  "category": "payment",
+  "tags": [
+    "desktop",
+    "png"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "image": "images/payment_card_desktop.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.18,
+        "height": 1.0
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.18,
+        "y": 0.07,
+        "width": 0.62,
+        "height": 0.85
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.62,
+        "y": 0.07,
+        "width": 0.38,
+        "height": 0.42
+      },
+      "purpose": "detail"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_1",
+      "text": "C",
+      "bbox": {
+        "x": 0.016667,
+        "y": 0.028889,
+        "width": 0.020833000000000004,
+        "height": 0.033333
+      }
+    },
+    {
+      "id": "text_2",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.045139,
+        "y": 0.033889,
+        "width": 0.064486,
+        "height": 0.023333
+      }
+    },
+    {
+      "id": "text_3",
+      "text": "Home",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.108333,
+        "width": 0.026562999999999996,
+        "height": 0.018889000000000003
+      }
+    },
+    {
+      "id": "text_4",
+      "text": "Feed",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.160556,
+        "width": 0.022232999999999996,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_5",
+      "text": "Explore",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.212778,
+        "width": 0.03342,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Settings",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.265,
+        "width": 0.037065999999999995,
+        "height": 0.01888899999999999
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Notifications",
+      "bbox": {
+        "x": 0.039583,
+        "y": 0.860556,
+        "width": 0.056706,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "7",
+      "bbox": {
+        "x": 0.130056,
+        "y": 0.860556,
+        "width": 0.014388000000000012,
+        "height": 0.018889000000000045
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "AM",
+      "bbox": {
+        "x": 0.011111,
+        "y": 0.933333,
+        "width": 0.025000000000000005,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.937778,
+        "width": 0.055914000000000005,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Product team",
+      "bbox": {
+        "x": 0.043056,
+        "y": 0.955556,
+        "width": 0.055914000000000005,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Cloudbase / Workspace",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.021667,
+        "width": 0.124837,
+        "height": 0.014443999999999999
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Billing",
+      "bbox": {
+        "x": 0.183333,
+        "y": 0.037222,
+        "width": 0.124837,
+        "height": 0.022222
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Updates",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.07488099999999998,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "New",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.05708599999999997,
+        "height": 0.042221999999999996
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "Final step",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.141111,
+        "width": 0.476389,
+        "height": 0.014444000000000012
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Payment method",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.164444,
+        "width": 0.476389,
+        "height": 0.036667000000000005
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Select how you would like to pay for the Team plan.",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.215556,
+        "width": 0.476389,
+        "height": 0.017777999999999988
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "Visa ending in 4242",
+      "bbox": {
+        "x": 0.240972,
+        "y": 0.274444,
+        "width": 0.08287799999999998,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Expires 09/29",
+      "bbox": {
+        "x": 0.240972,
+        "y": 0.294444,
+        "width": 0.08287799999999998,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "Business bank account",
+      "bbox": {
+        "x": 0.240972,
+        "y": 0.352222,
+        "width": 0.096365,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "ACH · 4–6 business days",
+      "bbox": {
+        "x": 0.240972,
+        "y": 0.372222,
+        "width": 0.096365,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Invoice",
+      "bbox": {
+        "x": 0.240972,
+        "y": 0.43,
+        "width": 0.029904999999999987,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_24",
+      "text": "Net 30 for approved accounts",
+      "bbox": {
+        "x": 0.240972,
+        "y": 0.45,
+        "width": 0.10015199999999999,
+        "height": 0.013332999999999984
+      }
+    },
+    {
+      "id": "text_25",
+      "text": "Cloudbase",
+      "bbox": {
+        "x": 0.224306,
+        "y": 0.521111,
+        "width": 0.04058200000000001,
+        "height": 0.022221999999999964
+      }
+    },
+    {
+      "id": "text_26",
+      "text": "•••• •••• •••• 4242",
+      "bbox": {
+        "x": 0.224306,
+        "y": 0.574444,
+        "width": 0.45138899999999993,
+        "height": 0.022221999999999964
+      }
+    },
+    {
+      "id": "text_27",
+      "text": "ALEX MORGAN",
+      "bbox": {
+        "x": 0.224306,
+        "y": 0.616667,
+        "width": 0.057313,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_28",
+      "text": "09/29",
+      "bbox": {
+        "x": 0.652984,
+        "y": 0.616667,
+        "width": 0.022711000000000037,
+        "height": 0.01333300000000004
+      }
+    },
+    {
+      "id": "text_29",
+      "text": "Pay $1,413.84",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.672222,
+        "width": 0.476389,
+        "height": 0.040000000000000036
+      }
+    },
+    {
+      "id": "text_30",
+      "text": "By paying, you agree to the Subscription Terms.",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.726667,
+        "width": 0.476389,
+        "height": 0.01777799999999996
+      }
+    },
+    {
+      "id": "text_31",
+      "text": "You're paying",
+      "bbox": {
+        "x": 0.739583,
+        "y": 0.16191,
+        "width": 0.21250000000000002,
+        "height": 0.024443999999999994
+      }
+    },
+    {
+      "id": "text_32",
+      "text": "$1,413.84",
+      "bbox": {
+        "x": 0.739583,
+        "y": 0.207153,
+        "width": 0.21250000000000002,
+        "height": 0.04555600000000001
+      }
+    },
+    {
+      "id": "text_33",
+      "text": "Team plan, billed annually",
+      "bbox": {
+        "x": 0.739583,
+        "y": 0.266042,
+        "width": 0.21250000000000002,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_34",
+      "text": "Subtotal",
+      "bbox": {
+        "x": 0.739583,
+        "y": 0.309375,
+        "width": 0.03292099999999998,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_35",
+      "text": "$1,308.00",
+      "bbox": {
+        "x": 0.90918,
+        "y": 0.309375,
+        "width": 0.04290399999999994,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_36",
+      "text": "Tax",
+      "bbox": {
+        "x": 0.739583,
+        "y": 0.353819,
+        "width": 0.013400999999999996,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_37",
+      "text": "$105.84",
+      "bbox": {
+        "x": 0.917253,
+        "y": 0.353819,
+        "width": 0.034830999999999945,
+        "height": 0.016666999999999987
+      }
+    },
+    {
+      "id": "text_38",
+      "text": "Encrypted payment · 3-D Secure ready",
+      "bbox": {
+        "x": 0.739583,
+        "y": 0.407153,
+        "width": 0.21250000000000002,
+        "height": 0.046667000000000014
+      }
+    }
+  ],
+  "excluded_text": [],
+  "semantic_containers": [
+    {
+      "id": "sidebar",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.163889,
+        "height": 1.0
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0.0,
+        "width": 0.836111,
+        "height": 0.082222
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "global_search",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.18958299999999995,
+        "height": 0.042221999999999996
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "payment_panel",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.111111,
+        "width": 0.513889,
+        "height": 0.677778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "method_0",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.255556,
+        "width": 0.476389,
+        "height": 0.067778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "method_1",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.333333,
+        "width": 0.476389,
+        "height": 0.067778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "method_2",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.411111,
+        "width": 0.476389,
+        "height": 0.067778
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "credit_card",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.501111,
+        "width": 0.476389,
+        "height": 0.14888899999999994
+      },
+      "expected_evidence": "inferred"
+    },
+    {
+      "id": "receipt",
+      "bbox": {
+        "x": 0.720833,
+        "y": 0.111111,
+        "width": 0.25,
+        "height": 0.677778
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "aside.sidebar",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 0.163889,
+        "height": 1
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "header.topbar",
+      "bbox": {
+        "x": 0.163889,
+        "y": 0,
+        "width": 0.836111,
+        "height": 0.082222
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "label.searchbox",
+      "bbox": {
+        "x": 0.645117,
+        "y": 0.019444,
+        "width": 0.189583,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.button.ghost",
+      "bbox": {
+        "x": 0.841645,
+        "y": 0.019444,
+        "width": 0.074881,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.92347,
+        "y": 0.019444,
+        "width": 0.057086,
+        "height": 0.042222
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "section.card.payment-card",
+      "bbox": {
+        "x": 0.193056,
+        "y": 0.111111,
+        "width": 0.513889,
+        "height": 0.677778
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.payment-method.selected",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.255556,
+        "width": 0.476389,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "div.payment-method",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.333333,
+        "width": 0.476389,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "div.payment-method",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.411111,
+        "width": 0.476389,
+        "height": 0.067778
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "div.demo-card",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.501111,
+        "width": 0.476389,
+        "height": 0.148889
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.672222,
+        "width": 0.476389,
+        "height": 0.04
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "aside.card.receipt",
+      "bbox": {
+        "x": 0.720833,
+        "y": 0.111111,
+        "width": 0.25,
+        "height": 0.677778
+      }
+    }
+  ],
+  "repeated_groups": [
+    {
+      "id": "payment_methods",
+      "axis": "vertical",
+      "member_count": 3,
+      "bbox": {
+        "x": 0.211806,
+        "y": 0.255556,
+        "width": 0.476389,
+        "height": 0.223333
+      },
+      "members": [
+        {
+          "id": "member_1",
+          "text": "Visa ending in 4242Expires 09/29",
+          "tag": "div",
+          "class": "payment-method selected",
+          "bbox": {
+            "x": 0.211806,
+            "y": 0.255556,
+            "width": 0.476389,
+            "height": 0.067778
+          }
+        },
+        {
+          "id": "member_2",
+          "text": "Business bank accountACH · 4–6 business days",
+          "tag": "div",
+          "class": "payment-method",
+          "bbox": {
+            "x": 0.211806,
+            "y": 0.333333,
+            "width": 0.476389,
+            "height": 0.067778
+          }
+        },
+        {
+          "id": "member_3",
+          "text": "InvoiceNet 30 for approved accounts",
+          "tag": "div",
+          "class": "payment-method",
+          "bbox": {
+            "x": 0.211806,
+            "y": 0.411111,
+            "width": 0.476389,
+            "height": 0.067778
+          }
+        }
+      ]
+    }
+  ],
+  "occlusion_correction": {
+    "applied": false,
+    "active_overlay_container_id": null,
+    "text_removed": 0,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 0,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "schema": "ui_evidence_benchmark_ground_truth.v2",
+  "id": "sheet_filters_mobile",
+  "category": "sheet_modal",
+  "tags": [
+    "mobile",
+    "png",
+    "overlay",
+    "low_contrast"
+  ],
+  "viewport": {
+    "width": 430,
+    "height": 932
+  },
+  "image": "images/sheet_filters_mobile.png",
+  "mime_type": "image/png",
+  "source_kind": "web_screenshot",
+  "crops": [
+    {
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 0.12
+      },
+      "purpose": "navigation"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.12,
+        "width": 0.92,
+        "height": 0.68
+      },
+      "purpose": "content"
+    },
+    {
+      "bbox": {
+        "x": 0.04,
+        "y": 0.74,
+        "width": 0.92,
+        "height": 0.2
+      },
+      "purpose": "controls"
+    }
+  ],
+  "text": [
+    {
+      "id": "text_5",
+      "text": "Filters",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.540773,
+        "width": 0.365189,
+        "height": 0.023604999999999987
+      }
+    },
+    {
+      "id": "text_6",
+      "text": "Refine your search results",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.569742,
+        "width": 0.365189,
+        "height": 0.017167000000000043
+      }
+    },
+    {
+      "id": "text_7",
+      "text": "Clear all",
+      "bbox": {
+        "x": 0.774927,
+        "y": 0.540773,
+        "width": 0.18321200000000004,
+        "height": 0.02575099999999997
+      }
+    },
+    {
+      "id": "text_8",
+      "text": "Content type",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.608369,
+        "width": 0.916279,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_9",
+      "text": "All",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.63412,
+        "width": 0.130996,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_10",
+      "text": "Documents",
+      "bbox": {
+        "x": 0.189135,
+        "y": 0.63412,
+        "width": 0.18971699999999997,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_11",
+      "text": "Images",
+      "bbox": {
+        "x": 0.395131,
+        "y": 0.63412,
+        "width": 0.13888100000000003,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_12",
+      "text": "Videos",
+      "bbox": {
+        "x": 0.550291,
+        "y": 0.63412,
+        "width": 0.13448399999999994,
+        "height": 0.03862699999999997
+      }
+    },
+    {
+      "id": "text_13",
+      "text": "Updated",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.694206,
+        "width": 0.916279,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_14",
+      "text": "Today",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.719957,
+        "width": 0.12398299999999998,
+        "height": 0.031116000000000033
+      }
+    },
+    {
+      "id": "text_15",
+      "text": "This week",
+      "bbox": {
+        "x": 0.182122,
+        "y": 0.719957,
+        "width": 0.173147,
+        "height": 0.031116000000000033
+      }
+    },
+    {
+      "id": "text_16",
+      "text": "This month",
+      "bbox": {
+        "x": 0.371548,
+        "y": 0.719957,
+        "width": 0.1875,
+        "height": 0.031116000000000033
+      }
+    },
+    {
+      "id": "text_17",
+      "text": "Any time",
+      "bbox": {
+        "x": 0.575327,
+        "y": 0.719957,
+        "width": 0.15763099999999997,
+        "height": 0.031116000000000033
+      }
+    },
+    {
+      "id": "text_18",
+      "text": "Owner",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.772532,
+        "width": 0.916279,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_19",
+      "text": "AM",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.806867,
+        "width": 0.06511599999999998,
+        "height": 0.030043000000000042
+      }
+    },
+    {
+      "id": "text_20",
+      "text": "Alex Morgan",
+      "bbox": {
+        "x": 0.130233,
+        "y": 0.813841,
+        "width": 0.16355400000000003,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_21",
+      "text": "MC",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.854077,
+        "width": 0.06511599999999998,
+        "height": 0.030043000000000042
+      }
+    },
+    {
+      "id": "text_22",
+      "text": "Maya Chen",
+      "bbox": {
+        "x": 0.130233,
+        "y": 0.861052,
+        "width": 0.14574899999999996,
+        "height": 0.016094000000000053
+      }
+    },
+    {
+      "id": "text_23",
+      "text": "Show 126 results",
+      "bbox": {
+        "x": 0.07907,
+        "y": 0.924893,
+        "width": 0.84186,
+        "height": 0.03862699999999997
+      }
+    }
+  ],
+  "excluded_text": [
+    {
+      "id": "text_1",
+      "text": "Cancel",
+      "bbox": {
+        "x": 0.032558,
+        "y": 0.019313,
+        "width": 0.118205,
+        "height": 0.018240000000000003
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_2",
+      "text": "Search",
+      "bbox": {
+        "x": 0.452725,
+        "y": 0.01985,
+        "width": 0.10505100000000006,
+        "height": 0.017167
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_3",
+      "text": "Reset",
+      "bbox": {
+        "x": 0.859738,
+        "y": 0.019313,
+        "width": 0.107703,
+        "height": 0.018240000000000003
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    },
+    {
+      "id": "text_4",
+      "text": "Design systems",
+      "bbox": {
+        "x": 0.123256,
+        "y": 0.088519,
+        "width": 0.207049,
+        "height": 0.016093999999999997
+      },
+      "exclusion_reason": "dimmed_or_blurred_underlay_outside_active_overlay"
+    }
+  ],
+  "semantic_containers": [
+    {
+      "id": "filter_sheet",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.507511,
+        "width": 1.0,
+        "height": 0.49248899999999995
+      },
+      "expected_evidence": "inferred"
+    }
+  ],
+  "excluded_semantic_containers": [],
+  "vision_rectangles": [
+    {
+      "id": "rect_1",
+      "source": "section.sheet",
+      "bbox": {
+        "x": 0,
+        "y": 0.507511,
+        "width": 1,
+        "height": 0.492489
+      }
+    },
+    {
+      "id": "rect_2",
+      "source": "div.filter-section",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.608369,
+        "width": 0.916279,
+        "height": 0.064378
+      }
+    },
+    {
+      "id": "rect_3",
+      "source": "button.chip.active",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.63412,
+        "width": 0.130996,
+        "height": 0.038627
+      }
+    },
+    {
+      "id": "rect_4",
+      "source": "button.chip",
+      "bbox": {
+        "x": 0.189135,
+        "y": 0.63412,
+        "width": 0.189717,
+        "height": 0.038627
+      }
+    },
+    {
+      "id": "rect_5",
+      "source": "button.chip",
+      "bbox": {
+        "x": 0.395131,
+        "y": 0.63412,
+        "width": 0.138881,
+        "height": 0.038627
+      }
+    },
+    {
+      "id": "rect_6",
+      "source": "button.chip",
+      "bbox": {
+        "x": 0.550291,
+        "y": 0.63412,
+        "width": 0.134484,
+        "height": 0.038627
+      }
+    },
+    {
+      "id": "rect_7",
+      "source": "div.filter-section",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.694206,
+        "width": 0.916279,
+        "height": 0.056867
+      }
+    },
+    {
+      "id": "rect_8",
+      "source": "button.chip",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.719957,
+        "width": 0.123983,
+        "height": 0.031116
+      }
+    },
+    {
+      "id": "rect_9",
+      "source": "button.chip.active",
+      "bbox": {
+        "x": 0.182122,
+        "y": 0.719957,
+        "width": 0.173147,
+        "height": 0.031116
+      }
+    },
+    {
+      "id": "rect_10",
+      "source": "button.chip",
+      "bbox": {
+        "x": 0.371548,
+        "y": 0.719957,
+        "width": 0.1875,
+        "height": 0.031116
+      }
+    },
+    {
+      "id": "rect_11",
+      "source": "button.chip",
+      "bbox": {
+        "x": 0.575327,
+        "y": 0.719957,
+        "width": 0.157631,
+        "height": 0.031116
+      }
+    },
+    {
+      "id": "rect_12",
+      "source": "div.filter-section",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.772532,
+        "width": 0.916279,
+        "height": 0.120172
+      }
+    },
+    {
+      "id": "rect_13",
+      "source": "div.owner-row",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.798283,
+        "width": 0.916279,
+        "height": 0.04721
+      }
+    },
+    {
+      "id": "rect_14",
+      "source": "b.switch.on",
+      "bbox": {
+        "x": 0.869767,
+        "y": 0.810086,
+        "width": 0.088372,
+        "height": 0.023605
+      }
+    },
+    {
+      "id": "rect_15",
+      "source": "div.owner-row",
+      "bbox": {
+        "x": 0.04186,
+        "y": 0.845494,
+        "width": 0.916279,
+        "height": 0.04721
+      }
+    },
+    {
+      "id": "rect_16",
+      "source": "b.switch",
+      "bbox": {
+        "x": 0.869767,
+        "y": 0.857296,
+        "width": 0.088372,
+        "height": 0.023605
+      }
+    },
+    {
+      "id": "rect_17",
+      "source": "button.button.primary",
+      "bbox": {
+        "x": 0.07907,
+        "y": 0.924893,
+        "width": 0.84186,
+        "height": 0.038627
+      }
+    }
+  ],
+  "repeated_groups": [],
+  "occlusion_correction": {
+    "applied": true,
+    "active_overlay_container_id": "filter_sheet",
+    "text_removed": 4,
+    "text_removed_outside_viewport": 0,
+    "text_removed_under_overlay": 4,
+    "semantic_containers_removed": 0,
+    "semantic_containers_removed_outside_viewport": 0,
+    "semantic_containers_removed_under_overlay": 0,
+    "policy": "at_least_half_visible_and_active_overlay_center_inside"
+  }
+}
