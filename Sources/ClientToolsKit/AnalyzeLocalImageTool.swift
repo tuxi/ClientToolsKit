@@ -17,17 +17,19 @@ import AppKit
 public struct AnalyzeLocalImageTool: ClientTool {
     public let name = "analyze_local_image"
     public let description = """
-分析当前 workspace 中的本地图片。支持图片基础信息、OCR、条码/二维码和 VisualGroundingKit 结构化视觉理解，所有处理均在设备本地完成。
+分析 workspace 中的本地图片，提取 OCR、条码、图片元数据或照片场景事实。仅在这些具体事实需要时使用。
+本工具不向模型暴露图片像素，也不是 view_image 的替代品或前置条件。
 参数：
   - path（必填）：由 capture_photo 等工具返回的 workspace 相对路径
   - mode（可选）："auto"、"basic"、"ocr"、"barcode" 或 "grounding"，默认 "auto"
   - profile（可选）："agent_compact"、"generation_grounding" 或 "debug"，默认 "agent_compact"
   - include_debug（可选）：是否返回原始诊断信息，默认 false
 说明：
-  - auto：基础信息 + 紧凑视觉理解（OCR、条码、分类、主体），推荐 Agent 调用
+  - auto：基础信息 + 紧凑视觉理解（OCR、条码、分类、主体）
   - grounding：完整 VisualGroundingKit 输出，包含 motion/preservation/prompt hints
   - ocr / barcode：仅执行对应 Vision 请求
   - basic：仅返回图片元数据
+  - 所有处理均在设备本地完成。
 """
 
     private let groundingService: any ImageUnderstandingService
