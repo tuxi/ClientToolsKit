@@ -1,0 +1,717 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_45dc3d3db8baf429",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 0.12,
+        "width" : 1,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_3358b0162c04a57b",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.68,
+        "width" : 0.92,
+        "x" : 0.04,
+        "y" : 0.12
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_8c9f7c953b56674f",
+      "purpose" : "controls",
+      "source_bbox" : {
+        "height" : 0.2,
+        "width" : 0.92,
+        "x" : 0.04,
+        "y" : 0.74
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.015255,
+        "width" : 0.083916,
+        "x" : 0.046414,
+        "y" : 0.021343
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.2,
+        "x" : 0.348837,
+        "y" : 0.023605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.186047,
+        "x" : 0.772093,
+        "y" : 0.023605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Mark all read"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.04186,
+        "x" : 0.069767,
+        "y" : 0.083691
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "All"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01361,
+        "width" : 0.135204,
+        "x" : 0.167282,
+        "y" : 0.083324
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Mentions"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015704,
+        "width" : 0.107417,
+        "x" : 0.36257,
+        "y" : 0.08335
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "System"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015021,
+        "width" : 0.293023,
+        "x" : 0.148837,
+        "y" : 0.141631
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Maya mentioned you"
+    },
+    {
+      "bbox" : {
+        "height" : 0.008584,
+        "width" : 0.051163,
+        "x" : 0.92093,
+        "y" : 0.139485
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "2m0"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.52093,
+        "x" : 0.148837,
+        "y" : 0.16309
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "Can you review the crop integrity section?"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.232558,
+        "x" : 0.148837,
+        "y" : 0.214592
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "Build completed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.008584,
+        "width" : 0.060465,
+        "x" : 0.911628,
+        "y" : 0.2103
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "18m0"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.372093,
+        "x" : 0.144186,
+        "y" : 0.233906
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Runner v1.8 passed 184 tests."
+    },
+    {
+      "bbox" : {
+        "height" : 0.015819,
+        "width" : 0.256745,
+        "x" : 0.148381,
+        "y" : 0.283094
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Payment received"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.469767,
+        "x" : 0.144186,
+        "y" : 0.304721
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Northstar Studio paid invoice #10482."
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.227907,
+        "x" : 0.144186,
+        "y" : 0.356223
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Access request"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.432558,
+        "x" : 0.148837,
+        "y" : 0.375536
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Theo Park requested editor access."
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.288372,
+        "x" : 0.148837,
+        "y" : 0.427039
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Weekly report ready"
+    },
+    {
+      "bbox" : {
+        "height" : 0.008584,
+        "width" : 0.037209,
+        "x" : 0.925581,
+        "y" : 0.422747
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "8h"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01073,
+        "width" : 0.35814,
+        "x" : 0.144186,
+        "y" : 0.446352
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Product overview • Nov 5-11."
+    },
+    {
+      "bbox" : {
+        "height" : 0.01073,
+        "width" : 0.209302,
+        "x" : 0.148837,
+        "y" : 0.497854
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "New comment"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01073,
+        "width" : 0.032558,
+        "x" : 0.930233,
+        "y" : 0.493562
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "1d"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012876,
+        "width" : 0.44186,
+        "x" : 0.144186,
+        "y" : 0.517167
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "Jon replied in Evidence-first review."
+    },
+    {
+      "bbox" : {
+        "height" : 0.019604,
+        "width" : 0.095894,
+        "x" : 0.032569,
+        "y" : 0.018263
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021389,
+        "width" : 0.066781,
+        "x" : 0.056315,
+        "y" : 0.077836
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018391,
+        "width" : 0.130615,
+        "x" : 0.346569,
+        "y" : 0.080341
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.060371,
+        "width" : 0.120578,
+        "x" : 0.030989,
+        "y" : 0.118963
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026668,
+        "width" : 0.066678,
+        "x" : 0.051163,
+        "y" : 0.140324
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017756,
+        "width" : 0.308293,
+        "x" : 0.136797,
+        "y" : 0.139958
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017455,
+        "width" : 0.027446,
+        "x" : 0.917172,
+        "y" : 0.13551
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025378,
+        "width" : 0.046293,
+        "x" : 0.060556,
+        "y" : 0.213428
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017352,
+        "width" : 0.242242,
+        "x" : 0.142897,
+        "y" : 0.210694
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027236,
+        "width" : 0.054081,
+        "x" : 0.056558,
+        "y" : 0.283771
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016429,
+        "width" : 0.275933,
+        "x" : 0.137462,
+        "y" : 0.283029
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.060043,
+        "width" : 0.119874,
+        "x" : 0.030496,
+        "y" : 0.332099
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023078,
+        "width" : 0.045672,
+        "x" : 0.060789,
+        "y" : 0.356144
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016138,
+        "width" : 0.232288,
+        "x" : 0.139099,
+        "y" : 0.354083
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035105,
+        "width" : 0.091908,
+        "x" : 0.035091,
+        "y" : 0.417017
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016845,
+        "width" : 0.04497,
+        "x" : 0.919559,
+        "y" : 0.418582
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017219,
+        "width" : 0.302143,
+        "x" : 0.143085,
+        "y" : 0.423607
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015404,
+        "width" : 0.227332,
+        "x" : 0.136193,
+        "y" : 0.4454
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016614,
+        "width" : 0.127688,
+        "x" : 0.37513,
+        "y" : 0.443657
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022825,
+        "width" : 0.04507,
+        "x" : 0.060139,
+        "y" : 0.498773
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023457,
+        "width" : 0.158534,
+        "x" : 0.139485,
+        "y" : 0.493808
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 43,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.388412,
+        "width" : 0.525581,
+        "x" : 0.144186,
+        "y" : 0.141631
+      },
+      "confidence" : 0.9528197215007117,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_7",
+        "el_text_9",
+        "el_text_10",
+        "el_text_12",
+        "el_text_13",
+        "el_text_14",
+        "el_text_15",
+        "el_text_16",
+        "el_text_17",
+        "el_text_19",
+        "el_text_20",
+        "el_text_22"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_e0b8121eb91a4175",
+    "height" : 932,
+    "mime_type" : "image/png",
+    "sha256" : "e0b8121eb91a4175fe3913c9ac5c0d3405b445b7a28b53b567f44255a0e2dad8",
+    "source_kind" : "web_screenshot",
+    "width" : 430
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16",
+        "el_container_17",
+        "el_container_18",
+        "el_container_19",
+        "el_container_20",
+        "el_container_21"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 12 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_7",
+        "el_text_9",
+        "el_text_10",
+        "el_text_12",
+        "el_text_13",
+        "el_text_14",
+        "el_text_15",
+        "el_text_16",
+        "el_text_17",
+        "el_text_19",
+        "el_text_20",
+        "el_text_22"
+      ]
+    }
+  ]
+}

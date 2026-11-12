@@ -1,0 +1,524 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_3b68cd7b4ddb548e",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_9587defe0f82e3bf",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_446a8d8a5d9ea092",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.025633,
+        "width" : 0.159884,
+        "x" : 0.357558,
+        "y" : 0.423256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "Delete Atlas migration?"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020769,
+        "width" : 0.258812,
+        "x" : 0.357525,
+        "y" : 0.462737
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "This action cannot be undone. 14 files, 3 integrations, and all"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.190407,
+        "x" : 0.357558,
+        "y" : 0.485556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "activity history will be permanently removed."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.151163,
+        "x" : 0.357558,
+        "y" : 0.525556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Type ATLAS MIGRATION to confirm"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.056686,
+        "x" : 0.366279,
+        "y" : 0.562791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "Project name"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014142,
+        "width" : 0.033461,
+        "x" : 0.513066,
+        "y" : 0.623162
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Cancel"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.06686,
+        "x" : 0.568314,
+        "y" : 0.623256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Delete project"
+    },
+    {
+      "bbox" : {
+        "height" : 0.052243,
+        "width" : 0.02919,
+        "x" : 0.0099,
+        "y" : 0.01945
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033546,
+        "width" : 0.061349,
+        "x" : 0.769484,
+        "y" : 0.024
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.043746,
+        "width" : 0.060268,
+        "x" : 0.921886,
+        "y" : 0.021216
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035368,
+        "width" : 0.068731,
+        "x" : 0.043976,
+        "y" : 0.030105
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032146,
+        "width" : 0.018801,
+        "x" : 0.648166,
+        "y" : 0.026588
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030927,
+        "width" : 0.0636,
+        "x" : 0.848859,
+        "y" : 0.027468
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.063576,
+        "width" : 0.140146,
+        "x" : 0.008894,
+        "y" : 0.08879
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030948,
+        "width" : 0.186855,
+        "x" : 0.795621,
+        "y" : 0.108142
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.039469,
+        "width" : 0.142251,
+        "x" : 0.177188,
+        "y" : 0.113816
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.036309,
+        "width" : 0.017807,
+        "x" : 0.011955,
+        "y" : 0.155311
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03027,
+        "width" : 0.038348,
+        "x" : 0.029688,
+        "y" : 0.157774
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.202269,
+        "width" : 0.537568,
+        "x" : 0.185736,
+        "y" : 0.18852
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032355,
+        "width" : 0.064186,
+        "x" : 0.011863,
+        "y" : 0.208124
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033745,
+        "width" : 0.086431,
+        "x" : 0.200017,
+        "y" : 0.235916
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02866,
+        "width" : 0.017447,
+        "x" : 0.014313,
+        "y" : 0.260589
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032265,
+        "width" : 0.043495,
+        "x" : 0.036314,
+        "y" : 0.260153
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.067541,
+        "width" : 0.104116,
+        "x" : 0.196774,
+        "y" : 0.307825
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.354121,
+        "width" : 0.320143,
+        "x" : 0.33946,
+        "y" : 0.32526
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023661,
+        "width" : 0.06988,
+        "x" : 0.208634,
+        "y" : 0.331176
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028038,
+        "width" : 0.158764,
+        "x" : 0.352952,
+        "y" : 0.518694
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041106,
+        "width" : 0.082528,
+        "x" : 0.559717,
+        "y" : 0.611279
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024855,
+        "width" : 0.037566,
+        "x" : 0.510356,
+        "y" : 0.620551
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.067506,
+        "width" : 0.030671,
+        "x" : 0.008861,
+        "y" : 0.924593
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030538,
+        "width" : 0.051915,
+        "x" : 0.040968,
+        "y" : 0.949162
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 31,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_0394ce9709da7c8a",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "0394ce9709da7c8ae79100c5b70ea91186dec2749e763c2b6d8d4d1879d06291",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16",
+        "el_container_17",
+        "el_container_18",
+        "el_container_19",
+        "el_container_20",
+        "el_container_21",
+        "el_container_22",
+        "el_container_23",
+        "el_container_24"
+      ]
+    }
+  ]
+}

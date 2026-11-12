@@ -1,0 +1,1112 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_0c2c114cb1ae7e61",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_c12b7113127cab33",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_a9f0db6e3f29a9cb",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021569,
+        "width" : 0.068389,
+        "x" : 0.043567,
+        "y" : 0.03689
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020365,
+        "width" : 0.11073,
+        "x" : 0.655372,
+        "y" : 0.032334
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016514,
+        "width" : 0.040734,
+        "x" : 0.867714,
+        "y" : 0.034766
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018442,
+        "width" : 0.038758,
+        "x" : 0.934141,
+        "y" : 0.031843
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022338,
+        "width" : 0.051091,
+        "x" : 0.181577,
+        "y" : 0.041157
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.030523,
+        "x" : 0.037791,
+        "y" : 0.111628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.174419,
+        "x" : 0.18314,
+        "y" : 0.12093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "General Workspace preferences"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.042151,
+        "x" : 0.377907,
+        "y" : 0.12093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "Y Filter"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018972,
+        "width" : 0.064437,
+        "x" : 0.908151,
+        "y" : 0.119132
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "Save changes"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01563,
+        "width" : 0.038019,
+        "x" : 0.191746,
+        "y" : 0.208464
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "General"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.034884,
+        "x" : 0.039244,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021395,
+        "width" : 0.125,
+        "x" : 0.343023,
+        "y" : 0.218605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Workspace settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.030523,
+        "x" : 0.928779,
+        "y" : 0.218605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Synced"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014112,
+        "width" : 0.042172,
+        "x" : 0.190397,
+        "y" : 0.248758
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Members"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016822,
+        "width" : 0.203488,
+        "x" : 0.343023,
+        "y" : 0.246512
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Manage defaults for everyone in this workspace."
+    },
+    {
+      "bbox" : {
+        "height" : 0.018879,
+        "width" : 0.04365,
+        "x" : 0.034861,
+        "y" : 0.26963
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.02907,
+        "x" : 0.188953,
+        "y" : 0.286047
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Billing"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01677,
+        "width" : 0.088663,
+        "x" : 0.343023,
+        "y" : 0.285556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "Workspace name"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018599,
+        "width" : 0.074459,
+        "x" : 0.8632,
+        "y" : 0.293469
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Cloudbase Design"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.149709,
+        "x" : 0.343023,
+        "y" : 0.306667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "Shown in shared links and invitations."
+    },
+    {
+      "bbox" : {
+        "height" : 0.017348,
+        "width" : 0.053901,
+        "x" : 0.190346,
+        "y" : 0.322722
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Integrations"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.037791,
+        "x" : 0.190407,
+        "y" : 0.360465
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "Security"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018503,
+        "width" : 0.051132,
+        "x" : 0.342893,
+        "y" : 0.36633
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "Language"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.093023,
+        "x" : 0.844477,
+        "y" : 0.376667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "English (United States)"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020082,
+        "width" : 0.149898,
+        "x" : 0.342925,
+        "y" : 0.388251
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Applies to menus, alerts, and exports."
+    },
+    {
+      "bbox" : {
+        "height" : 0.016446,
+        "width" : 0.045082,
+        "x" : 0.190395,
+        "y" : 0.397591
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Advanced"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023005,
+        "width" : 0.055525,
+        "x" : 0.342877,
+        "y" : 0.445474
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Time zone"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.09593,
+        "x" : 0.84157,
+        "y" : 0.457778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "Asia/Shanghai (GMT+8)"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019121,
+        "width" : 0.159884,
+        "x" : 0.34157,
+        "y" : 0.469767
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "Used for activity history and schedules."
+    },
+    {
+      "bbox" : {
+        "height" : 0.02212,
+        "width" : 0.073203,
+        "x" : 0.34132,
+        "y" : 0.526563
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "Start week on"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014832,
+        "width" : 0.035017,
+        "x" : 0.90255,
+        "y" : 0.539096
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "Monday"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.008721,
+        "x" : 0.946221,
+        "y" : 0.537209
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : ">"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.164244,
+        "x" : 0.343023,
+        "y" : 0.551111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Calendar and report grouping preference."
+    },
+    {
+      "bbox" : {
+        "height" : 0.023566,
+        "width" : 0.079942,
+        "x" : 0.343023,
+        "y" : 0.606667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Compact mode"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.031977,
+        "x" : 0.921512,
+        "y" : 0.62093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "Off >"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021163,
+        "width" : 0.149709,
+        "x" : 0.34157,
+        "y" : 0.63
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "Reduce spacing across dense tables."
+    },
+    {
+      "bbox" : {
+        "height" : 0.026072,
+        "width" : 0.100291,
+        "x" : 0.34157,
+        "y" : 0.685556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "Automatic updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.017442,
+        "x" : 0.922965,
+        "y" : 0.702326
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "On"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021447,
+        "width" : 0.143895,
+        "x" : 0.34157,
+        "y" : 0.711111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "Install stable releases automatically."
+    },
+    {
+      "bbox" : {
+        "height" : 0.021395,
+        "width" : 0.078488,
+        "x" : 0.020349,
+        "y" : 0.86
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Q Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.056686,
+        "x" : 0.043605,
+        "y" : 0.94186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_43",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_44",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.052326,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_45",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041117,
+        "width" : 0.134033,
+        "x" : 0.174412,
+        "y" : 0.018291
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.063093,
+        "width" : 0.115098,
+        "x" : 0.876439,
+        "y" : 0.096103
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035137,
+        "width" : 0.060769,
+        "x" : 0.009579,
+        "y" : 0.10402
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03019,
+        "width" : 0.055297,
+        "x" : 0.171911,
+        "y" : 0.113321
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033014,
+        "width" : 0.123854,
+        "x" : 0.234538,
+        "y" : 0.115221
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032661,
+        "width" : 0.093117,
+        "x" : 0.886344,
+        "y" : 0.111505
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.039493,
+        "width" : 0.131003,
+        "x" : 0.182286,
+        "y" : 0.196016
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.577178,
+        "width" : 0.649957,
+        "x" : 0.328566,
+        "y" : 0.19213
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028027,
+        "width" : 0.052273,
+        "x" : 0.185586,
+        "y" : 0.243002
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.046031,
+        "width" : 0.134401,
+        "x" : 0.013426,
+        "y" : 0.252061
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033243,
+        "width" : 0.024002,
+        "x" : 0.946274,
+        "y" : 0.286247
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025272,
+        "width" : 0.07751,
+        "x" : 0.858913,
+        "y" : 0.291496
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027902,
+        "width" : 0.0471,
+        "x" : 0.183639,
+        "y" : 0.354367
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024753,
+        "width" : 0.099211,
+        "x" : 0.842026,
+        "y" : 0.373732
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028771,
+        "width" : 0.055879,
+        "x" : 0.182134,
+        "y" : 0.392679
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.049742,
+        "width" : 0.159285,
+        "x" : 0.339486,
+        "y" : 0.44193
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.054023,
+        "width" : 0.170611,
+        "x" : 0.338604,
+        "y" : 0.519278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023408,
+        "width" : 0.037494,
+        "x" : 0.901204,
+        "y" : 0.537393
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.059336,
+        "width" : 0.147677,
+        "x" : 0.339965,
+        "y" : 0.678975
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.060916,
+        "width" : 0.062648,
+        "x" : 0.9066,
+        "y" : 0.682019
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 72,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.447002,
+        "width" : 0.599087,
+        "x" : 0.34132,
+        "y" : 0.285556
+      },
+      "confidence" : 0.9546671457374312,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_20",
+        "el_text_22",
+        "el_text_25",
+        "el_text_26",
+        "el_text_27",
+        "el_text_29",
+        "el_text_31",
+        "el_text_32",
+        "el_text_33",
+        "el_text_35",
+        "el_text_36",
+        "el_text_38",
+        "el_text_39",
+        "el_text_40",
+        "el_text_41"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_d9171fa1b4029405",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "d9171fa1b4029405a34bfa50869e11ebfce4901220c89bc7239082ebfe6e10e7",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16",
+        "el_container_17",
+        "el_container_18",
+        "el_container_19",
+        "el_container_20",
+        "el_container_21",
+        "el_container_22",
+        "el_container_23",
+        "el_container_24",
+        "el_container_25",
+        "el_container_26",
+        "el_container_27"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 15 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_20",
+        "el_text_22",
+        "el_text_25",
+        "el_text_26",
+        "el_text_27",
+        "el_text_29",
+        "el_text_31",
+        "el_text_32",
+        "el_text_33",
+        "el_text_35",
+        "el_text_36",
+        "el_text_38",
+        "el_text_39",
+        "el_text_40",
+        "el_text_41"
+      ]
+    }
+  ]
+}

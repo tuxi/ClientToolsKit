@@ -42,6 +42,14 @@ let package = Package(
             ],
             path: "Benchmarks/UIEvidence/RunnerCore"
         ),
+        .testTarget(
+            name: "UIEvidenceBenchmarkCoreTests",
+            dependencies: [
+                "UIEvidenceBenchmarkCore",
+                .product(name: "ClientToolProtocol", package: "ClientToolProtocol"),
+            ],
+            path: "Benchmarks/UIEvidence/CoreTests"
+        ),
         .executableTarget(
             name: "UIEvidenceBenchmarkRunner",
             dependencies: ["UIEvidenceBenchmarkCore"],

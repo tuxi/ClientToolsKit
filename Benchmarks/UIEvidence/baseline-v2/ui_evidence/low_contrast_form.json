@@ -1,0 +1,651 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_f3a1dd89a85c4ad7",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_dd68ca7760a753de",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_350a51579d8876d0",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024022,
+        "width" : 0.068726,
+        "x" : 0.043389,
+        "y" : 0.036194
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02269,
+        "width" : 0.112206,
+        "x" : 0.65392,
+        "y" : 0.032297
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016718,
+        "width" : 0.055233,
+        "x" : 0.853198,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "4 Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.934593,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020705,
+        "width" : 0.055623,
+        "x" : 0.181482,
+        "y" : 0.04126
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Recovery"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022017,
+        "width" : 0.049594,
+        "x" : 0.018808,
+        "y" : 0.108759
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "A Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.042151,
+        "x" : 0.021802,
+        "y" : 0.162791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "• Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019392,
+        "width" : 0.055735,
+        "x" : 0.018612,
+        "y" : 0.215609
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "• Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022318,
+        "width" : 0.060075,
+        "x" : 0.018652,
+        "y" : 0.265701
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "° Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014426,
+        "width" : 0.078726,
+        "x" : 0.389416,
+        "y" : 0.309066
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "Account recovery"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028889,
+        "width" : 0.229651,
+        "x" : 0.390988,
+        "y" : 0.336667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Confirm your contact details"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.299419,
+        "x" : 0.390988,
+        "y" : 0.378889
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "We use these details to help recover access if you lose your sign-in method."
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.05814,
+        "x" : 0.389535,
+        "y" : 0.418605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Recovery email"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.103198,
+        "x" : 0.396802,
+        "y" : 0.451163
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "alex.morgan@example.com"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.05814,
+        "x" : 0.389535,
+        "y" : 0.497674
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Mobile number"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.063953,
+        "x" : 0.396802,
+        "y" : 0.53
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "+1 415 555 0148"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.061047,
+        "x" : 0.389535,
+        "y" : 0.578889
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Backup contact"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.097384,
+        "x" : 0.396802,
+        "y" : 0.611628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "maya.chen@example.com"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.171512,
+        "x" : 0.392442,
+        "y" : 0.657778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : ") Send recovery instructions to this address."
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.085756,
+        "x" : 0.539244,
+        "y" : 0.708889
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Save contact details"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.206395,
+        "x" : 0.478198,
+        "y" : 0.755556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "You can update these detalls at any time In Security settings."
+    },
+    {
+      "bbox" : {
+        "height" : 0.021395,
+        "width" : 0.078488,
+        "x" : 0.020349,
+        "y" : 0.86
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Q Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017544,
+        "width" : 0.057178,
+        "x" : 0.043375,
+        "y" : 0.939185
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.014535,
+        "x" : 0.017442,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "AMI"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.052326,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.042628,
+        "width" : 0.132053,
+        "x" : 0.176392,
+        "y" : 0.018291
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035137,
+        "width" : 0.060769,
+        "x" : 0.009579,
+        "y" : 0.10402
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.864171,
+        "width" : 0.798778,
+        "x" : 0.182064,
+        "y" : 0.110323
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.618058,
+        "width" : 0.469345,
+        "x" : 0.346781,
+        "y" : 0.245255
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.046031,
+        "width" : 0.134401,
+        "x" : 0.013426,
+        "y" : 0.252061
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.54915,
+        "width" : 0.425048,
+        "x" : 0.368975,
+        "y" : 0.268823
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025495,
+        "width" : 0.066755,
+        "x" : 0.384943,
+        "y" : 0.411553
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021449,
+        "width" : 0.061923,
+        "x" : 0.383364,
+        "y" : 0.494492
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.061606,
+        "width" : 0.405892,
+        "x" : 0.378512,
+        "y" : 0.685819
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 42,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_321be9ea060600d8",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "321be9ea060600d853f6e12f631f4d2553bf060fe0777a48c0793e02467d9ef4",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16"
+      ]
+    }
+  ]
+}

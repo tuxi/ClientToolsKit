@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import platform
@@ -33,8 +34,13 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
-    output = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "baseline"
-    manifest = json.loads((ROOT / "dataset" / "manifest.json").read_text())
+    parser = argparse.ArgumentParser()
+    parser.add_argument("output", nargs="?", type=Path, default=ROOT / "baseline")
+    parser.add_argument("--dataset", type=Path, default=ROOT / "dataset")
+    args = parser.parse_args()
+    output = args.output
+    dataset = args.dataset.resolve()
+    manifest = json.loads((dataset / "manifest.json").read_text())
     repo = ROOT.parents[1]
     payload = {
         "schema": "ui_evidence_benchmark_environment.v1",
@@ -51,7 +57,7 @@ def main() -> None:
         "swift": command("swift", "--version").splitlines()[0] if command("swift", "--version") != "unavailable" else "unavailable",
         "tool": {
             "name": "ClientToolsKit.inspect_ui_image",
-            "version": "1",
+            "version": "2",
             "schema": "ui_evidence.v1",
         },
         "source_sha256": {
@@ -60,6 +66,7 @@ def main() -> None:
         },
         "runner_source_sha256": digest(ROOT / "Runner" / "main.swift"),
         "evaluator_source_sha256": digest(ROOT / "evaluate.py"),
+        "evaluator_v2_source_sha256": digest(ROOT / "evaluate_v2.py"),
         "generator_source_sha256": digest(ROOT / "generator" / "generate_dataset.py"),
     }
     output.mkdir(parents=True, exist_ok=True)

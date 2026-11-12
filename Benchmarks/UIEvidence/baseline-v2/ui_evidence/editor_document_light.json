@@ -1,0 +1,1145 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_1a06dabcbd3899f2",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_b2673bd9d1c529ec",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_a6fb2cb8d8fe761a",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022402,
+        "width" : 0.067034,
+        "x" : 0.043518,
+        "y" : 0.036474
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02269,
+        "width" : 0.112206,
+        "x" : 0.65392,
+        "y" : 0.032297
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017188,
+        "width" : 0.055334,
+        "x" : 0.853147,
+        "y" : 0.034429
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Q Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.934593,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.06686,
+        "x" : 0.18314,
+        "y" : 0.04186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Documents"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.02907,
+        "x" : 0.039244,
+        "y" : 0.111628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.034884,
+        "x" : 0.196221,
+        "y" : 0.132222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "V Undo"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012982,
+        "width" : 0.033604,
+        "x" : 0.241192,
+        "y" : 0.134207
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "v Redo"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013892,
+        "width" : 0.045339,
+        "x" : 0.283342,
+        "y" : 0.133987
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "v Heading"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015188,
+        "width" : 0.032178,
+        "x" : 0.340015,
+        "y" : 0.131941
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "/ Bold"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.135174,
+        "x" : 0.380814,
+        "y" : 0.132222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "V Link V Comment V More"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.05814,
+        "x" : 0.918605,
+        "y" : 0.134444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Saved just now"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014653,
+        "width" : 0.032093,
+        "x" : 0.194709,
+        "y" : 0.201976
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Outline"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.061047,
+        "x" : 0.838663,
+        "y" : 0.202222
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Comments • 3"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.036337,
+        "x" : 0.037791,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.127907,
+        "x" : 0.334302,
+        "y" : 0.23
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "PRODUCT BRIEF • DRAFT 4"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.036337,
+        "x" : 0.200581,
+        "y" : 0.24186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Overview"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.023256,
+        "x" : 0.863372,
+        "y" : 0.248837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "Maya"
+    },
+    {
+      "bbox" : {
+        "height" : 0.031111,
+        "width" : 0.293605,
+        "x" : 0.334302,
+        "y" : 0.26
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Evidence-first interface review"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019606,
+        "width" : 0.060005,
+        "x" : 0.018663,
+        "y" : 0.26818
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "* Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017665,
+        "width" : 0.097605,
+        "x" : 0.863244,
+        "y" : 0.264967
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Keep the integrity section"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.068314,
+        "x" : 0.200581,
+        "y" : 0.272093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "Customer problem"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.056686,
+        "x" : 0.863372,
+        "y" : 0.283333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "before latency."
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.071221,
+        "x" : 0.200581,
+        "y" : 0.3
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "Evidence collected"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021292,
+        "width" : 0.414244,
+        "x" : 0.335756,
+        "y" : 0.32093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "A review of how teams inspect, compare, and decide from visual evidence without"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015294,
+        "width" : 0.037975,
+        "x" : 0.199036,
+        "y" : 0.329562
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Proposed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.017442,
+        "x" : 0.863372,
+        "y" : 0.330233
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Jon"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.844477,
+        "y" : 0.337209
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "JB"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012347,
+        "width" : 0.036424,
+        "x" : 0.199084,
+        "y" : 0.346152
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "workflow"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021332,
+        "width" : 0.177505,
+        "x" : 0.33422,
+        "y" : 0.348525
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "asking a model to invent structure."
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.085756,
+        "x" : 0.863372,
+        "y" : 0.348837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "Are these crop bounds"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.046512,
+        "x" : 0.863372,
+        "y" : 0.365116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "normalized?"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01447,
+        "width" : 0.065407,
+        "x" : 0.199128,
+        "y" : 0.374419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Launch checklist"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014982,
+        "width" : 0.036486,
+        "x" : 0.200507,
+        "y" : 0.404137
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Appendix"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023463,
+        "width" : 0.119186,
+        "x" : 0.334302,
+        "y" : 0.404444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "Customer problem"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016718,
+        "width" : 0.418605,
+        "x" : 0.334302,
+        "y" : 0.448837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "Product teams can capture screenshots faster than they can agree on what the screenshot proves."
+    },
+    {
+      "bbox" : {
+        "height" : 0.022403,
+        "width" : 0.443375,
+        "x" : 0.334265,
+        "y" : 0.469736
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "Reviews drift into subjective descriptions, and the evidence trail is lost between design, engineering, and"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01674,
+        "width" : 0.04222,
+        "x" : 0.334268,
+        "y" : 0.495118
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "research."
+    },
+    {
+      "bbox" : {
+        "height" : 0.020627,
+        "width" : 0.367792,
+        "x" : 0.347356,
+        "y" : 0.546006
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "Measure the observable facts first. Keep every inference editable and visibly uncertain."
+    },
+    {
+      "bbox" : {
+        "height" : 0.018915,
+        "width" : 0.119186,
+        "x" : 0.335756,
+        "y" : 0.606667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Evidence collected"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.155523,
+        "x" : 0.351744,
+        "y" : 0.651111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_43",
+      "kind" : "text",
+      "text" : "• 28 representative interface states"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016693,
+        "width" : 0.152616,
+        "x" : 0.351744,
+        "y" : 0.674419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_44",
+      "kind" : "text",
+      "text" : "• Manual OCR and geometry labels"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.152616,
+        "x" : 0.350291,
+        "y" : 0.7
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_45",
+      "kind" : "text",
+      "text" : "• Source and crop integrity checks"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021395,
+        "width" : 0.077035,
+        "x" : 0.020349,
+        "y" : 0.86
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_46",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.05814,
+        "x" : 0.042151,
+        "y" : 0.94186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_47",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_48",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.052326,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_49",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.051509,
+        "width" : 0.134413,
+        "x" : 0.174029,
+        "y" : 0.018441
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032475,
+        "width" : 0.138555,
+        "x" : 0.008274,
+        "y" : 0.099313
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020388,
+        "width" : 0.037273,
+        "x" : 0.192379,
+        "y" : 0.131134
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022384,
+        "width" : 0.028303,
+        "x" : 0.302945,
+        "y" : 0.131764
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02019,
+        "width" : 0.034807,
+        "x" : 0.378077,
+        "y" : 0.131342
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035036,
+        "width" : 0.055789,
+        "x" : 0.010175,
+        "y" : 0.155896
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.805546,
+        "width" : 0.688958,
+        "x" : 0.295612,
+        "y" : 0.178812
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.79936,
+        "width" : 0.101006,
+        "x" : 0.182801,
+        "y" : 0.185036
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.789926,
+        "width" : 0.505734,
+        "x" : 0.305379,
+        "y" : 0.194408
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02489,
+        "width" : 0.07034,
+        "x" : 0.833724,
+        "y" : 0.197267
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030086,
+        "width" : 0.068488,
+        "x" : 0.903867,
+        "y" : 0.192348
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033475,
+        "width" : 0.042137,
+        "x" : 0.034991,
+        "y" : 0.208059
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.066353,
+        "width" : 0.084079,
+        "x" : 0.192635,
+        "y" : 0.22143
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027048,
+        "width" : 0.083124,
+        "x" : 0.330103,
+        "y" : 0.225699
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.739136,
+        "width" : 0.137733,
+        "x" : 0.834855,
+        "y" : 0.245255
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041575,
+        "width" : 0.057289,
+        "x" : 0.862903,
+        "y" : 0.263153
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025919,
+        "width" : 0.07992,
+        "x" : 0.195448,
+        "y" : 0.298136
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035828,
+        "width" : 0.046898,
+        "x" : 0.195448,
+        "y" : 0.326925
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032117,
+        "width" : 0.129072,
+        "x" : 0.328138,
+        "y" : 0.400901
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03271,
+        "width" : 0.135231,
+        "x" : 0.3282,
+        "y" : 0.603052
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.060469,
+        "width" : 0.163199,
+        "x" : 0.346443,
+        "y" : 0.661937
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027175,
+        "width" : 0.083785,
+        "x" : 0.375518,
+        "y" : 0.675421
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_28",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_29",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 78,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_885e3620193e2e6e",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "885e3620193e2e6ef62553ec390c0bdbda7d31dcb20747f8a3cacb96fbdc583e",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16",
+        "el_container_17",
+        "el_container_18",
+        "el_container_19",
+        "el_container_20",
+        "el_container_21",
+        "el_container_22",
+        "el_container_23",
+        "el_container_24",
+        "el_container_25",
+        "el_container_26",
+        "el_container_27",
+        "el_container_28",
+        "el_container_29"
+      ]
+    }
+  ]
+}

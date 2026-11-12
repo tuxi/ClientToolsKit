@@ -1,0 +1,29 @@
+{
+  "schema": "ui_evidence_benchmark_environment.v1",
+  "captured_at": "2026-11-13T00:52:59+08:00",
+  "timezone": "Asia/Shanghai",
+  "dataset_sha256": "17d5d4a9897c6d92e994613be9d1381f2db9e51d26741d09e3f0780f7e3a954d",
+  "image_count": 30,
+  "repetitions_per_image": 3,
+  "warmup_calls": 0,
+  "latency_scope": "all measured calls, including process/model cold start",
+  "os": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.6",
+  "swift": "Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)",
+  "tool": {
+    "name": "ClientToolsKit.inspect_ui_image",
+    "version": "2",
+    "schema": "ui_evidence.v1"
+  },
+  "source_sha256": {
+    "Sources/ClientToolsKit/InspectUIImageTool.swift": "48c2f0daf313b307d37c85259757a84bb895a3cd481ffc9c1aa80d52fd48af2d",
+    "Sources/ClientToolsKit/UIEvidence.swift": "d59a37ef0da11a4f279532d27c818923e39e5103f83cc3bdc54390d30e1670aa",
+    "Sources/ClientToolsKit/UIEvidenceVision.swift": "f10d6d95c6a7f98b6f4bfecc76128711e2b4b3b5c359e3289792401dd469199f",
+    "Sources/ClientToolsKit/ToolWorkspace.swift": "cae9f00318c9f302da59b6895e9e8574a23ac5a2aa23d99706e845f42de5e976"
+  },
+  "runner_source_sha256": "08e1843c43d26126e781ede55cd71141d50083ba4abd169782646b6cab93c041",
+  "evaluator_source_sha256": "def4e0eea4981e513534efb29c7fabbf2cdd0b89f08e244a969fb58f1c9ef219",
+  "evaluator_v2_source_sha256": "0edc91fc184aee78915671065e97adbe6cfa54cb7bb2b0c2ea53c59174ddbf9b",
+  "generator_source_sha256": "f6ef9635f6044c2fac0356ed21e70be15e36f9530f77cc520c7d4c75503a07ae"
+}

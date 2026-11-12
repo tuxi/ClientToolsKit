@@ -1,0 +1,1681 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_7311f96c42adbdcf",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_9a3beb54b27c6e7d",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_e7e20fdca70cc7be",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02161,
+        "width" : 0.066942,
+        "x" : 0.043564,
+        "y" : 0.036869
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016718,
+        "width" : 0.094477,
+        "x" : 0.671512,
+        "y" : 0.034444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.039244,
+        "x" : 0.869186,
+        "y" : 0.034884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018288,
+        "width" : 0.038662,
+        "x" : 0.934141,
+        "y" : 0.031988
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.036337,
+        "x" : 0.181686,
+        "y" : 0.04186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014646,
+        "width" : 0.030644,
+        "x" : 0.03773,
+        "y" : 0.111282
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016718,
+        "width" : 0.050872,
+        "x" : 0.267442,
+        "y" : 0.134444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "Maya Chen"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.084302,
+        "x" : 0.324128,
+        "y" : 0.134444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "Design Systems 2m"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016718,
+        "width" : 0.077035,
+        "x" : 0.747093,
+        "y" : 0.134444
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "People to follow"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.017442,
+        "x" : 0.236919,
+        "y" : 0.144186
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "MC"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.424419,
+        "x" : 0.265988,
+        "y" : 0.167442
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Shipping a quieter navigation system today. The biggest win was removing options, not adding them."
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.042151,
+        "x" : 0.777616,
+        "y" : 0.172093
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Lina Soto"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.011628,
+        "x" : 0.75436,
+        "y" : 0.181395
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "LS"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.027616,
+        "x" : 0.896802,
+        "y" : 0.181395
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Follow"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.050872,
+        "x" : 0.777616,
+        "y" : 0.190698
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "Staff designer"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.034884,
+        "x" : 0.039244,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.050872,
+        "x" : 0.777616,
+        "y" : 0.227778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "Ravi Kumar"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.014535,
+        "x" : 0.752907,
+        "y" : 0.234884
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "RK"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.027616,
+        "x" : 0.896802,
+        "y" : 0.234884
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "Follow"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.045058,
+        "x" : 0.777616,
+        "y" : 0.244186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "Data science"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016473,
+        "width" : 0.04218,
+        "x" : 0.036323,
+        "y" : 0.26967
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.09593,
+        "x" : 0.274709,
+        "y" : 0.265116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "Design Systems notes"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.061047,
+        "x" : 0.777616,
+        "y" : 0.281111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "Noah Williams"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.015988,
+        "x" : 0.751453,
+        "y" : 0.288372
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "NW"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014765,
+        "width" : 0.027772,
+        "x" : 0.896724,
+        "y" : 0.287966
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Follow"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01544,
+        "width" : 0.062814,
+        "x" : 0.777451,
+        "y" : 0.297438
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Frontend platform"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.037791,
+        "x" : 0.265988,
+        "y" : 0.318605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Like • 128"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.074128,
+        "x" : 0.315407,
+        "y" : 0.318605
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "Comment Share"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.090116,
+        "x" : 0.747093,
+        "y" : 0.390698
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "Trending in design"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.037791,
+        "x" : 0.265988,
+        "y" : 0.4
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "Jon Bell"
+    },
+    {
+      "bbox" : {
+        "height" : 0.01677,
+        "width" : 0.065407,
+        "x" : 0.3125,
+        "y" : 0.397674
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "Research 18m"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.013081,
+        "x" : 0.239826,
+        "y" : 0.409302
+      },
+      "confidence" : 0.30000001192092896,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "JB"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.06686,
+        "x" : 0.74564,
+        "y" : 0.423256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "#EvidenceFirst"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018889,
+        "width" : 0.360465,
+        "x" : 0.267442,
+        "y" : 0.43
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Five observations from testing onboarding with first-time admins in Manila and Berlin."
+    },
+    {
+      "bbox" : {
+        "height" : 0.011654,
+        "width" : 0.037791,
+        "x" : 0.815407,
+        "y" : 0.425556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "2.4k posts"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016678,
+        "width" : 0.113593,
+        "x" : 0.746979,
+        "y" : 0.453598
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "#QuietInterfaces 1.8k posts"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.101744,
+        "x" : 0.747093,
+        "y" : 0.485556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "#Accessibility 1.2k posts"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.06686,
+        "x" : 0.274709,
+        "y" : 0.53
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "Research notes"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012222,
+        "width" : 0.039244,
+        "x" : 0.265988,
+        "y" : 0.583333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "Like • 64"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.081395,
+        "x" : 0.303779,
+        "y" : 0.581111
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Comment Share"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.056686,
+        "x" : 0.267442,
+        "y" : 0.665116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_43",
+      "kind" : "text",
+      "text" : "Priya Raman"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.045058,
+        "x" : 0.331395,
+        "y" : 0.665116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_44",
+      "kind" : "text",
+      "text" : "Engineering"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.023256,
+        "x" : 0.382267,
+        "y" : 0.662791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_45",
+      "kind" : "text",
+      "text" : "41m"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.013081,
+        "x" : 0.239826,
+        "y" : 0.674419
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_46",
+      "kind" : "text",
+      "text" : "PRI"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.395349,
+        "x" : 0.267442,
+        "y" : 0.695349
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_47",
+      "kind" : "text",
+      "text" : "The new evidence viewer is live in staging. Crop integrity checks now run before every render."
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.078488,
+        "x" : 0.274709,
+        "y" : 0.795349
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_48",
+      "kind" : "text",
+      "text" : "Engineering notes"
+    },
+    {
+      "bbox" : {
+        "height" : 0.015354,
+        "width" : 0.035092,
+        "x" : 0.265884,
+        "y" : 0.845811
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_49",
+      "kind" : "text",
+      "text" : "Like • 93"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.040698,
+        "x" : 0.311047,
+        "y" : 0.848837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_50",
+      "kind" : "text",
+      "text" : "Comment"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.360465,
+        "y" : 0.846512
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_51",
+      "kind" : "text",
+      "text" : "Share"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.0625,
+        "x" : 0.036337,
+        "y" : 0.865116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_52",
+      "kind" : "text",
+      "text" : "Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014437,
+        "width" : 0.046567,
+        "x" : 0.267414,
+        "y" : 0.927665
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_53",
+      "kind" : "text",
+      "text" : "Theo Park"
+    },
+    {
+      "bbox" : {
+        "height" : 0.009302,
+        "width" : 0.030523,
+        "x" : 0.321221,
+        "y" : 0.930233
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_54",
+      "kind" : "text",
+      "text" : "Product"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018605,
+        "width" : 0.014535,
+        "x" : 0.357558,
+        "y" : 0.925581
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_55",
+      "kind" : "text",
+      "text" : "1h"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017347,
+        "width" : 0.05727,
+        "x" : 0.043326,
+        "y" : 0.939628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_56",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.013081,
+        "x" : 0.239826,
+        "y" : 0.939535
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_57",
+      "kind" : "text",
+      "text" : "TP."
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.015988,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_58",
+      "kind" : "text",
+      "text" : "AM"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.050872,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_59",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.360465,
+        "x" : 0.267442,
+        "y" : 0.96
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_60",
+      "kind" : "text",
+      "text" : "Weekly metrics are in: activation is up 7.4%, and time to first value is down to 6m 12s."
+    },
+    {
+      "bbox" : {
+        "height" : 0.044923,
+        "width" : 0.023377,
+        "x" : 0.013344,
+        "y" : 0.022521
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040629,
+        "width" : 0.057591,
+        "x" : 0.924031,
+        "y" : 0.02339
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034744,
+        "width" : 0.074936,
+        "x" : 0.043976,
+        "y" : 0.030694
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017292,
+        "width" : 0.057889,
+        "x" : 0.774464,
+        "y" : 0.032476
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022384,
+        "width" : 0.058828,
+        "x" : 0.850472,
+        "y" : 0.031252
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.212734,
+        "width" : 0.451634,
+        "x" : 0.259255,
+        "y" : 0.088924
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024064,
+        "width" : 0.055475,
+        "x" : 0.015535,
+        "y" : 0.107612
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.24473,
+        "width" : 0.498169,
+        "x" : 0.219918,
+        "y" : 0.111168
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.234098,
+        "width" : 0.206061,
+        "x" : 0.736553,
+        "y" : 0.113026
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055898,
+        "width" : 0.030555,
+        "x" : 0.227558,
+        "y" : 0.126096
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025698,
+        "width" : 0.055665,
+        "x" : 0.264669,
+        "y" : 0.129959
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024822,
+        "width" : 0.068185,
+        "x" : 0.32249,
+        "y" : 0.13049
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024182,
+        "width" : 0.087672,
+        "x" : 0.743669,
+        "y" : 0.131788
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.036524,
+        "width" : 0.052739,
+        "x" : 0.01417,
+        "y" : 0.154566
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.048804,
+        "width" : 0.049251,
+        "x" : 0.888029,
+        "y" : 0.163251
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.039581,
+        "width" : 0.054768,
+        "x" : 0.776475,
+        "y" : 0.170916
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.097944,
+        "width" : 0.434344,
+        "x" : 0.269968,
+        "y" : 0.202649
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033477,
+        "width" : 0.039845,
+        "x" : 0.034991,
+        "y" : 0.207867
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.06429,
+        "width" : 0.096778,
+        "x" : 0.743649,
+        "y" : 0.203077
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021256,
+        "width" : 0.056361,
+        "x" : 0.774966,
+        "y" : 0.22394
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040953,
+        "width" : 0.045843,
+        "x" : 0.886647,
+        "y" : 0.2205
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03418,
+        "width" : 0.068942,
+        "x" : 0.014555,
+        "y" : 0.258493
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023698,
+        "width" : 0.102619,
+        "x" : 0.267757,
+        "y" : 0.261029
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.041216,
+        "width" : 0.046339,
+        "x" : 0.887053,
+        "y" : 0.276315
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021832,
+        "width" : 0.042318,
+        "x" : 0.311932,
+        "y" : 0.31554
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.156827,
+        "width" : 0.230047,
+        "x" : 0.708192,
+        "y" : 0.370272
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_27",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.180269,
+        "width" : 0.215362,
+        "x" : 0.732744,
+        "y" : 0.366317
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_28",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.241266,
+        "width" : 0.503481,
+        "x" : 0.219886,
+        "y" : 0.380115
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_29",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028561,
+        "width" : 0.095641,
+        "x" : 0.744786,
+        "y" : 0.38485
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_30",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.054628,
+        "width" : 0.029771,
+        "x" : 0.228236,
+        "y" : 0.391585
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_31",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022475,
+        "width" : 0.08126,
+        "x" : 0.265802,
+        "y" : 0.395079
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_32",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.117081,
+        "width" : 0.452361,
+        "x" : 0.259231,
+        "y" : 0.451868
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_33",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021653,
+        "width" : 0.076434,
+        "x" : 0.744448,
+        "y" : 0.452461
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_34",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026806,
+        "width" : 0.045695,
+        "x" : 0.306589,
+        "y" : 0.577653
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_35",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.256516,
+        "width" : 0.50807,
+        "x" : 0.220255,
+        "y" : 0.632041
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_36",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.052198,
+        "width" : 0.031096,
+        "x" : 0.228328,
+        "y" : 0.65871
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_37",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026603,
+        "width" : 0.062238,
+        "x" : 0.264668,
+        "y" : 0.657921
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_38",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.100612,
+        "width" : 0.442652,
+        "x" : 0.264983,
+        "y" : 0.72476
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_39",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.050838,
+        "width" : 0.032319,
+        "x" : 0.445902,
+        "y" : 0.749722
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_40",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.059937,
+        "width" : 0.027003,
+        "x" : 0.61852,
+        "y" : 0.744996
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_41",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023311,
+        "width" : 0.083956,
+        "x" : 0.270294,
+        "y" : 0.78961
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_42",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022409,
+        "width" : 0.041743,
+        "x" : 0.261412,
+        "y" : 0.844069
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_43",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.02655,
+        "width" : 0.042317,
+        "x" : 0.310274,
+        "y" : 0.840718
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_44",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022672,
+        "width" : 0.021001,
+        "x" : 0.683382,
+        "y" : 0.842327
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_45",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033183,
+        "width" : 0.062675,
+        "x" : 0.036647,
+        "y" : 0.858279
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_46",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.061518,
+        "width" : 0.026525,
+        "x" : 0.010121,
+        "y" : 0.926329
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_47",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.052765,
+        "width" : 0.030246,
+        "x" : 0.228326,
+        "y" : 0.923921
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_48",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022725,
+        "width" : 0.053863,
+        "x" : 0.263855,
+        "y" : 0.925625
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_49",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.030793,
+        "width" : 0.036091,
+        "x" : 0.316919,
+        "y" : 0.920695
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_50",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_51",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 111,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+    {
+      "axis" : "vertical",
+      "bbox" : {
+        "height" : 0.711628,
+        "width" : 0.422965,
+        "x" : 0.239826,
+        "y" : 0.265116
+      },
+      "confidence" : 0.9453320534434548,
+      "evidence" : "inferred",
+      "id" : "rg_1",
+      "member_ids" : [
+        "el_text_24",
+        "el_text_30",
+        "el_text_29",
+        "el_text_32",
+        "el_text_33",
+        "el_text_34",
+        "el_text_36",
+        "el_text_40",
+        "el_text_42",
+        "el_text_41",
+        "el_text_43",
+        "el_text_44",
+        "el_text_46",
+        "el_text_47",
+        "el_text_48",
+        "el_text_51",
+        "el_text_49",
+        "el_text_50",
+        "el_text_53",
+        "el_text_55",
+        "el_text_57",
+        "el_text_60"
+      ]
+    }
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_a70de3089dc2c2ef",
+    "height" : 900,
+    "mime_type" : "image/jpeg",
+    "sha256" : "a70de3089dc2c2efe53ed67e2039bac42727970305a9169cf75c224215017b64",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16",
+        "el_container_17",
+        "el_container_18",
+        "el_container_19",
+        "el_container_20",
+        "el_container_21",
+        "el_container_22",
+        "el_container_23",
+        "el_container_24",
+        "el_container_25",
+        "el_container_26",
+        "el_container_27",
+        "el_container_28",
+        "el_container_29",
+        "el_container_30",
+        "el_container_31",
+        "el_container_32",
+        "el_container_33",
+        "el_container_34",
+        "el_container_35",
+        "el_container_36",
+        "el_container_37",
+        "el_container_38",
+        "el_container_39",
+        "el_container_40",
+        "el_container_41",
+        "el_container_42",
+        "el_container_43",
+        "el_container_44",
+        "el_container_45",
+        "el_container_46",
+        "el_container_47",
+        "el_container_48",
+        "el_container_49",
+        "el_container_50",
+        "el_container_51"
+      ]
+    },
+    {
+      "description" : "Repeated-region candidate along the vertical axis with 22 members; the semantic role of this group is not determined.",
+      "reason" : "geometry_only",
+      "related_element_ids" : [
+        "el_text_24",
+        "el_text_30",
+        "el_text_29",
+        "el_text_32",
+        "el_text_33",
+        "el_text_34",
+        "el_text_36",
+        "el_text_40",
+        "el_text_42",
+        "el_text_41",
+        "el_text_43",
+        "el_text_44",
+        "el_text_46",
+        "el_text_47",
+        "el_text_48",
+        "el_text_51",
+        "el_text_49",
+        "el_text_50",
+        "el_text_53",
+        "el_text_55",
+        "el_text_57",
+        "el_text_60"
+      ]
+    }
+  ]
+}

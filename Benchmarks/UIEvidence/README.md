@@ -137,3 +137,17 @@ The v1 baseline and `dataset/` are immutable. The audit layer lives separately:
 - `audit-v1.1/overlays/` — 12 reviewed GT/prediction overlays.
 - `generator/build_dataset_v2.py` and `evaluate_v11.py` — reproducible audit
   pipeline. Neither script invokes or changes the detector.
+
+## Detector v2 checkpoint
+
+`baseline-v2/` is the detector-v2 checkpoint over `dataset-v2`, kept separate
+from the immutable v1 baseline and v1.1 audit. Producer version is `2`.
+
+- repeated groups are derived only from OCR text phases/visual items;
+- Vision rectangles are emitted with `role=vision_rectangle` and a
+  `weak_geometry` uncertainty, and never become semantic containers or seed
+  repeated groups;
+- crop paths are request-derived and deterministic across repeated calls;
+- `gate.json` and `checkpoint.json` record the non-frozen enablement decision.
+
+See `baseline-v2/summary.md`, `evaluation.json`, and `before_after.csv`.

@@ -1,0 +1,52 @@
+{
+  "schema": "ui_evidence_detector_v2_checkpoint.v1",
+  "created_at": "2026-11-13T00:52:59+08:00",
+  "status": "enabled_checkpoint_not_frozen",
+  "p1c_frozen": false,
+  "producer": {
+    "name": "ClientToolsKit.inspect_ui_image",
+    "version": "2",
+    "schema": "ui_evidence.v1"
+  },
+  "dataset_sha256": "17d5d4a9897c6d92e994613be9d1381f2db9e51d26741d09e3f0780f7e3a954d",
+  "source_sha256": {
+    "Sources/ClientToolsKit/InspectUIImageTool.swift": "48c2f0daf313b307d37c85259757a84bb895a3cd481ffc9c1aa80d52fd48af2d",
+    "Sources/ClientToolsKit/UIEvidence.swift": "d59a37ef0da11a4f279532d27c818923e39e5103f83cc3bdc54390d30e1670aa",
+    "Sources/ClientToolsKit/UIEvidenceVision.swift": "f10d6d95c6a7f98b6f4bfecc76128711e2b4b3b5c359e3289792401dd469199f",
+    "Sources/ClientToolsKit/ToolWorkspace.swift": "cae9f00318c9f302da59b6895e9e8574a23ac5a2aa23d99706e845f42de5e976"
+  },
+  "runner_source_sha256": "08e1843c43d26126e781ede55cd71141d50083ba4abd169782646b6cab93c041",
+  "evaluator_source_sha256": "0edc91fc184aee78915671065e97adbe6cfa54cb7bb2b0c2ea53c59174ddbf9b",
+  "baseline_v1_fingerprint": "4d4a3db32e755932a1fcad540178c7761d18327dc8e2abe9510e13f958d33da8",
+  "baseline_v2_run_metadata_sha256": "d5c4ed59fed370a842fea8ee43981768ea66a1d7ed4b239c92e9b2a0b4da64f9",
+  "baseline_v2_evaluation_sha256": "92e628f44a350022cb5c362c6c08a4977c64ec2d9de6c68ea8cb22c1d34a5441",
+  "gate": {
+    "hard_failures_zero": true,
+    "crop_integrity_100": true,
+    "stale_crops_zero": true,
+    "vision_rectangles_role_enforced": true,
+    "repeated_group_precision_80": true,
+    "repeated_group_recall_50": true,
+    "repeated_groups_enabled": true,
+    "overall_enabled": true
+  },
+  "metrics": {
+    "strict_content_f1": 0.8136009832036052,
+    "strict_bbox_iou50": 0.4340382678751259,
+    "strict_bbox_recall_iou50": 0.34758064516129034,
+    "many_to_one_leaf_recall": 0.8627394605980956,
+    "visual_line_bbox_rate_iou50": 0.7610619469026548,
+    "visual_line_bbox_recall_iou50": 0.44559585492227977,
+    "repeated_group_precision": 0.8461538461538461,
+    "repeated_group_recall": 0.6111111111111112,
+    "repeated_group_f1": 0.7096774193548387,
+    "vision_rectangle_precision": 0.19538968166849616,
+    "vision_rectangle_recall": 0.4472361809045226,
+    "vision_rectangle_f1": 0.2719633307868602,
+    "crop_integrity_rate": 1.0,
+    "stale_crop_artifacts": 0,
+    "hard_failure_count": 0,
+    "latency_p50_ms": 221.23098373413086,
+    "latency_p95_ms": 358.15203189849854
+  }
+}

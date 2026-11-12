@@ -177,7 +177,7 @@ final class InspectUIImageToolTests: XCTestCase {
         XCTAssertEqual(document.schema, "ui_evidence.v1")
         XCTAssertEqual(document.coordinateSpace, "normalized_top_left")
         XCTAssertEqual(document.producer.name, "ClientToolsKit.inspect_ui_image")
-        XCTAssertEqual(document.producer.version, "1")
+        XCTAssertEqual(document.producer.version, "2")
         XCTAssertEqual(document.source.width, 400)
         XCTAssertEqual(document.source.height, 300)
         XCTAssertEqual(document.source.mimeType, "image/png")
@@ -270,7 +270,7 @@ final class InspectUIImageToolTests: XCTestCase {
         XCTAssertTrue(document.uncertainties.contains { $0.reason == "geometry_only" })
     }
 
-    func testGridRepeatedGroupCandidate() async throws {
+    func testVisionRectanglesAreWeakGeometryAndDoNotCreateGroups() async throws {
         _ = try writePNG()
         let observations = UIVisionObservations(
             rectangles: [
@@ -286,16 +286,45 @@ final class InspectUIImageToolTests: XCTestCase {
         let document = try decodeDocument(result)
         let containers = document.elements.filter { $0.kind == .container }
         XCTAssertEqual(containers.count, 4)
+        XCTAssertTrue(containers.allSatisfy { $0.role == "vision_rectangle" })
         XCTAssertTrue(containers.allSatisfy { $0.evidence == .inferred })
+        XCTAssertTrue(document.repeatedGroups.isEmpty)
+        XCTAssertTrue(document.uncertainties.contains { $0.reason == "weak_geometry" })
         let textElements = document.elements.filter { $0.kind == .text }
         XCTAssertTrue(textElements.allSatisfy { $0.evidence == .observed })
-        let grid = try XCTUnwrap(document.repeatedGroups.first { $0.axis == .grid })
-        XCTAssertEqual(grid.memberIDs.count, 4)
-        XCTAssertEqual(grid.evidence, .inferred)
-        XCTAssertEqual(Set(grid.memberIDs).count, 4)
     }
 
     // MARK: - Crops
+
+    func testCropPathsAreDeterministicAcrossRepeatedCalls() async throws {
+        _ = try writePNG(width: 400, height: 300)
+        let tool = InspectUIImageTool(visionProvider: StubVisionProvider(observations: UIVisionObservations()))
+        let args: JSONValue = .object([
+            "path": .string("ui.png"),
+            "crops": .array([
+                .object([
+                    "bbox": .object([
+                        "x": .number(0.1), "y": .number(0.2),
+                        "width": .number(0.3), "height": .number(0.2)
+                    ]),
+                    "purpose": .string("controls")
+                ])
+            ])
+        ])
+        let first = try await execute(tool: tool, args: args)
+        let second = try await execute(tool: tool, args: args)
+        XCTAssertEqual(first.assets.map(\.id), second.assets.map(\.id))
+        XCTAssertEqual(
+            first.assets.compactMap(\.workspaceRelativePath),
+            second.assets.compactMap(\.workspaceRelativePath)
+        )
+
+        let evidenceDirectory = rootURL.appendingPathComponent("ui-evidence", isDirectory: true)
+        let files = FileManager.default.enumerator(at: evidenceDirectory, includingPropertiesForKeys: nil)?
+            .compactMap { $0 as? URL }
+            .filter { !$0.hasDirectoryPath } ?? []
+        XCTAssertEqual(files.filter { $0.pathExtension == "png" }.count, 1)
+    }
 
     func testCropAssetsRetainSourceReference() async throws {
         _ = try writePNG(width: 400, height: 300)

@@ -152,7 +152,7 @@ private struct UIEvidenceBenchmarkRunner {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         let manifest = try decoder.decode(DatasetManifest.self, from: Data(contentsOf: manifestURL))
-        guard manifest.schemaVersion == "ui_evidence_benchmark_dataset.v1" else {
+        guard manifest.schemaVersion == "ui_evidence_benchmark_dataset.v2" else {
             throw RunnerError.invalidManifest("Unsupported manifest schema: \(manifest.schemaVersion)")
         }
         guard !manifest.images.isEmpty else {
@@ -489,7 +489,7 @@ private struct UIEvidenceBenchmarkRunner {
 
 private enum InspectUIImageToolBenchmarkIdentity {
     static let producerName = "ClientToolsKit.inspect_ui_image"
-    static let producerVersion = "1"
+    static let producerVersion = "2"
 }
 
 private extension JSONValue {

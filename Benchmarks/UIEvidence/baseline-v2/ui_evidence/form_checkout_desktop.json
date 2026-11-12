@@ -1,0 +1,1009 @@
+{
+  "coordinate_space" : "normalized_top_left",
+  "crops" : [
+    {
+      "asset_id" : "asset_crop_0_bf5d65706d5293d8",
+      "purpose" : "navigation",
+      "source_bbox" : {
+        "height" : 1,
+        "width" : 0.18,
+        "x" : 0,
+        "y" : 0
+      }
+    },
+    {
+      "asset_id" : "asset_crop_1_85ca44cdaff0e720",
+      "purpose" : "content",
+      "source_bbox" : {
+        "height" : 0.85,
+        "width" : 0.62,
+        "x" : 0.18,
+        "y" : 0.07
+      }
+    },
+    {
+      "asset_id" : "asset_crop_2_b52718c245408ff1",
+      "purpose" : "detail",
+      "source_bbox" : {
+        "height" : 0.42,
+        "width" : 0.38,
+        "x" : 0.62,
+        "y" : 0.07
+      }
+    }
+  ],
+  "elements" : [
+    {
+      "bbox" : {
+        "height" : 0.016744,
+        "width" : 0.126453,
+        "x" : 0.18314,
+        "y" : 0.023256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_1",
+      "kind" : "text",
+      "text" : "CLOUDBASE / WORKSPACE"
+    },
+    {
+      "bbox" : {
+        "height" : 0.022201,
+        "width" : 0.067011,
+        "x" : 0.043529,
+        "y" : 0.036574
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_2",
+      "kind" : "text",
+      "text" : "Cloudbase"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020301,
+        "width" : 0.110749,
+        "x" : 0.655375,
+        "y" : 0.032374
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_3",
+      "kind" : "text",
+      "text" : "Q Projects, people, files"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016563,
+        "width" : 0.040742,
+        "x" : 0.867711,
+        "y" : 0.034742
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_4",
+      "kind" : "text",
+      "text" : "Updates"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014756,
+        "width" : 0.037903,
+        "x" : 0.934537,
+        "y" : 0.034483
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_5",
+      "kind" : "text",
+      "text" : "+ New"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019057,
+        "width" : 0.058195,
+        "x" : 0.181658,
+        "y" : 0.041634
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_6",
+      "kind" : "text",
+      "text" : "Checkout"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017428,
+        "width" : 0.030065,
+        "x" : 0.038701,
+        "y" : 0.111049
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_7",
+      "kind" : "text",
+      "text" : "Home"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.043605,
+        "x" : 0.209302,
+        "y" : 0.14186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_8",
+      "kind" : "text",
+      "text" : "1 Account"
+    },
+    {
+      "bbox" : {
+        "height" : 0.018834,
+        "width" : 0.037089,
+        "x" : 0.268578,
+        "y" : 0.140072
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_9",
+      "kind" : "text",
+      "text" : "2 Billing"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.037791,
+        "x" : 0.322674,
+        "y" : 0.144186
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_10",
+      "kind" : "text",
+      "text" : "3 Review"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.024709,
+        "x" : 0.039244,
+        "y" : 0.165116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_11",
+      "kind" : "text",
+      "text" : "Feed"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021691,
+        "width" : 0.097697,
+        "x" : 0.739683,
+        "y" : 0.164546
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_12",
+      "kind" : "text",
+      "text" : "Order summary"
+    },
+    {
+      "bbox" : {
+        "height" : 0.012047,
+        "width" : 0.030585,
+        "x" : 0.91712,
+        "y" : 0.169558
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_13",
+      "kind" : "text",
+      "text" : "Annual"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03031,
+        "width" : 0.122093,
+        "x" : 0.210756,
+        "y" : 0.193023
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_14",
+      "kind" : "text",
+      "text" : "Billing details"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.034884,
+        "x" : 0.039244,
+        "y" : 0.216279
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_15",
+      "kind" : "text",
+      "text" : "Explore"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.06686,
+        "x" : 0.739826,
+        "y" : 0.223256
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_16",
+      "kind" : "text",
+      "text" : "Cloudbase Team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.043605,
+        "x" : 0.909884,
+        "y" : 0.22093
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_17",
+      "kind" : "text",
+      "text" : "$1,188.00"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020877,
+        "width" : 0.267565,
+        "x" : 0.212151,
+        "y" : 0.239641
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_18",
+      "kind" : "text",
+      "text" : "Your receipt and invoices will be sent to this address."
+    },
+    {
+      "bbox" : {
+        "height" : 0.021277,
+        "width" : 0.060152,
+        "x" : 0.018614,
+        "y" : 0.267346
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_19",
+      "kind" : "text",
+      "text" : "-* Settings"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.074128,
+        "x" : 0.738372,
+        "y" : 0.267442
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_20",
+      "kind" : "text",
+      "text" : "Additional storage"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014218,
+        "width" : 0.036377,
+        "x" : 0.917131,
+        "y" : 0.264984
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_21",
+      "kind" : "text",
+      "text" : "$120.00"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.061047,
+        "x" : 0.210756,
+        "y" : 0.288372
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_22",
+      "kind" : "text",
+      "text" : "Email address"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014573,
+        "width" : 0.04223,
+        "x" : 0.454903,
+        "y" : 0.288062
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_23",
+      "kind" : "text",
+      "text" : "Full name"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.015988,
+        "x" : 0.738372,
+        "y" : 0.311628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_24",
+      "kind" : "text",
+      "text" : "Tax"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.036337,
+        "x" : 0.917151,
+        "y" : 0.308889
+      },
+      "confidence" : 0.5,
+      "evidence" : "observed",
+      "id" : "el_text_25",
+      "kind" : "text",
+      "text" : "$105.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.117733,
+        "x" : 0.219477,
+        "y" : 0.325581
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_26",
+      "kind" : "text",
+      "text" : "alex.morgan@example.com"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.053779,
+        "x" : 0.463663,
+        "y" : 0.325556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_27",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.023067,
+        "width" : 0.079201,
+        "x" : 0.739486,
+        "y" : 0.361008
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_28",
+      "kind" : "text",
+      "text" : "Total due today"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013233,
+        "width" : 0.040975,
+        "x" : 0.212024,
+        "y" : 0.373006
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_29",
+      "kind" : "text",
+      "text" : "Company"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.027616,
+        "x" : 0.454942,
+        "y" : 0.369767
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_30",
+      "kind" : "text",
+      "text" : "Tax ID"
+    },
+    {
+      "bbox" : {
+        "height" : 0.021103,
+        "width" : 0.053805,
+        "x" : 0.898243,
+        "y" : 0.36503
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_31",
+      "kind" : "text",
+      "text" : "$1,413.84"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.071221,
+        "x" : 0.219477,
+        "y" : 0.406667
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_32",
+      "kind" : "text",
+      "text" : "Northstar Studio"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.065407,
+        "x" : 0.463663,
+        "y" : 0.406977
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_33",
+      "kind" : "text",
+      "text" : "US-4821-9902"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.094477,
+        "x" : 0.799419,
+        "y" : 0.427778
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_34",
+      "kind" : "text",
+      "text" : "Continue to payment"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016667,
+        "width" : 0.063953,
+        "x" : 0.210756,
+        "y" : 0.453333
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_35",
+      "kind" : "text",
+      "text" : "Billing address"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.116279,
+        "x" : 0.787791,
+        "y" : 0.465116
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_36",
+      "kind" : "text",
+      "text" : "Secure checkout • Cancel anytime"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.170058,
+        "x" : 0.219477,
+        "y" : 0.490698
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_37",
+      "kind" : "text",
+      "text" : "88 King Street, San Francisco, CA 94107"
+    },
+    {
+      "bbox" : {
+        "height" : 0.013953,
+        "width" : 0.142442,
+        "x" : 0.229651,
+        "y" : 0.539535
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_38",
+      "kind" : "text",
+      "text" : "Use this address for tax calculation"
+    },
+    {
+      "bbox" : {
+        "height" : 0.016279,
+        "width" : 0.075581,
+        "x" : 0.021802,
+        "y" : 0.862791
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_39",
+      "kind" : "text",
+      "text" : "4 Notifications"
+    },
+    {
+      "bbox" : {
+        "height" : 0.017344,
+        "width" : 0.057214,
+        "x" : 0.043326,
+        "y" : 0.939628
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_40",
+      "kind" : "text",
+      "text" : "Alex Morgan"
+    },
+    {
+      "bbox" : {
+        "height" : 0.011628,
+        "width" : 0.014535,
+        "x" : 0.017442,
+        "y" : 0.948837
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_41",
+      "kind" : "text",
+      "text" : "AMI"
+    },
+    {
+      "bbox" : {
+        "height" : 0.014444,
+        "width" : 0.050872,
+        "x" : 0.042151,
+        "y" : 0.955556
+      },
+      "confidence" : 1,
+      "evidence" : "observed",
+      "id" : "el_text_42",
+      "kind" : "text",
+      "text" : "Product team"
+    },
+    {
+      "bbox" : {
+        "height" : 0.055278,
+        "width" : 0.032952,
+        "x" : 0.006137,
+        "y" : 0.014387
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_1",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040818,
+        "width" : 0.057519,
+        "x" : 0.924096,
+        "y" : 0.02318
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_2",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.034153,
+        "width" : 0.069769,
+        "x" : 0.043976,
+        "y" : 0.031215
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_3",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.020447,
+        "width" : 0.101322,
+        "x" : 0.670979,
+        "y" : 0.03278
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_4",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032475,
+        "width" : 0.138555,
+        "x" : 0.008274,
+        "y" : 0.099313
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_5",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.46932,
+        "width" : 0.509157,
+        "x" : 0.194875,
+        "y" : 0.115202
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_6",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.469366,
+        "width" : 0.245144,
+        "x" : 0.723077,
+        "y" : 0.115185
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_7",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035036,
+        "width" : 0.055789,
+        "x" : 0.010175,
+        "y" : 0.155896
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_8",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.035855,
+        "width" : 0.109161,
+        "x" : 0.733993,
+        "y" : 0.160786
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_9",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019814,
+        "width" : 0.034837,
+        "x" : 0.915847,
+        "y" : 0.166911
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_10",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.040476,
+        "width" : 0.132965,
+        "x" : 0.205763,
+        "y" : 0.185466
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_11",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.033475,
+        "width" : 0.042137,
+        "x" : 0.034991,
+        "y" : 0.208059
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_12",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028541,
+        "width" : 0.056344,
+        "x" : 0.904433,
+        "y" : 0.213857
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_13",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025807,
+        "width" : 0.04495,
+        "x" : 0.913036,
+        "y" : 0.259696
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_14",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.019553,
+        "width" : 0.088301,
+        "x" : 0.820883,
+        "y" : 0.264808
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_15",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025085,
+        "width" : 0.068529,
+        "x" : 0.20291,
+        "y" : 0.282824
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_16",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.024827,
+        "width" : 0.05325,
+        "x" : 0.446935,
+        "y" : 0.28213
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_17",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.03172,
+        "width" : 0.062335,
+        "x" : 0.895054,
+        "y" : 0.358424
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_18",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.067915,
+        "width" : 0.245076,
+        "x" : 0.451974,
+        "y" : 0.381051
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_19",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.027663,
+        "width" : 0.141855,
+        "x" : 0.295174,
+        "y" : 0.397479
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_20",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.028491,
+        "width" : 0.152214,
+        "x" : 0.534542,
+        "y" : 0.397008
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_21",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.056731,
+        "width" : 0.229424,
+        "x" : 0.726179,
+        "y" : 0.405208
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_22",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026102,
+        "width" : 0.141957,
+        "x" : 0.232046,
+        "y" : 0.535911
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_23",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.032392,
+        "width" : 0.061443,
+        "x" : 0.036647,
+        "y" : 0.858834
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_24",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.026169,
+        "width" : 0.026993,
+        "x" : 0.009653,
+        "y" : 0.926904
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_25",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    },
+    {
+      "bbox" : {
+        "height" : 0.025362,
+        "width" : 0.059551,
+        "x" : 0.04306,
+        "y" : 0.935886
+      },
+      "confidence" : 1,
+      "evidence" : "inferred",
+      "id" : "el_container_26",
+      "interactive" : false,
+      "kind" : "container",
+      "role" : "vision_rectangle"
+    }
+  ],
+  "limits" : {
+    "element_count" : 68,
+    "elements_truncated" : false,
+    "tree_nodes_truncated" : false
+  },
+  "producer" : {
+    "name" : "ClientToolsKit.inspect_ui_image",
+    "version" : "2"
+  },
+  "repeated_groups" : [
+
+  ],
+  "schema" : "ui_evidence.v1",
+  "source" : {
+    "asset_id" : "asset_source_a94e50c16510bb2a",
+    "height" : 900,
+    "mime_type" : "image/png",
+    "sha256" : "a94e50c16510bb2ad16345181ef7c2370fb79da50afd996fbcf6a431416d8a16",
+    "source_kind" : "web_screenshot",
+    "width" : 1440
+  },
+  "source_tree" : {
+    "kind" : "none",
+    "nodes" : [
+
+    ],
+    "truncated" : false
+  },
+  "uncertainties" : [
+    {
+      "description" : "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups.",
+      "reason" : "weak_geometry",
+      "related_element_ids" : [
+        "el_container_1",
+        "el_container_2",
+        "el_container_3",
+        "el_container_4",
+        "el_container_5",
+        "el_container_6",
+        "el_container_7",
+        "el_container_8",
+        "el_container_9",
+        "el_container_10",
+        "el_container_11",
+        "el_container_12",
+        "el_container_13",
+        "el_container_14",
+        "el_container_15",
+        "el_container_16",
+        "el_container_17",
+        "el_container_18",
+        "el_container_19",
+        "el_container_20",
+        "el_container_21",
+        "el_container_22",
+        "el_container_23",
+        "el_container_24",
+        "el_container_25",
+        "el_container_26"
+      ]
+    }
+  ]
+}

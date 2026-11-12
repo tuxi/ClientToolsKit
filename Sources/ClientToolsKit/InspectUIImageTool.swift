@@ -25,10 +25,11 @@ public struct InspectUIImageTool: ClientTool {
   - 不返回绝对路径，也不返回原始文件内容。
   - 本工具不向模型暴露图片像素；像素输入由独立的图片查看能力负责。
   - 图像格式仅支持 PNG、JPEG、WebP；Vision 不可用时返回仅含 source 身份的降级证据并声明不确定性。
+  - Vision rectangle 仅作为 role="vision_rectangle" 的弱几何证据，不代表语义 container，也不用于 repeated-group 推导。
 """
 
     static let producerName = "ClientToolsKit.inspect_ui_image"
-    static let producerVersion = "1"
+    static let producerVersion = "2"
     static let maximumElements = 500
     static let maximumGroups = 100
     static let maximumCrops = 16
@@ -168,6 +169,20 @@ public struct InspectUIImageTool: ClientTool {
         }
 
         var elements = Self.buildElements(from: observations)
+        let weakRectangleIDs = elements
+            .filter { $0.role == "vision_rectangle" }
+            .map(\.id)
+        if !weakRectangleIDs.isEmpty {
+            let message = "Vision rectangles are weak geometric observations (role=vision_rectangle); they are not semantic containers and are not used to infer repeated groups."
+            warnings.append(message)
+            if uncertainties.count < Self.maximumUncertainties {
+                uncertainties.append(UIEvidenceUncertainty(
+                    description: message,
+                    relatedElementIDs: Array(weakRectangleIDs.prefix(80)),
+                    reason: "weak_geometry"
+                ))
+            }
+        }
         let elementsTruncated = elements.count > Self.maximumElements
         if elementsTruncated {
             elements = Array(elements.prefix(Self.maximumElements))
@@ -230,9 +245,11 @@ public struct InspectUIImageTool: ClientTool {
                 throw InspectUIImageError.cropFailed("Crop \(index) resolves to an empty pixel region.")
             }
             let pngData = try Self.encodePNG(cropped)
-            let cropDigest = Self.sha256Hex(pngData)
-            let cropAssetID = "asset_crop_\(index)_\(String(cropDigest.prefix(16)))"
-            let cropRelativePath = "ui-evidence/\(assetHash)/crop-\(index)-\(String(cropDigest.prefix(12)))-\(request.purpose.rawValue).png"
+            let requestKey = Self.sha256Hex(Data(
+                "\(digest)|\(index)|\(request.bbox.x)|\(request.bbox.y)|\(request.bbox.width)|\(request.bbox.height)|\(request.purpose.rawValue)".utf8
+            ))
+            let cropAssetID = "asset_crop_\(index)_\(String(requestKey.prefix(16)))"
+            let cropRelativePath = "ui-evidence/\(assetHash)/crop-\(index)-\(String(requestKey.prefix(12)))-\(request.purpose.rawValue).png"
             let cropURL = try workspace.resolve(relativePath: cropRelativePath, createParentDirectory: true)
             try pngData.write(to: cropURL, options: .atomic)
 
@@ -434,9 +451,11 @@ public struct InspectUIImageTool: ClientTool {
             elements.append(UIEvidenceElement(
                 id: identifier,
                 kind: rectangle.kind,
+                role: "vision_rectangle",
                 bbox: rectangle.bbox,
                 confidence: rectangle.confidence,
-                evidence: .inferred
+                evidence: .inferred,
+                interactive: false
             ))
         }
         return elements
@@ -497,14 +516,26 @@ public struct InspectUIImageTool: ClientTool {
         return try Data(contentsOf: url, options: [.mappedIfSafe])
     }
 
+    private static func fallbackMIMEType(forTypeIdentifier typeIdentifier: String) -> String? {
+        switch typeIdentifier.lowercased() {
+        case "public.png": return "image/png"
+        case "public.jpeg", "public.jpg": return "image/jpeg"
+        case "org.webmproject.webp", "public.webp": return "image/webp"
+        default: return nil
+        }
+    }
+
     private static func loadImage(data: Data) throws -> LoadedImage {
         guard let source = CGImageSourceCreateWithData(data as CFData, nil),
               CGImageSourceGetCount(source) > 0 else {
             throw InspectUIImageError.unsupportedImage("The file is not a decodable image.")
         }
-        guard let typeIdentifier = CGImageSourceGetType(source) as String?,
-              let mimeType = UTType(typeIdentifier)?.preferredMIMEType?.lowercased() else {
+        guard let typeIdentifier = CGImageSourceGetType(source) as String? else {
             throw InspectUIImageError.unsupportedSourceFormat("unknown")
+        }
+        guard let mimeType = UTType(typeIdentifier)?.preferredMIMEType?.lowercased()
+                ?? Self.fallbackMIMEType(forTypeIdentifier: typeIdentifier) else {
+            throw InspectUIImageError.unsupportedSourceFormat(typeIdentifier)
         }
         let normalizedMIMEType = mimeType == "image/jpg" ? "image/jpeg" : mimeType
         guard supportedMIMETypes.contains(normalizedMIMEType) else {
@@ -666,7 +697,7 @@ public struct InspectUIImageTool: ClientTool {
         if !document.elements.isEmpty {
             lines.append("elements:")
             for element in document.elements.prefix(120) {
-                var line = "- \(element.id) kind=\(element.kind.rawValue) bbox=(\(format(element.bbox.x)),\(format(element.bbox.y)),\(format(element.bbox.width)),\(format(element.bbox.height))) confidence=\(format(element.confidence)) evidence=\(element.evidence.rawValue)"
+                var line = "- \(element.id) kind=\(element.kind.rawValue) role=\(element.role ?? "-") bbox=(\(format(element.bbox.x)),\(format(element.bbox.y)),\(format(element.bbox.width)),\(format(element.bbox.height))) confidence=\(format(element.confidence)) evidence=\(element.evidence.rawValue)"
                 if let text = element.text {
                     line += " text=\"\(singleLine(String(text.prefix(160))))\""
                 }

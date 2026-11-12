@@ -1,0 +1,10 @@
+{
+  "hard_failures_zero": true,
+  "crop_integrity_100": true,
+  "stale_crops_zero": true,
+  "vision_rectangles_role_enforced": true,
+  "repeated_group_precision_80": true,
+  "repeated_group_recall_50": true,
+  "repeated_groups_enabled": true,
+  "overall_enabled": true
+}
