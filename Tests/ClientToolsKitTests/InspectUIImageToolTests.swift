@@ -2,6 +2,7 @@ import ClientToolProtocol
 import CoreGraphics
 import CoreText
 import CryptoKit
+import Foundation
 import ImageIO
 import UniformTypeIdentifiers
 import XCTest
@@ -590,6 +591,102 @@ final class InspectUIImageToolTests: XCTestCase {
         XCTAssertEqual(decoded.description, tool.description)
         XCTAssertTrue(decoded.description.contains("ui_evidence.v1"))
         XCTAssertNotNil(decoded.inputSchema)
+    }
+
+    // MARK: - OCR mode
+
+    private final class ModeRecordingVisionProvider: UIEvidenceVisionProviding, @unchecked Sendable {
+        private let lock = NSLock()
+        private var modes: [UIEvidenceOCRMode] = []
+        private var warmUpCalls = 0
+
+        func analyze(image: CGImage) throws -> UIVisionObservations {
+            UIVisionObservations()
+        }
+
+        func analyze(image: CGImage, mode: UIEvidenceOCRMode) throws -> UIVisionObservations {
+            lock.lock()
+            modes.append(mode)
+            lock.unlock()
+            return UIVisionObservations()
+        }
+
+        func warmUp() {
+            lock.lock()
+            warmUpCalls += 1
+            lock.unlock()
+        }
+
+        func recordedModes() -> [UIEvidenceOCRMode] {
+            lock.lock()
+            defer { lock.unlock() }
+            return modes
+        }
+
+        func warmUps() -> Int {
+            lock.lock()
+            defer { lock.unlock() }
+            return warmUpCalls
+        }
+    }
+
+    func testOCRModeDefaultsToAuto() async throws {
+        _ = try writePNG()
+        let provider = ModeRecordingVisionProvider()
+        let tool = InspectUIImageTool(visionProvider: provider)
+        _ = try await execute(tool: tool, args: .object(["path": .string("ui.png")]))
+        XCTAssertEqual(provider.recordedModes(), [.auto])
+    }
+
+    func testOCRModeFastIsForwarded() async throws {
+        _ = try writePNG()
+        let provider = ModeRecordingVisionProvider()
+        let tool = InspectUIImageTool(visionProvider: provider)
+        _ = try await execute(
+            tool: tool,
+            args: .object([
+                "path": .string("ui.png"),
+                "ocr_mode": .string("fast")
+            ])
+        )
+        XCTAssertEqual(provider.recordedModes(), [.fast])
+    }
+
+    func testInvalidOCRModeThrows() async throws {
+        _ = try writePNG()
+        let tool = InspectUIImageTool(visionProvider: ModeRecordingVisionProvider())
+        do {
+            _ = try await execute(
+                tool: tool,
+                args: .object([
+                    "path": .string("ui.png"),
+                    "ocr_mode": .string("turbo")
+                ])
+            )
+            XCTFail("expected invalidArguments")
+        } catch let error as InspectUIImageError {
+            guard case .invalidArguments(let message) = error else {
+                return XCTFail("unexpected error: \(error)")
+            }
+            XCTAssertTrue(message.contains("ocr_mode"))
+        }
+    }
+
+    func testWarmUpIsForwarded() {
+        let provider = ModeRecordingVisionProvider()
+        let tool = InspectUIImageTool(visionProvider: provider)
+        tool.warmUp()
+        XCTAssertEqual(provider.warmUps(), 1)
+    }
+
+    func testInputSchemaDescribesOCRMode() throws {
+        let schema = try XCTUnwrap(InspectUIImageTool().inputSchema)
+        guard case .object(let root) = schema,
+              case .object(let properties) = root["properties"] ?? .null,
+              case .object(let ocr) = properties["ocr_mode"] ?? .null else {
+            return XCTFail("ocr_mode is missing from the input schema")
+        }
+        XCTAssertEqual(ocr["default"], .string("auto"))
     }
 
     // MARK: - Helpers

@@ -17,6 +17,7 @@ public struct InspectUIImageTool: ClientTool {
 参数：
   - path（必填）：workspace 内的图片相对路径
   - source_kind（可选）："static_image"、"app_screenshot" 或 "web_screenshot"，默认 "static_image"
+  - ocr_mode（可选）："auto"、"accurate" 或 "fast"，默认 "auto"。auto 在准确识别超时或失败时回退 fast。
   - crops（可选）：最多 16 个裁剪请求，每项包含归一化 top-left bbox 和 purpose（navigation/content/controls/repeated_group/detail/unknown）
 说明：
   - 只返回可测量事实、归一化几何、置信度与不确定性，不判断布局，也不选择控件。
@@ -57,6 +58,12 @@ public struct InspectUIImageTool: ClientTool {
                         .string(UIEvidenceSourceKind.webScreenshot.rawValue)
                     ]),
                     "default": .string(UIEvidenceSourceKind.staticImage.rawValue)
+                ]),
+                "ocr_mode": .object([
+                    "type": .string("string"),
+                    "description": .string("OCR 级别：auto/accurate/fast，默认 auto"),
+                    "enum": .array(UIEvidenceOCRMode.allCases.map { .string($0.rawValue) }),
+                    "default": .string(UIEvidenceOCRMode.auto.rawValue)
                 ]),
                 "crops": .object([
                     "type": .string("array"),
@@ -99,6 +106,12 @@ public struct InspectUIImageTool: ClientTool {
         self.visionProvider = visionProvider
     }
 
+    /// Warm the underlying recognizer at app launch so the first real call does
+    /// not pay the one-time accurate OCR model load. Runs off the caller's thread.
+    public func warmUp() {
+        visionProvider.warmUp()
+    }
+
     public func execute(
         args: JSONValue?,
         context: ClientToolExecutionContext
@@ -121,6 +134,18 @@ public struct InspectUIImageTool: ClientTool {
             sourceKind = .staticImage
         }
 
+        let ocrMode: UIEvidenceOCRMode
+        if let rawMode = values["ocr_mode"]?.string {
+            guard let parsed = UIEvidenceOCRMode(rawValue: rawMode) else {
+                throw InspectUIImageError.invalidArguments(
+                    "ocr_mode must be auto, accurate, or fast"
+                )
+            }
+            ocrMode = parsed
+        } else {
+            ocrMode = .auto
+        }
+
         let cropRequests = try Self.parseCropRequests(values["crops"])
 
         let workspace = try ToolWorkspace(context: context)
@@ -136,7 +161,7 @@ public struct InspectUIImageTool: ClientTool {
         var observations = UIVisionObservations()
 
         do {
-            observations = try visionProvider.analyze(image: loaded.image)
+            observations = try visionProvider.analyze(image: loaded.image, mode: ocrMode)
             warnings.append(contentsOf: observations.warnings)
             for warning in observations.warnings {
                 guard uncertainties.count < Self.maximumUncertainties else { break }
